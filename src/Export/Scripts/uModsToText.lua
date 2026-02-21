@@ -79,7 +79,7 @@ for _, name in ipairs(itemTypes) do
 			local prefix = ""
 			local variantString = line:match("({variant:[%d,]+})")
 			local fractured = line:match("({fractured})") or ""
-			local modName, legacy = line:gsub("{.+}", ""):match("^([%a%d_]+)([%[%]-,%d]*)")
+			local modName, legacy = line:gsub("{.-}", ""):match("^([%a%d_]+)([%[%]-,%d]*)")
 			local mod = uniqueMods[modName]
 			if mod or (legacy and legacy ~= "") then
 				modLines = modLines + 1
@@ -124,12 +124,15 @@ for _, name in ipairs(itemTypes) do
 						ConPrintf("Warning: Could not find mod data for legacy mod '%s' in %s", modName, name)
 					end
 				end
-				for i, line in ipairs(legacyMod or mod) do
-					local order = mod.statOrder[i]
-					if statOrder[order] then
-						table.insert(statOrder[order], prefix..line)
-					else
-						statOrder[order] = { prefix..line }
+				local modText = legacyMod or mod
+				if modText then
+					for i, line in ipairs(modText) do
+						local order = mod and mod.statOrder and mod.statOrder[i] or (99999 + i)
+						if statOrder[order] then
+							table.insert(statOrder[order], prefix..line)
+						else
+							statOrder[order] = { prefix..line }
+						end
 					end
 				end
 			else

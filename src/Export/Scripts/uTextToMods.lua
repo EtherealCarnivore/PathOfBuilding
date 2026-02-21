@@ -29,27 +29,36 @@ local itemTypes = {
 	-- "tincture",
 }
 
-usedMods = {}
+local usedMods = {}
+local modTextMap = LoadModule("Uniques/ModTextMap.lua")
 
 for _, name in pairs(itemTypes) do
-	local modTextMap = LoadModule("Uniques/ModTextMap.lua")
 	local out = io.open("Uniques/"..name..".lua", "w")
 	for line in io.lines("../Data/Uniques/"..name..".lua") do
 		local specName, specVal = line:match("^([%a ]+): (.+)$")
 		if not specName and line ~= "]],[[" then
 			local variants = line:match("{[vV]ariant:([%d,.]+)}")
 			local fractured = line:match("({fractured})") or ""
-			local modText = line:gsub("{.+}", ""):gsub("{.+}", ""):gsub("–", "-") -- Clean EM dash
+			local modText = line:gsub("{.-}", ""):gsub("\xe2\x80\x93", "-") -- Clean tag prefixes and EM dash
 			local possibleMods = modTextMap[modText]
 			local gggMod
 			if possibleMods then
+				-- First pass: prefer mods that match the item type
 				for _, modName in ipairs(possibleMods) do
-					if modName:lower():match(name) then -- prefer mods that match the item type
+					if modName:lower():match(name) then
 						gggMod = modName
 						usedMods[modName] = true
-					elseif not usedMods[modName] then -- prefer mods that haven't already been used
-						gggMod = modName
-						usedMods[modName] = true
+						break
+					end
+				end
+				-- Second pass: prefer mods that haven't already been used
+				if not gggMod then
+					for _, modName in ipairs(possibleMods) do
+						if not usedMods[modName] then
+							gggMod = modName
+							usedMods[modName] = true
+							break
+						end
 					end
 				end
 				if not gggMod then
