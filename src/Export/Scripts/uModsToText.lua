@@ -152,6 +152,10 @@ for _, name in ipairs(itemTypes) do
 			modLines = 0
 		end
 	end
+	writeMods(out, statOrder)
+	for _, line in ipairs(postModLines) do
+		out:write(line, "\n")
+	end
 	out:close()
 end
 
