@@ -58,6 +58,7 @@ for _, name in ipairs(itemTypes) do
 	local postModLines = {}
 	local modLines = 0
 	local implicits
+	local nextOrder = 100000
 	for line in io.lines("Uniques/"..name..".lua") do
 		if implicits then -- remove 1 downs to 0
 			implicits = implicits - 1
@@ -72,18 +73,27 @@ for _, name in ipairs(itemTypes) do
 			statOrder = { }
 			postModLines = { }
 			modLines = 0
+			nextOrder = 100000
 		elseif not specName then
 			local prefix = ""
 			local variantString = line:match("({variant:[%d,]+})")
 			local fractured = line:match("({fractured})") or ""
-			local modName, legacy = line:gsub("{.-}", ""):match("^([%a%d_]+)([%[%]-,%d]*)")
-			local mod = uniqueMods[modName]
-			if mod or (legacy and legacy ~= "") then
+			local cleanLine = line:gsub("{.-}", "")
+			-- Check if this is a mod ID: purely alphanumeric+underscore, optionally followed by [num,num] ranges
+			local modName = cleanLine:match("^([%a%d_]+)%[") or cleanLine:match("^([%a%d_]+)$")
+			local legacy = modName and cleanLine:sub(#modName + 1) or ""
+			-- Legacy ranges must contain actual brackets, not just stray characters
+			if legacy ~= "" and not legacy:match("%[") then
+				legacy = ""
+				modName = nil
+			end
+			local mod = modName and uniqueMods[modName]
+			if mod or (modName and legacy ~= "") then
 				modLines = modLines + 1
 				if variantString then
 					prefix = prefix ..variantString
 				end
-				
+
 				local tags = {}
 				if mod then
 					if isValueInArray({"amulet", "ring"}, name) then
@@ -124,7 +134,8 @@ for _, name in ipairs(itemTypes) do
 				local modText = legacyMod or mod
 				if modText then
 					for i, line in ipairs(modText) do
-						local order = mod and mod.statOrder and mod.statOrder[i] or (99999 + i)
+						local order = mod and mod.statOrder and mod.statOrder[i] or (nextOrder)
+						nextOrder = nextOrder + 1
 						if statOrder[order] then
 							table.insert(statOrder[order], prefix..line)
 						else
@@ -133,9 +144,15 @@ for _, name in ipairs(itemTypes) do
 					end
 				end
 			else
-				if modLines > 0 then -- treat as post line e.g. mirrored
-					table.insert(postModLines, line)
-				else	
+				if modLines > 0 then -- treat as post line e.g. mirrored, or unresolved text mod
+					-- Unresolved text lines get a sequential order to preserve position among mods
+					if statOrder[nextOrder] then
+						table.insert(statOrder[nextOrder], line)
+					else
+						statOrder[nextOrder] = { line }
+					end
+					nextOrder = nextOrder + 1
+				else
 					out:write(line, "\n")
 				end
 			end
