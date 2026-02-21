@@ -13,7 +13,7 @@ Variant: Current
 HasNoSockets
 LocalIncreasedPhysicalDamagePercentUnique__43
 NoIntelligenceUnique__1_
-{variant:1}WeaponCritChanceOverrideUnique__1__[20,30]
+{variant:1}Critical Strike Chance is (20-30)% for Hits with this Weapon
 {variant:2}WeaponCritChanceOverrideUnique__1__
 ]],[[
 Dreadarc
@@ -21,10 +21,10 @@ Cleaver
 Implicits: 0
 LocalAddedPhysicalDamageUniqueOneHandAxe7
 LocalAddedFireDamageUniqueOneHandAxe7
-IncreasedAttackSpeedUniqueQuiver6
-FireResistUnique__32
-MovementVelocityUniqueClaw3
-FlammabilityOnHitUnique__1
+LocalIncreasedAttackSpeedUniqueOneHandAxe7
+FireResistUniqueOneHandAxe7_
+MovementVelocityUniqueOneHandAxe7
+FlammabilityOnHitUniqueOneHandAxe7
 ]],[[
 Dreadsurge
 Cleaver
@@ -43,16 +43,16 @@ Infernal Axe
 Variant: Pre 2.6.0
 Variant: Current
 Implicits: 0
-{variant:1}MainHandAddedFireDamageUniqueOneHandAxe2[170,190][200,220]
+{variant:1}Adds (170-190) to (200-220) Fire Damage in Main Hand
 {variant:2}MainHandAddedFireDamageUniqueOneHandAxe2
 {variant:2}OffHandAddedColdDamageUniqueOneHandAxe2
-LocalIncreasedAttackSpeedUnique__26_
+LocalIncreasedAttackSpeedUniqueOneHandAxe2
 MainHandChanceToIgniteUniqueOneHandAxe2
 {variant:1}OffHandChillDurationUniqueOneHandAxe2
 {variant:2}BurningDamageToChilledEnemiesUniqueOneHandAxe2
 {variant:2}ChillEnemiesOnHitWithWeaponUnique__1
-{variant:1}OffHandAddedColdDamageUniqueOneHandAxe2[170,190][200,220]
-{variant:1}BurningDamageToChilledEnemiesUniqueOneHandAxe2[40,40]
+{variant:1}Adds (170-190) to (200-220) Cold Damage in Off Hand
+{variant:1}40% increased Damage with Ignite inflicted on Chilled Enemies
 ]],[[
 The Screaming Eagle
 Jade Hatchet
@@ -63,8 +63,8 @@ DisplaySocketedGemGetsChanceToFleeUniqueOneHandAxe3
 {variant:2}LocalAddedPhysicalDamageUniqueOneHandAxe3
 IncreasedLifeUniqueOneHandAxe3
 LifeGainedFromEnemyDeathUniqueOneHandAxe3
-MovementVelocityUniqueBootsDex2
-{variant:1}LocalAddedPhysicalDamageUniqueOneHandAxe3[8,12][18,22]
+MovementVelocityUniqueOneHandAxe3
+{variant:1}Adds (8-12) to (18-22) Physical Damage
 ]],[[
 The Gryphon
 Jade Hatchet
@@ -80,7 +80,7 @@ IncreasedLifeUniqueOneHandAxe3
 LifeGainedFromEnemyDeathUniqueOneHandAxe3
 MovementVelocityUniqueOneHandAxe3
 MovementSpeedIfKilledRecentlyUnique___1
-{variant:1}LocalAddedPhysicalDamageUniqueOneHandAxe3[8,12][18,22]
+{variant:1}Adds (8-12) to (18-22) Physical Damage
 ]],[[
 Jack, the Axe
 Vaal Hatchet
@@ -88,14 +88,14 @@ Variant: Pre 3.13.0
 Variant: Current
 Implicits: 0
 {variant:2}GrantsVampiricIconSkillUnique__1
-{variant:2}LocalIncreasedPhysicalDamagePercentUnique__37__
+{variant:2}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe5
 LocalAddedPhysicalDamageUniqueOneHandAxe5
 {variant:1}LocalIncreasedAttackSpeedUniqueOneHandAxe2
 {variant:1}LifeLeechPermyriadUniqueOneHandAxe6
-CausesBleedingUnique__2Updated
+CausesBleedingUniqueTwoHandAxe7
 {variant:2}LocalBleedDamageOverTimeMultiplierUnique__1
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__37__[90,110]
-{variant:1}ReducedLifeLeechRateUniqueOneHandAxe5[50,50]
+{variant:1}(90-110)% increased Physical Damage
+{variant:1}50% reduced total Recovery per second from Life Leech
 ]],[[
 Moonbender's Wing
 Tomahawk
@@ -106,11 +106,11 @@ Implicits: 0
 {variant:2}TriggeredLightningWarpUnique__1__
 {variant:2}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe8
 {variant:1}LocalAddedPhysicalDamageUniqueOneHandAxe8
-LocalCriticalStrikeChanceImplicitBow1
-{variant:1}ConvertPhysicalToColdUnique__1
+LocalCriticalStrikeChanceUniqueOneHandAxe8_
+{variant:1}ConvertPhysicalToColdUniqueOneHandAxe8
 {variant:1}ConvertPhysicalToLightningUniqueOneHandAxe8
 {variant:2}WeaponPhysicalDamageAddedAsColdOrLightningUnique__1
-{variant:1}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe8[70,90]
+{variant:1}(70-90)% increased Physical Damage
 ]],[[
 Relentless Fury
 Decorative Axe
@@ -119,9 +119,9 @@ Variant: Current
 Implicits: 0
 LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe6
 LocalAddedPhysicalDamageUniqueOneHandAxe6
-{variant:1}LifeLeechPermyriadUnique__4
+{variant:1}LifeLeechPermyriadUniqueGlovesStrDex1
 {variant:2}LifeLeechPermyriadUniqueOneHandAxe6
-NearbyAlliesHaveCullingStrikeUnique__1
+NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
 GainOnslaughtWhenCullingEnemyUniqueOneHandAxe6
 CannotBeChilledWhenOnslaughtUniqueOneHandAxe6
 ]],[[
@@ -137,7 +137,7 @@ LocalAddedPhysicalDamageUnique__7
 DualWieldingPhysicalDamageUnique__1
 LocalIncreasedAttackSpeedUniqueOneHandAxe2
 {variant:1}SwordPhysicalAttackSpeedUnique__1
-{variant:1}CausesBleedingUniqueOneHandAxe5Updated_
+{variant:1}CausesBleedingUniqueTwoHandAxe7
 {variant:3}MaxRagePerEquippedSwordUnique__1____
 {variant:2}+25 to Maximum Rage while wielding a Sword
 ]],[[
@@ -149,14 +149,14 @@ Variant: Pre 3.26.0
 Variant: Current
 Implicits: 0
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueOneHandMace7
-{variant:2}LocalIncreasedPhysicalDamagePercentUnique__48
-{variant:3,4}LocalIncreasedPhysicalDamagePercentUnique__41___
+{variant:2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
+{variant:3,4}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe1
 {variant:3,4}LocalAddedPhysicalDamageOneHandAxe1
-{variant:1,2,3}LocalIncreasedAttackSpeedUnique__21
-{variant:4}LocalIncreasedAttackSpeedUnique__40
+{variant:1,2,3}LocalIncreasedAttackSpeedUniqueOneHandSword9
+{variant:4}LocalIncreasedAttackSpeedUniqueOneHandAxe1
 ColdResistUniqueOneHandAxe1_
 MeleeAttacksUsableWithoutManaUniqueOneHandAxe1
-PhysicalDamageCanChillUniqueDescentOneHandAxe1
+PhysicalDamageCanChillUniqueOneHandAxe1
 {variant:1,2}Adds 10 to 20 Physical Damage
 ]],[[
 Replica Soul Taker
@@ -168,7 +168,7 @@ LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
 LocalCriticalStrikeChanceUnique__18
 ColdResistUniqueOneHandAxe1_
 PhysicalDamageCanFreezeUnique__1_
-MutatedUniqueAmluet24EldritchBattery
+KeystoneEldritchBatteryUnique__1
 Adds 10 to 20 Physical Damage
 ]],[[
 Starcaller
@@ -176,9 +176,9 @@ Abyssal Axe
 Source: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}
 Requires Level 55, 128 Str, 60 Dex
 StarfellOnMeleeCriticalHitUnique__1
-AllAttributesUnique__30
+AllAttributesUniqueAmulet22
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe10
-LocalCriticalStrikeChanceUniqueWand6_
+LocalCriticalStrikeChanceUniqueTwoHandAxe_1
 AreaOfEffectUnique_9
 Gain (40-60)% of Weapon Physical Damage as Extra Damage of a Random Element
 ]],
@@ -193,11 +193,11 @@ Variant: Current
 LevelReq: 75
 Implicits: 1
 {variant:2,3}LocalMaimOnHit2HImplicit_1
-{variant:1,2}LocalIncreaseSocketedSupportGemLevelUnique__1
+{variant:1,2}LocalIncreaseSocketedSupportGemLevelUniqueTwoHandAxe7
 {variant:3}IncreaseSocketedSupportGemQualityUnique__2
 {variant:3}LocalAddedPhysicalDamageUniqueTwoHandAxe7
-LocalIncreasedAttackSpeedUniqueStaff7
-CausesBleedingUniqueOneHandAxe5Updated_
+LocalIncreasedAttackSpeedUniqueTwoHandAxe7
+CausesBleedingUniqueTwoHandAxe7
 {variant:1}Adds (220-235) to (270-290) Physical Damage
 {variant:2}Adds (205-220) to (250-270) Physical Damage
 {variant:1,2}+2 to Weapon Range
@@ -209,13 +209,13 @@ Variant: Pre 3.0.0
 Variant: Pre 3.12.0
 Variant: Current
 Implicits: 0
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__10
-{variant:2,3}LocalIncreasedPhysicalDamagePercentUnique__29
+{variant:1}LocalIncreasedPhysicalDamagePercentUniqueClaw6
+{variant:2,3}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe4
 IncreasedLifeUniqueTwoHandAxe4
 {variant:3}LifeRegenerationUniqueTwoHandAxe4
-LifeLeechPermyriadUnique__5
+LifeLeechPermyriadUniqueTwoHandAxe4
 ManaCostIncreaseUniqueTwoHandAxe4
-CausesBleedingUniqueTwoHandAxe4Updated
+CausesBleedingUniqueTwoHandAxe4
 {variant:1,2}Regenerate 10 Life per second
 ]],[[
 Debeon's Dirge
@@ -252,11 +252,11 @@ Variant: Current
 Implicits: 1
 {variant:2}LocalMaimOnHit2HImplicit_1
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__28__
-{variant:2}LocalIncreasedPhysicalDamagePercentUnique__2
+{variant:2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe2
 LocalAddedPhysicalDamage__1
 LifeLeechPermyriadUniqueTwoHandAxe4
 {variant:2}AttackSpeedAfterSavageHitTakenUnique__1
-AttacksHaveBloodMagic__1
+VillageAttacksCostLife
 ]],[[
 Kaom's Primacy
 Karui Chopper
@@ -267,13 +267,13 @@ Variant: Pre 3.11.0
 Variant: Pre 3.25.0
 Variant: Current
 Implicits: 0
-{variant:1}LocalIncreasedPhysicalDamagePercentUniqueRapier2
+{variant:1}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword1
 {variant:4,5}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
 {variant:1,2}LocalAddedFireDamageUniqueTwoHandAxe1
 LifeGainedFromEnemyDeathUniqueTwoHandAxe1
-IncreasedAccuracyUnique__6
+IncreasedAccuracyUniqueTwoHandAxe1
 NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
-{variant:5}RageOnMeleeHitUnique__1
+{variant:5}RageOnMeleeHitE3
 {variant:3,4,5}PhysicalAddedAsFirePerRageUnique__1
 {variant:2,3}(160-220)% increased Physical Damage
 {variant:3,4}Gain 1 Rage on Critical Hit with attacks, no more than once every 0.5 seconds
@@ -290,9 +290,9 @@ Variant: Current
 Implicits: 0
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUnique__40
 {variant:4}LocalIncreasedPhysicalDamagePercentUnique__25
-{variant:6}LocalIncreasedPhysicalDamagePercentUniqueOneHandMace6
-IncreasedAttackSpeedUnique__4_
-{variant:2,3,4,5,6}LocalCriticalStrikeChanceUnique__3
+{variant:6}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe9
+LocalIncreasedAttackSpeedUniqueTwoHandAxe9
+{variant:2,3,4,5,6}LocalCriticalStrikeChanceUniqueSceptre9
 {variant:1}IncreasedManaUniqueTwoHandAxe9
 DisplayNearbyAlliesHaveIncreasedItemRarityUniqueTwoHandAxe9
 DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
@@ -310,10 +310,10 @@ Variant: Pre 3.11.0
 Variant: Current
 Implicits: 0
 SupportedByMeleeSplashUnique__1_
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__49
+{variant:1}LocalIncreasedPhysicalDamagePercentUniqueRapier1
 {variant:3}LocalIncreasedPhysicalDamagePercentUnique__23
 LifeLeechPermyriadUniqueTwoHandAxe4
-ManaLeechPermyriadUnique__2
+ManaLeechUniqueGlovesDexInt6
 RecoverPercentMaxLifeOnKillUnique__2
 VillageEnemiesDestroyedOnKill
 {variant:2}(265-330)% increased Physical Damage
@@ -326,7 +326,7 @@ Implicits: 0
 LocalIncreaseSocketedStrengthGemLevelUniqueTwoHandAxe3
 {variant:2}TriggerGoreShockwaveOnMeleeHitWith150StrengthUnique__1_
 StrengthUniqueTwoHandAxe3
-LocalIncreasedPhysicalDamageUniqueOneHandSceptre10
+LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe3
 LocalAddedPhysicalDamageUniqueTwoHandAxe3
 NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
 ]],[[
@@ -353,7 +353,7 @@ Implicits: 0
 MoltenBurstOnMeleeHitUnique__1
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__9
 IncreasedAttackSpeedUniqueGlovesDexInt_1
-{variant:1}ConvertPhysicalToFireUnique__1
+{variant:1}ConvertPhysicalToFireUniqueQuiver1_
 {variant:2}DamageConversionFireUnique__1
 PenetrateEnemyFireResistUnique__1
 {variant:1}(190-230)% increased Physical Damage
@@ -362,11 +362,11 @@ Reaper's Pursuit
 Shadow Axe
 Implicits: 0
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe2
-ItemFoundRarityIncreaseUniqueShieldStrDex2
-LifeGainedFromEnemyDeathUniqueTwoHandMace7
+ItemFoundRarityIncreaseUniqueTwoHandAxe2
+LifeGainedFromEnemyDeathUniqueTwoHandAxe2
 MovementVelocityOnFullLifeUniqueTwoHandAxe2
 NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
-AlwaysHitsUnique__1
+AlwaysHits
 ]],[[
 Sinvicta's Mettle
 Ezomyte Axe
@@ -375,7 +375,7 @@ Variant: Current
 Implicits: 0
 {variant:1}(200-212)% increased Physical Damage
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__33
-LocalIncreasedAttackSpeedUniqueTwoHandMace8_
+IncreasedAttackSpeedUniqueQuiver3
 AreaOfEffectPer25RampageStacksUnique__1_
 FrenzyChargePer50RampageStacksUnique__1
 SimulatedRampageUnique__3_
@@ -393,7 +393,7 @@ Implicits: 1
 {variant:1}(140-170)% increased Physical Damage
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__22
 LocalReducedAttackSpeedUnique__2
-{variant:2}CurseLevel10VulnerabilityOnHitUnique__1
+{variant:2}MutatedUniqueRing4VulnerabilityOnHit
 {variant:1}AttacksCauseBleedingOnCursedEnemyHitUnique__1
 {variant:2}ExertedAttackDamageUnique__1
 {variant:2}ExertedAttackKnockbackChanceUnique__1
@@ -420,9 +420,9 @@ Variant: Pre 3.7.0
 Variant: Current
 Implicits: 0
 SocketedGemsGetIncreasedAreaOfEffectUniqueTwoHandAxe5
-StrengthUniqueTwoHandMace1
+StrengthUniqueTwoHandAxe5
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe5
-ManaGainedFromEnemyDeathUniqueShieldInt3
+ManaGainedFromEnemyDeathUniqueTwoHandAxe5
 {variant:2}IncreasedAccuracyUniqueTwoHandAxe5
 {variant:1}+(50-80) to Accuracy Rating
 +2 to Weapon Range
@@ -453,14 +453,14 @@ Variant: Pre 3.11.0
 Variant: Pre 3.26.0
 Variant: Current
 Implicits: 0
-{variant:1,2,3}SpellBlockUniqueShieldInt4
+{variant:1,2,3}SpellBlockUniqueTwoHandAxe6
 {variant:4}SpellBlockUniqueBootsInt5
 {variant:5,6}SpellBlockPercentageUniqueTwoHandAxe6
 {variant:1}BlockWhileDualWieldingUnique__1
 {variant:2,3,4}BlockWhileDualWieldingUniqueOneHandSword5
 {variant:5,6}BlockWhileDualWieldingUniqueTwoHandAxe6
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword5
-{variant:3,4}LocalIncreasedPhysicalDamagePercentUniqueClaw6
+{variant:3,4}LocalIncreasedPhysicalDamagePercentUnique__10
 {variant:5,6}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe6
 {variant:6}MainHandAddedFireDamageUniqueTwoHandAxe6
 {variant:6}OffHandAddedChaosDamageUniqueTwoHandAxe6

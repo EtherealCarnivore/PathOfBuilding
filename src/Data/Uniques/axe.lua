@@ -13,8 +13,8 @@ Variant: Current
 Has no Sockets
 (200-250)% increased Physical Damage
 You have no Intelligence
-{variant:1}Critical Strike Chance is (20-30)% for Hits with this Weapon
 {variant:2}Critical Strike Chance is (30-40)% for Hits with this Weapon
+{variant:1}Critical Strike Chance is (20-30)% for Hits with this Weapon
 ]],[[
 Dreadarc
 Cleaver
@@ -82,8 +82,6 @@ Gain (5-7) Life per Enemy Killed
 15% increased Movement Speed if you've Killed Recently
 {variant:1}Adds (8-12) to (18-22) Physical Damage
 ]],[[
-Jack, the Axe
-Vaal Hatchet
 Variant: Pre 3.13.0
 Variant: Current
 Implicits: 0
@@ -94,6 +92,7 @@ Adds (11-14) to (18-23) Physical Damage
 {variant:1}2% of Physical Attack Damage Leeched as Life
 25% chance to cause Bleeding on Hit
 {variant:2}+(25-35)% to Damage over Time Multiplier for Bleeding from Hits with this Weapon
+Vaal Hatchet
 {variant:1}(90-110)% increased Physical Damage
 {variant:1}50% reduced total Recovery per second from Life Leech
 ]],[[
@@ -380,9 +379,6 @@ Implicits: 0
 Gain a Frenzy Charge on every 50th Rampage Kill
 Rampage
 ]],[[
-Uul-Netol's Kiss
-{variant:1}Labrys
-{variant:2}Vaal Axe
 Variant: Pre 3.21.0
 Variant: Current
 League: Breach
@@ -397,10 +393,10 @@ Implicits: 1
 {variant:1}Attacks have 25% chance to inflict Bleeding when Hitting Cursed Enemies
 {variant:2}Exerted Attacks deal 200% increased Damage
 {variant:2}Exerted Attacks Knock Enemies Back on Hit
+{variant:1}Labrys
+{variant:2}Vaal Axe
 {variant:1}25% chance to Curse Enemies with Vulnerability on Hit
 ]],[[
-Uul-Netol's Embrace
-Vaal Axe
 League: Breach
 Source: Upgraded from unique{Uul-Netol's Kiss} using currency{Blessing of Uul-Netol}
 Variant: Pre 3.11.0
@@ -411,6 +407,7 @@ Implicits: 1
 Trigger Level 20 Bone Nova when you Hit a Bleeding Enemy
 (280-320)% increased Physical Damage
 {variant:1,2}Attacks have 25% chance to inflict Bleeding when Hitting Cursed Enemies
+Vaal Axe
 (30-25)% reduced Attack Speed
 {variant:3}Attacks have 25% chance to inflict Bleeding
 ]],[[

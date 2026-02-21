@@ -12,11 +12,11 @@ Variant: Pre 3.15.0
 Variant: Pre 3.16.0
 Variant: Current
 {variant:3}100% increased Life Recovered
-{variant:4,5}50% increased Life Recovered
-Recover Full Life at the end of the Effect
+{variant:4,5}FlaskExtraLifeUnique__1
 {variant:1}(30-20)% reduced Recovery rate
 {variant:2,3,4}(5-20)% increased Recovery rate
 {variant:5}(50-35)% reduced Recovery rate
+LocalFlaskLifeOnFlaskDurationEndUniqueFlask3
 {variant:1,2}Cannot gain Life during effect
 ]],
 -- Flask: Mana
@@ -31,44 +31,41 @@ Implicits: 0
 {variant:2}(150-120)% increased Charges per use
 {variant:3}(300-250)% increased Charges per use
 {variant:1,2}Removes 20% of your maximum Energy Shield on use
-{variant:3}Removes 80% of your maximum Energy Shield on use
-{variant:3}You take 50% of your maximum Life as Chaos Damage on use
-{variant:1,2}Gain 1 Endurance Charge on use
-{variant:3}Gain (1-3) Endurance Charge on use
-{variant:3}Gain (1-3) Frenzy Charge on use
-{variant:3}Gain (1-3) Power Charge on use
+{variant:3}FlaskRemovePercentageOfEnergyShieldUniqueFlask2
 {variant:1,2}You take 10% of your maximum Life as Chaos Damage on use
+{variant:3}FlaskTakeChaosDamagePercentageOfLifeUniqueFlask2
+{variant:1,2}FlaskGainEnduranceChargeUnique__1_
 {variant:1,2}Gain 1 Frenzy Charge on use
 {variant:1,2}Gain 1 Power Charge on use
+{variant:3}FlaskGainEnduranceChargeUniqueFlask2
+{variant:3}FlaskGainFrenzyChargeUniqueFlask2
+{variant:3}FlaskGainPowerChargeUniqueFlask2
 ]],[[
 Lavianga's Spirit
 Sanctified Mana Flask
 League: Domination, Nemesis
-(30-50)% increased Amount Recovered
+FlaskIncreasedRecoveryAmountUniqueFlask4
 100% increased Recovery rate
-Skills Cost no Mana during Effect
-100% increased Recovery rate
+LocalFlaskNoManaCostWhileHealingUniqueFlask4
 ]],[[
 Replica Lavianga's Spirit
 Sanctified Mana Flask
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
-(30-50)% increased Amount Recovered
-100% increased Recovery rate
-(5-15)% increased Attack Speed during Effect
-(5-15)% increased Cast Speed during Effect
-10% increased Mana Cost of Skills during Effect
+FlaskIncreasedRecoveryAmountUniqueFlask4
 50% reduced Recovery rate
+LocalFlaskAttackAndCastSpeedWhileHealingUnique__1
 (5-15)% increased Cast Speed during Effect
+FlaskBuffReducedManaCostWhileHealingUnique__1
 ]],[[
 Zerphi's Last Breath
 Grand Mana Flask
 Variant: Pre 3.2.0
 Variant: Current
 League: Perandus
-50% increased Charges per use
-{variant:2}Grants Last Breath when you Use a Skill during Effect, for (450-600)% of Mana Cost
+FlaskChargesUsedUnique__3
 {variant:1}Grants Last Breath when you Use a Skill during Effect, for 800% of Mana Cost
+{variant:2}FlaskLifeGainOnSkillUseUnique__1
 ]],
 -- Flask: Hybrid
 [[
@@ -81,24 +78,23 @@ Variant: Pre 3.15.0
 Variant: Pre 3.25.0
 Variant: Current
 {variant:1,2}+6% to all maximum Elemental Resistances during Effect
-{variant:3}+4% to all maximum Elemental Resistances during Effect
-{variant:5}(8-12)% increased Quantity of Items found during Effect
-{variant:6}(30-50)% increased Rarity of Items found during Effect
-25% increased Light Radius during Effect
-{variant:6}+10% to Elemental Resistances during Effect
+{variant:3}FlaskMaximumElementalResistancesUniqueFlask1
 {variant:1}(20-25)% increased Quantity of Items found during Effect
 {variant:2,3,4}(12-18)% increased Quantity of Items found during Effect
 {variant:1,2,3,4}(40-60)% increased Rarity of Items found during Effect
 {variant:5}(20-30)% increased Rarity of Items found during Effect
+{variant:5}FlaskItemQuantityUniqueFlask1
+{variant:6}FlaskItemRarityUniqueFlask1
+FlaskLightRadiusUniqueFlask1
 {variant:4,5}+50% to Elemental Resistances during Effect
+{variant:6}FlaskElementalResistancesUniqueFlask1_
 ]],[[
 The Writhing Jar
 Hallowed Hybrid Flask
 (-10--20)% increased Charges per use
 (75-65)% reduced Amount Recovered
 Instant Recovery
-2 Enemy Writhing Worms escape the Flask when used
-Writhing Worms are destroyed when Hit
+SummonsWormsOnUse
 Writhing Worms are destroyed when Hit
 ]],
 -- Flask: Utility
@@ -112,19 +108,19 @@ Variant: Current
 LevelReq: 68
 {variant:1}Gain (13-15)% of Elemental Damage as Extra Chaos Damage during effect
 {variant:2}Gain (10-15)% of Elemental Damage as Extra Chaos Damage during effect
-{variant:3}Gain (5-8)% of Elemental Damage as Extra Chaos Damage during effect
-2% of Chaos Damage Leeched as Life during Effect
-{variant:3}Gain (5-8)% of Physical Damage as Extra Chaos Damage during effect
+{variant:3}AddedChaosDamageAsPercentOfElementalWhileUsingFlaskUniqueFlask5
+ChaosDamageLifeLeechPermyriadWhileUsingFlaskUniqueFlask5New
 {variant:1}Gain (22-25)% of Physical Damage as Extra Chaos Damage during effect
 {variant:2}Gain (15-20)% of Physical Damage as Extra Chaos Damage during effect
+{variant:3}AddedChaosDamageAsPercentOfPhysicalWhileUsingFlaskUniqueFlask5
 ]],[[
 Progenesis
 Amethyst Flask
 LevelReq: 60
 Source: Drops from unique{The Maven} (Uber)
-(10-20)% reduced Charges per use
-When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead
+LocalFlaskChargesUsedUnique__2
 (-35-35)% increased Duration
+LifeLossToPreventDuringFlaskEffectToLoseOverTimeUnique__1
 ]],[[
 Bottled Faith
 Sulphur Flask
@@ -134,26 +130,26 @@ Variant: Pre 3.15.0
 Variant: Pre 3.16.0
 Variant: Current
 Implicits: 1
-Creates Consecrated Ground on Use
-{variant:1}(30-50)% increased Duration
-Consecrated Ground created by this Flask has Tripled Radius
-{variant:1}+(1-2)% to Critical Strike Chance against Enemies on Consecrated Ground during Effect
-Consecrated Ground created during Effect applies (7-10)% increased Damage taken to Enemies
-{variant:2,3}(100-150)% increased Critical Strike Chance against Enemies on Consecrated Ground during Effect
+UtilityFlaskConsecrate
+{variant:1}FlaskEffectDurationUnique__3
 {variant:2}(20-40)% increased Duration
 {variant:3}(30-15)% reduced Duration
+FlaskConsecratedGroundAreaOfEffectUnique__1_
+{variant:1}FlaskConsecratedGroundEffectUnique__1_
+FlaskConsecratedGroundDamageTakenUnique__1
+{variant:2,3}FlaskConsecratedGroundEffectCriticalStrikeUnique__1
 ]],[[
 Coralito's Signature
 Diamond Flask
 Variant: Pre 3.15.0
 Variant: Current
-25% chance to Poison on Hit during Effect
-Your Critical Strikes do not deal extra Damage during Effect
-{variant:1}(50-75)% increased Duration of Poisons you inflict during Effect
-{variant:2}+(20-30)% to Damage over Time Multiplier for Poison from Critical Strikes during Effect
-{variant:1}Take 30 Chaos Damage per Second during Effect
-{variant:1}Grants Perfect Agony during effect
+{variant:1}FlaskTakeChaosDamagePerSecondUnique__1
 {variant:2}Take (200-300) Chaos Damage per Second during Effect
+FlaskChanceToPoisonUnique__1
+FlaskHitsHaveNoCritMultiUnique__1
+{variant:1}FlaskPoisonDurationUnique__1
+{variant:1}FlaskGrantsPerfectAgonyUnique__1_
+{variant:2}FlaskCriticalStrikeDoTMultiplierUnique__1
 ]],[[
 Coruscating Elixir
 Ruby Flask
@@ -162,10 +158,9 @@ Variant: Pre 3.16.0
 Variant: Current
 Implicits: 0
 {variant:2}100% increased Duration
-{variant:3}25% increased Duration
-Chaos Damage taken does not bypass Energy Shield during effect
-Removes all but one Life on use
-Removed life is Regenerated as Energy Shield over 2 seconds
+{variant:3}FlaskEffectDurationUnique__4
+ChaosDamageDoesNotBypassESDuringFlaskEffectUnique__1
+RemoveLifeAndAddThatMuchEnergyShieldOnFlaskUseUnique__1
 Removed life is Regenerated as Energy Shield over 2 seconds
 ]],[[
 Cinderswallow Urn
@@ -197,14 +192,14 @@ LevelReq: 48
 Implicits: 0
 {variant:15}+90 to maximum Charges
 {variant:16,17,18}+(10-20) to maximum Charges
-{variant:13}Recharges 1 Charge when you Consume an Ignited corpse
-{variant:15,16,17,18}Recharges 5 Charges when you Consume an Ignited corpse
-{variant:14}(175-200)% increased Charges per use
-{variant:14,15,16,17,18}Enemies Ignited by you during Effect take (7-10)% increased Damage
-{variant:13,15,16}Recover (1-3)% of Life when you Kill an Enemy during Effect
-{variant:13,15,17}Recover (1-3)% of Mana when you Kill an Enemy during Effect
-{variant:13,15,18}Recover (1-3)% of Energy Shield when you Kill an Enemy during Effect
+{variant:13}GainChargeOnConsumingIgnitedCorpseUnique__1__
+{variant:15,16,17,18}GainChargeOnConsumingIgnitedCorpseUnique__2
 {variant:13}Enemies Ignited by you during Effect take 10% increased Damage
+{variant:14,15,16,17,18}EnemiesIgnitedTakeIncreasedDamageUnique__1
+{variant:13,15,16}RecoverMaximumLifeOnKillFlaskEffectUnique__1
+{variant:13,15,17}RecoverMaximumManaOnKillFlaskEffectUnique__1
+{variant:13,15,18}RecoverMaximumEnergyShieldOnKillFlaskEffectUnique__1
+{variant:14}FlaskChargesUsedUnique__8
 {variant:14}{crafted}(60-80)% increased Critical Strike Chance during Effect
 {variant:1}{crafted}(45-55)% increased Critical Strike Chance during Effect
 {variant:2}{crafted}15% of Damage Taken from Hits is Leeched as Life during Effect
@@ -233,8 +228,8 @@ LevelReq: 68
 {variant:4}(60-40)% less duration
 {variant:1}30% increased Area of Effect during Effect
 {variant:2}(15-25)% increased Area of Effect during Effect
-{variant:3,4}(10-20)% increased Area of Effect during Effect
-Skills fire 2 additional Projectiles during Effect
+{variant:3,4}FlaskIncreasedAreaOfEffectDuringEffectUnique__1_
+FlaskAdditionalProjectilesDuringEffectUnique__1
 ]],[[
 Forbidden Taste
 Quartz Flask
@@ -242,13 +237,13 @@ Variant: Pre 1.2.3
 Variant: Pre 2.6.0
 Variant: Pre 3.15.0
 Variant: Current
-{variant:1,2}50% increased Charges per use
-{variant:3,4}Recover (75-100)% of Life on use
-{variant:4}25% of Maximum Life taken as Chaos Damage per second
+{variant:1,2}FlaskChargesUsedUnique__3
 {variant:1}Recover 50% of Life on use
 {variant:2}Recover 75% of Life on use
+{variant:3,4}LocalFlaskInstantRecoverPercentOfLifeUniqueFlask6
 {variant:1}15% of maximum Life taken as Chaos Damage per second
 {variant:2,3}8% of Maximum Life taken as Chaos Damage per second
+{variant:4}LocalFlaskChaosDamageOfLifeTakenPerMinuteWhileHealingUniqueFlask6
 ]],[[
 Kiara's Determination
 Silver Flask
@@ -256,7 +251,7 @@ Variant: Pre 3.0.0
 Variant: Pre 3.15.0
 Variant: Current
 Implicits: 0
-Immunity to Freeze, Chill, Curses and Stuns during Effect
+FlaskImmuneToStunFreezeCursesUnique__1
 {variant:1}50% reduced Duration
 {variant:2}60% reduced Duration
 {variant:3}(80-60)% reduced Duration
@@ -268,13 +263,13 @@ Variant: Pre 3.0.0
 Variant: Pre 3.15.0
 Variant: Current
 {variant:1}(100-70)% increased Charges per use
-Knocks Back Enemies in an Area when you use a Flask
-75% chance to cause Enemies to Flee on use
-Adds Knockback to Melee Attacks during Effect
-{variant:4}(7-10)% more Melee Physical Damage during effect
+AoEKnockBackOnFlaskUseUniqueFlask9_
+MonstersFleeOnFlaskUseUniqueFlask9
+KnockbackOnFlaskUseUniqueFlask9
 {variant:1}30% more Melee Physical Damage during effect
 {variant:2}(30-35)% more Melee Physical Damage during effect
 {variant:3}(20-25)% more Melee Physical Damage during effect
+{variant:4}PhysicalDamageOnFlaskUseUniqueFlask9
 ]],[[
 Rotgut
 Quicksilver Flask
@@ -284,12 +279,12 @@ Variant: Pre 3.15.0
 Variant: Current
 LevelReq: 40
 {variant:1,2}15% chance to gain a Flask Charge when you deal a Critical Strike
-{variant:3,4}50% chance to gain a Flask Charge when you deal a Critical Strike
-{variant:4}(30-50)% increased Duration
-Consumes Frenzy Charges on use
+{variant:3,4}FlaskChanceRechargeOnCritUnique__1
 {variant:1}(150-100)% increased Charges per use
 {variant:2,3}(100-50)% increased Charges per use
 {variant:3}50% increased Duration
+{variant:4}FlaskEffectDurationUnique__3
+FlaskConsumesFrenzyChargesUnique__1
 {variant:1,2}Gain Onslaught for 1 second per Frenzy Charge on use
 {variant:3}Gain Onslaught for 2 seconds per Frenzy Charge on use
 {variant:4}Gain Onslaught for 3 seconds per Frenzy Charge on use
@@ -316,20 +311,19 @@ Granite Flask
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 LevelReq: 68
-90% reduced Duration
-Gain 1 Endurance Charge on use
-Petrified during Effect
-+(35-50)% Chance to Block Attack Damage during Effect
-+(20-30)% Chance to Block Spell Damage during Effect
+FlaskIncreasedDurationUnique__2
+FlaskGainEnduranceChargeUnique__1_
+LocalFlaskPetrifiedUnique__1
+BlockIncreasedDuringFlaskEffectUnique__1
+SpellBlockIncreasedDuringFlaskEffectUnique__1_
 ]],[[
 Sin's Rebirth
 Stibnite Flask
 Implicits: 1
-Creates a Smoke Cloud on Use
-Grants Immunity to Ignite for 4 seconds if used while Ignited
+UtilityFlaskSmokeCloud
+FlaskDispellsBurningUnique__1
 Removes all Burning when used
-Unholy Might during Effect
-Removes all Burning when used
+LocalFlaskUnholyMightUnique__1
 ]],[[
 The Sorrow of the Divine
 Sulphur Flask
@@ -337,10 +331,9 @@ Variant: Pre 3.7.0
 Variant: Current
 League: Legion
 Implicits: 1
-Creates Consecrated Ground on Use
-{variant:2}Life Recovery from Flasks also applies to Energy Shield during Effect
-(25-50)% increased Duration
-{variant:2}Eldritch Battery during Effect
+UtilityFlaskConsecrate
+{variant:2}FlaskEldritchBatteryUnique__1
+FlaskEffectDurationUnique__1
 Zealot's Oath during Effect
 ]],[[
 Replica Sorrow of the Divine
@@ -348,10 +341,9 @@ Sulphur Flask
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 1
-Creates Consecrated Ground on Use
-Life Recovery from Flasks also applies to Energy Shield during Effect
-(25-50)% increased Duration
-Eldritch Battery during Effect
+UtilityFlaskConsecrate
+FlaskEldritchBatteryUnique__1
+FlaskEffectDurationUnique__1
 Eldritch Battery during Effect
 ]],[[
 Soul Catcher
@@ -362,15 +354,15 @@ Upgrade: Upgrades to unique{Soul Ripper} via currency{Vial of the Ghost}
 Variant: Pre 3.10.0
 Variant: Pre 3.15.0
 Variant: Current
-Cannot gain Mana during effect
-{variant:3}(60-80)% increased Critical Strike Chance with Vaal Skills during effect
-{variant:3}(60-80)% increased Damage with Vaal Skills during effect
-{variant:1}Non-Aura Vaal Skills require 25% reduced Souls Per Use during Effect
-{variant:3}Vaal Skills used during effect have 10% reduced Soul Gain Prevention Duration
+NoManaRecoveryDuringFlaskEffectUnique__1_
 {variant:2}(80-120)% increased Critical Strike Chance with Vaal Skills during effect
+{variant:3}FlaskVaalSkillCriticalStrikeChanceUnique__1
 {variant:1}(60-100)% increased Damage with Vaal Skills during effect
 {variant:2}(80-120)% increased Damage with Vaal Skills during effect
+{variant:3}FlaskVaalSkillDamageUnique__1
+{variant:1}FlaskVaalSkillCostUnique__1
 {variant:2}Vaal Skills used during effect have (20-40)% reduced Soul Gain Prevention Duration
+{variant:3}FlaskVaalSoulPreventionDurationUnique__1_
 ]],[[
 Soul Ripper
 Quartz Flask
@@ -378,14 +370,14 @@ League: Incursion
 Source: Upgraded from unique{Soul Catcher} via currency{Vial of the Ghost}
 Variant: Pre 3.10.0
 Variant: Current
-{variant:1}100% increased Charges per use
-{variant:2}Loses all Charges when you enter a new area
-{variant:2}Consumes Maximum Charges to use
-{variant:2}Gain Vaal Souls equal to Charges Consumed when used
-{variant:1}Vaal Skills deal (30-40)% more Damage during Effect
-{variant:1}Vaal Skills used during effect do not apply Soul Gain Prevention
-{variant:1}Gains no Charges during Effect of any Soul Ripper Flask
+{variant:1}FlaskChargesUsedUnique__7
+{variant:1}FlaskVaalSkillDamageUnique__2
+{variant:1}FlaskVaalNoSoulPreventionUnique__1
+{variant:1}CannotGainFlaskChargesDuringEffectUnique__1
 {variant:2}+(-40-90) maximum Charges
+{variant:2}FlaskLoseChargesOnNewAreaUnique__1
+{variant:2}FlaskVaalConsumeMaximumChargesUnique__1
+{variant:2}FlaskVaalGainSoulsAsChargesUnique__1_
 ]],[[
 Taste of Hate
 Sapphire Flask
@@ -396,26 +388,26 @@ Variant: Pre 3.25.0
 Variant: Current
 {variant:1}30% of Physical Damage from Hits taken as Cold Damage during Effect
 {variant:2,3}20% of Physical Damage from Hits taken as Cold Damage during Effect
-{variant:5}(20-30)% of Fire and Lightning Damage from Hits taken as Cold Damage during Effect
-{variant:4}(10-15)% of Physical Damage from Hits taken as Cold Damage during Effect
-{variant:4,5}Gain (10-15)% of Physical Damage as Extra Cold Damage during effect
-30% chance to Avoid being Chilled during Effect
-30% chance to Avoid being Frozen during Effect
+{variant:4}PhysicalTakenAsColdUniqueFlask8
+{variant:5}FireLightningTakenSsColdUniquFlask8
 {variant:1,2}Gain (20-30)% of Physical Damage as Extra Cold Damage during effect
 {variant:3}Gain (15-20)% of Physical Damage as Extra Cold Damage during effect
+{variant:4,5}PhysicalAddedAsColdUniqueFlask8
+AvoidChillUniqueFlask8
+AvoidFreezeUniqueFlask8
 ]],[[
 The Overflowing Chalice
 Sulphur Flask
 Variant: Pre 3.15.0
 Variant: Current
 Implicits: 1
-Creates Consecrated Ground on Use
+UtilityFlaskConsecrate
 {variant:1}100% increased Charge Recovery
-{variant:2}(40-60)% increased Charge Recovery
-{variant:2}(50-100)% increased Charges gained by Other Flasks during Effect
-Gains no Charges during Effect of any Overflowing Chalice Flask
+{variant:2}FlaskChargesAddedIncreasePercentUnique_1
 {variant:1}(10-20)% increased Duration
 {variant:1}100% increased Charges gained by Other Flasks during Effect
+{variant:2}IncreasedFlaskChargesForOtherFlasksDuringEffectUnique_1
+CannotGainFlaskChargesDuringFlaskEffectUnique_1
 ]],[[
 Vessel of Vinktar
 Topaz Flask
@@ -441,24 +433,24 @@ Variant: Current (Attacks)
 LevelReq: 68
 {variant:5,6,7,8,9,10,11,12,13}(100-80)% increased Charges per use
 {variant:14,15,16,17,18}(150-125)% increased Charges per use
-Shocks nearby Enemies during Effect, causing 10% increased Damage taken
-You are Shocked during Effect, causing 50% increased Damage taken
-{variant:14}50% of Physical Damage Converted to Lightning during Effect
-{variant:16}Damage Penetrates 6% Lightning Resistance during Effect
-{variant:15}(25-40)% increased Effect of Shocks you inflict during Effect
-{variant:15}Shocks you inflict during Effect spread to other Enemies within 2 metres
-{variant:18}Adds (10-15) to (55-65) Lightning Damage to Attacks during Effect
-{variant:17}Adds (10-15) to (55-65) Lightning Damage to Spells during Effect
-{variant:5,6,7,8,9,10,11,12,13,14,15,16,17,18}20% of Lightning Damage Leeched as Life during Effect
-{variant:5,6,7,8}20% of Lightning Damage Leeched as Mana during Effect
-{variant:1,2,3,4}Life and Mana Leech are instant during effect
+ShockNearbyEnemiesDuringFlaskEffect___1
+ShockSelfDuringFlaskEffect__1
 {variant:1,5,11}Damage Penetrates 10% Lightning Resistance during Effect
+{variant:16}LightningPenetrationDuringFlaskEffect__1
 {variant:2,6,9}Adds (15-25) to (70-90) Lightning Damage to Spells during Effect
 {variant:12}Adds (25-35) to (110-130) Lightning Damage to Spells during Effect
+{variant:17}AddedSpellLightningDamageDuringFlaskEffect__1
 {variant:3,7,13}Adds (25-35) to (110-130) Lightning Damage to Attacks during Effect
+{variant:18}AddedLightningDamageDuringFlaskEffect__1
 {variant:4,8,10}20% of Physical Damage Converted to Lightning during Effect
+{variant:14}PhysicalToLightningDuringFlaskEffect__1
+{variant:15}ShockEffectDuringFlaskEffectUnique__1__
+{variant:15}ShockProliferationDuringFlaskEffectUnique__1
 {variant:1,2,3,4}30% of Lightning Damage Leeched as Life during Effect
+{variant:5,6,7,8,9,10,11,12,13,14,15,16,17,18}LightningLifeLeechDuringFlaskEffect__1
 {variant:1,2,3,4}30% of Lightning Damage Leeched as Mana during Effect
+{variant:5,6,7,8}LightningManaLeechDuringFlaskEffect__1
+{variant:1,2,3,4}LeechInstantDuringFlaskEffect__1
 ]],[[
 The Wise Oak
 Bismuth Flask
@@ -466,17 +458,17 @@ Variant: Pre 3.0.0
 Variant: Pre 3.15.0
 Variant: Current
 {variant:1,2}During Effect, 10% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest
-{variant:3}During Effect, 6% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest
-{variant:3}During Effect, Damage Penetrates (5-8)% Resistance of each Element for which your Uncapped Elemental Resistance is highest
+{variant:3}FlaskElementalDamageTakenOfLowestResistUnique__1
 {variant:1}During Effect, Damage Penetrates 20% Resistance of each Element for which your Uncapped Elemental Resistance is highest
 {variant:2}During Effect, Damage Penetrates (10-15)% Resistance of each Element for which your Uncapped Elemental Resistance is highest
+{variant:3}FlaskElementalPenetrationOfHighestResistUnique__1
 ]],[[
 Oriath's End
 Bismuth Flask
 LevelReq: 56
 Source: Drops from unique{Sirus, Awakener of Worlds} (Uber)
-(20-40)% increased Charge Recovery
-Enemies you Kill during Effect have a (20-30)% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element
+FlaskChargesAddedIncreasePercentUnique__3
+EnemyExplosionRandomElementFlaskEffectUnique__1
 ]],[[
 Witchfire Brew
 Stibnite Flask
@@ -485,26 +477,26 @@ Variant: Pre 3.15.0
 Variant: Current
 LevelReq: 48
 Implicits: 1
-Creates a Smoke Cloud on Use
-{variant:1,2}50% increased Charges per use
-Grants Level 21 Despair Curse Aura during Effect
+UtilityFlaskSmokeCloud
+{variant:1,2}FlaskChargesUsedUnique__3
 {variant:3}(10--10)% increased Charges per use
 {variant:1}(50-70)% increased Damage Over Time during Effect
 {variant:2}(25-40)% increased Damage Over Time during Effect
+VulnerabilityAuraDuringFlaskEffectUnique__1
 ]],[[
 Replica Witchfire Brew
 Stibnite Flask
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
-(-10-10)% reduced Charges per use
-Creates a Smoke Cloud on Use
-Grants Level 21 Vulnerability Curse Aura during Effect
+UtilityFlaskSmokeCloud
+FlaskChargesUsedUnique__4
+VulnerabilityAuraDuringFlaskEffectUnique__1Alt
 ]],[[
 Wine of the Prophet
 Gold Flask
 Source: Drops from unique{Incarnation of Dread} in normal{Moment of Reverence}
 Requires Level 27
-+60 to Maximum Charges
+FlaskExtraChargesUnique__4
 (20-100)% increased Charges per Use
 Grants a random Divination buff for 20 seconds when used
 ]],
@@ -517,13 +509,12 @@ Variant: Current
 League: Expedition
 Source: Drops from unique{Medved, Feller of Heroes} in normal{Expedition Logbook}
 Implicits: 1
-Restores Ward on use
+UtilityFlaskWard
 {variant:1}(20-40)% increased Duration
-{variant:2}(50-80)% increased Duration
-Recover 4% of Life per Endurance Charge on use
+{variant:2}FlaskEffectDurationUnique__7
+FlaskLoseAllEnduranceChargesGainLifePerLostChargeUnique1
 Lose all Endurance Charges on use
-Gain 1 Endurance Charge per Second during Effect
-Lose all Endurance Charges on use
+FlaskEnduranceChargePerSecondUnique1
 ]],[[
 Olroth's Resolve
 Iron Flask
@@ -532,31 +523,31 @@ Variant: Current
 League: Expedition
 Source: Drops from unique{Olroth, Origin of the Fall} in normal{Expedition Logbook}
 Implicits: 1
-Restores Ward on use
+UtilityFlaskWard
 (50-40)% increased Charges per use
-Ward does not Break during Effect
-{variant:2}85% less Ward during Effect
+FlaskWardUnbreakableDuringEffectUnique__1
 {variant:1}70% less Ward during Effect
+{variant:2}FlaskMoreWardUnique1
 ]],[[
 Starlight Chalice
 Iron Flask
 League: Expedition
 Source: Drops from unique{Uhtred, Covetous Traitor} in normal{Expedition Logbook}
 Implicits: 1
-Restores Ward on use
-(20-30)% increased Charge Recovery
-Inflict Fire, Cold and Lightning Exposure on nearby Enemies when used
-(20-30)% increased Effect of Non-Damaging Ailments you inflict during Effect
+UtilityFlaskWard
+FlaskChargesAddedIncreasePercentUnique__2
+FlaskFireColdLightningExposureOnNearbyEnemiesUnique1
+FlaskNonDamagingAilmentIncreasedEffectUnique__1
 ]],[[
 Vorana's Preparation
 Iron Flask
 League: Expedition
 Source: Drops from unique{Vorana, Last to Fall} in normal{Expedition Logbook}
 Implicits: 1
-Restores Ward on use
+UtilityFlaskWard
 (10--10)% increased Charges per use
-Debilitate nearby Enemies for 2 Seconds when Effect ends
-Effect is removed when Ward Breaks
-Culling Strike during Effect
+FlaskDebilitateNearbyEnemiesWhenEffectEndsUnique_1
+FlaskRemoveEffectWhenWardBreaksUnique1
+FlaskCullingStrikeUnique1
 ]],
 }
