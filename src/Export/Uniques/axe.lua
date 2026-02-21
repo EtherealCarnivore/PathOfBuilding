@@ -13,8 +13,8 @@ Variant: Current
 HasNoSockets
 LocalIncreasedPhysicalDamagePercentUnique__40
 NoIntelligenceUnique__1_
-{variant:2}WeaponCritChanceOverrideUnique__1__
 {variant:1}Critical Strike Chance is (20-30)% for Hits with this Weapon
+{variant:2}WeaponCritChanceOverrideUnique__1__
 ]],[[
 Dreadarc
 Cleaver
@@ -82,6 +82,8 @@ MovementVelocityUniqueOneHandAxe3
 MovementSpeedIfKilledRecentlyUnique___1
 {variant:1}Adds (8-12) to (18-22) Physical Damage
 ]],[[
+Jack, the Axe
+Vaal Hatchet
 Variant: Pre 3.13.0
 Variant: Current
 Implicits: 0
@@ -90,9 +92,8 @@ Implicits: 0
 LocalAddedPhysicalDamageUniqueOneHandAxe5
 {variant:1}LocalIncreasedAttackSpeedUniqueOneHandAxe2
 {variant:1}LifeLeechPermyriadUniqueOneHandAxe6
-CausesBleedingUniqueOneHandAxe5Updated_
+CausesBleedingUniqueTwoHandAxe7
 {variant:2}LocalBleedDamageOverTimeMultiplierUnique__1
-Vaal Hatchet
 {variant:1}(90-110)% increased Physical Damage
 {variant:1}50% reduced total Recovery per second from Life Leech
 ]],[[
@@ -118,7 +119,7 @@ Variant: Current
 Implicits: 0
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe6
 LocalAddedPhysicalDamageUniqueOneHandAxe6
-{variant:1}LifeLeechPermyriadUniqueGlovesStrDex1
+{variant:1}LifeLeechPermyriadUniqueShieldDex2
 {variant:2}LifeLeechPermyriadUniqueOneHandAxe6
 NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
 GainOnslaughtWhenCullingEnemyUniqueOneHandAxe6
@@ -136,7 +137,7 @@ LocalAddedPhysicalDamageUnique__7
 DualWieldingPhysicalDamageUnique__1
 LocalIncreasedAttackSpeedUniqueOneHandAxe2
 {variant:1}SwordPhysicalAttackSpeedUnique__1
-{variant:1}CausesBleedingUniqueOneHandAxe5Updated_
+{variant:1}CausesBleedingUniqueTwoHandAxe7
 {variant:3}MaxRagePerEquippedSwordUnique__1____
 {variant:2}+25 to Maximum Rage while wielding a Sword
 ]],[[
@@ -151,11 +152,11 @@ Implicits: 0
 {variant:2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
 {variant:3,4}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe1
 {variant:3,4}LocalAddedPhysicalDamageOneHandAxe1
-{variant:1,2,3}LocalIncreasedAttackSpeedUniqueOneHandSword9
+{variant:1,2,3}LocalIncreasedAttackSpeedUniqueOneHandSword11
 {variant:4}LocalIncreasedAttackSpeedUniqueOneHandAxe1
 ColdResistUniqueOneHandAxe1_
 MeleeAttacksUsableWithoutManaUniqueOneHandAxe1
-PhysicalDamageCanChillUniqueOneHandAxe1
+PhysicalDamageCanChillUniqueDescentOneHandAxe1
 {variant:1,2}Adds 10 to 20 Physical Damage
 ]],[[
 Replica Soul Taker
@@ -167,7 +168,7 @@ LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
 LocalCriticalStrikeChanceUnique__18
 ColdResistUniqueOneHandAxe1_
 PhysicalDamageCanFreezeUnique__1_
-MutatedUniqueBodyDexInt2EldritchBattery
+KeystoneEldritchBatteryUnique__1
 Adds 10 to 20 Physical Damage
 ]],[[
 Starcaller
@@ -175,7 +176,7 @@ Abyssal Axe
 Source: Drops from unique{Incarnation of Fear} in normal{Moment of Trauma}
 Requires Level 55, 128 Str, 60 Dex
 StarfellOnMeleeCriticalHitUnique__1
-AllAttributesUniqueAmulet22
+AllAttributesUnique__30
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe10
 LocalCriticalStrikeChanceUniqueTwoHandAxe_1
 AreaOfEffectUnique_9
@@ -196,7 +197,7 @@ Implicits: 1
 {variant:3}IncreaseSocketedSupportGemQualityUnique__2
 {variant:3}LocalAddedPhysicalDamageUniqueTwoHandAxe7
 LocalIncreasedAttackSpeedUniqueTwoHandAxe7
-CausesBleedingUniqueOneHandAxe5Updated_
+CausesBleedingUniqueTwoHandAxe7
 {variant:1}Adds (220-235) to (270-290) Physical Damage
 {variant:2}Adds (205-220) to (250-270) Physical Damage
 {variant:1,2}+2 to Weapon Range
@@ -214,7 +215,7 @@ IncreasedLifeUniqueTwoHandAxe4
 {variant:3}LifeRegenerationUniqueTwoHandAxe4
 LifeLeechPermyriadUniqueTwoHandAxe4
 ManaCostIncreaseUniqueTwoHandAxe4
-CausesBleedingUniqueTwoHandAxe4Updated
+CausesBleedingUniqueTwoHandAxe4
 {variant:1,2}Regenerate 10 Life per second
 ]],[[
 Debeon's Dirge
@@ -242,7 +243,7 @@ Implicits: 0
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe8
 LifeLeechOnCritPermyriadUniqueTwoHandAxe8
 CriticalStrikeChancePerLevelUniqueTwoHandAxe8
-ElusiveOnCriticalStrikeUnique__1
+VillageElusiveOnCriticalStrike
 ]],[[
 Hezmana's Bloodlust
 Vaal Axe
@@ -266,7 +267,7 @@ Variant: Pre 3.11.0
 Variant: Pre 3.25.0
 Variant: Current
 Implicits: 0
-{variant:1}LocalIncreasedPhysicalDamagePercentUniqueRapier2
+{variant:1}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword1
 {variant:4,5}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
 {variant:1,2}LocalAddedFireDamageUniqueTwoHandAxe1
 LifeGainedFromEnemyDeathUniqueTwoHandAxe1
@@ -309,10 +310,10 @@ Variant: Pre 3.11.0
 Variant: Current
 Implicits: 0
 SupportedByMeleeSplashUnique__1_
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__49
+{variant:1}LocalIncreasedPhysicalDamagePercentUniqueRapier1
 {variant:3}LocalIncreasedPhysicalDamagePercentUnique__23
 LifeLeechPermyriadUniqueTwoHandAxe4
-ManaLeechPermyriadUnique__2
+ManaLeechUniqueAmulet3
 RecoverPercentMaxLifeOnKillUnique__1
 VillageEnemiesDestroyedOnKill
 {variant:2}(265-330)% increased Physical Damage
@@ -351,7 +352,7 @@ Variant: Current
 Implicits: 0
 MoltenBurstOnMeleeHitUnique__1
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__17_
-LocalIncreasedAttackSpeedUniqueTwoHandMace8_
+IncreasedAttackSpeedUniqueGlovesDexInt_1
 {variant:1}ConvertPhysicalToFireUniqueQuiver1_
 {variant:2}DamageConversionFireUnique__1
 PenetrateEnemyFireResistUnique__1
@@ -374,11 +375,14 @@ Variant: Current
 Implicits: 0
 {variant:1}(200-212)% increased Physical Damage
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__33
-LocalIncreasedAttackSpeedUnique__2
+LocalIncreasedAttackSpeedUnique__16
 AreaOfEffectPer25RampageStacksUnique__1_
 FrenzyChargePer50RampageStacksUnique__1
 SimulatedRampageStrDex5
 ]],[[
+Uul-Netol's Kiss
+{variant:1}Labrys
+{variant:2}Vaal Axe
 Variant: Pre 3.21.0
 Variant: Current
 League: Breach
@@ -389,14 +393,14 @@ Implicits: 1
 {variant:1}(140-170)% increased Physical Damage
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__22
 LocalReducedAttackSpeedUnique__2
-{variant:2}MutatedUniqueRing4VulnerabilityOnHit
+{variant:2}CurseLevel10VulnerabilityOnHitUnique__1
 {variant:1}AttacksCauseBleedingOnCursedEnemyHitUnique__1
 {variant:2}ExertedAttackDamageUnique__1
 {variant:2}ExertedAttackKnockbackChanceUnique__1
-{variant:1}Labrys
-{variant:2}Vaal Axe
 {variant:1}25% chance to Curse Enemies with Vulnerability on Hit
 ]],[[
+Uul-Netol's Embrace
+Vaal Axe
 League: Breach
 Source: Upgraded from unique{Uul-Netol's Kiss} using currency{Blessing of Uul-Netol}
 Variant: Pre 3.11.0
@@ -407,7 +411,6 @@ Implicits: 1
 GrantsLevel20BoneNovaTriggerUnique__1
 LocalIncreasedPhysicalDamagePercentUnique__24
 {variant:1,2}AttacksCauseBleedingOnCursedEnemyHitUnique__1
-Vaal Axe
 (30-25)% reduced Attack Speed
 {variant:3}Attacks have 25% chance to inflict Bleeding
 ]],[[

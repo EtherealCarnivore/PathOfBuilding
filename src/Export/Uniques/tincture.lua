@@ -12,7 +12,6 @@ TinctureToxicityOnHitUnique__1
 Inflicts Mana Burn on you when you Hit an Enemy with a Melee Weapon
 TinctureRarityPerToxicityUnique__1
 TinctureCullingStrikeUnique__1
-Inflicts Mana Burn on you when you Hit an Enemy with a Melee Weapon
 ]],[[
 Grasping Nightshade
 Sporebloom Tincture
@@ -23,7 +22,6 @@ TinctureChanceToBlindImplicit1
 (25-35)% increased Effect of Blind from Melee Weapons
 TinctureApplyWitherStacksOnHitUnique__1
 TinctureGraspingVineOnWeaponHitUnique__1
-(25-35)% increased Effect of Blind from Melee Weapons
 ]],[[
 Mightblood Ire
 Ironwood Tincture
@@ -33,7 +31,6 @@ Implicits: 2
 TinctureStunThresholdImplicit1
 (15-25)% increased Stun Duration with Melee Weapons
 TinctureMeleeSplashOnWeaponHitUnique__1
-(15-25)% increased Stun Duration with Melee Weapons
 (25-15)% reduced Mana Burn rate
 ]],[[
 Sap of the Seasons
@@ -55,7 +52,6 @@ TinctureChanceToIgniteImplicit1
 (60-90)% increased Damage with Ignite from Melee Weapons
 TinctureFireDamageTakenPerToxicityUnique__1
 TinctureRefreshIgniteDurationUnique__1
-(60-90)% increased Damage with Ignite from Melee Weapons
 Cover Full Life Enemies in Ash for (4-10) seconds on Melee Weapon hit
 ]]
 }

@@ -8,7 +8,7 @@ Antique Gauntlets
 League: Settlers of Kalguur
 Requires Level 39, 58 Str
 IncreasedAttackSpeedUnique__7
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__32
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__1
 ChanceToGainMaximumRageUnique__1
 GlobalIncreaseMeleeSkillGemLevelUnique__1
 ]],[[
@@ -20,12 +20,12 @@ Variant: Pre 3.16.0
 Variant: Current
 Requires Level 75, 100 Str
 IntelligenceUniqueGlovesStr3
-{variant:3}CriticalStrikeChanceUniqueGlovesStr3
-LocalIncreasedPhysicalDamageReductionRatingPercentUniqueGlovesStr3
 IncreasedLifeUniqueGlovesStr3
+LocalIncreasedPhysicalDamageReductionRatingPercentUniqueGlovesStr3
+{variant:2}(25-35)% increased Global Critical Strike Chance
+{variant:3}CriticalStrikeChanceUniqueGlovesStr3
 {variant:1}CriticalStrikesLeechInstantlyUniqueGlovesStr3
 {variant:2,3}VaalPactIfCritRecentlyUnique__1
-{variant:2}(25-35)% increased Global Critical Strike Chance
 ]],[[
 Replica Atziri's Acuity
 Vaal Gauntlets
@@ -33,10 +33,10 @@ League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 63, 100 Str
 IntelligenceUniqueGlovesStr3
+(25-35)% increased Global Critical Strike Chance
 LocalIncreasedPhysicalDamageReductionRatingPercentUniqueGlovesStr3
 IncreasedLifeUniqueGlovesStr3
 PerfectAgonyIfCritRecentlyUnique__1
-(25-35)% increased Global Critical Strike Chance
 ]],[[
 Ceaseless Feast
 Spiked Gloves
@@ -45,7 +45,7 @@ Requires Level 70, 95 Str
 Implicits: 1
 MeleeDamageImplicitGloves1
 AddedPhysicalDamageUnique__11__
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__28
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__24
 AttackCorrosionOnHitChanceUnique__1
 EnduranceChargeNoArmourUnique__1_
 FrenzyChargeNoEvasionRatingUnique__1
@@ -66,10 +66,9 @@ Source: Drops from unique{Craiceann, First of the Deep}
 Requires Level 69, 98 Str
 LocalIncreasedPhysicalDamageReductionRatingUniqueGlovesStr2
 LifeRegenerationUnique__1
-FireResistUniqueAmulet13
+FireResistUniqueBootsDexInt1
 DamagePerCrabBarrierUnique__1
 ChanceToGainMaximumCrabBarriersUnique__1_
-your maximum number of Crab Barriers
 your maximum number of Crab Barriers
 ]],[[
 Kaom's Spirit
@@ -81,10 +80,9 @@ Variant: Current
 FireResistImplicitRing1
 LifeLeechPermyriadUnique__7
 LifeRegenerationNotAppliedUnique__1
-{variant:3}RageRegenerationPerLifeRegenerationUnique__1
-{variant:3}Does not delay Inherent Loss of Rage
 {variant:1}Regenerate 1 Rage per second for every 100 Life Recovery per second from Regeneration
 {variant:2}Regenerate 1 Rage per second for every 300 Life Recovery per second from Regeneration
+{variant:3}RageRegenerationPerLifeRegenerationUnique__1
 Does not delay Inherent Loss of Rage
 ]],[[
 Doryani's Fist
@@ -95,17 +93,17 @@ Variant: Pre 3.10.0
 Variant: Current
 Requires Level 63, 100 Str
 {variant:2,3,4}GrantsTouchOfGodUnique__1
+{variant:1,2,3}+30 to maximum Energy Shield
 {variant:4}LocalIncreasedEnergyShieldUniqueGlovesStr4
 {variant:1,2,3}ChanceToShockUniqueBow10
 {variant:4}ChanceToShockUniqueGlovesStr4
+{variant:1,2}Adds (225-335) to (785-900) Lightning Damage to Unarmed Attacks
 {variant:3,4}AddedLightningDamageWhileUnarmedUniqueGlovesStr4_
+{variant:1,2}Adds (60-90) to (210-240) Lightning Damage to Spells while Unarmed
 {variant:3,4}AddedLightningDamagetoSpellsWhileUnarmedUniqueGlovesStr4
+{variant:1,2,3}+30 Energy Shield gained on Killing a Shocked Enemy
 {variant:4}GainEnergyShieldOnKillShockedEnemyUniqueGlovesStr4
 {variant:4}ShockEffectUnique__3
-{variant:1,2,3}+30 to maximum Energy Shield
-{variant:1,2}Adds (225-335) to (785-900) Lightning Damage to Unarmed Attacks
-{variant:1,2}Adds (60-90) to (210-240) Lightning Damage to Spells while Unarmed
-{variant:1,2,3}+30 Energy Shield gained on Killing a Shocked Enemy
 ]],[[
 Hateforge
 Ancient Gauntlets
@@ -115,28 +113,28 @@ Requires Level 47, 68 Str
 SupportedByRageUnique__1__
 LocalIncreasedPhysicalDamageReductionRatingUniqueShieldStr3
 ReducedRageCostUnique__1
-CannotGainRageDuringSoulGainPreventionUnique__1__
 Vaal Attack Skills Cost Rage instead of requiring Souls to Use
+CannotGainRageDuringSoulGainPreventionUnique__1__
 ]],[[
 Empire's Grasp
 Goliath Gauntlets
 Requires Level 53, 76 Str
-DisplaySupportedByKnockbackUniqueGlovesStr5
 LocalIncreasedPhysicalDamageReductionRatingUniqueGlovesStr5
 EnemyKnockbackDirectionReversedUniqueGlovesStr5_
+DisplaySupportedByKnockbackUniqueGlovesStr5
 ]],[[
 Giantsbane
 Bronze Gauntlets
 Variant: Pre 3.19.0
 Variant: Current
 Requires Level: 23, 36 Str
-StrengthUnique__28
+StrengthUnique__25
+{variant:1}Adds (3-6) to (10-12) Physical Damage to Attacks
 {variant:2}AddedPhysicalDamageUnique__5
 {variant:2}ReducedAttackSpeedUniqueAmulet16
 LocalIncreasedPhysicalDamageReductionRatingPercentUnique__15
 {variant:2}AdditionalPierceUnique__1
 VillageIronGrip
-{variant:1}Adds (3-6) to (10-12) Physical Damage to Attacks
 ]],[[
 Lochtonial Caress
 Iron Gauntlets
@@ -144,13 +142,13 @@ Variant: Pre 2.6.0
 Variant: Pre 3.19.0
 Variant: Current
 IncreasedAttackSpeedUniqueGlovesStr1
-IncreasedCastSpeedUniqueGlovesStr1
 {variant:1}LocalIncreasedPhysicalDamageReductionRatingUniqueGlovesStr1
 {variant:2}IncreasedLifeImplicitGlovesDemigods1
+IncreasedCastSpeedUniqueGlovesStr1
 IncreasedManaUniqueGlovesStr1
+{variant:2}10% chance to gain a Power, Frenzy or Endurance Charge on Kill
 {variant:3}PowerFrenzyOrEnduranceChargeOnKillUnique__1
 Conduit
-{variant:2}10% chance to gain a Power, Frenzy or Endurance Charge on Kill
 ]],[[
 Meginord's Vise
 Steel Gauntlets
@@ -159,16 +157,16 @@ Variant: Pre 2.6.0
 Variant: Pre 3.19.0
 Variant: Current
 Requires Level 35, 52 Str
-{variant:4}VillageMeleeSplash
-{variant:4}StrengthUniqueGlovesStr2
+{variant:4}MeleeSplashUnique__1
 {variant:1,2,3}IncreasedPhysicalDamagePercentUniqueGlovesStr2
-{variant:1}IncreasedAttackSpeedUniqueGlovesStr2
-{variant:4}LocalIncreasedPhysicalDamageReductionRatingUniqueGlovesStr2
-{variant:4}KnockbackDistanceUnique__1
-{variant:3}LifeRegenerationAt400StrengthUnique__1
-{variant:4}StrikeSkillKnockbackUnique__1
 {variant:1,2,3}+100 to Strength
+{variant:4}StrengthUniqueGlovesStr2
+{variant:1}IncreasedAttackSpeedUniqueGlovesStr2
 {variant:1,2,3}(40-60)% increased Armour
+{variant:4}LocalIncreasedPhysicalDamageReductionRatingUniqueGlovesStr2
+{variant:3}LifeRegenerationAt400StrengthUnique__1
+{variant:4}KnockbackDistanceUnique__1
+{variant:4}StrikeSkillKnockbackUnique__1
 ]],[[
 Veruso's Battering Rams
 Titan Gauntlets
@@ -208,7 +206,7 @@ IncreasedProjectileDamageUnique___10_
 Great Old One's Tentacles
 Eelskin Gloves
 Requires Level 38, 56 Dex
-AddedPhysicalDamageUnique__8
+AddedPhysicalDamageUniqueShieldDex6
 IncreasedLifeUniqueGlovesStrDex4
 AttackImpaleChanceUnique__1
 EnemiesKilledApplyImpaleDamageUnique__1
@@ -220,16 +218,16 @@ Variant: Pre 3.19.0
 Variant: Current
 Requires Level 9, 17 Dex
 StrengthUniqueGlovesStrInt2
-{variant:2}AddedColdDamageToSpellsAndAttacksUnique__2
+{variant:1}50% increased Evasion Rating
 {variant:2,3}LocalIncreasedEvasionRatingPercentUniqueGlovesDex1
-{variant:1}ColdResistUniqueBelt4
+{variant:1}ColdResistUniqueShieldInt3
 {variant:2,3}ColdResistUniqueGlovesDex1
+{variant:2}AddedColdDamageToSpellsAndAttacksUnique__2
 {variant:1}ConvertPhysicalToColdUnique__1
 {variant:2}ConvertPhysicalToColdUnique__2
 {variant:3}ConvertPhysicalToColdUniqueGlovesDex1
-{variant:3}AttackerTakesColdDamageGlovesDex1
-{variant:1}50% increased Evasion Rating
 {variant:1,2}Reflects 10 Cold Damage to Melee Attackers
+{variant:3}AttackerTakesColdDamageGlovesDex1
 ]],[[
 Hrimburn
 Goathide Gloves
@@ -238,15 +236,15 @@ Variant: Pre 2.6.0
 Variant: Current
 Requires Level 24, 17 Dex
 StrengthUniqueGlovesStrInt2
-{variant:2}AddedColdDamageToSpellsAndAttacksUnique__2
+{variant:1}50% increased Evasion Rating
 {variant:2}LocalIncreasedEvasionRatingPercentUniqueGlovesDex1
-{variant:1}ColdResistUniqueShieldStrDex1
+{variant:1}ColdResistUniqueBelt13
 {variant:2}ColdResistUniqueGlovesDex1
+{variant:2}AddedColdDamageToSpellsAndAttacksUnique__2
 {variant:1}ConvertPhysicalToColdUniqueOneHandAxe8
 {variant:2}ConvertPhysicalToColdUnique__2
-ColdDamageIgnitesUnique__1
-{variant:1}50% increased Evasion Rating
 Reflects 10 Cold Damage to Melee Attackers
+ColdDamageIgnitesUnique__1
 ]],[[
 Maligaro's Virtuosity
 Deerskin Gloves
@@ -259,11 +257,11 @@ Requires Level 21, 33 Dex
 DexterityUniqueGlovesDex2
 IncreasedAttackSpeedUniqueGlovesDex2
 CriticalStrikeChanceUniqueGlovesDex2
-{variant:3}CriticalMultiplierUniqueGlovesDex2
-LocalIncreasedEvasionRatingPercentUniqueGlovesDex2
-{variant:4}CriticalStrikeMultiplierIs250Unique__1
 {variant:1}+(40-50)% to Global Critical Strike Multiplier
 {variant:2}+(28-36)% to Global Critical Strike Multiplier
+{variant:3}CriticalMultiplierUniqueGlovesDex2
+{variant:4}CriticalStrikeMultiplierIs250Unique__1
+LocalIncreasedEvasionRatingPercentUniqueGlovesDex2
 ]],[[
 Mercenary's Lot
 Slink Gloves
@@ -275,8 +273,8 @@ LocalIncreasedEvasionRatingUnique__5
 AttackAndCastSpeedUnique__7
 MarkCastSpeedUnique__1
 DamageAgainstMarkedEnemiesUnique__1
-{variant:2}DamageTakenFromMarkedTargetUnique__1
 Your Mark transfers to another Enemy when Marked Enemy dies
+{variant:2}DamageTakenFromMarkedTargetUnique__1
 ]],[[
 Oskarm
 Nubuck Gloves
@@ -285,11 +283,11 @@ Variant: Current
 Requires Level 52, 50 Dex
 Trigger Level 10 Assassin's Mark when you Hit a Rare or Unique Enemy
 (30-40)% increased Accuracy Rating
-IncreasedLifeUnique__61
+IncreasedLifeUnique__77
 ChaosResistUnique__8
-IncreasedCriticalStrikeChancePerAccuracyRatingUnique__1
 {variant:1}(7-8)% chance to Suppress Spell Damage
 {variant:2}(10-12)% chance to Suppress Spell Damage
+IncreasedCriticalStrikeChancePerAccuracyRatingUnique__1
 ]],[[
 Painseeker
 Shagreen Gloves
@@ -298,8 +296,8 @@ GlobalAddedFireDamageUnique__4
 GlobalAddedColdDamageUnique__4
 GlobalAddedLightningDamageUnique__4
 LocalIncreasedEvasionRatingPercentUnique__16
-ApplyAilmentsMoreDamageUnique__1
 Critical Strikes do not inherently apply non-Damaging Ailments
+ApplyAilmentsMoreDamageUnique__1
 ]],
 -- Gloves: Energy Shield
 [[
@@ -313,9 +311,9 @@ Variant: Current
 {variant:3}BlightSkillUnique__1
 {variant:1}DegenerationDamageUnique__2
 LocalIncreasedEnergyShieldUniqueGlovesInt5
+10% increased Area of Effect of Area Skills
 BlightSecondarySkillEffectDurationUnique__1
 YouCannotBeHinderedUnique__2
-10% increased Area of Effect of Area Skills
 ]],[[
 Replica Allelopathy
 {variant:1}Sorcerer Gloves
@@ -343,7 +341,7 @@ Requires Level 25, 39 Int
 IntelligenceUniqueGlovesInt3
 {variant:1,2}IncreasedLifeImplicitGlovesDemigods1
 {variant:3}IncreasedLifeUniqueGlovesInt3
-{variant:1,2}IncreasedManaUniqueTwoHandSword2
+{variant:1,2}IncreasedManaImplicitRing1
 {variant:3}IncreasedManaUniqueGlovesInt3
 {variant:1,2,3}TemporalChainsOnHitUniqueGlovesInt3
 {variant:3}CursesRemainOnDeathUnique__1_
@@ -370,13 +368,13 @@ Variant: Pre 3.19.0
 Variant: Current
 League: Delve
 Requires Level 41, 60 Int
-IncreasedCastSpeedUniqueAmulet1
-{variant:1}LocalIncreasedEnergyShieldUnique__28
-{variant:2}LocalIncreasedEnergyShieldUnique__9
+IncreasedCastSpeedUnique__16
+{variant:1}LocalIncreasedEnergyShieldUnique__10
+{variant:2}LocalIncreasedEnergyShieldUnique__25
 {variant:1}IncreasedLifeUniqueGlovesStrDex4
 {variant:2}IncreasedLifeUnique__86_
-{variant:2}SacrificeLifeToGainESUnique__1
 {variant:1}Sacrifice 5% of Life to gain that much Energy Shield when you Cast a Spell
+{variant:2}SacrificeLifeToGainESUnique__1
 ]],[[
 Doedre's Tenure
 Velvet Gloves
@@ -390,11 +388,11 @@ Requires Level 12, 21 Int
 {variant:1}SpellDamageUnique__7
 {variant:2}SpellDamageUniqueStaff2
 {variant:3}SpellDamageUniqueGlovesInt2
+{variant:1}20% reduced Cast Speed
 {variant:2}ReducedCastSpeedUniqueHelmetStrInt6
 {variant:3}IncreasedCastSpeedUniqueGlovesInt2
-{variant:2}LocalIncreasedEnergyShieldUniqueGlovesInt2
-{variant:1}20% reduced Cast Speed
 {variant:1}+16 to maximum Energy Shield
+{variant:2}LocalIncreasedEnergyShieldUniqueGlovesInt2
 ]],[[
 Doedre's Malevolence
 Velvet Gloves
@@ -402,8 +400,8 @@ Source: No longer obtainable
 Variant: Pre 3.11.0
 Variant: Current
 Requires Level 64, 21 Int
-IntelligenceUnique__13
 SpellDamageUniqueStaff2
+IntelligenceUnique__13
 SpellAddedChaosDamageUnique__1
 ReducedCastSpeedUniqueHelmetInt8
 LocalIncreasedEnergyShieldUnique__18_
@@ -414,7 +412,7 @@ Grip of the Council
 Arcanist Gloves
 Requires Level 60, 95 Int
 StrengthUnique__4
-IncreasedLifeUnique__11
+IncreasedLifeUniqueShieldStr2
 ColdResistUnique__8
 MinionRunSpeedUnique__1
 MinionColdResistUnique__1
@@ -426,8 +424,8 @@ League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 60, 95 Int
 StrengthUnique__1
-IncreasedLifeUnique__20
-FireResistUnique__9
+IncreasedLifeUniqueAmulet18
+FireResistUnique__25
 MinionLifeUnique__4__
 MinionFireResistUnique__1
 MinionPhysicalDamageAddedAsFireUnique__1
@@ -462,9 +460,9 @@ Requires Level 11
 AddedFireDamageUniqueGlovesInt1
 AddedLightningDamageUniqueGlovesInt1
 LocalIncreasedEnergyShieldUniqueGlovesInt1
-{variant:3}ItemFoundQuantityIncreaseUniqueGlovesInt1
 {variant:1}(18-24)% increased Quantity of Items found
 {variant:2}(12-16)% increased Quantity of Items found
+{variant:3}ItemFoundQuantityIncreaseUniqueGlovesInt1
 {variant:4}(10-15)% increased Rarity of Items found
 ]],[[
 Voidbringer
@@ -475,13 +473,13 @@ Variant: Pre 3.11.0
 Variant: Current
 Requires Level 55, 79 Int
 LocalIncreaseSocketedElementalGemUniqueGlovesInt6
-{variant:3,4}LocalIncreasedEnergyShieldUniqueGlovesInt6
-{variant:2,3}ManaCostIncreaseUniqueGlovesInt6
-EnergyShieldGainedFromEnemyDeathUniqueGlovesInt6
-{variant:4}IncreaseGlobalFlatManaCostUnique__2
 (125-150)% increased Critical Strike Chance for Spells
 {variant:1,2}(280-350)% increased Energy Shield
+{variant:3,4}LocalIncreasedEnergyShieldUniqueGlovesInt6
 {variant:1}80% increased Mana Cost of Skills
+{variant:2,3}ManaCostIncreaseUniqueGlovesInt6
+{variant:4}IncreaseGlobalFlatManaCostUnique__2
+EnergyShieldGainedFromEnemyDeathUniqueGlovesInt6
 ]],
 -- Gloves: Armour/Evasion
 [[
@@ -489,8 +487,8 @@ Aurseize
 Steelscale Gauntlets
 Requires Level 36, 29 Str, 29 Dex
 LocalIncreasedArmourAndEvasionUniqueGlovesStrDex2
-ItemFoundRarityIncreaseUniqueGlovesStrDex2
 AllResistancesUniqueGlovesStrDex2
+ItemFoundRarityIncreaseUniqueGlovesStrDex2
 MovementVelocityUniqueGlovesStrDex2
 ]],[[
 Breathstealer
@@ -498,8 +496,8 @@ Hydrascale Gauntlets
 Requires Level 59, 45 Str, 45 Dex
 League: Blight
 Source: Drops in Blighted Maps
-LocalIncreasedArmourAndEvasionUnique__22
-IncreasedManaUnique__6
+LocalIncreasedArmourAndEvasionUnique__12
+IncreasedManaUniqueAmulet18
 AllResistancesUnique__16
 AttackAndCastSpeedUnique__5
 ReviveEnemiesOnKillUnique__1
@@ -512,10 +510,10 @@ Source: Drops from unique{Farrul, First of the Plains}
 Requires Level 59, 45 Str, 45 Dex
 LocalIncreasedArmourAndEvasionUnique__8_
 IncreasedLifeUniqueGlovesStrDex4
++(400-500) to Accuracy against Bleeding Enemies
 AttacksBleedOnHitWithCatsStealthUnique__1_
 DamageAgainstBleedingEnemiesUnique__1
 GainCrimsonDanceWithCatsStealthUnique__1
-+(400-500) to Accuracy against Bleeding Enemies
 ]],[[
 Flesh and Spirit
 Ironscale Gauntlets
@@ -526,13 +524,13 @@ LocalIncreasedArmourAndEvasionUniqueGlovesStrDex5
 LifeRegenerationUniqueGlovesStrDex5
 HealOnRampageUniqueGlovesStrDex5
 VaalSoulsOnRampageUniqueGlovesStrDex5
-SimulatedRampageUnique__3_
+SimulatedRampageUnique__2
 ]],[[
 Gravebind
 Hydrascale Gauntlets
 Requires Level 59, 45 Str, 45 Dex
 Implicits: 0
-LocalIncreasedArmourAndEvasionUnique__24
+LocalIncreasedArmourAndEvasionUnique__14
 ChaosResistUnique__21
 LifeGainedFromEnemyDeathUnique__3
 EnemiesKilledCountAsYoursUnique__1
@@ -545,7 +543,6 @@ DegenerationDamageUnique__1
 ChanceToBleedUnique__1_
 AttackDamageAgainstBleedingUnique__1__
 BleedingEnemiesExplodeUnique__1
-their Maximum Life as Physical Damage
 their Maximum Life as Physical Damage
 25% reduced Bleed duration
 ]],[[
@@ -595,17 +592,17 @@ Variant: Murderous: Rage
 Variant: Searching: Maim
 Variant: Searching: Blind
 Variant: Searching: Onslaught
-{variant:4}AbyssJewelSocketUnique__7
-{variant:5}AbyssJewelSocketUnique__11_
+{variant:4}AbyssJewelSocketUnique__6_
+{variant:5}AbyssJewelSocketUnique__1
 {variant:1,2}LocalIncreasedAttackSpeedUnique__42
 {variant:3}IncreasedAttackSpeedUniqueGlovesStrDex1
 {variant:1,2}MaximumLifeUnique__9
-{variant:11}OnslaughtOnKillWithRangedAbyssJewelUnique__1
 {variant:6}IntimidateOnHitWithMeleeAbyssJewelUnique__1
-{variant:9}MaimOnHitWithRangedAbyssJewelUnique__1
-{variant:10}BlindOnHitWithRangedAbyssJewelUnique__1
 {variant:7}FortifyOnHitWithMeleeAbyssJewelUnique__1
 {variant:8}With a Murderous Eye Jewel Socketed, Melee Attacks grant 1 Rage on Hit, no more than once every second
+{variant:9}MaimOnHitWithRangedAbyssJewelUnique__1
+{variant:10}BlindOnHitWithRangedAbyssJewelUnique__1
+{variant:11}OnslaughtOnKillWithRangedAbyssJewelUnique__1
 ]],[[
 Vaal Caress
 Bronzescale Gauntlets
@@ -617,12 +614,12 @@ Variant: Current
 {variant:3}LocalIncreaseSocketedVaalGemLevelUniqueGlovesStrDex4
 {variant:3}LocalIncreaseSocketedNonVaalGemLevelUnique__1
 LocalIncreasedArmourAndEvasionUniqueGlovesStrDex4
-{variant:1}IncreasedLifeUniqueAmulet14
+{variant:1}IncreasedLifeUnique__19
 {variant:2,3}IncreasedLifeUniqueGlovesStrDex4
 {variant:1}ColdResistUniqueStrHelmet2
 {variant:2,3}ColdResistUniqueGlovesStrDex4
-{variant:3}OnslaughtOnVaalSkillUseUniqueGlovesStrDex4
 {variant:1,2}You gain Onslaught for 5 seconds on using a Vaal Skill
+{variant:3}OnslaughtOnVaalSkillUseUniqueGlovesStrDex4
 ]],[[
 Worldcarver
 Dragonscale Gauntlets
@@ -648,7 +645,7 @@ LoseEnduranceChargesOnRampageEndUnique___1
 Tanu Ahi
 Wyrmscale Gauntlets
 IncreasedAttackSpeedUniqueGlovesDexInt_1
-LocalIncreasedArmourAndEvasionUnique__26
+LocalIncreasedArmourAndEvasionUnique__19_
 LifeLeechUniqueBodyStrDex3
 10% chance to gain Adrenaline for 2 Seconds when Leech is removed by Filling Unreserved Life
 10% chance to gain Onslaught for 4 Seconds when Leech is removed by Filling Unreserved Life
@@ -664,20 +661,20 @@ Variant: Pre 3.27.0 Two Abyssal Sockets
 Variant: One Abyssal Socket
 Variant: Two Abyssal Sockets
 Requires Level 37, 29 Str, 29 Int
-{variant:1,3}AbyssJewelSocketUnique__10
-{variant:2,4}AbyssJewelSocketUnique__13
+{variant:1,3}AbyssJewelSocketUnique__8
+{variant:2,4}AbyssJewelSocketUnique__11_
 IncreasedCastSpeedUniqueGlovesDemigods1
 MaximumLifeUnique__7
 {variant:1,2}MinionAccuracyWithMinionAbyssJewelUnique__1
-ArcaneSurgeOnHitWithSpellAbyssJewelUnique__1
 {variant:3,4}With a Ghastly Eye Jewel Socketed, Minions have 25% chance to gain Unholy Might on Hit with Spells
+ArcaneSurgeOnHitWithSpellAbyssJewelUnique__1
 ]],[[
 The Hand of Phrecia
 Mesh Gloves
 League: Necropolis
 Requires Level 32, 26 Str, 26 Int
 LocalIncreasedArmourAndEnergyShieldUnique__28
-AllResistancesUnique__2
+AllResistancesUnique__5
 AuraEffectWhileLinkedUnique__1
 AurasOnlyApplyToLinkedTargetUnique__1
 Non-Curse Auras from your Skills only apply to you and Linked Targets
@@ -699,10 +696,10 @@ Hands of the High Templar
 Crusader Gloves
 Source: Drops from unique{Sirus, Awakener of Worlds}
 ModifyableWhileCorruptedUnique__1
+Can have up to 5 Implicit Modifiers while Item has this Modifier
 LocalIncreasedArmourAndEnergyShieldUnique__15
 MaximumLifeUnique__19
 FireAndLightningResistUnique__1
-Can have up to 5 Implicit Modifiers while Item has this Modifier
 ]],[[
 Null and Void
 Legion Gloves
@@ -712,16 +709,16 @@ StrengthUniqueGlovesStrInt2
 LocalIncreasedArmourAndEnergySheildUniqueGlovesStrInt2
 IncreasedLifeUniqueGlovesStrDex4
 ManaRegenerationUniqueGlovesStrInt2
-PhysicalDamageImmunityOnRampageUniqueGlovesStrInt2
-SimulatedRampageStrDex5
 Dispels Elemental Ailments on Rampage
+PhysicalDamageImmunityOnRampageUniqueGlovesStrInt2
+SimulatedRampageUnique__3_
 ]],[[
 Offering to the Serpent
 Legion Gloves
 League: Synthesis
 Source: Drops from unique{Synthete Nightmare} in normal{The Cortex}
 Requires Level 57, 44 Str, 44 Int
-AllAttributesUnique__14
+AllAttributesUnique__16_
 LocalIncreasedArmourAndEnergyShieldUnique__20
 MaximumLifeLeechAmountUnique__1
 TalismanAttackAndCastSpeed
@@ -735,11 +732,11 @@ Variant: Current
 Requires Level 66, 306 Str, 306 Int
 IncreasedLocalAttributeRequirementsUniqueGlovesStrInt4
 {variant:2}PercentageStrengthUnique__5
-{variant:2}LocalIncreasedArmourAndEnergyShieldUnique__1
-IronWillUniqueGlovesStrInt4__
 {variant:1}(0-30)% reduced Spell Damage
 {variant:1}(120-180)% increased Armour and Energy Shield
+{variant:2}LocalIncreasedArmourAndEnergyShieldUnique__1
 {variant:1}+(8-16) to maximum Energy Shield
+IronWillUniqueGlovesStrInt4__
 ]],[[
 Saqawal's Winds
 Soldier Gloves
@@ -747,7 +744,7 @@ League: Bestiary
 Source: Drops from unique{Saqawal, First of the Sky}
 Requires Level 51, 40 Str, 40 Int
 LocalIncreasedArmourAndEnergyShieldUnique__10_
-IncreasedLifeUnique__1
+IncreasedLifeUnique__16
 ColdAndLightningResistUnique__1
 AviansMightDurationUnique__1
 AviansMightColdDamageUnique__1
@@ -758,14 +755,14 @@ Chain Gloves
 Variant: Pre 1.2.0
 Variant: Current
 Requires Level 7, 17 Dex
-SocketedCursesAreReflectedUniqueGlovesStrInt1
 StunRecoveryUniqueGlovesStrInt1
+SocketedCursesAreReflectedUniqueGlovesStrInt1
 ChillImmunityWhenChilledUniqueGlovesStrInt1
 FreezeImmunityWhenFrozenUniqueGlovesStrInt1
 IgniteImmunityWhenIgnitedUniqueGlovesStrInt1
+{variant:1}You cannot be Shocked for 1 second after being Shocked
 {variant:2}ShockImmunityWhenShockedUniqueGlovesStrInt1
 GrantFrenzyChargesToAlliesOnDeathUniqueGlovesStrInt1
-{variant:1}You cannot be Shocked for 1 second after being Shocked
 ]],[[
 Shaper's Touch
 Crusader Gloves
@@ -776,17 +773,17 @@ Variant: Pre 3.10.0
 Variant: Current
 Requires Level 66, 51 Str, 51 Int
 LocalIncreasedArmourAndEnergyShieldUniqueShieldStrInt3
+{variant:1}+2 Accuracy Rating per 2 Intelligence
 {variant:2,3}AccuracyPerIntelligenceUnique__1
 LifePerDexterityUnique__1
 {variant:1,3}ManaPerStrengthUnique__1__
-{variant:1,3}EnergyShieldPerStrengthUnique__1
-{variant:2,3}EvasionRatingPerIntelligenceUnique__1
-{variant:2,3}MeleePhysicalDamagePerDexterityUnique__1_
-{variant:1}+2 Accuracy Rating per 2 Intelligence
 {variant:2}+2 Mana per 4 Strength
+{variant:1,3}EnergyShieldPerStrengthUnique__1
 {variant:2}2% increased Energy Shield per 10 Strength
 {variant:1}1% increased Evasion Rating per 10 Intelligence
+{variant:2,3}EvasionRatingPerIntelligenceUnique__1
 {variant:1}1% increased Melee Physical Damage per 10 Dexterity
+{variant:2,3}MeleePhysicalDamagePerDexterityUnique__1_
 ]],[[
 Southbound
 Soldier Gloves
@@ -797,10 +794,10 @@ Requires Level 51, 40 Str, 40 Int
 {variant:1,2}Adds (30-36) to (44-50) Cold Damage to Attacks
 {variant:3}AddedColdDamageUniqueGlovesStrInt3_
 MaximumLifeUniqueGlovesStrInt3
-ColdResistUniqueGlovesStrDex3
-{variant:3}FreezeDurationUniqueGlovesStrInt3
+ColdResistUniqueGlovesStrInt3
 {variant:2}HeraldOfIceDamageUnique__1_
 {variant:1,2}25% increased Freeze Duration on Enemies
+{variant:3}FreezeDurationUniqueGlovesStrInt3
 Your Hits can only Kill Frozen enemies
 ]],[[
 Triad Grip
@@ -823,15 +820,15 @@ Requires Level 43, 34 Str, 34 Int
 {variant:2}AddedColdDamageUnique__2
 {variant:3}AddedLightningDamageUnique__1
 IncreasedLifeUniqueGlovesStrDex4
-{variant:1}FireResistUnique__8
-{variant:2}ColdResistUniqueQuiver5
+{variant:1}FireResistUnique__20_
+{variant:2}ColdResistUnique__16
 {variant:3}LightningResistUnique__8
-{variant:2}ColdDamageCanPoisonUnique__1_
-{variant:1}FireDamageCanPoisonUnique__1
-{variant:3}LightningDamageCanPoisonUnique__1
 VolkuurLessPoisonDurationUnique__1
-{variant:2}ColdSkillsChanceToPoisonUnique__1
+{variant:1}FireDamageCanPoisonUnique__1
+{variant:2}ColdDamageCanPoisonUnique__1_
+{variant:3}LightningDamageCanPoisonUnique__1
 {variant:1}FireSkillsChanceToPoisonUnique__1
+{variant:2}ColdSkillsChanceToPoisonUnique__1
 {variant:3}LightningSkillsChanceToPoisonUnique__1_
 ]],[[
 Replica Volkuur's Guidance
@@ -869,23 +866,22 @@ WitherOnHitChanceUnique__1
 WitherGrantsElementalDamageTakenUnique__1__
 each Withered you have inflicted on them
 CannotPenetrateResistancesUnique__1
-each Withered you have inflicted on them
 ]],[[
 Stormseeker
 Ambush Mitts
-LocalIncreasedEnergyShieldUnique__34
-IncreasedManaUniqueBootsInt5
+LocalIncreasedEnergyShieldUniqueHelmetInt6
+IncreasedManaUnique__24
+(60-100)% increased Effect of Chill you inflict while Leeching Mana
 ShockEffectLeechingESUnique__1
 UnaffectedByChillLeechingManaUnique__1
 UnaffectedByShockLeechingESUnique__1
-(60-100)% increased Effect of Chill you inflict while Leeching Mana
 ]],[[
 Algor Mortis
 Carnal Mitts
 League: Delirium
 Source: Drops from the Simulacrum Encounter
 Requires Level 50, 39 Dex, 39 Int
-IncreasedEnergyShieldUnique__9
+LocalIncreasedEnergyShieldUnique__28
 ColdAndLightningResistUnique__2
 ChanceToSapVsEnemiesInChillingAreasUnique__1
 ChillingAreasAlsoGrantLightningDamageTakenUnique__1
@@ -895,7 +891,7 @@ Aukuna's Will
 Clasped Mitts
 League: Legion
 Requires Level 31, 25 Dex 25 Int
-DexterityUnique__5
+DexterityUnique__2
 IncreasedCastSpeedUnique__18_
 LocalIncreasedEvasionAndEnergyShieldUnique__27
 ZombieIncreasedLifeUnique__1
@@ -912,25 +908,25 @@ Source: Opening normal{Fortified Casket} in normal{Defense Research Lab}
 Upgrade: Upgrades to unique{Slavedriver's Hand} via currency{Vial of Dominance}
 {variant:1}Requires Level 16
 {variant:2}Requires Level 45, 35 Dex, 35 Int
-DexterityUnique__10_
+DexterityUnique__4
+{variant:1}(100-125)% increased Evasion and Energy Shield
 {variant:2}LocalIncreasedEvasionAndEnergyShieldUnique__16
 TrapThrowSpeedUnique__1_
 {variant:1}TrapAreaOfEffectUnique__1
-CastSpeedAppliesToTrapSpeedUnique__1
 {variant:2}ChanceToThrowFourAdditionalTrapsUnique__1
-{variant:1}(100-125)% increased Evasion and Energy Shield
+CastSpeedAppliesToTrapSpeedUnique__1
 ]],[[
 Slavedriver's Hand
 Ambush Mitts
 League: Incursion
 Source: Upgraded from unique{Architect's Hand} via currency{Vial of Dominance}
 Requires Level 45, 35 Dex, 35 Int
-DexterityUnique__16
+DexterityUnique__5
 LocalIncreasedEvasionAndEnergyShieldUnique__17
 TrapThrowSpeedUnique__1_
+TrapSkillsHaveBloodMagicUnique__1
 TrapAreaOfEffectUnique__1
 CastSpeedAppliesToTrapSpeedUnique__1
-TrapSkillsHaveBloodMagicUnique__1
 10% chance to gain an Endurance, Frenzy or Power Charge when any of your Traps is Triggered by an Enemy
 ]],[[
 Blasphemer's Grasp
@@ -940,11 +936,11 @@ Source: Drops from unique{The Elder}
 Requires Level 58, 45 Dex, 45 Int
 DexterityUniqueGlovesStrDex1
 LocalIncreasedEvasionAndEnergyShieldUnique__10
-IncreasedLifeUniqueBelt7
+IncreasedLifeUnique__67_
 IncreasedLifePerElderItemUnique__1
 AilmentDamageOverTimeMultiplierPerElderItemUnique__1
-RemoveAilmentOnFlaskUseIfAllItemsAreElderUnique__1_
 8% increased Effect of non-Damaging Ailments per Elder Item Equipped
+RemoveAilmentOnFlaskUseIfAllItemsAreElderUnique__1_
 ]],[[
 The Embalmer
 Carnal Mitts
@@ -952,7 +948,7 @@ Requires Level 50, 39 Dex, 39 Int
 SupportedByVileToxinsUnique__1
 AddedChaosDamageToAttacksAndSpellsUnique__2
 IncreasedLifeUniqueGlovesStrDex4
-ChaosResistUnique__6
+ChaosResistUnique__4
 PoisonDurationUnique__2
 ]],[[
 Facebreaker
@@ -965,14 +961,14 @@ Variant: Pre 3.26.0
 Variant: Current
 Requires Level 16, 14 Dex, 14 Int
 {variant:1,2}CriticalMultiplierUniqueHelmetStr3
+{variant:3}+90% to Global Critical Strike Multiplier
 {variant:4}CriticalMultiplierUniqueDescentDagger1
 {variant:5,6}CriticalMultiplierUniqueGlovesDexInt2
 StunThresholdReductionUniqueGlovesDexInt2
-{variant:6}FacebreakerUnarmedMoreDamage
-ExtraGore
-{variant:3}+90% to Global Critical Strike Multiplier
 {variant:1}(800-1000)% more Unarmed Physical Damage
 {variant:2,3,4,5}(600-800)% more Physical Damage with Unarmed Melee Attacks
+{variant:6}FacebreakerUnarmedMoreDamage
+ExtraGore
 ]],[[
 Fenumus' Weave
 Carnal Mitts
@@ -981,7 +977,7 @@ Source: Drops from unique{Fenumus, First of the Night}
 Requires Level 50, 39 Dex, 39 Int
 GrantsSpiderAspect1
 LocalIncreasedEvasionAndEnergyShieldUnique__13
-IncreasedLifeUnique__77
+IncreasedLifeUnique__118
 AttackAndCastSpeedUnique__3
 DamageAgainstEnemiesWith3WebsUnique__1_
 ChaosDamagePerWebOnEnemyUnique__1
@@ -993,10 +989,10 @@ Variant: Current
 Elder Item
 Source: Drops from unique{The Elder} (Uber Uber)
 LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt4
-ChaosResistUnique__25
+ChaosResistUnique__6
+{variant:1}Eat a Soul when you Hit a Unique Enemy, no more than once every second
 {variant:2}GainSoulEaterStackOnHitUnique__1
 SoulEaterStackCountUnique__1
-{variant:1}Eat a Soul when you Hit a Unique Enemy, no more than once every second
 ]],[[
 Machina Mitts
 Murder Mitts
@@ -1018,10 +1014,10 @@ Requires Level 5
 {variant:2,3}AttackSpeedOnFullLifeUniqueGlovesStr1
 {variant:1,2}AddedLightningDamageUniqueGlovesInt1
 {variant:3}AddedLightningDamageUniqueGlovesDexInt1
-{variant:3}IncreasedAccuracyUniqueGlovesDexInt1
-{variant:2,3}MovementVelocityOnLowLifeUniqueGlovesDexInt1
 {variant:1,2}+(50-80) to Accuracy Rating
+{variant:3}IncreasedAccuracyUniqueGlovesDexInt1
 {variant:1}(10-15)% increased Movement Speed when on Low Life
+{variant:2,3}MovementVelocityOnLowLifeUniqueGlovesDexInt1
 ]],[[
 Malachai's Mark
 Murder Mitts
@@ -1040,14 +1036,14 @@ Variant: Pre 3.0.0
 Variant: Current
 Requires Level 31, 25 Dex, 25 Int
 CriticalStrikeChanceUniqueGlovesDexInt6
+{variant:1}+(15-30)% to Global Critical Strike Multiplier
+{variant:2}+(25-45)% to Global Critical Strike Multiplier
 {variant:3}CriticalMultiplierUniqueGlovesDex2
 LocalIncreasedEvasionAndEnergyShieldUniqueGlovesDexInt6
-ManaLeechPermyriadUniqueAmulet3
+ManaLeechPermyriadUnique__1
 GroundSmokeOnRampageUniqueGlovesDexInt6
 UnholyMightOnRampageUniqueGlovesDexInt6
 SimulatedRampageStrDex5
-{variant:1}+(15-30)% to Global Critical Strike Multiplier
-{variant:2}+(25-45)% to Global Critical Strike Multiplier
 ]],[[
 Snakebite
 Assassin's Mitts
@@ -1060,9 +1056,9 @@ IncreasedLifeUniqueGlovesDexInt5
 AttackSpeedPerFrenzyChargeUniqueGlovesDexInt5
 AccuracyRatingPerFrenzyChargeUniqueGlovesDexInt5
 FrenzyChargeDurationPerFrenzyChargeUniqueGlovesDexInt5
+{variant:1}While at Maximum Frenzy Charges, Attacks Poison Enemies
 {variant:2,3}AtMaximumFrenzyChargesChanceToPoisonUnique_1_
 {variant:3}PoisonDotMultiplierPerFrenzyChargeUniqueGlovesDexInt5
-{variant:1}While at Maximum Frenzy Charges, Attacks Poison Enemies
 ]],[[
 Storm's Gift
 Assassin's Mitts
@@ -1086,8 +1082,8 @@ Requires Level 67, 51 Dex, 51 Int
 {variant:1,3}AddedLightningDamageUniqueGlovesDexInt3
 {variant:2}AddedLightningDamageUniqueBodyInt8
 IncreasedAttackSpeedUniqueGlovesDexInt3
-{variant:4}LocalIncreasedEvasionAndEnergyShieldUnique__35
 {variant:1,2,3}LocalIncreasedEnergyShieldUniqueGlovesDexInt3
+{variant:4}LocalIncreasedEvasionAndEnergyShieldUnique__35
 {variant:1,2,3}StunDurationUniqueGlovesDexInt3
 {variant:1,2,3}ShockDurationUniqueGlovesDexInt3
 {variant:4}LightningAilmentEffectUnique__1
@@ -1109,9 +1105,9 @@ Requires Level 69, 38 Str, 38 Dex, 38 Int
 League: Expedition
 IncreasedLocalAttributeRequirementsUnique__1
 LocalIncreasedWardPercentUnique__3
-AllResistancesUnique__21
-FlaskChargePerSecondUniqueEnemyUnique__1___
+AllResistancesUnique__23__
 FlaskChargesFromKillsFinalUnique__1_
+FlaskChargePerSecondUniqueEnemyUnique__1___
 ]],[[
 Nightgrip
 Runic Gages
@@ -1121,9 +1117,9 @@ Variant: Current
 League: Expedition
 Requires Level 48, 31 Str, 31 Dex, 31 Int
 LocalIncreasedWardPercentUnique__1_
-ChaosResistUnique__11
-{variant:3}GlobalAddedChaosDamageWardUnique__
-DamageBypassesWardPercentUnique__1
+ChaosResistUnique__10
 {variant:1}Gain Added Chaos Damage equal to 25% of Ward
 {variant:2}Gain Added Chaos Damage equal to 20% of Ward
+{variant:3}GlobalAddedChaosDamageWardUnique__
+DamageBypassesWardPercentUnique__1
 ]],}

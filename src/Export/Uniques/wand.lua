@@ -36,9 +36,9 @@ Implicits: 3
 IncreasedCastSpeedUniqueWand7
 ChaosResistUniqueWand7
 {variant:1,2,3}ManaCostIncreasedUniqueWand7
+{variant:3,4}Poisons you inflict deal Damage 20% faster
 {variant:5,6}FasterPoisonDamageUnique__1
 {variant:4,5,6}IncreaseGlobalFlatManaCostUnique__3_
-{variant:3,4}Poisons you inflict deal Damage 20% faster
 ]],[[
 Ashcaller
 {variant:1,2,3}Quartz Wand
@@ -54,16 +54,16 @@ Implicits: 3
 {variant:4}SpellDamageOnWeaponImplicitWand3
 {variant:5}AddedFireDamageSpellsAndAttacksImplicit1
 {variant:1,2}10% chance to Trigger Level 8 Summon Raging Spirit on Kill
-{variant:3,4,5}VillageSummonRagingSpiritOnKill
-{variant:2}FireDamageOverTimeMultiplierUnique__2_
-{variant:3,4,5}LocalAddedFireDamageUnique__2
-{variant:2}BurnDamageUnique__1
-{variant:1,2}ChanceToIgniteUnique__1
-{variant:3,4,5}CoverInAshOnHitUnique__1
+{variant:3,4,5}SummonRagingSpiritOnKillUnique__1
 {variant:1}Adds (10-14) to (18-22) Fire Damage
+{variant:3,4,5}LocalAddedFireDamageUnique__2
+{variant:2}FireDamageOverTimeMultiplierUnique__2_
 {variant:1,2}Adds (4-6) to (7-9) Fire Damage to Spells
 {variant:3,4,5}Adds (20-24) to (36-46) Fire Damage to Spells
 {variant:1}(40-50)% increased Burning Damage
+{variant:2}BurnDamageUniqueCorruptedJewel1
+{variant:1,2}ChanceToIgniteUnique__1
+{variant:3,4,5}CoverInAshOnHitUnique__1
 ]],[[
 Eclipse Solaris
 {variant:1,2,3,4}Crystal Wand
@@ -84,13 +84,13 @@ Implicits: 4
 {variant:4,5}LocalAddedFireDamageUnique__6
 {variant:4,5}LocalIncreasedAttackSpeedUnique__42
 {variant:6}LocalIncreasedAttackSpeedUnique__32
+{variant:1}+(18-30)% to Global Critical Strike Multiplier
 {variant:2,3,4,5,6}CriticalMultiplierUnique__1
-{variant:1,2,3,4,5}LightRadiusUnique__3
+{variant:1,2,3,4,5}LightRadiusUniqueShieldDemigods
 {variant:6}LightRadiusUnique__1
-UniqueSpecialCorruptionNearbyEnemiesBlinded
+NearbyEnemiesAreBlindedUnique__1
 CriticalChanceAgainstBlindedEnemiesUnique__1
 AddedFireDamageFromLightRadiusUnique__1
-{variant:1}+(18-30)% to Global Critical Strike Multiplier
 ]],[[
 Corona Solaris
 Crystal Wand
@@ -105,7 +105,7 @@ BlindingAuraSkillUnique__1
 {variant:2}LocalAddedFireDamageUnique__6
 {variant:2}IncreasedAttackSpeedUniqueShieldDex6
 CriticalMultiplierUnique__1
-LightRadiusUnique__8
+LightRadiusUnique__3
 CriticalChanceAgainstBlindedEnemiesUnique__1
 LightRadiusAppliesToAccuracyUnique__1_
 AddedFireDamageAgainstBlindedEnemiesUnique__1_
@@ -153,9 +153,8 @@ LifeReservationUniqueWand2
 IntelligenceUniqueWand2
 {variant:1,2}MinionRunSpeedUnique__4
 {variant:3,4}MinionRunSpeedUniqueWand2
-{variant:3,4}MinionDamageUniqueWand2
-Reserves 30% of Life
 {variant:1,2}Minions deal (10-30)% increased Damage
+{variant:3,4}MinionDamageUniqueWand2
 +1 to Maximum number of Raised Zombies
 +1 to Maximum number of Spectres
 +1 to Maximum number of Skeletons
@@ -178,7 +177,6 @@ MinionDamageUniqueWand2
 ExtraRagingSpiritsUnique__1
 Reserves 30% of Life
 ExtraMaximumPhantasmsUnique__1
-Reserves 30% of Life
 ]],[[
 Moonsorrow
 Imbued Wand
@@ -197,12 +195,12 @@ Implicits: 3
 {variant:4,5}ItemActsAsSupportBlindUniqueWand1
 IntelligenceUniqueWand1
 SpellDamageUniqueWand1
-{variant:4,5}LocalIncreasedPhysicalDamagePercentUniqueWand1
-LightningDamageUniqueWand1
-IncreasedCastSpeedUniqueWand10
-BlindingHitUniqueWand1
 {variant:1}125% increased Physical Damage
 {variant:2,3}175% increased Physical Damage
+{variant:4,5}LocalIncreasedPhysicalDamagePercentUniqueWand1
+LightningDamageUniqueWand1
+IncreasedCastSpeedImplicitMarakethWand1
+BlindingHitUniqueWand1
 ]],[[
 Obliteration
 {variant:1,2,3,4}Demon's Horn
@@ -222,9 +220,9 @@ Implicits: 4
 {variant:1,2}Adds (24-30) to (80-92) Physical Damage
 {variant:3}LocalAddedPhysicalDamageUnique__2_
 {variant:1,2,3}LocalCriticalStrikeChanceUnique__1
+{variant:1,2,3}Gain (13-15)% of Physical Damage as Extra Chaos Damage
 {variant:4,5,6}ChaosDamageAsPortionOfDamageUnique__1
 ExplodeOnKillChaosUnique__1
-{variant:1,2,3}Gain (13-15)% of Physical Damage as Extra Chaos Damage
 ]],[[
 Piscator's Vigil
 {variant:1,2,3}Tornado Wand
@@ -251,11 +249,11 @@ The Poet's Pen
 {variant:2}Somatic Wand
 Implicits: 1
 {variant:1}SpellDamageOnWeaponImplicitWand3
-TriggerSocketedSpellOnAttackUnique__1
-AddsPhysicalDamagePer3PlayerLevelsUnique__1_
-LocalIncreasedAttackSpeedUnique__31
 {variant:2}KineticWandImplicit
 +1 to Level of Socketed Active Skill Gems per 25 Player Levels
+AddsPhysicalDamagePer3PlayerLevelsUnique__1_
+IncreasedAttackSpeedUnique__5
+TriggerSocketedSpellOnAttackUnique__1
 ]],[[
 Reverberation Rod
 Spiraled Wand
@@ -268,10 +266,10 @@ Implicits: 3
 {variant:1}SpellDamageOnWeaponImplicitWand2
 {variant:2,3,4}SpellDamageOnWeaponImplicitWand5
 {variant:5}AddedLightningDamageSpellsAndAttacksImplicit1
-{variant:1,2}LocalIncreaseSocketedGemLevelUnique__2
+{variant:1,2}LocalIncreaseSocketedGemLevelUnique__5
 {variant:3,4,5}LocalIncreaseSocketedGemLevelUniqueWand8
 {variant:4,5}SupportedByArcaneSurgeUniqueWand8
-SupportedByEchoUniqueWand8
+SupportedByEchoUniqueWand8New_
 {variant:4,5}ControlledDestructionSupportUniqueWand8
 IntelligenceUniqueWand8
 ]],[[
@@ -296,10 +294,10 @@ Variant: Current
 LevelReq: 36
 Implicits: 1
 SpellDamageOnWeaponImplicitWand5
-{variant:1}LocalIncreaseSocketedGemLevelUnique__7
+{variant:1}LocalIncreaseSocketedGemLevelUniqueHelmetStrDex6
 {variant:2}LocalIncreaseSocketedGemLevelUniqueWand8
 SupportedByIntensifyUnique__1
-SupportedByEchoUniqueWand8
+SupportedByEchoUniqueWand8New_
 ControlledDestructionSupportUniqueWand8
 IntelligenceUniqueWand8
 ]],[[
@@ -311,8 +309,8 @@ Implicits: 1
 SpellDamageOnWeaponImplicitWand6
 ElementalDamagePercentAddedAsChaosUnique__3
 CriticalStrikesDealNoDamageUnique__1
-{variant:2}SpellDamageIfYouHaveCritRecentlyUnique__1
 {variant:1}120% increased Spell Damage if you've dealt a Critical Strike Recently
+{variant:2}SpellDamageIfYouHaveCritRecentlyUnique__1
 ]],[[
 Shimmeron
 Tornado Wand
@@ -346,8 +344,8 @@ Implicits: 3
 LocalIncreasedPhysicalDamagePercentUnique__6
 LocalAddedLightningDamageUnique__2
 ManaRegenerationUnique__1
-PowerChargeOnKillChanceUnique__1
 +1 to Maximum Power Charge
+PowerChargeOnKillChanceUnique__1
 ]],[[
 Tulborn
 {variant:1,2}Spiraled Wand
@@ -361,13 +359,13 @@ Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
 Implicits: 2
 {variant:1,2}SpellDamageOnWeaponImplicitWand5
 {variant:3}AddedColdDamageSpellsAndAttacksImplicit3
+{variant:1,2}IncreasedCastSpeedUniqueIntHelmet2
 {variant:3}SpellAddedColdDamageUnique__7
-{variant:1,2}IncreasedCastSpeedUnique__7
+{variant:1,2}50% chance to gain a Power Charge on Killing a Frozen Enemy
 {variant:3}GainPowerChargeOnKillingFrozenEnemyUnique__1
 {variant:1,2}AddedColdDamagePerPowerChargeUnique__1
 {variant:3}ColdExposureAdditionalResistanceUnique__1
 GainManaOnKillingFrozenEnemyUnique__1
-{variant:1,2}50% chance to gain a Power Charge on Killing a Frozen Enemy
 ]],[[
 Tulfall
 {variant:1,2}Tornado Wand
@@ -380,16 +378,16 @@ Source: Upgraded from unique{Tulborn} using currency{Blessing of Tul}
 Implicits: 2
 {variant:1,2}SpellDamageOnWeaponImplicitWand16
 {variant:3}AddedColdDamageSpellsAndAttacksImplicit3
-{variant:1,2}IncreasedCastSpeedUnique__20
+{variant:1,2}IncreasedCastSpeedUniqueGlovesStr1
 {variant:3}IncreasedCastSpeedUniqueWand3
-{variant:2,3}MutatedUniqueRing34GainPowerChargeOnKillingFrozenEnemy
-{variant:3}AddedColdDamagePerPowerChargeUnique__2
-MutatedUniqueAmulet14LosePowerChargesOnMaxPowerCharges
-WhenReachingMaxPowerChargesGainAFrenzyChargeUnique__1
-{variant:2}IncreasedColdDamagePerFrenzyChargeUnique__1
 {variant:1}50% chance to gain a Power Charge on Killing a Frozen Enemy
+{variant:2,3}MutatedUniqueRing34GainPowerChargeOnKillingFrozenEnemy
 {variant:1,2}Adds 15 to 25 Cold Damage to Spells per Power Charge
+{variant:3}AddedColdDamagePerPowerChargeUnique__2
+LosePowerChargesOnMaxPowerChargesUnique__1
+WhenReachingMaxPowerChargesGainAFrenzyChargeUnique__1
 {variant:1}(10-15)% increased Cold Damage per Frenzy Charge
+{variant:2}IncreasedColdDamagePerFrenzyChargeUnique__1
 ]],[[
 Replica Tulfall
 {variant:1}Tornado Wand
@@ -402,7 +400,7 @@ Implicits: 2
 {variant:1}SpellDamageOnWeaponImplicitWand16
 {variant:2}AddedColdDamageSpellsAndAttacksImplicit3
 IncreasedCastSpeedUnique__22
-LosePowerChargesOnMaxPowerChargesUnique__1
+LosePowerChargesOnMaxPowerChargesUnique__2
 WhenReachingMaxPowerChargesGainAFrenzyChargeUnique__1
 IncreasedColdDamagePerFrenzyChargeUnique__2
 PowerChargeOnHittingFrozenEnemyUnique__1
@@ -417,15 +415,15 @@ Variant: Current
 Implicits: 2
 {variant:1}(11-14)% increased Spell Damage
 {variant:2}SpellDamageOnWeaponImplicitWand6
-{variant:1,2}SocketedGemsAdditionalProjectilesUniqueWand9
+{variant:3}KineticWandImplicit
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword5
 {variant:3}LocalIncreasedPhysicalDamagePercentUniqueWand9
 LocalAddedPhysicalDamageUniqueWand9
 LocalIncreasedAttackSpeedUniqueWand9
 LocalCriticalStrikeChanceUniqueWand9
-{variant:3}KineticWandImplicit
-{variant:3}OffHandAreaOfEffectWhileInMainHandUnique__1
+{variant:1,2}SocketedGemsAdditionalProjectilesUniqueWand9
 {variant:3}Attacks fire (1-2) additional Projectiles when in Off Hand
+{variant:3}OffHandAreaOfEffectWhileInMainHandUnique__1
 ]],[[
 Replica Twyzel
 {variant:1}Sage Wand
@@ -439,7 +437,7 @@ Implicits: 2
 {variant:2}KineticWandImplicit
 LocalIncreasedPhysicalDamagePercentUniqueWand9x
 LocalIncreasedAttackSpeedUniqueWand9
-LocalCriticalStrikeChanceUnique__20
+LocalCriticalStrikeChanceUnique__22
 AttackAdditionalProjectilesUnique__1
 ]],[[
 Void Battery
@@ -460,7 +458,7 @@ Mystic Refractor
 Pagan Wand
 Requires Level 34, 118 Int
 Implicits: 1
-IncreasedCastSpeedUniqueWand10
+IncreasedCastSpeedImplicitMarakethWand1
 AdditionalProjectilesUniqueWand_1
 ProjectileSpeedUnique__9
 IncreasedProjectileDamageUnique__1

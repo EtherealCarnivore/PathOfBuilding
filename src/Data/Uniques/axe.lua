@@ -13,8 +13,8 @@ Variant: Current
 Has no Sockets
 (200-250)% increased Physical Damage
 You have no Intelligence
-{variant:1}Critical Strike Chance is (20-30)% for Hits with this Weapon
 {variant:2}Critical Strike Chance is (30-40)% for Hits with this Weapon
+{variant:1}Critical Strike Chance is (20-30)% for Hits with this Weapon
 ]],[[
 Dreadarc
 Cleaver
