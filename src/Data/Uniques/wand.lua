@@ -155,6 +155,7 @@ Cannot be used with Chaos Inoculation
 {variant:3,4}Minions have (20-30)% increased Movement Speed
 {variant:3,4}Minions deal (50-70)% increased Damage
 Reserves 30% of Life
+Reserves 30% of Life
 {variant:1,2}Minions deal (10-30)% increased Damage
 +1 to Maximum number of Raised Zombies
 +1 to Maximum number of Spectres
@@ -178,6 +179,7 @@ Minions deal (50-70)% increased Damage
 +6 to maximum number of Raging Spirits
 Reserves 30% of Life
 +3 to maximum number of Summoned Phantasms
+Reserves 30% of Life
 Reserves 30% of Life
 ]],[[
 Moonsorrow

@@ -221,8 +221,8 @@ Rearguard
 Variant: Pre 3.17.0
 Variant: Current
 Implicits: 2
-{variant:1}6 to 12 Added Physical Damage with Bow Attacks
 (20-24)% Chance to Block Attack Damage
+{variant:1}6 to 12 Added Physical Damage with Bow Attacks
 (12-15)% Chance to Block Spell Damage
 +(400-450) to Armour
 (20-30)% increased Projectile Speed
@@ -269,8 +269,8 @@ Variant: Current
 League: Harvest
 Requires Level 57
 Implicits: 2
-{variant:1}6 to 12 Added Physical Damage with Bow Attacks
 +(20-40) to Dexterity
+{variant:1}6 to 12 Added Physical Damage with Bow Attacks
 Regenerate (150-200) Life per Second while in Blood Stance
 (40-60)% increased Projectile Damage while in Blood Stance
 +(700-1000) to Evasion Rating while in Sand Stance
@@ -351,6 +351,7 @@ Adds (30-40) to (80-100) Cold Damage to Attacks
 Gain (20-40) Mana per Enemy Killed
 30% increased Projectile Speed
 5 Maximum Void Charges
+Gain a Void Charge every 0.5 seconds
 Gain a Void Charge every 0.5 seconds
 {variant:1}Gain a Void Charge every second
 {variant:2,3}Gain a Void Charge every 0.5 seconds

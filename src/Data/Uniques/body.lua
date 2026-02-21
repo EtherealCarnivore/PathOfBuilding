@@ -167,6 +167,7 @@ Chance to Block Spell Damage is Unlucky
 (80-100)% increased Armour
 10% reduced Movement Speed
 (45-50)% increased Cooldown Recovery Rate of Movement Skills
+(45-50)% increased Cooldown Recovery Rate of Movement Skills
 Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength
 ]],[[
 Perfidy
@@ -629,6 +630,9 @@ Hexes from Socketed Skills can apply 5 additional Curses
 {variant:3}20% less Effect of your Curses
 Socketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned
 Hexes from Socketed Skills can apply 5 additional Curses
+20% less Effect of Curses from Socketed Hex Skills
+Socketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned
+Hexes from Socketed Skills can apply 5 additional Curses
 {variant:2}20% less Effect of Curses from Socketed Hex Skills
 {variant:1}(33-25)% reduced Effect of your Curses
 ]],[[
@@ -664,6 +668,8 @@ Implicits: 0
 +10 to maximum Divine Charges
 Gain a Divine Charge on Hit
 You gain Divinity for 10 seconds on reaching maximum Divine Charges
+Lose all Divine Charges when you gain Divinity
+Gain a Divine Charge on Hit
 Lose all Divine Charges when you gain Divinity
 Gain a Divine Charge on Hit
 Lose all Divine Charges when you gain Divinity
@@ -1268,6 +1274,7 @@ Implicits: 0
 {variant:2,3}Shocked Enemies you Kill Explode, dealing 5% of
 {variant:2,3}their Life as Lightning Damage which cannot Shock
 Unaffected by Shock
+{variant:2,3}their Life as Lightning Damage which cannot Shock
 {variant:1,2}(25-40)% increased Effect of Shock
 {variant:1}Shocked Enemies you Kill Explode, dealing (5-10)% of
 their Life as Lightning Damage which cannot Shock

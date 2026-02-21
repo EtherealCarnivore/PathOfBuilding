@@ -23,6 +23,7 @@ Implicits: 1
 {variant:2}{tags:speed}10% reduced Movement Speed
 +3% to maximum Chance to Block Attack Damage
 {variant:2,3,4}{tags:physical}Reflects 240 to 300 Physical Damage to Attackers on Block
+{variant:2}{tags:speed}(45-50)% increased Cooldown Recovery Rate of Movement Skills
 {variant:1}{tags:life}(30-40) Life gained when you Block
 {variant:1}{tags:mana}(10-20) Mana gained when you Block
 {variant:2,3,4}{tags:mana}(10-24) Mana gained when you Block
@@ -37,6 +38,8 @@ Implicits: 1
 {tags:life}+(50-70) to maximum Life
 {tags:chaos}+(17-29)% to Chaos Resistance
 Every 10 seconds:
+Gain 2% of Life per Enemy Hit with Attacks for 5 seconds
+Gain 5% of Life per Enemy Killed for 5 seconds
 Gain 2% of Life per Enemy Hit with Attacks for 5 seconds
 Gain 5% of Life per Enemy Killed for 5 seconds
 Gain 2% of Life per Enemy Hit with Attacks for 5 seconds
@@ -182,6 +185,7 @@ Implicits: 1
 {variant:5}Vitality has no Reservation
 {variant:15}Wrath has no Reservation
 {variant:16}Zealotry has no Reservation
+{variant:1,2,3,4,5}Nearby Enemies have 10% reduced Stun and Block Recovery
 {variant:1,2,3,4,5}Nearby Enemies have 10% reduced Stun and Block Recovery
 ]],[[
 The Aylardex
@@ -482,8 +486,8 @@ Implicits: 32
 {variant:8}{tags:caster}(40-60)% increased Spell Damage
 {variant:6}{tags:fire}(40-60)% increased Fire Damage
 {variant:24}{tags:life}Regenerate 4% of Life per second
-{variant:33}+(24-36)% to Damage over Time Multiplier
 Implicit Modifier magnitudes are doubled
+{variant:33}+(24-36)% to Damage over Time Multiplier
 {variant:7}{tags:elemental_damage}(40-60)% increased Lightning Damage
 {variant:9}{tags:physical_damage}(40-60)% increased Global Physical Damage
 {variant:10}{tags:mana}(40-60)% increased maximum Mana
@@ -1219,9 +1223,9 @@ Variant: Current
 Requires Level 50
 Implicits: 1
 {tags:attribute}+(16-24) to Dexterity and Intelligence
-{variant:2}{tags:attack,speed}(10-15)% increased Attack Speed
 {variant:3}{tags:attack,speed}(10-25)% increased Attack Speed
 {variant:1}{tags:attack,speed}(8-12)% increased Attack Speed
+{variant:2}{tags:attack,speed}(10-15)% increased Attack Speed
 {variant:1}{tags:caster,speed}(8-12)% increased Cast Speed
 {variant:2}{tags:caster,speed}(10-15)% increased Cast Speed
 {variant:3}{tags:caster,speed}(10-25)% increased Cast Speed
@@ -1247,6 +1251,7 @@ Implicits: 1
 You do not inherently take less Damage for having Fortification
 +4% chance to Suppress Spell Damage per Fortification
 {tags:attack,caster,speed}(15-25)% increased Attack and Cast Speed while at maximum Fortification
++4% chance to Suppress Spell Damage per Fortification
 {variant:2}+4% chance to Suppress Spell Damage per Fortification
 ]],[[
 Winterheart
@@ -1345,6 +1350,7 @@ Source: Drops from unique{Incarnation of Neglect} in normal{Moment of Loneliness
 Requires Level 69
 Implicits: 2
 Implicit Modifiers Cannot Be Changed
+Has Elder, Shaper and all Conqueror Influences
 Has Elder, Shaper and all Conqueror Influences
 The stars are aligned if you have 6 Influence types among other Equipped Items
 You have Elemental Conflux if the stars are aligned

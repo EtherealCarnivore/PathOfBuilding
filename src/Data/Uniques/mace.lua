@@ -80,8 +80,8 @@ Adds (24-30) to (34-40) Physical Damage
 Variant: Pre 2.6.0
 Variant: Current
 Implicits: 2
-{variant:2}10% reduced Enemy Stun Threshold
 (60-80)% increased Physical Damage
+{variant:2}10% reduced Enemy Stun Threshold
 Adds 10 to 15 Physical Damage
 10% increased Attack Speed
 Dream Mace
@@ -178,6 +178,7 @@ Implicits: 2
 (80-120)% increased Physical Damage
 {variant:5}(80-100)% increased Lightning Damage
 Skills Chain +1 times
+{variant:3,4,5}Socketed Lightning Spells have no Cost if Triggered
 {variant:1,2,3,4}(30-40)% increased Lightning Damage with Attack Skills
 {variant:1}50% chance to Cast a Socketed Lightning Spell on Hit
 {variant:2}30% chance to Cast a Socketed Lightning Spell on Hit
@@ -679,6 +680,7 @@ Implicits: 2
 Adds 11 to 23 Cold Damage
 (10-20)% increased Stun Duration on Enemies
 Never deal Critical Strikes
+Nearby Enemies cannot deal Critical Strikes
 ]],[[
 Geofri's Devotion
 Brass Maul
@@ -846,6 +848,8 @@ Implicits: 1
 (150-250)% increased Physical Damage
 +(400-500) to Accuracy Rating
 Can be Enchanted by a Kalguuran Runesmith
+Can have 2 additional Runesmithing Enchantments
+Can be Runesmithed as though it were all One Handed Melee Weapon Types
 Can have 2 additional Runesmithing Enchantments
 Can be Runesmithed as though it were all One Handed Melee Weapon Types
 Can have 2 additional Runesmithing Enchantments

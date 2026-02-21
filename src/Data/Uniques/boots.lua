@@ -430,6 +430,7 @@ Requires Level 22, 42 Int
 {variant:2}+1 to Level of all Raise Zombie Gems
 {variant:2}+1 to Level of all Raise Spectre Gems
 (5-15)% increased Movement Speed
+{variant:2}+1 to Level of all Raise Spectre Gems
 {variant:1}+1 to Maximum number of Raised Zombies
 {variant:1}+1 to Maximum number of Spectres
 {variant:2}+1 to Level of all Raise Spectre Gems
@@ -446,6 +447,7 @@ Requires Level 22, 42 Int
 +20 to maximum Mana
 (5-15)% increased Movement Speed
 {variant:2}Summoned Phantasms have 10% chance to refresh their Duration when they Hit a Rare or Unique Enemy
+{variant:2}Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Rare or Unique Enemy
 {variant:2}Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Rare or Unique Enemy
 {variant:1}Summoned Phantasms have 10% chance to refresh their Duration when they Hit a Unique Enemy
 {variant:1}Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Unique Enemy
@@ -495,6 +497,7 @@ Requires Level 61, 119 Int
 25% chance that if you would gain Power Charges, you instead gain up to
 your maximum number of Power Charges
 your maximum number of Power Charges
+your maximum number of Power Charges
 ]],[[
 Replica Inya's Epiphany
 Arcanist Slippers
@@ -542,6 +545,7 @@ Requires Level 32, 54 Int
 {variant:3,4}15% increased Movement Speed
 {variant:3,4}20% increased Movement Speed when on Full Life
 {variant:2,3,4}(150-200)% increased Stun and Block Recovery
+{variant:2,3,4}(150-200)% increased Stun and Block Recovery
 {variant:1}(50-70)% increased Energy Shield
 {variant:1,2}35% increased Movement Speed when on Full Life
 {variant:1,2,3}(10-15)% increased Stun and Block Recovery
@@ -561,6 +565,7 @@ Requires Level 32, 54 Int
 {variant:1}Regenerate 2% of Energy Shield per second while on Low Life
 (150-200)% increased Stun and Block Recovery
 {variant:2}Regenerate 1% of Energy Shield per second
+(150-200)% increased Stun and Block Recovery
 {variant:1}35% increased Movement Speed when on Full Life
 (10-15)% increased Stun and Block Recovery
 ]],[[
@@ -822,6 +827,7 @@ Adds 1 to 80 Chaos Damage to Attacks
 {variant:2}25% increased Movement Speed
 {variant:2}Summoned Skeleton Warriors are Permanent and Follow you
 {variant:2}Summon Skeletons cannot Summon more than 1 Skeleton Warrior
+{variant:2}Summon Skeletons cannot Summon more than 1 Skeleton Warrior
 {variant:1}+(9-12)% to Chaos Resistance
 {variant:1}+1 to Maximum number of Skeletons
 {variant:2}Summon Skeletons cannot Summon more than 1 Skeleton Warrior
@@ -902,7 +908,11 @@ Requires Level 36, 35 Str, 35 Int
 {variant:3,4}Count as having maximum number of Power Charges
 {variant:5}Count as having maximum number of Power Charges
 {variant:3,4}Count as having maximum number of Frenzy Charges
+{variant:5}Count as having maximum number of Frenzy Charges
+{variant:3,4}Count as having maximum number of Frenzy Charges
 {variant:6}Count as having maximum number of Frenzy Charges
+{variant:3,4}Count as having maximum number of Power Charges
+{variant:5}Count as having maximum number of Power Charges
 {variant:3,4}Count as having maximum number of Power Charges
 {variant:7}Count as having maximum number of Power Charges
 {variant:1}Gain a Frenzy, Endurance, or Power Charge once per second while you are Stationary
@@ -1112,6 +1122,7 @@ Enemies display their Monster Category
 (80-120)% increased Evasion and Energy Shield
 +(13-23)% to Chaos Resistance
 (20-30)% increased Movement Speed
+Enemies display their Monster Category
 Enemies display their Monster Category
 ]],[[
 Voidwalker

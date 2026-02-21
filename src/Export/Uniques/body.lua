@@ -9,7 +9,7 @@ League: Heist
 Implicits: 1
 AllResistancesImplicitArmour1
 StrengthRequirementsUnique__3_
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__29
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__31
 ShrineBuffEffectUnique__1
 HasBrutalShrineBuffUnique__1
 HasMassiveShrineBuffUnique__1
@@ -20,12 +20,12 @@ Variant: Pre 3.19.0
 Variant: Current
 Implicits: 0
 {variant:1}AddedPhysicalDamageUniqueBodyStr2
-{variant:1}+(12-20) to maximum Life
 {variant:2}IncreasedLifeUniqueBodyStr2
+{variant:2}PhysicalDamageTakenPercentToReflectUniqueBodyStr2
+{variant:1}+(12-20) to maximum Life
 {variant:1}-2 Physical Damage taken from Attacks
 {variant:2}-(10-15) Physical Damage taken from Attacks
 {variant:1}40% of Melee Physical Damage taken reflected to Attacker
-{variant:2}PhysicalDamageTakenPercentToReflectUniqueBodyStr2
 ]],[[
 Wall of Brambles
 Plate Vest
@@ -44,13 +44,14 @@ Variant: Pre 3.16.0
 Variant: Current
 Implicits: 0
 {variant:1}(600-650)% increased Armour
-{variant:2}LocalIncreasedPhysicalDamageReductionRatingPercentUnique__3
 {variant:1}ReducedChanceToBlockUnique__1
-{variant:1}MovementSkillCooldownReducedMoveSpeedImplicitR1
-{variant:1}50% increased Shock Duration on You
-TakeNoExtraDamageFromCriticalStrikesUnique__1
+{variant:2}LocalIncreasedPhysicalDamageReductionRatingPercentUnique__3
 {variant:2}MaximumElementalResistanceUnique__1__
+{variant:1}ReducedMovementVelocityUnique__1
 {variant:2}NoMaximumLifePerStrengthUnique__2
+TakeNoExtraDamageFromCriticalStrikesUnique__1
+{variant:1}(45-50)% increased Cooldown Recovery Rate of Movement Skills
+{variant:1}50% increased Shock Duration on You
 ]],[[
 Craiceann's Carapace
 Golden Plate
@@ -60,12 +61,12 @@ League: Bestiary
 Source: Drops from unique{Craiceann, First of the Deep}
 Implicits: 0
 GrantsCrabAspect1_
-{variant:1}(300-350)% increased Armour
 {variant:2}LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBodyStr6
 IncreasedLifeUnique__72_
 FireAndColdResistUnique__3
 BleedingImmunityUnique__1
 MaximumCrabBarriersUnique__1
+{variant:1}(300-350)% increased Armour
 ]],[[
 Death's Oath
 Astral Plate
@@ -81,9 +82,9 @@ LocalIncreasedPhysicalDamageReductionRatingUniqueBodyStr3
 {variant:3}IncreasedLifeUniqueBodyDex6
 LifeLeechPermyriadUniqueBodyStr3
 {variant:1,2}DisplayChaosDegenerationAuraUniqueBodyStr3
-{variant:1}You take 450 Chaos Damage per second for 10 seconds on Kill
 {variant:2,3}ChaosDegenerationOnKillUniqueBodyStr3
 ItemBloodFootstepsUniqueBodyStr3
+{variant:1}You take 450 Chaos Damage per second for 10 seconds on Kill
 ]],[[
 Doppelgänger Guise
 Sadist Garb
@@ -95,24 +96,24 @@ Implicits: 0
 GrantsUnhingeUnique__1
 CriticalStrikeChanceFinalUnhingedUnique__1
 EnemiesExplodeOnKillUnhingedUnique__1_
-{variant:1}(15-25)% less Physical and Chaos Damage Taken while Sane
 {variant:2}PhysicalChaosDamageTakenNotUnhingedUnique__1_
 RegenerateLifeNotUnhingedUnique__1
+{variant:1}(15-25)% less Physical and Chaos Damage Taken while Sane
 ]],[[
 Greed's Embrace
 Golden Plate
 Variant: Pre 3.25.0
 Variant: Current
 Implicits: 0
+ReducedStrengthRequirementUniqueBodyStr5
 {variant:1}ItemFoundQuantityIncreaseUniqueBodyStr5
-{variant:1}(30-50)% increased Rarity of Items found
 {variant:2}ItemFoundRarityIncreaseUniqueBodyStr5
 FireResistUniqueBodyStr5
 ColdResistUniqueBodyStr5
+MovementVelocityUniqueBodyStr5
+{variant:1}(30-50)% increased Rarity of Items found
 {variant:1}-20% to Lightning Resistance
 {variant:2}(-20--10)% to Lightning Resistance
-MovementVelocityUniqueBodyStr5
-ReducedStrengthRequirementUniqueBodyStr5
 ]],[[
 Kaom's Heart
 Glorious Plate
@@ -121,8 +122,8 @@ Variant: Pre 3.25.0
 Variant: Current
 Implicits: 0
 HasNoSockets
-{variant:2}(20-40)% increased Fire Damage
 {variant:1,3}IncreasedLifeUniqueBodyStr1
+{variant:2}(20-40)% increased Fire Damage
 {variant:2}+500 to maximum Life
 ]],[[
 Replica Kaom's Heart
@@ -140,10 +141,10 @@ Variant: Pre 3.5.0
 Variant: Current
 Implicits: 0
 SocketedGemsSupportedByPierceUniqueBodyStr6
+{variant:2}DexterityRequirementsUnique__1
 LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBodyStr6
 IncreasedLifeUniqueBodyStr6
 ManaLeechPermyriadUniqueBodyStr6
-{variant:2}DexterityRequirementsUnique__1
 ChanceToBePiercedUniqueBodyStr6
 ]],[[
 Iron Heart
@@ -151,9 +152,10 @@ Crusader Plate
 Source: No longer obtainable
 Implicits: 0
 BlockPercentUnique__1
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__15
-MovementSkillCooldownReducedMoveSpeedImplicitR2_
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__9
+ReducedMovementVelocityUnique__2
 CannotBlockSpellsUnique__1
+(45-50)% increased Cooldown Recovery Rate of Movement Skills
 Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength
 ]],[[
 The Iron Fortress
@@ -163,7 +165,8 @@ BlockChancePer50StrengthUnique__1
 ExtraRollsSpellBlockUnique__1
 StrengthUnique__13_
 LocalIncreasedPhysicalDamageReductionRatingPercentUnique__12
-MovementSkillCooldownReducedMoveSpeedImplicitR3_
+MovementSkillCooldownReducedMoveSpeedImplicitR1
+(45-50)% increased Cooldown Recovery Rate of Movement Skills
 Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength
 ]],[[
 Perfidy
@@ -175,6 +178,7 @@ Variant: Dread Banner (Pre 3.25.0)
 Variant: Defiance Banner (Pre 3.25.0)
 Variant: Current
 Implicits: 0
+{variant:4}Allow2ActiveBannersUnique__1
 MeleeDamageUnique__2
 IncreasedLifeUniqueBodyStrDex3_
 {variant:1,2,3}You can have two different Banners at the same time
@@ -182,14 +186,13 @@ IncreasedLifeUniqueBodyStrDex3_
 {variant:1}War Banner has (100-200)% increased Adrenaline duration
 {variant:2}Dread Banner grants an additional +(2-4) to maximum Fortification when placing the Banner
 {variant:3}Defiance Banner has (100-200)% increased Taunt duration
-{variant:4}Allow2ActiveBannersUnique__1
 ]],[[
 Pragmatism
 Colosseum Plate
 League: Affliction
 Requires Level 49, 134 Str
 LocalIncreaseSocketedActiveSkillGemLevelUnique__1
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__26
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__37
 IncreasedManaUnique__28
 -2 to Level of Socketed Skill Gems per Socketed Gem
 ]],[[
@@ -201,7 +204,7 @@ Implicits: 0
 StrengthUniqueBodyStr4
 LocalIncreasedPhysicalDamageReductionRatingUniqueBodyStr4
 {variant:2}ChaosDamageOverTimeUnique__1
-LightRadiusUniqueBodyInt8
+LightRadiusUniqueBodyStr4
 ChaosTakenOnES
 {variant:1}-10 Chaos Damage taken
 {variant:2}-(30-40) Chaos Damage taken
@@ -224,7 +227,7 @@ Variant: Current
 Implicits: 0
 {variant:2}ItemActsAsFireDamageSupportUniqueSceptre2
 LocalIncreasedEvasionRatingPercentUniqueBodyDex3
-{variant:2}IncreasedLifeUnique__4
+{variant:2}IncreasedLifeUnique__8
 FireResistUniqueBodyDex3
 AvoidIgniteUniqueBodyDex3
 {variant:1,2}RangedWeaponPhysicalDamagePlusPercentUniqueBodyDex3
@@ -247,22 +250,22 @@ Implicits: 0
 LocalIncreasedEvasionRatingUniqueBodyDex7
 ColdResistUniqueBodyDex7
 {variant:1,2,3}MovementVelocityUniqueBodyDex7
-{variant:1,2,3}(20-25)% increased Mana Recovery from Flasks
 {variant:4}FlaskManaRecoveryUniqueBodyDex7
 {variant:4}DamagePer15DexterityUnique__1
+{variant:1,2,3}(20-25)% increased Mana Recovery from Flasks
 ]],[[
 Wildwrap
 Strapped Leather
 Source: No longer obtainable
 LevelReq: 57
 Implicits: 0
+PercentageDexterityUniqueBodyDex7
 IncreasedAttackSpeedUniqueBodyDex5
 IncreasedEvasionRatingUnique__5_
 ColdResistUniqueBodyDex7
 MovementVelocityUniqueBodyDex7
-(20-25)% increased Mana Recovery from Flasks
-PercentageDexterityUniqueBodyDex7
 DamagePer15DexterityUnique__2
+(20-25)% increased Mana Recovery from Flasks
 ]],[[
 Bronn's Lithe
 Cutthroat's Garb
@@ -274,11 +277,11 @@ Implicits: 0
 {variant:1,2,3}+2 to Level of Socketed Movement Gems
 {variant:4}LocalIncreaseSocketedMovementGemLevelUniqueBodyDex5
 IncreasedAttackSpeedUniqueBodyDex5
-{variant:2,3}(35-50)% increased Damage with Movement Skills
 {variant:4}DamageWithMovementSkillsUniqueBodyDex5
 LocalIncreasedEvasionRatingPercentUniqueBodyDex5
-MovementVelocityUniqueBodyDex5
+MovementVelocityUniqueBodyDex4
 {variant:3}AttackAndCastSpeedOnUsingMovementSkillUnique__1
+{variant:2,3}(35-50)% increased Damage with Movement Skills
 ]],[[
 Cospri's Will
 Assassin's Garb
@@ -291,7 +294,7 @@ MovementVelocityImplicitShield1
 {variant:3}LocalIncreasedEvasionRatingPercentUnique__2
 {variant:1,2}ChaosResistUniqueAmulet23
 {variant:3}ChaosResistUnique__3
-AdditionalCurseOnEnemiesUnique__2
+VillageAdditionalCurseOnEnemies
 IgnoreHexproofUnique___1
 {variant:1,3}ChanceToPoisonCursedEnemiesOnHitUnique__1
 {variant:2}60% chance to Poison on Hit against Cursed Enemies
@@ -304,13 +307,13 @@ Variant: Current
 Implicits: 0
 DexterityUniqueBodyDex4
 {variant:1,2}AddedPhysicalDamageUniqueBodyDex4
-{variant:1}+150 to Evasion Rating while on Full Life
-{variant:2}+500 to Evasion Rating while on Full Life
 {variant:3}EvasionOnFullLifeUniqueBodyDex4
 LocalIncreasedEvasionRatingPercentUniqueBodyDex4
-{variant:1,2}MovementVelocityUniqueBodyDex5
+{variant:1,2}MovementVelocityUniqueBodyDex4
 {variant:3}MovementVelocityOnFullLifeUnique__1
-{variant:3}EnemyExtraDamageRollsOnFullLifeUnique__1
+{variant:3}EnemyExtraDamageRollsOnFullLifeUnique__2
+{variant:1}+150 to Evasion Rating while on Full Life
+{variant:2}+500 to Evasion Rating while on Full Life
 ]],[[
 Fox's Fortune
 Wild Leather
@@ -318,10 +321,10 @@ Source: No longer obtainable
 Implicits: 0
 DexterityUniqueBodyDex4
 AddedPhysicalDamageUniqueBodyDex4
-EvasionOnFullLifeUnique__1_
 IncreasedEvasionRatingUniqueOneHandSword4
+EvasionOnFullLifeUnique__1_
 LocalIncreasedEvasionRatingPercentUnique__14
-MovementVelocityUniqueBodyDex5
+MovementVelocityUniqueBodyDex4
 Enemies are Unlucky when Damaging you while you are on Full Life
 ]],[[
 Hyrri's Ire
@@ -338,11 +341,11 @@ Implicits: 0
 {variant:1}LocalIncreasedEvasionRatingPercentUniqueBootsDexInt1
 {variant:2,3,4,5,6}LocalIncreasedEvasionRatingPercentUniqueBodyDex1
 IncreasedChillDurationUniqueBodyDex1
+{variant:1,2}Acrobatics
 {variant:1,2,3}Adds 13 to 24 Cold Damage to Bow Attacks
 {variant:4}Adds (50-60) to (70-80) Cold Damage to Bow Attacks
 {variant:5}Adds (173-188) to (240-262) Cold Damage to Bow Attacks
 {variant:6}Adds (100-145) to (160-200) Cold Damage to Bow Attacks
-{variant:1,2}KeystoneAcrobaticsUnique__1
 {variant:3,4,5,6}30% chance to Suppress Spell Damage
 ]],[[
 Replica Hyrri's Ire
@@ -362,14 +365,14 @@ Variant: Pre 3.26.0
 Variant: Current
 Implicits: 0
 {variant:1}LocalIncreasedEvasionRatingPercentUniqueBodyStrDex5
-{variant:2}(120-160)% increased Evasion Rating
 {variant:3}LocalIncreasedEvasionRatingPercentUnique__1
 {variant:1}IncreasedLifeUniqueBodyStrDex2
+{variant:2,3}ReducedDamageIfNotHitRecentlyUnique__1
+{variant:2,3}IncreasedEvasionIfHitRecentlyUnique___1
+{variant:2}(120-160)% increased Evasion Rating
 +30% to Fire Resistance
 {variant:1}20% less Damage taken if you have not been Hit Recently
-{variant:2,3}ReducedDamageIfNotHitRecentlyUnique__1
 {variant:1}50% increased Evasion Rating if you have been Hit Recently
-{variant:2,3}IncreasedEvasionIfHitRecentlyUnique___1
 ]],[[
 Queen of the Forest
 Destiny Leather
@@ -394,14 +397,14 @@ Variant: 3.19.0
 Variant: Current
 Implicits: 0
 LocalIncreasedEvasionRatingPercentUniqueBodyStrDex5
-{variant:1,2}+(160-200) to maximum Life
 {variant:3}IncreasedLifeUniqueBodyStrDex5
-{variant:1}-5% to maximum Fire Resistance
 {variant:2}FireResistUnique__11
 MovementVelocityUniqueBodyStrDex5_
 {variant:1,2}IncreasedFireDamageTakenUniqueBodyStrDex5
-{variant:1,2}FireDamageTakenConvertedToPhysicalUniqueBodyStrDex5
 {variant:3}FireDamageTakenConvertedToPhysicalUnique__1
+{variant:1,2}FireDamageTakenConvertedToPhysicalUniqueBodyStrDex5
+{variant:1,2}+(160-200) to maximum Life
+{variant:1}-5% to maximum Fire Resistance
 ]],[[
 The Snowblind Grace
 {variant:1,2}Coronal Leather
@@ -415,16 +418,16 @@ Variant: Current
 Implicits: 0
 {variant:1}10% chance to Suppress Spell Damage
 {variant:2}20% chance to Suppress Spell Damage
-{variant:1,2}DexterityUnique__30
+{variant:1,2}DexterityUnique__4
 {variant:3}PercentageDexterityUnique__4
 {variant:1}LocalIncreasedEvasionRatingPercentUniqueShieldDex4
 {variant:2,3}LocalIncreasedEvasionRatingPercentUniqueBodyDex3
 IncreasedLifeUniqueShieldStr5
-{variant:1,2}25% increased Arctic Armour Buff Effect
 {variant:3}ArcticArmourBuffEffectUnique__1_
 {variant:3}ArcticArmourReservationCostUnique__1
-{variant:1}Evasion Rating is increased by Uncapped Cold Resistance
 {variant:2}EvasionIncreasedByUncappedColdResistanceUnique__1
+{variant:1,2}25% increased Arctic Armour Buff Effect
+{variant:1}Evasion Rating is increased by Uncapped Cold Resistance
 ]],[[
 The Perfect Form
 Zodiac Leather
@@ -435,7 +438,6 @@ Variant: Pre 3.21.0
 Variant: Current
 Implicits: 0
 {variant:3}ChanceToSuppressSpellsUnique__1
-{variant:1}(5-10)% increased Dexterity
 {variant:2}PercentageDexterityUnique__4
 {variant:1}LocalIncreasedEvasionRatingPercentUniqueShieldDex4
 {variant:2}LocalIncreasedEvasionRatingPercentUniqueBodyDex3
@@ -444,9 +446,10 @@ Implicits: 0
 {variant:2}IncreasedLifeUniqueBodyStrDex4
 ColdResistUnique__14
 {variant:1,2}ArcticArmourReservationCostUnique__1
-{variant:1}Evasion Rating is increased by Uncapped Cold Resistance
 {variant:2,3}EvasionIncreasedByUncappedColdResistanceUnique__1
-KeystonePhaseAcrobaticsUnique__1
+KeystoneAcrobaticsUnique__1
+{variant:1}(5-10)% increased Dexterity
+{variant:1}Evasion Rating is increased by Uncapped Cold Resistance
 ]],[[
 Replica Perfect Form
 Zodiac Leather
@@ -465,12 +468,12 @@ Implicits: 0
 {variant:1}IncreasedLifeUnique__23
 {variant:2,3}IncreasedLifeUniqueBodyStrDex4
 ColdResistUnique__14
-{variant:1}Evasion Rating is increased by Uncapped Cold Resistance
-{variant:4}+20% chance to Block Attack Damage
 {variant:2,3,4}EvasionIncreasedByUncappedColdResistanceUnique__1
 {variant:3}FleshAndStoneManaReservationUnique__1_
 {variant:3}KeystoneHollowPalmTechniqueUnique__1
 {variant:4}KeystoneVersatileCombatantUnique___1
+{variant:1}Evasion Rating is increased by Uncapped Cold Resistance
+{variant:4}+20% chance to Block Attack Damage
 ]],[[
 Yriel's Fostering
 Exquisite Leather
@@ -488,6 +491,7 @@ IncreasedAccuracyUnique__5
 LocalIncreasedEvasionRatingPercentUnique__9
 IncreasedLifeUniqueBodyStrDexInt1
 ProjectileAttackCriticalStrikeChanceUnique__1
+{variant:4}AttackAndMovementSpeedBeastialMinionUnique__1
 {variant:1}Projectiles from Attacks have 20% chance to Maim on Hit while you have a Bestial Minion
 {variant:4}Projectiles from Attacks have 100% chance to Maim on Hit while you have a Bestial Minion
 {variant:2}Projectiles from Attacks have 20% chance to Poison on Hit while you have a Bestial Minion
@@ -495,7 +499,6 @@ ProjectileAttackCriticalStrikeChanceUnique__1
 {variant:3}Projectiles from Attacks have 20% chance to inflict Bleeding on Hit while you have a Bestial Minion
 {variant:6}Projectiles from Attacks have 100% chance to inflict Bleeding on Hit while you have a Bestial Minion
 {variant:1}(10-15)% increased Attack and Movement Speed while you have a Bestial Minion
-{variant:4}AttackAndMovementSpeedBeastialMinionUnique__1
 {variant:2}Adds (13-19)-(23-29) Chaos Damage to Attacks while you have a Bestial Minion
 {variant:5}Adds (18-24)-(30-36) Chaos Damage to Attacks while you have a Bestial Minion
 {variant:3}Adds (11-16)-(21-25) Physical Damage to Attacks while you have a Bestial Minion
@@ -518,15 +521,15 @@ Variant: Pre 3.19.0
 Variant: Current
 Implicits: 0
 SpellDamageUnique__3
-{variant:1}+(50-65) to maximum Energy Shield
 {variant:2}IncreasedEnergyShieldImplicitRing1
-{variant:1,2}(110-130)% increased Energy Shield
 {variant:3}LocalIncreasedEnergyShieldUniqueBodyInt4
-{variant:1,2}(30-40)% increased Energy Shield Recovery Rate
 {variant:3}EnergyShieldRecoveryRateUnique__1
-AreaOfEffectUnique__4_
-{variant:1,2}5% increased Damage taken
+AreaOfEffectUnique__1
 {variant:3}IncreasedDamageTakenUnique__1
+{variant:1}+(50-65) to maximum Energy Shield
+{variant:1,2}(110-130)% increased Energy Shield
+{variant:1,2}(30-40)% increased Energy Shield Recovery Rate
+{variant:1,2}5% increased Damage taken
 ]],[[
 Cloak of Flame
 Scholar's Robe
@@ -535,13 +538,13 @@ Variant: Current
 Implicits: 0
 {variant:1}FireResistUniqueShieldStrDex3
 {variant:2}FireResistUniqueBodyInt2
-{variant:1}(30-50)% increased Ignite Duration on Enemies
 {variant:2}BurnDurationUniqueBodyInt2
 {variant:1}ChanceToIgniteUniqueBodyInt2
-{variant:1}Reflects 15 Fire Damage to Melee Attackers
 {variant:2}AttackerTakesFireDamageUniqueBodyInt2
 {variant:1}PhysicalDamageTakenAsFirePercentUniqueBodyInt2
 {variant:2}PhysicalHitAndDoTDamageTakenAsFireUnique__2
+{variant:1}(30-50)% increased Ignite Duration on Enemies
+{variant:1}Reflects 15 Fire Damage to Melee Attackers
 ]],[[
 Cloak of Tawm'r Isley
 Savant's Robe
@@ -579,12 +582,12 @@ Implicits: 0
 IntelligenceUniqueBodyInt3
 {variant:1}LocalIncreasedEnergyShieldPercentUniqueBodyInt8
 {variant:2}LocalIncreasedEnergyShieldPercentUnique__21
-{variant:3,4}(280-320)% increased Energy Shield
 {variant:5,6}LocalIncreasedEnergyShieldUniqueBodyInt3
 {variant:1,2,3}MaximumLifeUniqueAmulet6
 {variant:4,5,6}MaximumLifeUniqueBodyInt3
-{variant:1,2,3}MutatedUniqueBodyInt3BloodMagic
 {variant:6}LifeCostAsManaCostUnique__1
+{variant:1,2,3}MutatedUniqueBodyInt3BloodMagic
+{variant:3,4}(280-320)% increased Energy Shield
 ]],[[
 Replica Covenant
 Spidersilk Robe
@@ -602,13 +605,13 @@ Variant: Pre 3.19.0
 Variant: Current
 Implicits: 0
 LocalCanSocketIgnoringColourUnique__1
-{variant:1}Gems Socketed in Red Sockets have +1 to Level
 {variant:2}SocketedGemsInRedSocketEffectUnique__1
-{variant:1}Gems Socketed in Green Sockets have +10% to Quality
 {variant:2}SocketedGemsInGreenSocketEffectUnique__1
-{variant:1}Gems Socketed in Blue Sockets gain 25% increased Experience
 {variant:2}SocketedGemsInBlueSocketEffectUnique__1
 LocalNoAttributeRequirementsUnique__2
+{variant:1}Gems Socketed in Red Sockets have +1 to Level
+{variant:1}Gems Socketed in Green Sockets have +10% to Quality
+{variant:1}Gems Socketed in Blue Sockets gain 25% increased Experience
 ]],[[
 Doedre's Skin
 Widowsilk Robe
@@ -616,14 +619,17 @@ Variant: Pre 3.5.0
 Variant: Pre 3.16.0
 Variant: Current
 Implicits: 0
-SocketedGemsSupportedByBlasphemyUnique__2__
+SupportedByBlasphemyUnique
 GrantCursePillarSkillUnique
 Socketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned
 Hexes from Socketed Skills can apply 5 additional Curses
-{variant:2}20% less Effect of Curses from Socketed Hex Skills
-{variant:3}DoedresSkinLessCurseEffectUnique__1
+20% less Effect of Curses from Socketed Hex Skills
 IntelligenceUniqueBodyStrInt3
 LocalIncreasedEnergyShieldPercentUnique__14
+{variant:3}DoedresSkinLessCurseEffectUnique__1
+Socketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned
+Hexes from Socketed Skills can apply 5 additional Curses
+{variant:2}20% less Effect of Curses from Socketed Hex Skills
 {variant:1}(33-25)% reduced Effect of your Curses
 ]],[[
 Fenumus' Shroud
@@ -643,21 +649,23 @@ Necromancer Silks
 League: Harvest
 Implicits: 0
 LocalIncreasedEnergyShieldUniqueBodyInt1
-Minions Convert 2% of their Maximum Life to Maximum Energy Shield per 1% Chaos Resistance they have
 MinionChaosDamageDoesNotBypassESUnique__1
 MinionEnergyShieldRechargeDelayUnique__1
 MinionHitsIgnoreResistanceWithESUnique__1_
+Minions Convert 2% of their Maximum Life to Maximum Energy Shield per 1% Chaos Resistance they have
 ]],[[
 Garb of the Ephemeral
 Savant's Robe
 League: Synthesis
 Source: Drops from unique{Synthete Nightmare} in normal{The Cortex}
 Implicits: 0
-{fractured}LocalIncreasedEnergyShieldPercentUnique__24
 StrengthIntelligenceRequirementsUnique__1
-Gain a Divine Charge on Hit
+{fractured}LocalIncreasedEnergyShieldPercentUnique__24
 DivineChargeOnHitUnique__1_
+Gain a Divine Charge on Hit
 GainDivinityOnMaxDivineChargeUnique__1
+Lose all Divine Charges when you gain Divinity
+Gain a Divine Charge on Hit
 Lose all Divine Charges when you gain Divinity
 Nearby Allies' Action Speed cannot be modified to below base value
 Nearby Enemies cannot deal Critical Strikes
@@ -672,14 +680,14 @@ Variant: Pre 3.19.0
 Variant: Current
 Implicits: 1
 {variant:1}SpellDamageImplicitArmour1
-{variant:1,2,3,4}LocalIncreaseSocketedFireGemLevelUniqueStaff13
+{variant:1,2,3,4}LocalIncreaseSocketedFireGemLevelUniqueDexHelmet2
 {variant:5}LocalIncreaseSocketedFireGemLevelUniqueBodyInt4
 {variant:1,2,3,4}FireDamagePercentUniqueBodyInt4
 CriticalStrikeChanceUniqueBodyInt4
-{variant:1,2}(190-230)% increased Energy Shield
 {variant:3,4,5}LocalIncreasedEnergyShieldUniqueBodyInt4
 ConvertFireToChaosUniqueBodyInt4
 {variant:1,2,5}SpellDamageTakenOnLowManaUniqueBodyInt4
+{variant:1,2}(190-230)% increased Energy Shield
 {variant:3}25% increased Spell Damage taken when on Low Mana
 {variant:4}15% increased Spell Damage taken when on Low Mana
 ]],[[
@@ -691,11 +699,11 @@ Variant: Current
 Implicits: 1
 SpellDamageImplicitArmour1
 {variant:1}LocalIncreasedEnergyShieldPercentUnique__15_
-{variant:2}(140-200)% increased Energy Shield
 {variant:3}LocalIncreasedEnergyShieldUniqueBodyInt1
 ReducedEnergyShieldDelayUniqueBodyInt1
 LightningResistUniqueBodyInt1
 AttackerTakesLightningDamageUniqueBodyInt1
+{variant:2}(140-200)% increased Energy Shield
 Chaos Damage does not bypass Energy Shield
 ]],[[
 Skin of the Loyal
@@ -720,11 +728,11 @@ Implicits: 0
 {variant:3,4,5}DisplaySocketedGemGetsSpellTotemBodyInt7
 SpellDamageUniqueBodyInt7
 LocalIncreasedEnergyShieldUniqueBodyInt7
-{variant:1}25% increased Totem Life
-{variant:2,3}50% increased Totem Life
 {variant:4,5}TotemLifeUniqueBodyInt7
 {variant:1,2,3,4}AdditionalTotemsUnique__1
 RandomlyCursedWhenTotemsDieUniqueBodyInt7
+{variant:1}25% increased Totem Life
+{variant:2,3}50% increased Totem Life
 ]],[[
 Tabula Rasa
 Simple Robe
@@ -736,27 +744,27 @@ Variant: Pre 3.0.0
 Variant: Pre 3.19.0
 Variant: Current
 SocketedGemsGetElementalProliferationUniqueBodyInt5
-{variant:1,2}Adds 2 to 3 Fire Damage to Spells and Attacks
 {variant:3}AddedFireDamageUniqueBodyInt5
-{variant:1,2}Adds 2 to 3 Cold Damage to Spells and Attacks
 {variant:3}AddedColdDamageUniqueBodyInt5
-{variant:1,2}Adds 1 to 4 Lightning Damage to Spells and Attacks
 {variant:3}AddedLightningDamageUniqueBodyInt5_
-{variant:1}IncreasedCastSpeedUniqueAmulet16
-{variant:1,2}+(10-20) to Evasion Rating
+{variant:1}ReducedCastSpeedUniqueBootsDex5
 {variant:3}LocalIncreasedEvasionRatingUniqueBodyInt5
 {variant:1,2}LocalIncreasedEnergyShieldUniqueBootsInt2
 {variant:3}LocalIncreasedEnergyShieldUniqueBodyInt5
-{variant:1,2}+6 to maximum Life
 {variant:3}IncreasedLifeUniqueBodyInt5
-{variant:1,2}+6 to maximum Mana
 {variant:3}IncreasedManaUniqueBodyInt5
-{variant:1,2}+(5-10)% to Fire Resistance
 {variant:3}FireResistUniqueBodyInt5
-{variant:1,2}+(5-10)% to Cold Resistance
 {variant:3}ColdResistUniqueBodyInt5
 {variant:1,2}LightningResistUniqueBelt11
 {variant:3}LightningResistUniqueBodyInt5
+{variant:1,2}Adds 2 to 3 Fire Damage to Spells and Attacks
+{variant:1,2}Adds 2 to 3 Cold Damage to Spells and Attacks
+{variant:1,2}Adds 1 to 4 Lightning Damage to Spells and Attacks
+{variant:1,2}+(10-20) to Evasion Rating
+{variant:1,2}+6 to maximum Life
+{variant:1,2}+6 to maximum Mana
+{variant:1,2}+(5-10)% to Fire Resistance
+{variant:1,2}+(5-10)% to Cold Resistance
 ]],[[
 Vis Mortis
 Necromancer Silks
@@ -770,9 +778,9 @@ IncreasedManaUniqueBodyInt9
 MinionLifeUniqueBodyInt9
 MinionDamageUniqueBodyInt9
 {variant:1,2}MaximumMinionCountUniqueBodyInt9
-{variant:1}Minions gain Unholy Might for 5 seconds on Kill
 {variant:2}MinionUnholyMightOnKillUniqueBodyInt9
 {variant:3}MinionElementalDamageAddedAsChaosUnique__1
+{variant:1}Minions gain Unholy Might for 5 seconds on Kill
 ]],[[
 Zahndethus' Cassock
 Sage's Robe
@@ -783,14 +791,14 @@ Variant: Current
 Implicits: 0
 {variant:1}Adds 1 to 25 Lightning Damage
 {variant:2,3,4}AddedLightningDamageUniqueBodyInt8
-{variant:1,2,3}(75-100)% increased Energy Shield
 {variant:4}LocalIncreasedEnergyShieldPercentUniqueBodyInt8
-{variant:1}+(20-25)% to Chaos Resistance
 {variant:2,3,4}ChaosResistUniqueBodyInt8
-LightRadiusUniqueBodyInt8
+LightRadiusUniqueBodyStr4
+{variant:3,4}ConsecratedGroundOnBlockUniqueBodyInt8
+{variant:1,2,3}(75-100)% increased Energy Shield
+{variant:1}+(20-25)% to Chaos Resistance
 {variant:1}25% chance to create Consecrated Ground when you Block
 {variant:2}50% chance to create Consecrated Ground when you Block
-{variant:3,4}ConsecratedGroundOnBlockUniqueBodyInt8
 ]],[[
 Ghostwrithe
 Silken Vest
@@ -820,8 +828,8 @@ Implicits: 0
 {variant:3}IncreasedChaosDamageUniqueBodyStrDex4
 LocalIncreasedArmourAndEvasionUniqueBodyStrDex4
 IncreasedLifeUniqueBodyStrDex4
-{variant:1}30% increased total Recovery per second from Life Leech
 {variant:2,3}IncreasedLifeLeechRateUniqueBodyStrDex4
+{variant:1}30% increased total Recovery per second from Life Leech
 ]],[[
 Daresso's Defiance
 Full Dragonscale
@@ -836,14 +844,14 @@ Implicits: 0
 {variant:4,5,6}LocalIncreasedArmourAndEvasionRatingUniqueBodyStrDex3
 {variant:1,2}IncreasedLifeUnique__26
 {variant:3,4,5,6}IncreasedLifeUniqueBodyStrDex3_
-{variant:1,2,3,4}(0.4-0.6)% of Physical Attack Damage Leeched as Life
-{variant:5}LifeLeechUniqueRing2
+{variant:5}LifeLeechUniqueBelt1
 {variant:6}LifeLeechPermyriadUniqueBodyStrDex3
 LoseEnduranceChargesWhenHitUniqueBodyStrDex3
 EnduranceChargeOnKillUniqueBodyStrDex3
+{variant:3,4,5,6}GainOnslaughtWhenHitUniqueBodyStrDex3
+{variant:1,2,3,4}(0.4-0.6)% of Physical Attack Damage Leeched as Life
 {variant:1}You gain Onslaught for 1 seconds per Endurance Charge when Hit
 {variant:2}You gain Onslaught for 2 seconds per Endurance Charge when Hit
-{variant:3,4,5,6}GainOnslaughtWhenHitUniqueBodyStrDex3
 {variant:3,4}(60-100)% increased Onslaught Effect
 {variant:5,6}100% increased Onslaught Effect
 ]],[[
@@ -855,9 +863,9 @@ Implicits: 0
 LocalIncreasedArmourAndEvasionUnique__6
 IncreasedLifeUniqueBodyStrInt7
 CatAspectReservesNoManaUnique__1___
-+2.00 seconds to Cat's Stealth Duration
 GainMaxFrenzyAndPowerOnCatsStealthUnique__1
 GainPhasingWhileCatsStealthUnique__1
++2.00 seconds to Cat's Stealth Duration
 ]],[[
 Replica Farrul's Fur
 Triumphant Lamellar
@@ -866,10 +874,10 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 0
 LocalIncreasedArmourAndEvasionUnique__7
 IncreasedLifeUniqueBodyStrInt7
-+2.00 seconds to Cat's Agility Duration
 CatAspectReservesNoManaUnique__1___
 GainMaxFrenzyAndEnduranceOnCatsAgilityUnique__1
 GainOnslaughtWhileCatsAgilityUnique__1_
++2.00 seconds to Cat's Agility Duration
 ]],[[
 Gruthkul's Pelt
 Wyrmscale Doublet
@@ -879,17 +887,17 @@ Variant: Current
 Implicits: 0
 {variant:1}(60-100)% increased Global Physical Damage
 {variant:2,3}IncreasedPhysicalDamagePercentUnique__4
-{variant:3}(300-400)% increased Armour and Evasion Rating
-{variant:1}+(130-160) to maximum Life
-{variant:2}+(200-240) to maximum Life
 {variant:3}IncreasedLifeUnique__34
 {variant:1,2}ColdResistUniqueShieldDex7
 {variant:1}LifeRegenerationRatePercentUnique__1
-{variant:2}Regenerate 5% of Life per second
 {variant:3}LifeRegenerationRatePercentUnique__2
 ActorSizeUnique__2
 CannotDealSpellDamageUnique__1
 SpellsAreDisabledUnique__1
+{variant:3}(300-400)% increased Armour and Evasion Rating
+{variant:1}+(130-160) to maximum Life
+{variant:2}+(200-240) to maximum Life
+{variant:2}Regenerate 5% of Life per second
 ]],[[
 Lightning Coil
 Desert Brigandine
@@ -901,16 +909,16 @@ AddedLightningDamageUniqueBodyStrDex2
 LocalIncreasedArmourAndEvasionUniqueBodyStrDex2
 IncreasedLifeUniqueBodyStrDex2
 LightningResistUniqueBodyStrDex2
+{variant:3}PhysicalDamageTakenAsLightningPercentUniqueBodyStrDex2
 {variant:1}40% of Physical Damage from Hits taken as Lightning Damage
 {variant:2}30% of Physical Damage from Hits taken as Lightning Damage
-{variant:3}PhysicalDamageTakenAsLightningPercentUniqueBodyStrDex2
 ]],[[
 Viper's Scales
 Full Scale Armour
 Source: No longer obtainable
 Implicits: 0
 LocalIncreasedArmourAndEvasionUnique__2
-IncreasedLifeUniqueAmulet14
+IncreasedLifeImplicitShield3
 ColdResistUnique__6
 MovementVelocityUniqueBodyDex7
 ChanceToPoisonWithAttacksUnique___1
@@ -933,11 +941,11 @@ Implicits: 0
 {variant:1,2}AllResistancesUniqueShieldStrInt4
 {variant:3,4,5}AllResistancesUniqueBodyStrInt2
 {variant:1,2,3,4}GainEnduranceChargeWhenCriticallyHit
-{variant:5}GainMaximumEnduranceChargesWhenCritUnique__1
-{variant:1,2,3}Regenerate 2% of Life per Second while on Low Life
 {variant:1,2,3,4}ShareEnduranceChargesWithParty
-{variant:5}ShareMaximumEnduranceChargesPartyUnique__1
+{variant:5}GainMaximumEnduranceChargesWhenCritUnique__1
 {variant:4}LifeRegenerationIfHitRecentlyUnique__1
+{variant:5}ShareMaximumEnduranceChargesPartyUnique__1
+{variant:1,2,3}Regenerate 2% of Life per Second while on Low Life
 ]],[[
 Replica Ambu's Charge
 Crusader Chainmail
@@ -959,9 +967,9 @@ AnimateGuardianWeaponOnAnimatedWeaponKillUnique__1
 LocalIncreasedArmourAndEnergyShieldUnique__11
 IncreasedLifeUniqueBodyStrDex3_
 AnimatedGuardianDamagePerAnimatedWeaponUnique__1__
+CannnotHaveNonAnimatedMinionsUnique__1
 Animated Minions' Melee Attacks deal Splash Damage to surrounding targets
 Animated Minions' Melee Attacks deal 50% less Damage to surrounding targets
-CannnotHaveNonAnimatedMinionsUnique__1
 ]],[[
 Doryani's Prototype
 Saint's Hauberk
@@ -976,11 +984,11 @@ NearbyEnemyLightningResistanceEqualUnique__1
 ]],[[
 The Fourth Vow
 Devout Chainmail
-PhysicalDamageBypassesEnergyShieldUnique__1
 LocalIncreasedArmourAndEnergyShieldUnique__26
 ChaosResistUnique__4
 LifeRegenerationRatePercentageUniqueShieldStrInt3
 ArmourAppliesToChaosDamageUnique__1
+PhysicalDamageBypassesEnergyShieldUnique__1
 ]],[[
 Geofri's Sanctuary
 Elegant Ringmail
@@ -989,13 +997,13 @@ Variant: Pre 3.0.0
 Variant: Current
 Implicits: 0
 LocalIncreasedArmourAndEnergyShieldUnique__2
-{variant:1,2}IncreasedEnergyShieldUniqueBodyStrDexInt1
 {variant:3}IncreasedEnergyShieldUniqueRing18
+{variant:1,2}IncreasedEnergyShieldUniqueBodyStrDexInt1
 IncreasedLifeUniqueBodyDexInt1
 AllResistancesUnique__3
-{variant:1}+1 maximum Energy Shield per 5 Strength
 {variant:2,3}EnergyShieldPer5StrengthUnique__1
-KeystoneZealotsOathUnique__1_
+ZealotsOathUnique__1
+{variant:1}+1 maximum Energy Shield per 5 Strength
 ]],[[
 Icetomb
 Latticed Ringmail
@@ -1036,12 +1044,12 @@ Implicits: 0
 {variant:1}LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt4
 {variant:2}LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt5
 IncreasedLifeUniqueBodyStrInt5
-{variant:1}(0.8-1)% of Physical Attack Damage Leeched as Life
 {variant:2}LifeLeechPermyriadUniqueBodyStrInt5
 {variant:2}ElementalDamagePercentAddedAsChaosUnique__1
-MutatedUniqueBodyStr4ElementalDamageTakenAsChaos
+ElementalDamageTakenAsChaosUniqueBodyStrInt5
 LightRadiusUniqueBodyStrInt5
 ArcaneVisionUniqueBodyStrInt5
+{variant:1}(0.8-1)% of Physical Attack Damage Leeched as Life
 ]],[[
 The Ivory Tower
 Saint's Hauberk
@@ -1070,14 +1078,14 @@ Variant: Current
 Implicits: 0
 {variant:1}(80-100)% increased Armour and Energy Shield
 {variant:2,3,4}LocalIncreasedArmourAndEnergyShieldUniqueBodyStrInt4
-{variant:1,2,3}10% of Physical Damage Converted to Chaos Damage
 {variant:4}PhysicalDamageConvertToChaosBodyStrInt4
-{variant:1}Reflects (10-20) Chaos Damage to Melee Attackers
 {variant:2,3,4}AttackerTakesChaosDamageUniqueBodyStrInt4
 LightRadiusUniqueBodyStrInt4
+{variant:3,4}DesecratedGroundOnBlockUniqueBodyStrInt4
+{variant:1,2,3}10% of Physical Damage Converted to Chaos Damage
+{variant:1}Reflects (10-20) Chaos Damage to Melee Attackers
 {variant:1}25% chance to create Desecrated Ground when you Block
 {variant:2}50% chance to create Desecrated Ground when you Block
-{variant:3,4}DesecratedGroundOnBlockUniqueBodyStrInt4
 ]],[[
 Loreweave
 Elegant Ringmail
@@ -1094,8 +1102,8 @@ IncreasedLifeUnique__80_
 IncreasedManaUnique__12
 ItemFoundRarityIncreaseUnique__3
 ElementalDamagePercentUnique__1
-{variant:1}Your Maximum Resistances are (76-80)%
 {variant:2}MaximumResistancesOverrideUnique__1
+{variant:1}Your Maximum Resistances are (76-80)%
 ]],[[
 Replica Loreweave
 Elegant Ringmail
@@ -1106,7 +1114,7 @@ HasSixSocketsUnique__1
 AllAttributesUnique__6
 AddedPhysicalDamageUnique__6_
 CriticalStrikeChanceUnique__4_
-LocalIncreasedEnergyShieldUnique__30__
+LocalIncreasedEnergyShieldUnique__7
 IncreasedLifeUnique__106_
 IncreasedManaUnique__20_
 ItemFoundRarityIncreaseUnique__3
@@ -1136,9 +1144,9 @@ LocalIncreasedArmourAndEnergyShieldUnique__8
 MaximumLifeUnique__18
 {variant:1}ChaosResistImplicitRing1
 {variant:2}ChaosResistUnique__16
-{variant:1}Enemies on Fungal Ground you Kill Explode, dealing 5% of their Life as Chaos Damage
 {variant:2}EnemiesOnFungalGroundExplodeUnique__1
 FungalAroundWhenStationaryUnique__1_
+{variant:1}Enemies on Fungal Ground you Kill Explode, dealing 5% of their Life as Chaos Damage
 This item can be anointed by Cassia
 ]],[[
 Voll's Protector
@@ -1177,11 +1185,11 @@ Implicits: 0
 LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt1
 IncreasedLifeUniqueBodyDexInt1
 AllResistancesUniqueBodyDexInt1
-{variant:1,2}AreaOfEffectUniqueDescentOneHandSword1
+{variant:1,2}AreaOfEffectImplicitMarakethTwoHandMace2
 {variant:3}AreaOfEffectUniqueBodyDexInt1
-{variant:1}12% increased Area Damage
 {variant:2,3}AreaDamageUniqueBodyDexInt1
 ExtraGore
+{variant:1}12% increased Area Damage
 ]],[[
 Cloak of Defiance
 Lacquered Garb
@@ -1193,12 +1201,12 @@ Variant: Current
 Implicits: 0
 {variant:1,2,3}(110-150)% increased Evasion and Energy Shield
 {variant:4,5}LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt2
-{variant:1,2}+(90-110) to maximum Mana
 {variant:3,4,5}IncreasedManaUniqueBodyDexInt2
-{variant:1,2}ManaRegenerationUniqueBodyDexInt2
 {variant:3,4,5}BaseManaRegenerationUniqueBodyDexInt2
+{variant:1,2}ManaRegenerationUniqueBodyDexInt2
+ManaShield
+{variant:1,2}+(90-110) to maximum Mana
 {variant:1,3,4}10% of Damage is taken from Mana before Life
-KeystoneMindOverMatterUnique__1
 ]],[[
 Dendrobate
 Sentinel Jacket
@@ -1256,12 +1264,13 @@ Variant: Current
 Implicits: 0
 IncreasedLifeUniqueBodyStrDex2
 IncreasedDamageIfShockedRecentlyUnique__1
-{variant:1,2}(25-40)% increased Effect of Shock
 {variant:3}ShockEffectUnique__1
-{variant:1}Shocked Enemies you Kill Explode, dealing (5-10)% of
-{variant:2,3}MutatedUniqueRing20ShockedEnemiesExplode
-their Life as Lightning Damage which cannot Shock
+{variant:2,3}ShockedEnemiesExplodeUnique__1_
+{variant:2,3}their Life as Lightning Damage which cannot Shock
 UnaffectedByShockUnique__1
+{variant:1,2}(25-40)% increased Effect of Shock
+{variant:1}Shocked Enemies you Kill Explode, dealing (5-10)% of
+their Life as Lightning Damage which cannot Shock
 ]],[[
 The Restless Ward
 Carnal Armour
@@ -1274,13 +1283,13 @@ IncreasedManaImplicitArmour1
 {variant:2,3}LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt3
 {variant:1}IncreasedLifeUnique__30
 {variant:2,3}IncreasedLifeUniqueBodyStrDex2
-{variant:1,2}ChargeBonusMovementVelocityPerFrenzyCharge
+{variant:1,2}MutatedUniqueJewel87MovementSpeedPerFrenzyCharge
 {variant:3}MovementVelocityPerFrenzyChargeUniqueBodyDexInt3
+{variant:3}LifeRegenPerMinutePerEnduranceChargeUniqueBodyDexInt3
+{variant:3}ChargeDurationUniqueBodyDexInt3
 {variant:1}Regenerate (15-20) Life per second per Endurance Charge
 {variant:2}Regenerate (20-30) Life per second per Endurance Charge
-{variant:3}LifeRegenPerMinutePerEnduranceChargeUniqueBodyDexInt3
 {variant:1,2}100% increased Endurance, Frenzy and Power Charge Duration
-{variant:3}ChargeDurationUniqueBodyDexInt3
 ]],[[
 Replica Restless Ward
 Carnal Armour
@@ -1321,9 +1330,8 @@ Variant: One Abyssal Socket (Current)
 Implicits: 1
 IncreasedManaImplicitArmour1
 {variant:5}AbyssJewelSocketUnique__16
-{variant:1,3,6}AbyssJewelSocketUnique__4
-{variant:2,4,7}AbyssJewelSocketUnique__3
-{variant:1,2}Socketed Gems are Supported by Level 20 Elemental Penetration
+{variant:1,3,6}AbyssJewelSocketUnique__9
+{variant:2,4,7}AbyssJewelSocketUnique__6_
 {variant:3,4}DisplaySupportedByElementalPenetrationUnique__1
 LocalDisplayGrantLevelXShadeFormUnique__1
 LocalIncreasedEvasionAndEnergyShieldUnique__11_
@@ -1334,6 +1342,7 @@ LocalIncreasedEvasionAndEnergyShieldUnique__11_
 {variant:1,2,3,4}IncreasedManaPerAbyssalJewelUnique__1_
 {variant:5,6,7}IncreasedManaPerAbyssalJewelUnique__2
 {variant:5,6,7}ElementalPenetrationPerAbyssalJewelUnique__1
+{variant:1,2}Socketed Gems are Supported by Level 20 Elemental Penetration
 ]],[[
 Replica Shroud of the Lightless
 Carnal Armour
@@ -1371,13 +1380,13 @@ Variant: Pre 2.6.0
 Variant: Current
 Implicits: 0
 LocalIncreaseSocketedAuraGemLevelUniqueBodyDexInt4
-{variant:1}Socketed Gems are Supported by Level 1 Generosity
 {variant:2}SupportedByGenerosityUniqueBodyDexInt4_
 SocketedItemsHaveReducedReservationUniqueBodyDexInt4
 LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt1
-{variant:1}(10-20)% increased Area of Effect of Aura Skills
 {variant:2}IncreasedAuraRadiusUniqueBodyDexInt4
 IncreasedAuraEffectUniqueBodyDexInt4
+{variant:1}Socketed Gems are Supported by Level 1 Generosity
+{variant:1}(10-20)% increased Area of Effect of Aura Skills
 ]],[[
 Servant of Decay
 Torturer Garb
@@ -1411,12 +1420,12 @@ Variant: Pre 3.26.0
 Variant: Current
 Implicits: 0
 IntelligenceUniqueBodyStrInt3
-{variant:1}(100-140)% increased Evasion and Energy Shield
 {variant:2}LocalIncreasedEvasionAndEnergyShieldUnique__31
 AllResistancesUniqueAmulet9
 {variant:1}ChanceToFreezeShockIgniteUnique__3
 {variant:2}ChanceToFreezeShockIgniteUnique__1
 ElementalDamageLowestResistUnique__1
+{variant:1}(100-140)% increased Evasion and Energy Shield
 ]],[[
 Atziri's Splendour
 Sacrificial Garb
@@ -1442,18 +1451,18 @@ Variant: Current (Armour/Evasion/ES)
 Implicits: 1
 GlobalVaalGemsLevelImplicit1_
 {variant:1,10}LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBodyStrDexInt1a
-{variant:2,11}(200-220)% increased Evasion Rating and Armour
 {variant:3,12}LocalIncreasedEvasionRatingPercentUniqueBodyStrDexInt1c
-{variant:4,5,13,14}LocalIncreasedEvasionAndEnergyShieldUniqueBodyStrDexInt1d
-{variant:6,15}LocalIncreasedEnergyShieldUniqueBodyStrDexInt1g
 {variant:7,8,16,17}LocalIncreasedArmourAndEnergyShieldUniqueBodyStrDexInt1e
+{variant:4,5,13,14}LocalIncreasedEvasionAndEnergyShieldUniqueBodyStrDexInt1d
 {variant:9,18}LocalArmourAndEvasionAndEnergyShieldUniqueBodyStrDexInt1i
-{variant:1,2,3,4,7,10,11,12,13,16}+(90-100) to Maximum Life
-{variant:5,6,8}+(90-100) to Maximum Energy Shield
-{variant:14,15,17}+(70-80) to Maximum Energy Shield
+{variant:6,15}LocalIncreasedEnergyShieldUniqueBodyStrDexInt1g
 AllResistancesUniqueBodyStrDexInt1
 LifeGainedFromEnemyDeathUniqueBodyStrDexInt1
 ManaGainedFromEnemyDeathUniqueBodyStrDexInt1
+{variant:2,11}(200-220)% increased Evasion Rating and Armour
+{variant:1,2,3,4,7,10,11,12,13,16}+(90-100) to Maximum Life
+{variant:5,6,8}+(90-100) to Maximum Energy Shield
+{variant:14,15,17}+(70-80) to Maximum Energy Shield
 ]],[[
 Shadowstitch
 Sacrificial Garb
@@ -1463,13 +1472,13 @@ Variant: Pre 3.10.0
 Variant: Current
 Implicits: 0
 DisplayHasAdditionalModUnique__1
-AllAttributesUnique__18
+AllAttributesUnique__22_
 {variant:2}LocalIncreasedArmourEvasionEnergyShieldUnique__1_
 MaximumLifeOnKillPercentUnique__3__
 MaximumEnergyShieldOnKillPercentUnique__1
-AllResistancesPerCorruptedItemUnique__1
-MaximumEnergyShieldPercentPerCorruptedItemUnique__1_
 MaximumLifePercentPerCorruptedItemUnique__1_
+MaximumEnergyShieldPercentPerCorruptedItemUnique__1_
+AllResistancesPerCorruptedItemUnique__1
 Corrupted
 ]],
 }

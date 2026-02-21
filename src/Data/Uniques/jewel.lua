@@ -46,6 +46,7 @@ Radius: Large
 {variant:1}Gain 5% of Lightning Damage as Extra Chaos Damage
 {variant:2}Gain (6-10)% of Lightning Damage as Extra Chaos Damage
 Passives granting Lightning Resistance or all Elemental Resistances in Radius
+also grant increased Maximum Energy Shield at 100% of its value
 also grant an equal chance to gain a Power Charge on Kill
 also grant an equal chance to gain a Power Charge on Kill
 ]],[[
@@ -62,6 +63,9 @@ Radius: Large
 {variant:1}Passives granting Lightning Resistance or all Elemental Resistances in Radius
 {variant:2}Passives granting Lightning Resistance or all Elemental Resistances in Radius
 {variant:1}Passives granting Lightning Resistance or all Elemental Resistances in Radius
+{variant:1}also grant increased Maximum Energy Shield at 100% of its value
+{variant:2}also grant increased Maximum Energy Shield at 100% of its value
+{variant:1}also grant increased Maximum Energy Shield at 100% of its value
 {variant:1}also grant an equal chance to gain a Power Charge on Kill
 {variant:2}also grant an equal chance to gain a Power Charge on Kill
 {variant:1}also grant an equal chance to gain a Power Charge on Kill
@@ -124,6 +128,7 @@ Radius: Large
 Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage
 Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage
 Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage
+Increases and Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage
 ]],[[
 Dissolution of the Flesh
 Prismatic Jewel
@@ -134,6 +139,7 @@ Life that would be lost by taking Damage is instead Reserved
 until you take no Damage to Life for 2 seconds
 (20-30)% more Maximum Life
 until you take no Damage to Life for 2 seconds
+until you take no Damage to Life for 2 seconds
 ]],[[
 Divine Inferno
 Crimson Jewel
@@ -141,6 +147,7 @@ Source: No longer obtainable
 Limited to: 1
 Radius: Medium
 With at least 40 Strength in Radius, Combust is Disabled
+With at least 40 Strength in Radius, Attacks Exerted by Infernal Cry deal (40-60)% more Damage with Ignite
 With at least 40 Strength in Radius, Attacks Exerted by Infernal Cry deal (40-60)% more Damage with Ignite
 With at least 40 Strength in Radius, Attacks Exerted by Infernal Cry deal (40-60)% more Damage with Ignite
 ]],[[
@@ -158,6 +165,8 @@ Limited to: 1
 Radius: Medium
 (7-10)% increased Elemental Damage
 With at least 40 Intelligence in Radius, Discharge has 60% less Area of Effect
+With at least 40 Intelligence in Radius, Discharge Cooldown is 250 ms
+With at least 40 Intelligence in Radius, Discharge deals 60% less Damage
 With at least 40 Intelligence in Radius, Discharge Cooldown is 250 ms
 With at least 40 Intelligence in Radius, Discharge deals 60% less Damage
 With at least 40 Intelligence in Radius, Discharge Cooldown is 250 ms
@@ -188,6 +197,9 @@ Variant: Current
 {variant:2}42% of Life Regenerated per second per Fragile Regrowth
 {variant:2}Lose all Fragile Regrowth when Hit
 {variant:2}Gain 1 Fragile Regrowth each second
+{variant:2}42% of Life Regenerated per second per Fragile Regrowth
+{variant:2}Lose all Fragile Regrowth when Hit
+{variant:2}Gain 1 Fragile Regrowth each second
 {variant:2}0.7% of Life Regenerated per second per Fragile Regrowth
 {variant:2}Lose all Fragile Regrowth when Hit
 {variant:2}Gain 1 Fragile Regrowth each second
@@ -199,6 +211,9 @@ League: Heist
 Limited to: 1
 Implicits: 0
 Maximum 5 Fragile Regrowth
+42% of Life Regenerated per second per Fragile Regrowth
+Gain up to maximum Fragile Regrowth when Hit
+Lose 1 Fragile Regrowth each second
 42% of Life Regenerated per second per Fragile Regrowth
 Gain up to maximum Fragile Regrowth when Hit
 Lose 1 Fragile Regrowth each second
@@ -281,6 +296,7 @@ Radius: Large
 {variant:1}Gain 5% of Cold Damage as Extra Chaos Damage
 {variant:2}Gain (6-10)% of Cold Damage as Extra Chaos Damage
 Passives granting Cold Resistance or all Elemental Resistances in Radius
+also grant increased Maximum Mana at 100% of its value
 also grant Cold Damage Converted to Chaos Damage at 100% of its value
 also grant an equal chance to gain a Frenzy Charge on Kill
 ]],[[
@@ -299,6 +315,10 @@ Radius: Large
 {variant:2}Passives granting Cold Resistance or all Elemental Resistances in Radius
 {variant:3}Passives granting Cold Resistance or all Elemental Resistances in Radius
 {variant:1,2}Passives granting Cold Resistance or all Elemental Resistances in Radius
+{variant:1}also grant increased Maximum Mana at 100% of its value
+{variant:2}also grant increased Maximum Mana at 100% of its value
+{variant:3}also grant increased Maximum Mana at 100% of its value
+{variant:1,2}also grant increased Maximum Mana at 100% of its value
 {variant:1}also grant Cold Damage Converted to Chaos Damage at 100% of its value
 {variant:2}also grant Cold Damage Converted to Chaos Damage at 100% of its value
 {variant:3}also grant Cold Damage Converted to Chaos Damage at 100% of its value
@@ -352,6 +372,7 @@ Intuitive Leap
 Viridian Jewel
 Radius: Small
 Passive Skills in Radius can be Allocated without being connected to your tree
+Passage
 Passage
 ]],[[
 Izaro's Turmoil
@@ -470,6 +491,7 @@ Radius: Large
 50% increased Effect of non-Keystone Passive Skills in Radius
 Notable Passive Skills in Radius grant nothing
 Notable Passive Skills in Radius grant nothing
+Notable Passive Skills in Radius grant nothing
 ]],[[
 Immutable Force
 Crimson Jewel
@@ -492,6 +514,7 @@ Cobalt Jewel
 When you Kill an Enemy Cursed with a Non-Aura Hex, become Immune to
 Curses for remaining Hex Duration
 Curses for remaining Hex Duration
+Curses for remaining Hex Duration
 ]],[[
 Rational Doctrine
 Cobalt Jewel
@@ -502,6 +525,8 @@ stationary if Strength is your highest Attribute
 Strike if Intelligence is your highest Attribute
 Effects of Consecrated Ground you create Linger for 4 seconds
 Effects of Profane Ground you create Linger for 4 seconds
+stationary if Strength is your highest Attribute
+Strike if Intelligence is your highest Attribute
 stationary if Strength is your highest Attribute
 Strike if Intelligence is your highest Attribute
 ]],[[
@@ -609,6 +634,8 @@ Radius: Large
 1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius
 1% increased Melee Physical Damage with Unarmed Attacks per 3 Dexterity Allocated in Radius
 1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius
+1% increased Melee Physical Damage with Unarmed Attacks per 3 Dexterity Allocated in Radius
+1% increased Claw Physical Damage per 3 Dexterity Allocated in Radius
 1% increased Melee Physical Damage while Unarmed per 3 Dexterity Allocated in Radius
 ]],[[
 Pure Talent
@@ -662,6 +689,7 @@ Variant: Current
 {variant:1}Gain 5% of Fire Damage as Extra Chaos Damage
 {variant:2}Gain (6-10)% of Fire Damage as Extra Chaos Damage
 Passives granting Fire Resistance or all Elemental Resistances in Radius
+also grant increased Maximum Life at 75% of its value
 also grant Fire Damage Converted to Chaos Damage at 100% of its value
 also grant an equal chance to gain an Endurance Charge on Kill
 ]],[[
@@ -678,6 +706,9 @@ Variant: Current
 {variant:1}Passives granting Fire Resistance or all Elemental Resistances in Radius
 {variant:2}Passives granting Fire Resistance or all Elemental Resistances in Radius
 {variant:1}Passives granting Fire Resistance or all Elemental Resistances in Radius
+{variant:1}also grant increased Maximum Life at 75% of its value
+{variant:2}also grant increased Maximum Life at 75% of its value
+{variant:1}also grant increased Maximum Life at 75% of its value
 {variant:1}also grant Fire Damage Converted to Chaos Damage at 100% of its value
 {variant:2}also grant Fire Damage Converted to Chaos Damage at 100% of its value
 {variant:1}also grant Fire Damage Converted to Chaos Damage at 100% of its value
@@ -705,6 +736,7 @@ Source: No longer obtainable
 Radius: Large
 Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius
 Adds 1 to 2 Lightning Damage to Attacks
+Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius
 Adds 1 maximum Lightning Damage to Attacks per 1 Dexterity Allocated in Radius
 ]],[[
 Tempered Flesh
@@ -766,6 +798,7 @@ Radius: Medium
 {variant:3}3% increased Mana Recovery Rate per 10 Intelligence on Allocated Passives in Radius
 {variant:3}2% reduced Mana Recovery Rate per 10 Intelligence on Unallocated Passives in Radius
 {variant:1,2}every 10 Intelligence on Allocated Passives in Radius
+{variant:1,2}every 10 Intelligence on Allocated Passives in Radius
 {variant:1}+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius
 ]],[[
 Tempered Spirit
@@ -808,6 +841,7 @@ Implicits: 0
 {variant:5}Only affects Passives in Massive Ring
 -(20-10)% to all Elemental Resistances
 Passive Skills in Radius can be Allocated without being connected to your tree
+Passage
 Passage
 {variant:2}Only affects Passives in Medium Ring
 {variant:3}Only affects Passives in Large Ring
@@ -873,6 +907,7 @@ it and your Class' starting location
 {variant:4}+5 to maximum Life
 {variant:5}+5 to maximum Mana
 it and your Class' starting location
+it and your Class' starting location
 Corrupted
 ]],[[
 Warrior's Tale
@@ -926,6 +961,7 @@ Radius: Medium
 With 40 total Strength and Intelligence in Radius, Prismatic Skills deal 50% less Cold Damage
 With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold
 With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold
+With 40 total Strength and Intelligence in Radius, Prismatic Skills cannot choose Cold
 ]],[[
 Combat Focus
 Cobalt Jewel
@@ -939,6 +975,7 @@ Radius: Medium
 With 40 total Intelligence and Dexterity in Radius, Prismatic Skills deal 50% less Fire Damage
 With 40 total Intelligence and Dexterity in Radius, Prismatic Skills cannot choose Fire
 With 40 total Intelligence and Dexterity in Radius, Prismatic Skills cannot choose Fire
+With 40 total Intelligence and Dexterity in Radius, Prismatic Skills cannot choose Fire
 ]],[[
 Combat Focus
 Viridian Jewel
@@ -950,6 +987,7 @@ Radius: Medium
 {variant:1}(10-15)% increased Elemental Damage with Attack Skills
 {variant:2}(10-15)% increased Elemental Damage
 With 40 total Dexterity and Strength in Radius, Prismatic Skills deal 50% less Lightning Damage
+With 40 total Dexterity and Strength in Radius, Prismatic Skills cannot choose Lightning
 With 40 total Dexterity and Strength in Radius, Prismatic Skills cannot choose Lightning
 With 40 total Dexterity and Strength in Radius, Prismatic Skills Strike cannot choose Lightning
 ]],[[
@@ -994,6 +1032,8 @@ dealt by Frost Blades Penetrates 15% Cold Resistance
 With at least 40 Dexterity in Radius, Frost Blades has 25% increased Projectile Speed
 dealt by Frost Blades Penetrates 15% Cold Resistance
 With at least 40 Dexterity in Radius, Frost Blades has 25% increased Projectile Speed
+dealt by Frost Blades Penetrates 15% Cold Resistance
+With at least 40 Dexterity in Radius, Frost Blades has 25% increased Projectile Speed
 ]],[[
 First Snow
 Cobalt Jewel
@@ -1006,6 +1046,8 @@ With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if
 you've Shattered an Enemy Recently
 With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if
 you've Shattered an Enemy Recently
+With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if
+you've Shattered an Enemy Recently
 ]],[[
 Frozen Trail
 Cobalt Jewel
@@ -1014,6 +1056,7 @@ Limited to: 2
 Radius: Medium
 (7-10)% increased Projectile Damage
 With at least 40 Intelligence in Radius, Frostbolt fires 2 additional Projectiles
+With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile Speed per second
 With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile Speed per second
 With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile
 Speed per second
@@ -1053,6 +1096,11 @@ Radius: Medium
 {variant:2}With at least 40 Intelligence in Radius, Rolling Magma deals 50% less Damage
 {variant:2}With at least 40 Intelligence in Radius, Rolling Magma deals 40% more Damage per Chain
 {variant:1}With at least 40 Intelligence in Radius, Rolling Magma fires an additional Projectile
+{variant:2}With at least 40 Intelligence in Radius, Rolling Magma
+{variant:1}With at least 40 Intelligence in Radius, Rolling Magma
+{variant:2}has 10% increased Area of Effect per Chain
+{variant:1}has 10% increased Area of Effect per Chain
+{variant:2}With at least 40 Intelligence in Radius, Rolling Magma deals 40% more Damage per Chain
 {variant:1}With at least 40 Intelligence in Radius, Rolling Magma
 {variant:2}With at least 40 Intelligence in Radius, Rolling Magma
 {variant:1}has 10% increased Area of Effect per Chain
@@ -1068,6 +1116,8 @@ Limited to: 2
 Radius: Medium
 (10-15)% increased Cold Damage
 With 40 Intelligence in Radius, Glacial Cascade has an additional Burst
+With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage
+Converted to Cold Damage
 With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage
 Converted to Cold Damage
 With 40 Intelligence in Radius, 20% of Glacial Cascade Physical Damage
@@ -1101,6 +1151,14 @@ Radius: Medium
 {variant:5}to surrounding targets while wielding a Mace
 {variant:1}With at least 40 Dexterity in Radius, Dual Strike deals Off Hand Splash Damage
 {variant:1}to surrounding targets
+{variant:6}Accuracy Rating while wielding a Sword
+{variant:3}Speed while wielding a Claw
+{variant:4}Multiplier while wielding a Dagger
+{variant:2}4 seconds while wielding an Axe
+{variant:1}to deal Double Damage with the Main-Hand Weapon
+{variant:5}to surrounding targets while wielding a Mace
+{variant:1}With at least 40 Dexterity in Radius, Dual Strike deals Off Hand Splash Damage
+{variant:1}to surrounding targets
 to deal Double Damage with the Main-Hand Weapon
 {variant:1}With at least 40 Dexterity in Radius, Dual Strike deals Off-Hand Splash Damage
 {variant:1}to surrounding targets
@@ -1119,6 +1177,7 @@ Limited to: 2
 Radius: Medium
 (15-20)% increased Damage with Hits against Chilled Enemies
 With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect
+With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets
 With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets
 {variant:1}With at least 40 Dexterity in Radius, Ice Shot Pierces 5 additional Targets
 {variant:2}With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets
@@ -1187,6 +1246,7 @@ Radius: Medium
 {variant:1}With at least 40 Intelligence in Radius, Fireball Projectiles gain Area as they travel farther, up to 50% increased Area of Effect
 {variant:3}With at least 40 Intelligence in Radius, Fireball cannot ignite
 {variant:3}With at least 40 Intelligence in Radius, Fireball has +(30-50)% chance to inflict scorch
+{variant:3}With at least 40 Intelligence in Radius, Fireball has +(30-50)% chance to inflict scorch
 {variant:2}With at least 40 Intelligence in Radius, Fireball Projectiles gain Radius as they travel farther, up to +4 Radius
 {variant:3}With at least 40 Intelligence in Radius, Fireball has +(30-50)% chance to inflict scorch
 ]],[[
@@ -1234,6 +1294,7 @@ Limited to: 1
 Radius: Medium
 (7-13)% increased Chaos Damage
 {variant:2,3}With at least 40 Intelligence in Radius, Blight inflicts Withered for 2 seconds
+{variant:2,3}With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration
 {variant:2,3}With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration
 {variant:1,2}With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration
 {variant:3}With at least 40 Intelligence in Radius, Blight has 30% reduced Cast Speed
@@ -1294,6 +1355,9 @@ With at least 40 Intelligence in Radius, Raised
 Zombies' Slam Attack has 100% increased Cooldown Recovery Rate
 With at least 40 Intelligence in Radius, Raised Zombies' Slam
 Attack deals 30% increased Damage
+Zombies' Slam Attack has 100% increased Cooldown Recovery Rate
+With at least 40 Intelligence in Radius, Raised Zombies' Slam
+Attack deals 30% increased Damage
 Zombies' Slam Attack has 100% increased Cooldown Recovery Speed
 With at least 40 Intelligence in Radius, Raised Zombies' Slam
 Attack deals 30% increased Damage
@@ -1332,6 +1396,9 @@ Radius: Medium
 {variant:2}With at least 40 Strength in Radius, Molten Strike fires 50% less Projectiles
 {variant:1}With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles
 {variant:1}With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect
+{variant:2}With at least 40 Strength in Radius, Molten Strike Projectiles Chain +1 time
+{variant:2}With at least 40 Strength in Radius, Molten Strike fires 50% less Projectiles
+{variant:1}With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect
 {variant:1}With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect
 {variant:2}With at least 40 Strength in Radius, Molten Strike Projectiles Chain +1 time
 {variant:2}With at least 40 Strength in Radius, Molten Strike fires 50% less Projectiles
@@ -1343,6 +1410,9 @@ Limited to: 2
 Radius: Medium
 (10-15)% increased Cold Damage
 With at least 40 Strength in Radius, Glacial Hammer deals
+Cold-only Splash Damage to surrounding targets
+With at least 40 Strength in Radius, 25% of Glacial
+Hammer Physical Damage Converted to Cold Damage
 Cold-only Splash Damage to surrounding targets
 With at least 40 Strength in Radius, 25% of Glacial
 Hammer Physical Damage Converted to Cold Damage
@@ -1631,6 +1701,7 @@ Notable Passive Skills in Radius are Transformed to instead grant: Minions have 
 Minions have (12-16)% increased Attack Speed
 Minions have (12-16)% increased Cast Speed
 Minions have (12-16)% increased Cast Speed
+Minions have (12-16)% increased Cast Speed
 Minions have (20-24)% chance to Suppress Spell Damage
 {variant:2}Corrupted
 ]],[[
@@ -1722,6 +1793,8 @@ Variant: Current
 Minions deal (8-12)% increased Damage
 {variant:2,3}(7-10)% increased Skeleton Attack Speed
 {variant:2,3}(7-10)% increased Skeleton Cast Speed
+{variant:2,3}(7-10)% increased Skeleton Cast Speed
+{variant:2,3}(3-5)% increased Skeleton Movement Speed
 {variant:2,3}(3-5)% increased Skeleton Movement Speed
 {variant:2,3}(3-5)% increased Skeleton Movement Speed
 {variant:1}2% increased Skeleton Attack Speed
@@ -1907,6 +1980,8 @@ Implicits: 0
 {variant:4}Denoted service of (500-8000) dekhara in the akhara of Balbala
 {variant:4}Passives in radius are Conquered by the Maraketh
 {variant:4}Historic
+{variant:4}Passives in radius are Conquered by the Maraketh
+{variant:4}Historic
 Passives in radius are Conquered by the Maraketh
 Historic
 ]],[[
@@ -1923,6 +1998,8 @@ Variant: Caspiro (Supreme Ostentation)
 Radius: Large
 Implicits: 0
 {variant:1}Commissioned (2000-160000) coins to commemorate Cadiro
+{variant:1}Passives in radius are Conquered by the Eternal Empire
+{variant:1}Historic
 {variant:1}Passives in radius are Conquered by the Eternal Empire
 {variant:1}Historic
 {variant:2}Commissioned (2000-160000) coins to commemorate Chitus
@@ -1947,6 +2024,8 @@ Implicits: 0
 {variant:2}Bathed in the blood of (100-8000) sacrificed in the name of Xibaqua
 {variant:2}Passives in radius are Conquered by the Vaal
 {variant:2}Historic
+{variant:2}Passives in radius are Conquered by the Vaal
+{variant:2}Historic
 {variant:3}Bathed in the blood of (100-8000) sacrificed in the name of Zerphi
 {variant:4}Bathed in the blood of (100-8000) sacrificed in the name of Ahuana
 Passives in radius are Conquered by the Vaal
@@ -1965,6 +2044,8 @@ Variant: Akoya (Chainbreaker)
 Radius: Large
 Implicits: 0
 {variant:1}Commanded leadership over (10000-18000) warriors under Kaom
+{variant:1}Passives in radius are Conquered by the Karui
+{variant:1}Historic
 {variant:1}Passives in radius are Conquered by the Karui
 {variant:1}Historic
 {variant:2}Commanded leadership over (10000-18000) warriors under Kiloava
@@ -2023,6 +2104,8 @@ Implicits: 0
 {variant:19}3% increased Defences from Equipped Shield per 10 Devotion
 {variant:6}4% increased Brand Damage per 10 Devotion
 {variant:5}4% increased Totem Damage per 10 Devotion
+{variant:4}Historic
+{variant:4}Passives in radius are Conquered by the Templars
 {variant:4}Historic
 Passives in radius are Conquered by the Templars
 Historic

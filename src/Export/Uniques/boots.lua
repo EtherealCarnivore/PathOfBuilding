@@ -11,7 +11,7 @@ Requires Level 54, 95 Str
 LocalIncreasedPhysicalDamageReductionRatingPercentUnique__18
 IncreasedLifeUniqueBootsStr3_
 ColdResistUnique__23
-MovementVelocityUniqueBootsStr3
+MovementVelocityUniqueBootsStrInt2_
 CannotBeStunned10CrabBarriersUnique__1
 CrabBarriersLostWhenHitUnique__1_
 ]],[[
@@ -35,9 +35,9 @@ Requires Level 68, 120 Str
 {variant:1,4,7}AddedFireDamageUnique__3
 {variant:2,5,8}AddedColdDamageUnique__4
 {variant:3,6,9}AddedLightningDamageUnique__2_
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__13
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__10
 IncreasedLifeUniqueAmulet25
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 ]],[[
 The Infinite Pursuit
 {variant:1}Goliath Greaves
@@ -48,15 +48,15 @@ League: Breach
 Source: Drops in Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
 Upgrade: Upgrades to unique{The Red Trail} using currency{Blessing of Uul-Netol}
 Requires Level 54, 95 Str
-{variant:1}IncreasedLifeUnique__27
-MovementVelocityUniqueBootsDex8
+{variant:1}IncreasedLifeUnique__16
+MovementVelocityUniqueBootsInt5
 NoExtraBleedDamageWhileMovingUniqueAmulet25
-{variant:1}15% increased Movement Speed while Bleeding
-{variant:2}MovementVelocityWhileBleedingUnique__1
 {variant:2}BleedingExpiresSlowerWhileMovingUnique__1
-{variant:2}CannotBeStunnedWhileBleedingUnique__1
 {variant:2}CannotBePoisonedWhileBleedingUnique__1
+{variant:2}CannotBeStunnedWhileBleedingUnique__1
+{variant:2}MovementVelocityWhileBleedingUnique__1
 ReceiveBleedingWhenHitUnique__1_
+{variant:1}15% increased Movement Speed while Bleeding
 ]],[[
 The Red Trail
 Titan Greaves
@@ -65,17 +65,17 @@ Variant: Current
 League: Breach
 Source: Upgraded from unique{The Infinite Pursuit} using currency{Blessing of Uul-Netol}
 Requires Level 68, 120 Str
-{variant:1}LocalIncreasedPhysicalDamageReductionRatingUniqueShieldStr2
+{variant:1}LocalIncreasedPhysicalDamageReductionRatingPercentUnique__20
 {variant:2}LocalIncreasedPhysicalDamageReductionRatingPercentUnique__27
 {variant:1}IncreasedLifeUniqueBootsStr3_
 {variant:2}IncreasedLifeUnique__32
-{variant:1}MovementVelocityUniqueBootsStr3
-{variant:2}MovementVelocityUniqueBootsInt6
-FrenzyChargeOnHitWhileBleedingUnique__1
-{variant:1}15% increased Movement Speed while Bleeding
+{variant:1}MovementVelocityUniqueBootsStrInt2_
+{variant:2}MovementVelocityUniqueBootsDex7
 PhysicalDamageReductionWhileNotMovingUnique__1
+FrenzyChargeOnHitWhileBleedingUnique__1
 ReceiveBleedingWhenHitUnique__1_
 ItemBloodFootstepsUniqueBootsDex4
+{variant:1}15% increased Movement Speed while Bleeding
 ]],[[
 Replica Red Trail
 Titan Greaves
@@ -84,22 +84,22 @@ Variant: Current
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 68, 120 Str
-{variant:1}LocalIncreasedPhysicalDamageReductionRatingPercentUnique__20
+{variant:1}LocalIncreasedPhysicalDamageReductionRatingUniqueShieldStr2
 {variant:2}LocalIncreasedPhysicalDamageReductionRatingPercentUnique__7
 {variant:1}IncreasedLifeUniqueBootsStr3_
 {variant:2}IncreasedLifeUnique__33
-{variant:1}MovementVelocityUniqueBootsStr3
-{variant:2}MovementVelocityUniqueBootsInt6
+{variant:1}MovementVelocityUniqueBootsStrInt2_
+{variant:2}MovementVelocityUniqueBootsDex7
 PowerChargeOnHitWhilePoisonedUnique__1
 ChaosResistanceWhileStationaryUnique__1
-15% increased Movement Speed while Poisoned
 ItemNecroticFootprintsUnique__1s
 ChanceToBePoisonedBySpellsUnique__1_
+15% increased Movement Speed while Poisoned
 ]],[[
 Kahuturoa's Certainty
 Ancient Greaves
 Requires Level 46, 82 Str
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__28
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__30
 MovementVelocityUnique__52
 StunRecoveryUnique__8
 UnaffectedByDamagingAilmentsUnique__1
@@ -111,9 +111,9 @@ Variant: Current
 Requires Level 68, 120 Str
 HasNoSockets
 CannotBeKnockedBack
-{variant:1}+(120-150) to maximum Life
 {variant:2}IncreasedLifeUniqueBootsStr2
-UnwaveringStance
+UnwaveringStanceUnique_2
+{variant:1}+(120-150) to maximum Life
 {variant:2}Cannot Be Slowed to Below Base Speed
 ]],[[
 Redblade Tramplers
@@ -122,13 +122,13 @@ League: Warbands
 Variant: Pre 2.6.0
 Variant: Current
 Requires Level 46, 82 Str
-{variant:2}IncreasedLifeUniqueBootsStr3_
 AddedPhysicalDamageUniqueBootsStr3
 StunThresholdReductionUniqueBootsStr3
 LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBootsStr3
+{variant:2}IncreasedLifeUniqueBootsStr3_
 FireResistUniqueBootsStr3_
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2}MovementVelocityUniqueBootsStr3
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2}MovementVelocityUniqueBootsStrInt2_
 ImmuneToBurningGroundUniqueBootsStr3
 ]],[[
 Stormcharger
@@ -136,21 +136,21 @@ Plated Greaves
 Variant: Pre 3.19.0
 Variant: Current
 LightningResistUnique__13
-{variant:1}MovementVelocityUniqueBootsDex8
+{variant:1}MovementVelocityUniqueBootsInt5
 {variant:2}MovementVelocityUnique__21
 {variant:1}ConvertPhysicaltoLightningUnique__2
-{variant:1}50% increased Duration of Lightning Ailments
 {variant:2}ShockDurationUnique__2
-{variant:1}(15-25)% increased Effect of Lightning Ailments
 {variant:2}ShockEffectUnique__2
 {variant:2}ImmuneToShockedGroundUniqueBootsDexInt4
+{variant:1}50% increased Duration of Lightning Ailments
+{variant:1}(15-25)% increased Effect of Lightning Ailments
 ]],[[
 The Tempest Rising
 Goliath Greaves
 Source: Drops from unique{Sirus, Awakener of Worlds} (Uber)
 Requires Level 54, 95 Str
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__22
-MovementVelocityUniqueBootsInt6
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__6
+MovementVelocityUniqueBootsDex7
 IncreasedAilmentDurationUnique__4
 FasterAilmentDamageUnique__1
 EnemiesCountAsMovingElementalAilmentsUnique__1
@@ -160,13 +160,13 @@ Antique Greaves
 Variant: Pre 3.16.0
 Variant: Current
 Requires Level 37, 67 Str
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__19
-{variant:1}(30-50)% increased Totem Life
+LocalIncreasedPhysicalDamageReductionRatingPercentUnique__22
 {variant:2}TotemLifeUnique__2_
-MovementVelocityUniqueBootsStr3
+MovementVelocityUniqueBootsStrInt2_
 SummonTotemCastSpeedUnique__2
-{variant:1}Totems Reflect 25% of their maximum Life as Fire Damage to nearby Enemies when Hit
 {variant:2}TotemReflectFireDamageUnique__1_
+{variant:1}(30-50)% increased Totem Life
+{variant:1}Totems Reflect 25% of their maximum Life as Fire Damage to nearby Enemies when Hit
 ]],[[
 Windscream
 Reinforced Greaves
@@ -176,11 +176,11 @@ Variant: Current
 LocalIncreasedPhysicalDamageReductionRatingUniqueBootsStr1
 AllResistancesUniqueBootsStr1
 {variant:1}MovementVelocityDescent2Boots1
-{variant:2}MovementVelocityUniqueBootsStrDex4
-{variant:3}MovementVelocityUniqueBootsDex8
+{variant:2}MovementVelocityUniqueBootsDexInt2
+{variant:3}MovementVelocityUniqueBootsInt5
 {variant:1}ElementalDamageUniqueDescentBelt1
 {variant:2}ElementalDamageUniqueBootsStr1
-VillageAdditionalCurseOnEnemies
+AdditionalCurseOnEnemiesUnique__2
 {variant:3}CurseAreaOfEffectUnique__3
 ]],[[
 Windshriek
@@ -189,9 +189,9 @@ Source: No longer obtainable
 LevelReq: 60
 LocalIncreasedPhysicalDamageReductionRatingUnique__2
 AllResistancesUniqueBootsStr1
-MovementVelocityUniqueBootsStr3
+MovementVelocityUniqueBootsStrInt2_
 ElementalDamageUniqueBootsStr1
-AdditionalCurseOnEnemiesUnique__2
+VillageAdditionalCurseOnEnemies
 CurseAreaOfEffectUnique__1
 ]],[[
 Dawnstrider
@@ -199,13 +199,13 @@ Vaal Greaves
 Variant: Pre 3.25.0
 Variant: Current
 Source: Drops from unique{The Searing Exarch}
+{variant:2}OneAncestorTotemBuffUnique__1
 IncreasedLifeUnique__29
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
+{variant:2}KeystoneAncestralBondUnique__2
 {variant:1}100% increased Effect of Buffs your Ancestor Totems grant while Active
 {variant:1}Buffs from Active Ancestor Totems Linger for 4 seconds
 {variant:1}Maximum 1 Buff from an Active Ancestor Totem at a time
-{variant:2}OneAncestorTotemBuffUnique__1
-{variant:2}KeystoneAncestralBondUnique__1
 {variant:2}(3-5)% of Damage from hits is taken from your nearest Totem's Life before you
 ]],
 -- Boots: Evasion
@@ -215,7 +215,7 @@ Goathide Boots
 Requires Level 12, 26 Dex
 RepeatingShockwave
 StrengthUniqueBootsDexInt2
-MovementVelocityUniqueBootsStrDex4
+MovementVelocityUniqueBootsDexInt2
 ChanceToIgniteUnique__4
 VillageIgniteNearbyEnemyOnIgnitedKill
 FireDamagePerStrengthUnique__1
@@ -229,7 +229,7 @@ Variant: Current
 Requires Level 69, 120 Dex
 LocalIncreasedEvasionRatingPercentUniqueBootsDex7
 IncreasedLifeUniqueBootsDex7
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 {variant:1}(21-24)% chance to Suppress Spell Damage
 {variant:2}(20-26)% chance to Suppress Spell Damage
 ]],[[
@@ -241,18 +241,18 @@ Variant: Pre 3.11.0
 Variant: Current
 Requires Level 44, 79 Dex
 DexterityUniqueBootsDex4_
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 MovementVelocityPerFrenzyChargeUniqueBootsDex4
-{variant:1,2,3}3% reduced Attack and Cast Speed per Frenzy Charge
 {variant:4}AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4
-{variant:1,2}Regenerate 1% of Life per second per Frenzy Charge
-{variant:3}Regenerate 0.5% of Life per second per Frenzy Charge
 {variant:4}LifeRegenerationPerFrenzyChargeUniqueBootsDex4
 FrenzyChargeOnKillChanceUniqueBootsDex4
+{variant:4}EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4
 ItemBloodFootstepsUniqueBootsDex4
+{variant:1,2,3}3% reduced Attack and Cast Speed per Frenzy Charge
+{variant:1,2}Regenerate 1% of Life per second per Frenzy Charge
+{variant:3}Regenerate 0.5% of Life per second per Frenzy Charge
 {variant:1}3% increased Damage per Frenzy Charge with Hits against Enemies on Low Life
 {variant:2,3}6% increased Damage per Frenzy Charge with Hits against Enemies on Low Life
-{variant:4}EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4
 ]],[[
 Deerstalker
 Deerskin Boots
@@ -264,15 +264,15 @@ Requires Level 22, 42 Dex
 {variant:3}DisplaySupportedByTrapUniqueBootsDex6
 LocalIncreasedEvasionRatingPercentUniqueBootsDex6
 {variant:1,2}IncreasedLifeUniqueBootsDex6
-{variant:2,3}MovementVelocityUniqueBootsStrDex4
+{variant:2,3}MovementVelocityUniqueBootsDexInt2
 TrapThrowSpeedUniqueBootsDex6
 {variant:1}MovementSpeedOnTrapThrowUniqueBootsDex6
 {variant:2,3}MovementSpeedOnTrapThrowUnique__1
 ]],[[
 Orbala's Stand
 Eelskin Boots
-LocalIncreasedEvasionRatingPercentUniqueBootsStrDex5
-MovementVelocityUnique__39_
+LocalIncreasedEvasionRatingPercentUniqueBootsDex3
+MovementVelocityUnique__28
 CannotBeStunnedSuppressedDamageUnique__1
 DebilitateEnemiesSuppressedDamageUnique__1
 ]],[[
@@ -296,9 +296,9 @@ Requires Level 69, 120 Dex
 {variant:1,4,7}AddedFireDamageUnique__3
 {variant:2,5,8}AddedColdDamageUnique__4
 {variant:3,6,9}AddedLightningDamageUnique__2_
-LocalIncreasedEvasionRatingPercentUnique__10
+LocalIncreasedEvasionRatingPercentUnique__3
 IncreasedLifeUnique__9
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 ]],[[
 Farrul's Chase
 Slink Boots
@@ -308,9 +308,9 @@ Requires Level 69, 120 Dex
 CatsStealthTriggeredIntimidatingCry
 LocalIncreasedEvasionRatingPercentUnique__13
 IncreasedLifeUniqueBootsStr3_
-MovementVelocityUniqueBootsDex8
-(40-50)% chance to avoid Bleeding
+MovementVelocityUniqueBootsInt5
 MovementSpeedWithCatsStealthUnique__1
+(40-50)% chance to avoid Bleeding
 ]],[[
 Goldwyrm
 Nubuck Boots
@@ -319,11 +319,11 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 34, 62 Dex
 ManaRegenerationUniqueBootsDex2
+FireResistUniqueBootsDex2
+MovementVelocityDescent2Boots1
 {variant:1}(20-30)% increased Quantity of Items Found
 {variant:2}(14-20)% increased Quantity of Items Found
 {variant:3}(20-40)% increased Rarity of Items Found
-FireResistUniqueBootsDex2
-MovementVelocityDescent2Boots1
 ]],[[
 Garukhan's Flight
 Stealth Boots
@@ -333,18 +333,17 @@ Variant: Current
 Requires Level 62, 117 Dex
 DexterityUniqueBootsDex4_
 {variant:1}LocalIncreasedEvasionRatingPercentUniqueBootsDexInt1
-{variant:2}(320-380)% increased Evasion Rating
 {variant:3}LocalIncreasedEvasionRatingPercentUnique__6
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 ImmuneToBurningShockedChilledGroundUnique__1
 LifeRegenerationWhileMovingUnique__1
-{variant:1}+1 to Maximum Life per 10 Dexterity
 {variant:2,3}MaximumLifePer10DexterityUnique__1
+{variant:2}(320-380)% increased Evasion Rating
+{variant:1}+1 to Maximum Life per 10 Dexterity
 ]],[[
-Seven-League Step
-Rawhide Boots
 League: Perandus
 MovementVelocityUnique___6
+Rawhide Boots
 ]],[[
 Sin Trek
 Stealth Boots
@@ -353,14 +352,14 @@ Variant: Pre 2.6.0
 Variant: Pre 3.5.0
 Variant: Current
 Requires Level 62, 117 Dex
-DexterityUniqueBootsDex1
+DexterityUniqueBootsDexInt2
 IntelligenceUniqueBootsInt3
 LocalIncreasedEvasionRatingPercentUniqueBootsDex1
-{variant:1}LocalIncreasedEnergyShieldUnique__28
+{variant:1}LocalIncreasedEnergyShieldUnique__10
+{variant:4}LocalIncreasedEnergyShieldUniqueBootsDex1
+MovementVelocityUniqueBootsDex7
 {variant:2}+(70-100) to maximum Energy Shield
 {variant:3}+(100-160) to maximum Energy Shield
-{variant:4}LocalIncreasedEnergyShieldUniqueBootsDex1
-MovementVelocityUniqueBootsInt6
 Enemies Cannot Leech Life From You
 ]],[[
 Temptation Step
@@ -374,22 +373,21 @@ DamagePerPoisonOnSelfUnique__1_
 MovementSpeedPerPoisonOnSelfUnique__1_
 Poison you inflict with Travel Skills is Reflected to you if you have fewer than 5 Poisons on you
 ]],[[
-Three-step Assault
-Shagreen Boots
 Variant: Pre 2.6.0
 Variant: Pre 3.16.0
 Variant: Current
-Requires Level 55, 97 Dex
 DexterityUniqueBootsDex9
 LocalIncreasedEvationRatingPercentUniqueBootsDex9
+{variant:1}IncreasedLifeUnique__27
+{variant:2,3}IncreasedLifeUniqueBootsStr3_
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2,3}MovementVelocityUniqueBootsStrInt2_
+{variant:3}ChanceToDodgeSpellsWhilePhasing_Unique_1
+Shagreen Boots
+Requires Level 55, 97 Dex
 {variant:1}40% increased Evasion Rating while you have Onslaught
 {variant:2,3}100% increased Evasion Rating while you have Onslaught
-{variant:1}IncreasedLifeUnique__69
-{variant:2,3}IncreasedLifeUniqueBootsStr3_
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2,3}MovementVelocityUniqueBootsStr3
 {variant:1,2}10% chance to Avoid Elemental Ailments while Phasing
-{variant:3}ChanceToDodgeSpellsWhilePhasing_Unique_1
 ]],[[
 Replica Three-step Assault
 Shagreen Boots
@@ -399,7 +397,7 @@ Requires Level 55, 97 Dex
 DexterityUniqueBootsDex9
 LocalIncreasedEvationRatingPercentUniqueBootsDex9
 IncreasedLifeUniqueBootsStr3_
-MovementVelocityUniqueBootsStr3
+MovementVelocityUniqueBootsStrInt2_
 ElusiveEffectUnique__1
 MovementSpeedIfHitRecentlyUnique__1_
 ]],[[
@@ -410,14 +408,14 @@ Variant: Pre 3.19.0
 Variant: Current
 DexterityUniqueBootsDex3
 IntelligenceUniqueBootsDex3
-LocalIncreasedEvasionRatingPercentUniqueBootsStrDex5
-{variant:2}MovementVelocityUniqueBootsStrDex4
+LocalIncreasedEvasionRatingPercentUniqueBootsDex3
+{variant:2}MovementVelocityUniqueBootsDexInt2
 {variant:3}MovementVelocityUnique__19
 {variant:1}MovementVelocityOnLowLifeUniqueBootsDex3
 {variant:3}MovementVelocityOnLowLifeUnique__1
 {variant:1,2}PercentDamageGoesToManaUniqueBootsDex3
-{variant:2}10% increased Movement Speed for you and nearby Allies
 {variant:3}QuicksilverFlaskAppliesToAlliesUnique__1
+{variant:2}10% increased Movement Speed for you and nearby Allies
 ]],
 -- Boots: Energy Shield
 [[
@@ -426,13 +424,14 @@ Silk Slippers
 Variant: Pre 3.8.0
 Variant: Current
 Requires Level 22, 42 Int
+LocalIncreasedEnergyShieldUniqueBootsInt4
 IncreasedLifeUniqueBootsInt4
 IncreasedManaUniqueBootsInt4
-LocalIncreasedEnergyShieldUniqueBootsInt4
+{variant:2}MaximumMinionCountUniqueBootsInt4
+{variant:2}+1 to Level of all Raise Spectre Gems
 MovementVelocityUniqueBootsInt4
 {variant:1}+1 to Maximum number of Raised Zombies
 {variant:1}+1 to Maximum number of Spectres
-{variant:2}MaximumMinionCountUniqueBootsInt4
 {variant:2}+1 to Level of all Raise Spectre Gems
 ]],[[
 Replica Bones of Ullr
@@ -446,8 +445,9 @@ LocalIncreasedEnergyShieldUniqueBootsInt4
 IncreasedLifeUniqueBootsInt4
 IncreasedManaUniqueBootsInt4
 MovementVelocityUniqueBootsInt4
-{variant:1}Summoned Phantasms have 10% chance to refresh their Duration when they Hit a Unique Enemy
 {variant:2}SpiritMinionRefreshOnUniqueHitUnique__1
+{variant:2}Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Rare or Unique Enemy
+{variant:1}Summoned Phantasms have 10% chance to refresh their Duration when they Hit a Unique Enemy
 {variant:1}Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Unique Enemy
 {variant:2}Summoned Raging Spirits have 10% chance to refresh their Duration when they Hit a Rare or Unique Enemy
 ]],[[
@@ -483,16 +483,17 @@ Requires Level 67, 120 Int
 {variant:1,2,3,4,5,6,7,8,9}LocalIncreasedEnergyShieldPercentUnique__19
 {variant:10,11,12,13,14,15,16,17,18}LocalIncreasedEnergyShieldPercentUnique__13
 IncreasedLifeUnique__55
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 ]],[[
 Inya's Epiphany
 Arcanist Slippers
 Requires Level 61, 119 Int
-IncreasedLifeUniqueBootsStr3_
-MovementVelocityUniqueBootsStr3
 PercentageIntelligenceUnique__4
-ChargeBonusDamagePerPowerCharge
+IncreasedLifeUniqueBootsStr3_
+MovementVelocityUniqueBootsStrInt2_
+IncreasedDamagePerPowerChargeUnique__1
 ChanceToGainMaximumPowerChargesUnique__1_
+your maximum number of Power Charges
 your maximum number of Power Charges
 ]],[[
 Replica Inya's Epiphany
@@ -502,7 +503,7 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 61, 119 Int
 PercentageIntelligenceUnique__4
 IncreasedLifeUniqueBootsStr3_
-IncreasedDamagePerPowerChargeUnique__1
+ChargeBonusDamagePerPowerCharge
 LifeRegenerationPerPowerChargeUnique__1__
 MovementVelocityPerPowerChargeUnique__1__
 ]],[[
@@ -518,14 +519,14 @@ Requires Level 53, 94 Int
 {variant:1,2,3,4}SpellBlockUniqueBootsInt5
 {variant:5}SpellBlockPercentageUnique__2
 {variant:6}SpellBlockPercentageUniqueBootsInt5
-{variant:1,2}IncreasedManaUniqueBow1
-{variant:3,4,5,6}IncreasedManaUniqueBootsInt5
 {variant:1,2}LocalIncreasedEnergyShieldPercentUnique__5
 {variant:3,4,5}LocalIncreasedEnergyShieldPercentUniqueBootsInt5
+{variant:1,2}IncreasedManaUnique__17
+{variant:3,4,5,6}IncreasedManaUniqueBootsInt5
 {variant:1,3,4,5,6}AllResistancesUniqueBootsInt5
 {variant:2}AllResistancesImplicitShield2
-{variant:1,2,3,6}MovementVelocityUniqueBootsDex8
-{variant:4,5}MovementVelocityUniqueBootsStr3
+{variant:1,2,3,6}MovementVelocityUniqueBootsInt5
+{variant:4,5}MovementVelocityUniqueBootsStrInt2_
 ]],[[
 Shavronne's Pace
 Scholar Boots
@@ -535,13 +536,14 @@ Variant: Pre 3.19.0
 Variant: Current
 Requires Level 32, 54 Int
 {variant:1,2,3}DexterityUniqueBootsInt3
-{variant:1}IntelligenceUniqueWand1
+{variant:1}IntelligenceUniqueOneHandSword2
 {variant:2,3,4}IntelligenceUniqueBootsInt3
-{variant:1}(50-70)% increased Energy Shield
 {variant:2,3,4}LocalIncreasedEnergyShieldPercentAndStunRecoveryUniqueBootsInt3
-{variant:3,4}MovementVelocityUniqueBootsStrDex4
-{variant:1,2}35% increased Movement Speed when on Full Life
+{variant:3,4}MovementVelocityUniqueBootsDexInt2
 {variant:3,4}MovementVelocityOnFullLifeUniqueBootsInt3
+{variant:2,3,4}(150-200)% increased Stun and Block Recovery
+{variant:1}(50-70)% increased Energy Shield
+{variant:1,2}35% increased Movement Speed when on Full Life
 {variant:1,2,3}(10-15)% increased Stun and Block Recovery
 {variant:4}(150-200)% increased Stun and Block Recovery
 ]],[[
@@ -554,11 +556,12 @@ Requires Level 32, 54 Int
 DexterityUniqueBootsInt3
 IntelligenceUniqueBootsInt3
 LocalIncreasedEnergyShieldPercentAndStunRecoveryUniqueBootsInt3
-{variant:2}MovementVelocityUniqueBootsStrDex4
-{variant:1}35% increased Movement Speed when on Full Life
+{variant:2}MovementVelocityUniqueBootsDexInt2
 {variant:2}MovementVelocityOnFullLifeUniqueBootsInt3
 {variant:1}EnergyShieldRegenerationperMinuteWhileOnLowLifeTransformedUnique__1
-{variant:2}EnergyShieldRegenerationUnique__1
+(150-200)% increased Stun and Block Recovery
+{variant:2}EnergyShieldRegenerationUnique__2
+{variant:1}35% increased Movement Speed when on Full Life
 (10-15)% increased Stun and Block Recovery
 ]],[[
 Skyforth
@@ -566,7 +569,7 @@ Sorcerer Boots
 Energy Shield: 64
 Requires Level 67, 123 Int
 IncreasedManaUnique__1
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 PowerChargeOnCriticalStrikeChanceUnique__1
 ReducedManaReservationCostUnique__1
 NoLifeRegenerationUnique___1
@@ -579,9 +582,9 @@ Variant: Pre 3.0.0
 Variant: Current
 Requires Level 67, 123 Int
 {variant:1}(110-140)% increased Energy Shield
-{variant:2}LocalIncreasedEnergyShieldPercentUniqueBootsInt6
 LocalIncreasedEnergyShiledUniqueBootsInt6
-MovementVelocityUniqueBootsInt6
+{variant:2}LocalIncreasedEnergyShieldPercentUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 MovementVelocityOnShockedGroundUniqueBootsInt6_
 IncreasedDamageOnBurningGroundUniqueBootsInt6
 LifeRegenerationPercentOnChilledGroundUniqueBootsInt6
@@ -590,10 +593,10 @@ ImmuneToDesecratedGroundUniqueBootsInt6
 Wanderlust
 Wool Shoes
 DexterityUniqueBootsInt2
-ManaRegenerationUniqueBootsInt2
 LocalIncreasedEnergyShieldUniqueBootsInt2
-MovementVelocityUniqueBootsDex8
-MutatedUniqueAmulet39CannotBeFrozen
+ManaRegenerationUniqueBootsInt2
+MovementVelocityUniqueBootsInt5
+CannotBeFrozen
 ]],[[
 Wondertrap
 Velvet Slippers
@@ -606,12 +609,12 @@ Variant: Current
 {variant:3}DexterityUniqueBootsInt1
 {variant:1,2}IntelligenceUnique__21
 {variant:3}IntelligenceUniqueBootsInt1
-{variant:1,2}+(10-16) to maximum Energy Shield
 {variant:3}LocalIncreasedEnergyShieldPercentUniqueBootsInt1
 ItemRarityOnLowLifeUniqueBootsInt1
-{variant:1}MovementVelocityUniqueBootsStrDex4
+{variant:1}MovementVelocityUniqueBootsDexInt2
 {variant:2}MovementVelocityDescent2Boots1
 {variant:3}MovementVelocityUniqueBootsInt1
+{variant:1,2}+(10-16) to maximum Energy Shield
 ]],[[
 Greedtrap
 Velvet Slippers
@@ -622,25 +625,22 @@ DexterityUnique__26
 IntelligenceUnique__21
 LocalIncreasedEnergyShieldUnique__16
 ItemQuantityOnLowLifeUnique__1
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 ]],[[
 Scornflux
 Satin Slippers
 Source: Drops from unique{Mercenary} after winning a duel
 League: Mercenaries of Trarthus
 Requires Level 54, 69 Int
-IntelligenceUnique__31
-+(40-70) to Maximum Mana
+IntelligenceUnique__36
 AllResistancesUnique__34
 ArcaneSurgeOnMovementSkillUnique
++(40-70) to Maximum Mana
 Increase to Cast Speed from Arcane Surge also applies to Movement Speed
 ]],
 -- Boots: Armour/Evasion
 [[
 Beacon of Madness
-{variant:1}Two-Toned Boots (Armour/Evasion)
-{variant:2}Two-Toned Boots (Armour/Energy Shield)
-{variant:3}Two-Toned Boots (Evasion/Energy Shield)
 Variant: Two-Toned Boots (Armour/Evasion)
 Variant: Two-Toned Boots (Armour/Energy Shield)
 Variant: Two-Toned Boots (Evasion/Energy Shield)
@@ -650,16 +650,16 @@ Implicits: 3
 {variant:2}FireAndLightningResistImplicitBoots1
 {variant:3}ColdAndLightningResistImplicitBoots1
 GrantEmbraceMadnessSkillUnique1
-MovementVelocityUniqueBootsInt6
+{variant:3}IncreasedChaosDamageUnique__5
 {variant:1}LocalIncreasedArmourAndEvasionUnique__13
-{variant:1}+15 to maximum Fortification while affected by Glorious Madness
-{variant:1}DoubleDamageChanceGloriousMadnessUnique_1
+MovementVelocityUniqueBootsDex7
 {variant:2}IncreasedAilmentEffectOnEnemiesUnique_2
+{variant:3}AllDamageCanPoisonGloriousMadnessUnique___1
+{variant:1}DoubleDamageChanceGloriousMadnessUnique_1
+{variant:3}EnemiesExplodeOnDeathChaosGloriousMadnessUnique1
 {variant:2}ElementalConfluxesGloriousMadnessUnique1
 {variant:2}ElementalAilmentImmunityGloriousMadnessUnique1
-{variant:3}IncreasedChaosDamageUnique__5
-{variant:3}EnemiesExplodeOnDeathChaosGloriousMadnessUnique1
-{variant:3}AllDamageCanPoisonGloriousMadnessUnique___1
+{variant:1}+15 to maximum Fortification while affected by Glorious Madness
 ]],[[
 Darkray Vectors
 Dragonscale Boots
@@ -668,14 +668,14 @@ Variant: Pre 3.16.0
 Variant: Current
 Requires Level 65, 62 Str, 62 Dex
 {variant:2,3}LocalIncreasedArmourAndEvasionUnique__3_
+{variant:3}EvasionRatingPerFrenzyChargeUniqueBootsStrDex2
 LightningResistUniqueBootsStrDex2
 MovementVelocityPerFrenzyChargeUniqueBootsStrDex2
-+1 to Maximum Frenzy Charge
-{variant:1}50% reduced Frenzy Charge Duration
 {variant:2,3}FrenzyChargeDurationUniqueBootsStrDex2
 LightRadiusUniqueBootsStrDex2
++1 to Maximum Frenzy Charge
+{variant:1}50% reduced Frenzy Charge Duration
 {variant:1,2}2% chance to Suppress Spell Damage per Frenzy Charge
-{variant:3}EvasionRatingPerFrenzyChargeUniqueBootsStrDex2
 ]],[[
 Dusktoe
 {variant:1}Leatherscale Boots
@@ -686,16 +686,16 @@ Variant: Pre 3.19.0
 Variant: Current
 {variant:1,2,3}LocalIncreasedArmourAndEvasionUniqueStrDexHelmet1
 {variant:4}LocalIncreasedArmourAndEvasionUniqueBootsStrDex3
-{variant:1,2}IncreasedLifeImplicitShield1
+{variant:1,2}IncreasedLifeUniqueHelmetDex5
 {variant:3}IncreasedLifeUniqueBootsStrDex3
 {variant:1,2}IncreasedManaUniqueBootsStrDex3
-{variant:1,2,3}MovementVelocityUniqueBootsStrDex4
-{variant:4}MovementVelocityUniqueBootsDex8
+{variant:1,2,3}MovementVelocityUniqueBootsDexInt2
+{variant:4}MovementVelocityUniqueBootsInt5
 {variant:1,2,3}StunRecoveryUniqueBootsStrDex3
 LightRadiusUniqueBootsStrDex3
-{variant:3}Adds (15-20) to (25-30) Chaos Damage to Spells and Attacks during any Flask Effect
-{variant:4}AddedChaosDamageWhileUsingAFlaskUnique__2
 ChaosResistanceWhileUsingFlaskUniqueBootsStrDex3
+{variant:4}AddedChaosDamageWhileUsingAFlaskUnique__1_
+{variant:3}Adds (15-20) to (25-30) Chaos Damage to Spells and Attacks during any Flask Effect
 ]],[[
 Duskblight
 Ironscale Boots
@@ -707,11 +707,11 @@ Requires Level 40, 19 Str, 19 Dex
 {variant:2}StalkingPustuleOnKillUnique__1
 LocalIncreasedArmourAndEvasionUnique__11
 IncreasedLifeUniqueShieldStr4
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 StunRecoveryUniqueBootsStrDex3
 LightRadiusUniqueBootsStrDex3
 ChaosResistanceWhileUsingFlaskUniqueBootsStrDex3
-{variant:2}AddedChaosDamageWhileUsingAFlaskUnique__1_
+{variant:2}AddedChaosDamageWhileUsingAFlaskUnique__2
 ]],[[
 Legacy of Fury
 Wyrmscale Boots
@@ -721,11 +721,11 @@ Variant: Current
 League: Ritual
 Requires Level 69, 48 Str, 48 Dex
 LocalIncreasedArmourAndEvasionUnique__18
-{variant:1}-(15-10)% to all Elemental Resistances
-MovementVelocityUniqueBootsInt6
-{variant:1}ScorchedGroundWhileMovingUnique__1
+MovementVelocityUniqueBootsDex7
 {variant:2}NearbyEnemiesAreScorchedUnique__1
+{variant:1}ScorchedGroundWhileMovingUnique__1
 ScorchEffectUnique__1
+{variant:1}-(15-10)% to all Elemental Resistances
 (30-40)% chance when you Kill a Scorched Enemy to Burn Each surrounding Enemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second
 ]],[[
 Annihilation's Approach
@@ -735,20 +735,21 @@ Variant: Current
 Source: Drops from unique{The Searing Exarch} (Uber)
 GrantsTouchOfFireUnique__1
 LocalIncreasedArmourAndEvasionUniqueBootsStrDex3
-MovementVelocityUniqueBootsInt6
-CannotBeFrozenOrChilledUnique__1
-MutatedUniqueAmulet39CannotBeFrozen
-{variant:1}Take 10000 Fire Damage per Second while Flame-Touched
+MovementVelocityUniqueBootsDex7
+CannotBeChilledUnique__1
+CannotBeFrozen
+CannotBeFrozen
 {variant:2}FireDamageTakenFireTouchedUnique__1
 GainAdrenalineFireTouchedGainUnique__1
 LoseAdrenalineFireTouchedLossUnique__1
+{variant:1}Take 10000 Fire Damage per Second while Flame-Touched
 ]],[[
 Gamblesprint
 Hydrascale Boots
 League: Affliction
 Requires Level 59, 56 Str, 56 Dex
 DexterityUniqueBootsDex4_
-LocalIncreasedArmourAndEvasionUnique__22
+LocalIncreasedArmourAndEvasionUnique__12
 LightningResistUniqueBootsStrDex2
 When Hit, gain a random Movement Speed modifier from 40% reduced to 100% increased until Hit again
 ]],[[
@@ -762,7 +763,7 @@ Requires Level 30, 30 Str, 30 Dex
 StrengthUniqueBootsStrDex1
 DexterityUniqueBootsStrDex1
 AddedFireDamageUniqueBootsStrDex1
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 MovementVelocityOnLowLifeUniqueBootsStrDex1
 {variant:1}StunRecoveryUniqueBootsStrDex1
 {variant:1}CannotBeStunnedOnLowLife
@@ -776,7 +777,7 @@ TriggerToxicRainOnBowAttackUnique__1
 StrengthUniqueBootsStrDex1
 DexterityUniqueBootsStrDex1
 AddedChaosDamageUnique__1
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 MovementVelocityOnLowLifeUniqueBootsStrDex1
 ]],[[
 Mutewind Whispersteps
@@ -787,13 +788,13 @@ Variant: Current
 Requires Level 42, 40 Str, 40 Dex
 {variant:1}Adds (15-19) to (28-35) Cold Damage to Spells
 {variant:2}SpellAddedColdDamageUniqueBootsStrDex5
+LocalIncreasedEvasionRatingPercentUniqueBootsDex3
+ColdResistUniqueBootsStrDex5
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2}MovementVelocityUniqueBootsStrInt2_
+ImmuneToChilledGroundUniqueBootsStrDex5
 {variant:1}(20-40)% increased Critical Strike Chance for Spells
 {variant:2}(50-70)% increased Critical Strike Chance for Spells
-LocalIncreasedEvasionRatingPercentUniqueBootsStrDex5
-ColdResistUniqueBootsStrDex5
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2}MovementVelocityUniqueBootsStr3
-ImmuneToChilledGroundUniqueBootsStrDex5
 ]],[[
 Saqawal's Talons
 Hydrascale Boots
@@ -801,8 +802,8 @@ League: Bestiary
 Source: Drops from unique{Saqawal, First of the Sky}
 Requires Level 59, 56 Str, 56 Dex
 GrantsBirdAspect1_
-LocalIncreasedArmourAndEvasionUnique__24
-MovementVelocityUnique__53
+LocalIncreasedArmourAndEvasionUnique__14
+MovementVelocityUnique__39_
 AviansFlightDurationUnique__1
 AviansFlightLifeRegenerationUnique__1
 AviansFlightManaRegenerationUnique__1_
@@ -816,12 +817,13 @@ Variant: Current
 PercentageStrengthUniqueBootsStrInt2
 AddedChaosDamageUniqueBootsStrInt2
 LocalIncreasedPhysicalDamageReductionRatingUniqueBootsStrInt2
-{variant:1}+(9-12)% to Chaos Resistance
 {variant:2}ChaosResistUniqueBootsStrInt2
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2}MovementVelocityUniqueBootsStr3
-{variant:1}+1 to Maximum number of Skeletons
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2}MovementVelocityUniqueBootsStrInt2_
 {variant:2}SkeletonWarriorsPermanentMinionUnique__1
+{variant:2}Summon Skeletons cannot Summon more than 1 Skeleton Warrior
+{variant:1}+(9-12)% to Chaos Resistance
+{variant:1}+1 to Maximum number of Skeletons
 {variant:2}Summon Skeletons cannot Summon more than 1 Skeleton Warrior
 ]],[[
 Replica Alberon's Warpath
@@ -832,12 +834,12 @@ League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 PercentageStrengthUniqueBootsStrInt2
 LocalIncreasedPhysicalDamageReductionRatingUniqueBootsStrInt2
-{variant:1}+(9-12)% to Chaos Resistance
 {variant:2}ChaosResistUniqueBootsStrInt2
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2}MovementVelocityUniqueBootsStr3
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2}MovementVelocityUniqueBootsStrInt2_
 CannotDealNonChaosDamageUnique__1_
 AddedChaosDamageToAttacksPer50StrengthUnique__1
+{variant:1}+(9-12)% to Chaos Resistance
 ]],[[
 Death's Door
 Crusader Boots
@@ -846,10 +848,10 @@ Requires Level 64, 62 Str, 62 Int
 StrengthUnique__9
 LocalIncreasedArmourAndEnergyShieldUnique__4
 AllResistancesUniqueBootsStr1
-MovementVelocityUniqueBootsStr3
-MutatedUniqueTwoHandAxe1MaximumEnduranceCharges
-50% increased Elemental Ailment Duration on You
+MovementVelocityUniqueBootsStrInt2_
+MaximumEnduranceChargeUniqueRing2
 BleedingImmunityUnique__2
+50% increased Elemental Ailment Duration on You
 ]],[[
 Gang's Momentum
 Legion Boots
@@ -858,9 +860,9 @@ Variant: Current
 Requires Level 58, 54 Str, 54 Int
 LocalIncreasedArmourAndEnergyShieldUniqueBootsStrInt3
 FireResistUniqueBootsStrInt3
-MovementVelocityUniqueBootsStr3
-{variant:1}(5-7)% chance to Ignite
+MovementVelocityUniqueBootsStrInt2_
 {variant:2}ChanceToIgniteUniqueBootsStrInt3
+{variant:1}(5-7)% chance to Ignite
 {variant:1}15% increased Damage against Ignited Enemies
 {variant:2}(25-40)% increased Damage against Ignited Enemies
 ]],[[
@@ -870,7 +872,7 @@ Variant: Pre 3.17.0
 Variant: Current
 League: Synthesis
 Requires Level 58, 54 Str, 54 Int
-{variant:1}LocalIncreaseSocketedAuraLevelUniqueShieldStrInt2
+{variant:1}LocalIncreaseSocketedAuraGemLevelUnique___1
 {variant:2}LocalIncreaseSocketedAuraGemLevelUnique___3
 SupportedByBlessingSupportUnique__1
 LocalIncreasedArmourAndEnergyShieldUnique__14
@@ -889,21 +891,25 @@ Variant: Power Current
 Requires Level 36, 35 Str, 35 Int
 ColdResistUnique__19
 ChaosResistUnique__7
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2,3}MovementVelocityUniqueBootsInt6
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2,3}MovementVelocityUniqueBootsDex7
 {variant:5,6,7}MovementVelocityUnique__57
 {variant:5,6,7}CorruptedBloodImmunityUnique_1
+{variant:3,4}LoseAllChargesOnMoveUnique__1
+{variant:5}CountAsHavingMaxEnduranceFrenzyPowerCharges1
+{variant:3,4}CountAsHavingMaxFrenzyChargesUnique__1
+{variant:5}CountAsHavingMaxFrenzyChargesUnique__1
+{variant:3,4}CountAsHavingMaxPowerChargesUnique__1
+{variant:5}CountAsHavingMaxPowerChargesUnique__1
+{variant:3,4}CountAsHavingMaxFrenzyChargesUnique__1
+{variant:6}CountAsHavingMaxFrenzyChargesUnique__1
+{variant:3,4}CountAsHavingMaxPowerChargesUnique__1
+{variant:7}CountAsHavingMaxPowerChargesUnique__1
 {variant:1}GainARandomChargePerSecondWhileStationaryUnique__1
 {variant:1,2}Lose all Frenzy, Endurance, and Power Charges when you Move
 {variant:2}Minimum Endurance Charges equal to Maximum while stationary
 {variant:2}Minimum Frenzy Charges equal to Maximum while stationary
 {variant:2}Minimum Power Charges equal to Maximum while stationary
-{variant:3,4}MinimumChargesEqualToMaximumWhileStationaryUnique__1
-{variant:3,4}CountAsHavingMaxFrenzyChargesUnique__1
-{variant:3,4}CountAsHavingMaxPowerChargesUnique__1
-{variant:5}LoseAllChargesOnMoveUnique__1
-{variant:6}CountAsHavingMaxFrenzyChargesUnique__1
-{variant:7}CountAsHavingMaxPowerChargesUnique__1
 ]],[[
 Wake of Destruction
 Mesh Boots
@@ -914,9 +920,9 @@ Requires Level 28, 28 Str, 28 Int
 AddedLightningDamageUniqueBootsStrInt1
 LocalIncreasedArmourAndEnergyShieldUniqueBootsStrInt1
 LifeGainedFromEnemyDeathUniqueBootsStrInt1
-{variant:2,3}MovementVelocityUniqueBootsStrDex4
-{variant:1,2}10% Chance to Cause Monsters to Flee
+{variant:2,3}MovementVelocityUniqueBootsDexInt2
 {variant:3}ShockedGroundWhileMovingUnique__1_
+{variant:1,2}10% Chance to Cause Monsters to Flee
 ]],
 -- Boots: Evasion/Energy Shield
 [[
@@ -927,15 +933,15 @@ Variant: Pre 2.6.0
 Variant: Pre 3.0.0
 Variant: Current
 Requires Level 41, 40 Dex, 40 Int
-{variant:1}LocalIncreasedEnergyShieldUnique__23
-{variant:2}+(120-150) to maximum Energy Shield
-{variant:3}LocalIncreasedEnergyShieldUniqueBootsDexInt4
 IncreasedPhysicalDamagePercentUniqueBootsDexInt4
-{variant:1}MovementVelocityUniqueBootsDex8
-{variant:2,3}MovementVelocityUniqueBootsStr3
+{variant:1}IncreasedEnergyShieldImplicitBelt2
+{variant:3}LocalIncreasedEnergyShieldUniqueBootsDexInt4
 LightningResistUniqueBootsDexInt4
+{variant:1}MovementVelocityUniqueBootsInt5
+{variant:2,3}MovementVelocityUniqueBootsStrInt2_
 IncreasedProjectileDamageUniqueBootsDexInt4
 ImmuneToShockedGroundUniqueBootsDexInt4
+{variant:2}+(120-150) to maximum Energy Shield
 ]],[[
 Bubonic Trail
 Murder Boots
@@ -946,12 +952,12 @@ Variant: Two Abyssal Sockets (Pre 3.21.0)
 Variant: One Abyssal Socket (Current)
 Variant: Two Abyssal Sockets (Current)
 Requires Level 69, 82 Dex, 42 Int
-{variant:1,3}AbyssJewelSocketUnique__7
-{variant:2,4}AbyssJewelSocketUnique__13
+{variant:1,3}AbyssJewelSocketUnique__12
+{variant:2,4}AbyssJewelSocketUnique__1
 DeathWalk
-{variant:1,2}MaximumLifeUnique__9
+{variant:1,2}MaximumLifeUnique__13
+{variant:1,2}MovementVelocityUniqueBootsDex7
 {variant:3,4}ElementalAilmentDurationWithRareAbyssJewelUnique__1
-{variant:1,2}MovementVelocityUniqueBootsInt6
 {variant:3,4}MovementVelocityWithMagicAbyssJewelUnique__1
 {variant:1,2}10% increased Damage for each type of Abyssal Jewel affecting you
 {variant:3,4}(16-24)% increased Reservation Efficiency while affected by a Unique Abyss Jewel
@@ -965,11 +971,11 @@ Requires Level 55, 52 Dex, 52 Int
 Implicits: 0
 CorpseWalk
 LocalIncreasedEvasionAndEnergyShieldUnique__28
-MovementVelocityUniqueBootsStr3
+MovementVelocityUniqueBootsStrInt2_
 {variant:1}DamageIfConsumedCorpseUnique__1__
 {variant:1}LifeRegenerationPerNearbyCorpseUnique__1
-{variant:2}For each nearby corpse, Regenerate 8.00 Life per Second
 {variant:2}MovementVelocityPerNearbyCorpseUnique__1
+{variant:2}For each nearby corpse, Regenerate 8.00 Life per Second
 ]],[[
 Dance of the Offered
 {variant:1}Shackled Boots
@@ -983,8 +989,8 @@ Upgrade: Upgrades to unique{Omeyocan} via currency{Vial of the Ritual}
 {variant:2}Requires Level 55, 52 Dex, 52 Int
 IncreasedManaUnique__13
 {variant:1}LightningResistUnique__6
-{variant:2}LightningResistUnique__17_
-MovementVelocityUniqueBootsStr3
+{variant:2}LightningResistUnique__18
+MovementVelocityUniqueBootsStrInt2_
 OnslaughtWhileNotOnLowManaUnique__1_
 {variant:1}LoseManaPerSecondUnique__1
 {variant:2}KeystoneTheAgnosticUnique__1_
@@ -998,12 +1004,12 @@ League: Incursion
 Source: Upgraded from unique{Dance of the Offered} via currency{Vial of the Ritual}
 Requires Level 55, 52 Dex, 52 Int
 MaximumManaUnique__7
-LightningResistUnique__18
-MovementVelocityUniqueBootsInt6
+LightningResistUnique__17_
+MovementVelocityUniqueBootsDex7
+OnslaughtWhileNotOnLowManaUnique__1_
 {variant:1}2% increased Evasion per 500 Maximum Mana
 {variant:2}10% increased Evasion per 500 Maximum Mana
 {variant:3}20% increased Evasion per 500 Maximum Mana
-OnslaughtWhileNotOnLowManaUnique__1_
 Lose 7% of maximum Mana per Second
 ]],[[
 Fenumus' Spinnerets
@@ -1014,7 +1020,7 @@ Requires Level 63, 62 Dex, 62 Int
 LocalIncreasedEvasionAndEnergyShieldUnique__14
 LightningResistUniqueBootsDexInt4
 ChaosResistUnique__12
-MovementVelocityUniqueBootsStr3
+MovementVelocityUniqueBootsStrInt2_
 IncreasedSpiderWebCountUnique__1
 ESOnHitWebbedEnemiesUnique__1
 AspectOfSpiderDurationUnique__1
@@ -1026,7 +1032,7 @@ Requires Level 70, 56 Dex, 76 Int
 Implicits: 1
 ChaosResistImplicitBoots1
 IncreasedLifeUnique__35
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 GainVinesOnCriticalStrikeUnique__1
 NearbyStationaryEnemiesGainVinesUnique__1
 AllDamagePoisonsGraspingVinesUnique__1
@@ -1038,14 +1044,14 @@ Variant: Pre 2.0.0
 Variant: Pre 2.6.0
 Variant: Current
 Requires Level 16, 18 Dex, 18 Int
-DexterityUniqueBootsDex1
+DexterityUniqueBootsDexInt2
 LocalIncreasedEvasionRatingUniqueBootsDex8
 LocalIncreasedEnergyShieldUniqueBootsDex8
-MovementVelocityUniqueBootsDex8
 ColdResistUniqueBootsDexInt2
-{variant:1}30% increased Physical Damage taken
+MovementVelocityUniqueBootsInt5
 {variant:2}IncreasedPhysicalDamageTakenUniqueBootsDex8
 {variant:3}DamageTakenOnFullESUnique__1
+{variant:1}30% increased Physical Damage taken
 20% increased Movement Speed when on Full Energy Shield
 ]],[[
 The Stampede
@@ -1054,10 +1060,10 @@ Requires Level 63, 62 Dex, 62 Int
 League: Blight
 Source: Drops in Blighted Maps
 LocalIncreasedEvasionAndEnergyShieldUnique__18
-StunRecoveryUnique__3
-Travel Skills have (50-80)% increased Cooldown Recovery Speed
+StunRecoveryUnique__7
 ManaRegenerationRateWhileMovingUnique__1
 MovementVelocityOverrideUnique__1
+Travel Skills have (50-80)% increased Cooldown Recovery Speed
 This item can be anointed by Cassia
 ]],[[
 Replica Stampede
@@ -1065,9 +1071,9 @@ Assassin's Boots
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 63, 62 Dex, 62 Int
-LocalIncreasedEvasionAndEnergyShieldUnique__18
-StunRecoveryUnique__7
 TravelSkillMoreDamageUnique__1
+LocalIncreasedEvasionAndEnergyShieldUnique__18
+StunRecoveryUnique__2
 ManaRegenerationRateWhileMovingUnique__1
 MovementVelocityOverrideUnique__1
 This item can be anointed by Cassia
@@ -1082,7 +1088,7 @@ LocalIncreasedEvasionRatingPercentUniqueBootsDexInt1
 ItemFoundRarityIncreaseUniqueBootsDexInt1
 FireResistUniqueBootsDexInt1
 {variant:1}MovementVelocityDescent2Boots1
-{variant:2}MovementVelocityUniqueBootsDex8
+{variant:2}MovementVelocityUniqueBootsInt5
 ]],[[
 Sunspite
 Clasped Boots
@@ -1092,7 +1098,7 @@ IncreasedAttackSpeedUniqueBootsDexInt1
 LocalIncreasedEvasionAndEnergyShieldUnique__15
 ItemFoundRarityIncreaseUniqueBootsDexInt1
 FireResistUniqueBootsDexInt1
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 MovementVelocityWhileIgnitedUniqueJewel20
 IncreasedChanceToBeIgnitedUniqueRing24
 LifeRegeneratedPerMinuteWhileIgnitedUnique__1
@@ -1102,9 +1108,10 @@ Shackled Boots
 League: Necropolis
 Requires Level 34, 34 Dex, 34 Int
 GrantsRavenousSkillUnique__1
+Enemies display their Monster Category
 LocalIncreasedEvasionAndEnergyShieldUnique__37
 ChaosResistUnique__30
-MovementVelocityUnique__28
+MovementVelocityUnique__53
 Enemies display their Monster Category
 ]],[[
 Voidwalker
@@ -1116,7 +1123,7 @@ Variant: Current
 Requires Level 69, 82 Dex, 42 Int
 DexterityUnique__22
 LocalIncreasedEvasionAndEnergyShieldUnique__22
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 ChanceToAvoidProjectilesWhilePhasingUnique__1
 GainPhasingIfKilledRecentlyUnique__1
 {variant:1}PrrojectilesPierceWhilePhasingUnique__1_
@@ -1129,9 +1136,9 @@ Shaper Item
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 69, 82 Dex, 42 Int
-DexterityUnique__3
+DexterityUnique__25
 LocalIncreasedEvasionAndEnergyShieldUnique__5
-MovementVelocityUniqueBootsInt6
+MovementVelocityUniqueBootsDex7
 DamageTakenWhilePhasingUnique__1
 GainPhasingIfKilledRecentlyUnique__1
 ProjectilesChainWhilePhasingUnique__1_
@@ -1145,7 +1152,7 @@ League: Expedition
 Requires Level 48, 37 Str, 37 Dex, 37 Int
 LocalIncreasedWardPercentUnique__4_
 WardDelayRecoveryUnique__2
-MovementVelocityUniqueBootsDex8
+MovementVelocityUniqueBootsInt5
 AdrenalineOnWardBreakUnique__1
 ]],
 }

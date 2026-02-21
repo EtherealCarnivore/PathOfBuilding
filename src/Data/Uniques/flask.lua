@@ -48,6 +48,7 @@ League: Domination, Nemesis
 100% increased Recovery rate
 Skills Cost no Mana during Effect
 100% increased Recovery rate
+100% increased Recovery rate
 ]],[[
 Replica Lavianga's Spirit
 Sanctified Mana Flask
@@ -58,6 +59,8 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 (5-15)% increased Attack Speed during Effect
 (5-15)% increased Cast Speed during Effect
 10% increased Mana Cost of Skills during Effect
+100% increased Recovery rate
+(5-15)% increased Cast Speed during Effect
 50% reduced Recovery rate
 (5-15)% increased Cast Speed during Effect
 ]],[[
@@ -98,6 +101,7 @@ Hallowed Hybrid Flask
 (75-65)% reduced Amount Recovered
 Instant Recovery
 2 Enemy Writhing Worms escape the Flask when used
+Writhing Worms are destroyed when Hit
 Writhing Worms are destroyed when Hit
 Writhing Worms are destroyed when Hit
 ]],
@@ -165,6 +169,7 @@ Implicits: 0
 {variant:3}25% increased Duration
 Chaos Damage taken does not bypass Energy Shield during effect
 Removes all but one Life on use
+Removed life is Regenerated as Energy Shield over 2 seconds
 Removed life is Regenerated as Energy Shield over 2 seconds
 Removed life is Regenerated as Energy Shield over 2 seconds
 ]],[[
@@ -330,6 +335,7 @@ Grants Immunity to Ignite for 4 seconds if used while Ignited
 Removes all Burning when used
 Unholy Might during Effect
 Removes all Burning when used
+Removes all Burning when used
 ]],[[
 The Sorrow of the Divine
 Sulphur Flask
@@ -340,6 +346,7 @@ Implicits: 1
 Creates Consecrated Ground on Use
 {variant:2}Life Recovery from Flasks also applies to Energy Shield during Effect
 (25-50)% increased Duration
+{variant:2}Zealot's Oath during Effect
 {variant:2}Eldritch Battery during Effect
 Zealot's Oath during Effect
 ]],[[
@@ -351,6 +358,7 @@ Implicits: 1
 Creates Consecrated Ground on Use
 Life Recovery from Flasks also applies to Energy Shield during Effect
 (25-50)% increased Duration
+Zealot's Oath during Effect
 Eldritch Battery during Effect
 Eldritch Battery during Effect
 ]],[[
@@ -523,6 +531,7 @@ Restores Ward on use
 Recover 4% of Life per Endurance Charge on use
 Lose all Endurance Charges on use
 Gain 1 Endurance Charge per Second during Effect
+Lose all Endurance Charges on use
 Lose all Endurance Charges on use
 ]],[[
 Olroth's Resolve

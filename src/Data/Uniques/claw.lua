@@ -113,9 +113,9 @@ Variant: Pre 3.19.0
 Variant: Current
 Requires Level 37, 53 Dex, 77 Int
 Implicits: 3
+{variant:1,2,3}(8-12)% increased Cast Speed
 {variant:1}Grants 15 Life per Enemy Hit
 {variant:3,4}Grants 25 Life per Enemy Hit
-{variant:1,2,3}(8-12)% increased Cast Speed
 {variant:4}(15-20)% increased Cast Speed
 +(30-40) to maximum Mana
 {variant:4}Gain (15-20) Life per Enemy Hit with Spells

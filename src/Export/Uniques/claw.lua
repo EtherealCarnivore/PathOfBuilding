@@ -12,12 +12,12 @@ Implicits: 2
 {variant:1}Grants 21 Life per Enemy Hit
 {variant:2}LifeGainPerTargetImplicit2Claw8
 SocketedGemsSupportedByFortifyUnique____1
+AdditionalBlockUnique__2
 LocalIncreasedPhysicalDamagePercentUniqueClaw6
 IncreasedEvasionRatingUnique___1
-IncreasedLifeUniqueAmulet4
 IncreasedEnergyShieldUnique__2
+IncreasedLifeUniqueShieldStr2
 AttackerTakesDamageShieldImplicit7
-AdditionalBlockUnique__2
 ]],[[
 Replica Advancing Fortress
 Gut Ripper
@@ -29,7 +29,7 @@ LifeGainPerTargetImplicit2Claw8
 SupportedByCastOnDamageTakenUnique__1
 AdditionalBlockUnique__2
 LocalIncreasedPhysicalDamagePercentUniqueClaw6
-IncreasedLifeUniqueShieldStr2
+IncreasedLifeUniqueAmulet18
 ShieldArmourIncreaseUnique__1
 AddedFireDamageIfBlockedRecentlyUnique__1
 ]],[[
@@ -43,10 +43,10 @@ LifeLeechPermyriadImplicitClaw2
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueClaw4
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__1
 LocalAddedPhysicalDamageUnique__1
-IncreasedAttackSpeedUniqueQuiver7
+LocalIncreasedAttackSpeedUnique__16
 MovementSpeedWhilePhasedUnique__1
-{variant:1}You gain Phasing for 3 seconds on using a Vaal Skill
 {variant:2}GainPhasingOnVaalSkillUseUnique__1
+{variant:1}You gain Phasing for 3 seconds on using a Vaal Skill
 ]],[[
 Replica Allure
 Vaal Claw
@@ -57,7 +57,7 @@ Implicits: 1
 LifeLeechPermyriadImplicitClaw2
 LocalIncreasedPhysicalDamagePercentUnique__1
 LocalAddedPhysicalDamageUnique__1
-IncreasedAttackSpeedUniqueShieldInt5
+LocalIncreasedAttackSpeedUnique__24
 LifeGainedOnTauntingEnemyUnique__1
 OnslaughtOnKillingTauntedEnemyUnique__1
 TauntedEnemiesTakeIncreasedDamage_
@@ -73,19 +73,19 @@ Variant: Pre 3.11.0
 Variant: Current
 Requires Level 26, 39 Dex, 56 Int
 Implicits: 3
-{variant:1}LifeGainPerTargetImplicitClaw2
 {variant:2}LifeLeechPermyriadImplicitClaw2
+{variant:1}LifeGainPerTargetImplicitClaw2
 {variant:3,4,5,6}LifeGainPerTargetImplicit2Claw4_1
 {variant:1,2,3,4}SocketedItemsHaveChanceToFleeUniqueClaw6
 {variant:4,5}TriggeredAbyssalCryUnique__1
-{variant:1}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe6
+{variant:1}LocalIncreasedPhysicalDamagePercentUnique__36_
 {variant:2,3,4,5,6}LocalIncreasedPhysicalDamagePercentUniqueClaw6
 LifeLeechPermyriadUniqueClaw6
 {variant:1,2,3,4}StunThresholdReductionUniqueClaw6
 {variant:6}WarcryTauntChaosExplosionUnique__1_
-{variant:5}50% increased Warcry Buff Effect
-{variant:6}WarcryEffectUnique__2
+{variant:6}WarcryEffectUnique__1
 {variant:5,6}WarcryCooldownIs2SecondsUnique__1
+{variant:5}50% increased Warcry Buff Effect
 ]],[[
 Bloodseeker
 Hellion's Paw
@@ -98,12 +98,12 @@ LifeLeechPermyriadImplicitClaw1
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueClaw6
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__28__
 {variant:3}LocalIncreasedPhysicalDamagePercentUniqueClaw3
-{variant:1,2}Adds 10 to 12 Physical Damage
 {variant:3}LocalAddedPhysicalDamageUniqueClaw3
 LocalIncreasedAttackSpeedUniqueClaw3
 LifeLeechPermyriadUniqueClaw3
 MovementVelocityUniqueClaw3
 LocalLifeLeechIsInstantUniqueClaw3
+{variant:1,2}Adds 10 to 12 Physical Damage
 ]],[[
 Cybil's Paw
 Thresher Claw
@@ -114,15 +114,15 @@ Variant: Current
 Requires Level 37, 53 Dex, 77 Int
 Implicits: 3
 {variant:1}LifeGainPerTargetImplicitClaw3
-{variant:2}Grants 21 Life per Enemy Hit
 {variant:3,4}LifeGainPerTargetImplicit2Claw6
-{variant:1,2,3}IncreasedCastSpeedUniqueStaff12
+{variant:1,2,3}IncreasedCastSpeedUniqueTwoHandMace8
 {variant:4}IncreasedCastSpeedUniqueClaw7
 IncreasedManaUniqueClaw7
-{variant:1,2,3}Gain (5-8) Life per Enemy Hit with Spells
 {variant:4}LifeGainedOnSpellHitUniqueClaw7
-{variant:1}6% increased Spell Damage per 5% Chance to Block Attack Damage
 {variant:2,3,4}IncreasedSpellDamagePerBlockChanceUniqueClaw7
+{variant:2}Grants 21 Life per Enemy Hit
+{variant:1,2,3}Gain (5-8) Life per Enemy Hit with Spells
+{variant:1}6% increased Spell Damage per 5% Chance to Block Attack Damage
 ]],[[
 Essentia Sanguis
 {variant:1,2,3}Eye Gouger
@@ -135,22 +135,22 @@ Variant: Pre 3.20.0
 Variant: Current
 Implicits: 3
 {variant:1,2}LifeLeechPermyriadUniqueShieldDex2
-{variant:3}Grants 31 Life per Enemy Hit
 {variant:4,5,6}LifeLeechPermyriadImplicitClaw2
 {variant:1}+10% Chance to Block Attack Damage while Dual Wielding Claws
 {variant:2,3,4,5,6}BlockWhileDualWieldingClawsUniqueClaw1
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueSceptre5
 {variant:2,3,4,5}LocalIncreasedPhysicalDamagePercentUniqueClaw1
-{variant:1}Adds 1 to 50 Lightning Damage
-{variant:2,3}Adds 1 to 80 Lightning Damage
-{variant:4,5}Adds 1 to 200 Lightning Damage
 {variant:6}AddedLocalLightningDamageUniqueClaw1
 LocalIncreasedAttackSpeedUniqueClaw1
 IncreasedEnergyShieldUniqueClaw1
-{variant:1,2,3,4}LeechEnergyShieldInsteadofLife
 {variant:5}MaximumESLeechAmountUnique__1_
 {variant:5,6}VillageESLeechFromAttacksNotRemovedOnFullES
+{variant:1,2,3,4}LeechEnergyShieldInsteadofLife
 {variant:5,6}KeystoneGhostReaverUnique__1
+{variant:3}Grants 31 Life per Enemy Hit
+{variant:1}Adds 1 to 50 Lightning Damage
+{variant:2,3}Adds 1 to 80 Lightning Damage
+{variant:4,5}Adds 1 to 200 Lightning Damage
 ]],[[
 Hand of Thought and Motion
 {variant:1,2,3}Blinder
@@ -167,17 +167,17 @@ Implicits: 3
 {variant:1}LifeGainPerTargetUniqueDagger2
 {variant:2,3}LifeGainPerTargetImplicit2Claw4
 {variant:4,5}LifeGainPerTargetImplicit2Claw10
-{variant:1,2,3}WeaponElementalDamageUnique__4
-{variant:1,2,3}LocalAddedLightningDamageUnique__4
-{variant:1,2,3}LocalIncreasedAttackSpeedUniqueClaw8
 {variant:4,5}PercentageDexterityUnique__3
 {variant:4,5}PercentageIntelligenceUnique__3
+{variant:1,2,3}LocalAddedLightningDamageUnique__4
+{variant:1,2,3}LocalIncreasedAttackSpeedUniqueClaw8
 {variant:4,5}MaximumLifeOnKillPercentUnique__1
-{variant:1,2}Adds 1 to 3 Lightning Damage to Attacks with this Weapon per 10 Intelligence
-{variant:3}AddedLightningDamagePerIntelligenceUnique__2
-{variant:4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Dexterity
 {variant:5}AddedLightningDamagePerDexterityUnique__1
+{variant:3}AddedLightningDamagePerIntelligenceUnique__2
 {variant:4,5}CriticalStrikeChancePerIntelligenceUnique__1
+{variant:1,2,3}WeaponElementalDamageUnique__4
+{variant:1,2}Adds 1 to 3 Lightning Damage to Attacks with this Weapon per 10 Intelligence
+{variant:4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Dexterity
 ]],[[
 Hand of Wisdom and Action
 Imperial Claw
@@ -195,11 +195,11 @@ Implicits: 2
 PercentageDexterityUnique__3
 PercentageIntelligenceUnique__3
 {variant:4,5}LifeLeechFromAttacksPermyriadUnique__1
-{variant:1,2}Adds 1 to 6 Lightning Damage to Attacks with this Weapon per 10 Intelligence
-{variant:3,4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 {variant:5}AddedLightningDamagePerIntelligenceUnique__1
 IncreasedAttackSpeedPerDexterityUnique__1
 {variant:1,2,3}WeaponElementalDamageUnique__4
+{variant:1,2}Adds 1 to 6 Lightning Damage to Attacks with this Weapon per 10 Intelligence
+{variant:3,4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 ]],[[
 Izaro's Dilemma
 Imperial Claw
@@ -214,8 +214,8 @@ Implicits: 2
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword7
 LocalAddedPhysicalDamageUnique__3
 LocalIncreasedAttackSpeedUniqueClaw8
-{variant:1,2}+(250-350) to Accuracy Rating
 {variant:3}IncreasedAccuracyUnique__1
+{variant:1,2}+(250-350) to Accuracy Rating
 100% increased Physical Damage while Frozen
 ]],[[
 Last Resort
@@ -275,8 +275,8 @@ LocalCriticalStrikeChanceUniqueClaw2
 {variant:2,3,4}LocalCriticalMultiplierUniqueClaw2
 PhysicalDamageConvertToChaosUniqueClaw2
 {variant:1,2,3}LocalPoisonOnHit
-{variant:4}LocalChanceToPoisonOnHitUnique__2
 StunThresholdReductionUniqueClaw2_
+{variant:4}LocalChanceToPoisonOnHitUnique__2
 ]],[[
 Ornament of the East
 Gut Ripper
@@ -289,25 +289,25 @@ Implicits: 2
 {variant:1}Grants 21 Life per Enemy Hit
 {variant:2,3,4}LifeGainPerTargetImplicit2Claw8
 LocalIncreaseSocketedDexterityGemLevelUniqueClaw8
-{variant:3}Socketed Gems are Supported by Level 10 Faster Attacks
 {variant:4}DisplaySocketedGemsGetsFasterAttackUnique__1
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUniqueClaw6
 {variant:3,4}LocalIncreasedPhysicalDamageUniqueClaw8
 LocalIncreasedAttackSpeedUniqueClaw8
 StunRecoveryUniqueClaw8
 AlwaysHitsUnique__1
+{variant:3}Socketed Gems are Supported by Level 10 Faster Attacks
 ]],[[
 Rive
 Terror Claw
 Requires Level 70, 113 Dex, 113 Int
 Implicits: 1
 LifeLeechPermyriadImplicitClaw2
-LocalIncreasedPhysicalDamagePercentUnique__11_
+LocalIncreasedPhysicalDamagePercentUniqueOneHandSword13
 LocalAddedPhysicalDamageUnique__13
 LocalChanceToBleedUnique__1
+BleedingEnemiesFleeOnHitUnique__1
 2% increased Physical Damage over time per 10 Dexterity
 1% increased Bleed Duration per 12 Intelligence
-BleedingEnemiesFleeOnHitUnique__1
 ]],[[
 The Scourge
 Terror Claw
@@ -320,7 +320,7 @@ LifeLeechPermyriadImplicitClaw2
 LocalAddedPhysicalDamageUnique__23_
 LocalIncreasedAttackSpeedUniqueClaw8
 IncreasedMinionAttackSpeedUnique__1_
-MinionDamageAlsoAffectsYouUnique__1
+VillageMinionDamageAlsoAffectsYou
 IncreasedMinionDamageIfYouHitEnemyUnique__1
 ]],[[
 Touch of Anguish
@@ -333,7 +333,7 @@ Implicits: 2
 {variant:2}LifeGainPerTargetImplicit2Claw10
 LocalAddedPhysicalDamageUnique__14
 ColdDamagePercentUnique__8
-LocalCriticalStrikeChanceUniqueTwoHandMace6
+LocalCriticalStrikeChanceUnique__3
 ChanceToGainFrenzyChargeOnKillingFrozenEnemyUnique__1
 AdditionalChainWhileAtMaxFrenzyChargesUnique___1
 ChanceToFreezeUniqueRing30
@@ -349,9 +349,9 @@ LifeGainPerTargetImplicit2Claw9_
 LocalIncreasedPhysicalDamagePercentUnique__28__
 LocalIncreasedAttackSpeedUniqueOneHandSword11
 LocalCriticalStrikeChanceUnique__11
-{variant:1}+(180-200) to Accuracy Rating
 {variant:2}LocalIncreasedAccuracyUnique__1
 LocalChanceToPoisonOnHitUnique__3
+{variant:1}+(180-200) to Accuracy Rating
 Attacks with this Weapon deal 80-120 added Chaos Damage against
 Enemies affected by at least 5 Poisons
 ]],[[
@@ -365,10 +365,10 @@ Implicits: 2
 {variant:2}LifeGainPerTargetImplicit2Claw3
 StrengthUniqueClaw9
 DexterityUniqueClaw9
-15% reduced Accuracy Rating
 LocalAddedPhysicalDamageUniqueClaw9
 LocalIncreasedAttackSpeedUniqueClaw8
 DamageWithMovementSkillsUniqueClaw9
 AttackSpeedWithMovementSkillsUniqueClaw9
+15% reduced Accuracy Rating
 ]],
 }

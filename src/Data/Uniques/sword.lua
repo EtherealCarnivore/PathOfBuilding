@@ -218,6 +218,7 @@ Summoned Skeleton Warriors and Soldiers wield this Weapon while in your Main Han
 Summoned Skeleton Warriors and Soldiers deal Triple Damage with this
 Weapon if you've Hit with this Weapon Recently
 Weapon if you've Hit with this Weapon Recently
+Weapon if you've Hit with this Weapon Recently
 ]],[[
 Lakishu's Blade
 Elegant Sword
@@ -452,9 +453,10 @@ Implicits: 1
 40% increased Global Accuracy Rating
 (150-180)% increased Physical Damage
 Adds (20-25) to (40-50) Physical Damage
-+(400-500) to Accuracy Rating
 Gain 100 Life per Enemy Killed
++(400-500) to Accuracy Rating
 Has a Two Handed Sword Crucible Passive Skill Tree
+Crucible Passive Skill Tree is removed if this Modifier is removed
 Crucible Passive Skill Tree is removed if this Modifier is removed
 Crucible Passive Skill Tree is removed if this Modifier is removed
 ]],[[
@@ -729,6 +731,9 @@ Manifested Dancing Dervishes die when Rampage ends
 Melee Hits count as Rampage Kills
 Rampage
 Rampage
+Rampage
+Manifested Dancing Dervishes disables both weapon slots
+Manifested Dancing Dervishes die when Rampage ends
 Manifested Dancing Dervishes disables both weapon slots
 Manifested Dancing Dervishes die when Rampage ends
 ]],[[
@@ -748,6 +753,8 @@ Triggers Level 15 Manifest Dancing Dervishes on Rampage
 Manifested Dancing Dervishes disables both weapon slots
 Manifested Dancing Dervishes die when Rampage ends
 Rampage
+Manifested Dancing Dervishes disables both weapon slots
+Manifested Dancing Dervishes die when Rampage ends
 Manifested Dancing Dervish disables both weapon slots
 Manifested Dancing Dervish dies when Rampage ends
 ]],[[
@@ -893,9 +900,13 @@ Implicits: 2
 {variant:1,2,3}+1 to maximum number of Spectres
 {variant:4}+(1-2) to maximum number of Spectres
 {variant:1,2,3}+1 to maximum number of Spectres
+{variant:1,2,3}+1 to maximum number of Spectres
 {variant:4}+(1-2) to maximum number of Skeletons
 {variant:1,2,3}+1 to maximum number of Skeletons
 {variant:1,2,3}+1 to maximum number of Skeletons
+{variant:1,2,3}+1 to maximum number of Skeletons
+{variant:4}+(1-2) to maximum number of Spectres
+{variant:4}+(1-2) to maximum number of Skeletons
 {variant:4}+(1-2) to maximum number of Spectres
 {variant:4}+(1-2) to maximum number of Skeletons
 ]],[[
@@ -920,6 +931,8 @@ Minions have (80-100)% increased Movement Speed
 +1 to maximum number of Raised Zombies
 +1 to maximum number of Spectres
 +1 to maximum number of Spectres
++1 to maximum number of Spectres
++1 to maximum number of Skeletons
 +1 to maximum number of Skeletons
 +1 to maximum number of Skeletons
 ]],[[

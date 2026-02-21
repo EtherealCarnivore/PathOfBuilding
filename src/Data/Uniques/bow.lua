@@ -270,6 +270,7 @@ Requires Level 60, 212 Dex
 Adds (130-150) to (270-300) Cold Damage
 {variant:2}(15-25)% increased Attack Speed
 4% increased Movement Speed per Frenzy Charge
+{variant:2}+(400-500) to Accuracy Rating
 +(400-500) to Accuracy Rating
 {variant:2}+(400-500) to Accuracy Rating
 0.5% of Attack Damage Leeched as Life per Frenzy Charge

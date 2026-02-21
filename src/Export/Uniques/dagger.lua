@@ -23,13 +23,14 @@ Requires Level 65, 81 Dex, 117 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 {variant:1,2}DegenerationDamageUniqueDagger8
-{variant:1,2}Adds (50-60) to (120-140) Physical Damage
 {variant:3}LocalAddedPhysicalDamageUniqueDagger8
 LocalCriticalStrikeChanceUniqueDagger8
-{variant:1}+(10-15)% to Global Critical Strike Multiplier
 {variant:2,3}CriticalMultiplierUniqueDagger8
 ChaosResistUniqueDagger8
 PoisonSpreadAndHealOnPoisonedKillUniqueDagger8
+and nearby Allies Regenerate 200 Life per second
+{variant:1,2}Adds (50-60) to (120-140) Physical Damage
+{variant:1}+(10-15)% to Global Critical Strike Multiplier
 and nearby Allies Regenerate 200 Life per second
 ]],[[
 Bloodplay
@@ -42,10 +43,10 @@ CriticalStrikeChanceImplicitDagger1
 DexterityUniqueDagger12
 LocalIncreasedPhysicalDamagePercentUniqueDagger12
 LocalAddedPhysicalDamageUniqueDagger12
-LocalIncreasedAttackSpeedUniqueDescentDagger1
-Extra Gore
+LocalIncreasedAttackSpeedUniqueDagger3
 {variant:1}VillageLocalChanceToBleed
 {variant:2}LocalChanceToBleedUniqueDagger12
+Extra Gore
 ]],[[
 Replica Bloodplay
 Stiletto
@@ -54,7 +55,7 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 15, 30 Dex, 30 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
-StrengthUniqueHelmetDexInt1
+StrengthUnique__15
 LocalIncreasedPhysicalDamagePercentUniqueDagger12
 LocalAddedPhysicalDamageUniqueDagger12
 LocalChanceToBleedUniqueDagger12
@@ -87,13 +88,13 @@ Variant: Current
 Requires Level 53, 58 Dex, 123 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger2
-LocalIncreaseSocketedFireGemLevelUniqueDagger10
-SpellDamageUniqueDagger10
 IntelligenceUniqueDagger10_
-{variant:1}45% of Fire Damage Converted to Chaos Damage
+SpellDamageUniqueDagger10
+LocalIncreaseSocketedFireGemLevelUniqueDagger10
 {variant:2,3}ConvertFireToChaosUniqueDagger10
 {variant:1,2}ChaosDamagePoisonsUniqueDagger10
 {variant:3}ChaosDamageChanceToPoisonUnique__1
+{variant:1}45% of Fire Damage Converted to Chaos Damage
 ]],[[
 Divinarius
 Imperial Skean
@@ -107,17 +108,17 @@ CriticalStrikeChanceImplicitDagger1
 {variant:1,2}SpellDamageUniqueStaff12
 {variant:3}SpellDamageOnWeaponUniqueDagger1
 {variant:1}LifeGainedFromEnemyDeathUniqueTwoHandMace7
-{variant:2}Gain 30 Life per Enemy Killed
 {variant:3}LifeGainedFromEnemyDeathUniqueDagger1
-{variant:1}Gain 5 Mana per Enemy Killed
 {variant:2}ManaGainedFromEnemyDeathUniqueTwoHandSword3
 {variant:3}ManaGainedFromEnemyDeathUniqueDagger1
-{variant:1,2}AreaOfEffectUniqueShieldDex7
+{variant:1,2}AreaOfEffectImplicitTwoHandMace1__
 {variant:3}AreaOfEffectUniqueDagger1
-{variant:2}(125-175)% increased Critical Strike Chance for Spells if you've Killed Recently
 {variant:3}SpellCriticalStrikeChanceIfKilledRecentlyUnique__1
-{variant:2}+(40-60)% to Critical Strike Multiplier for Spells if you haven't Killed Recently
 {variant:3}SpellCriticalStrikeMultiplierIfNotKilledRecentlyUnique__1
+{variant:2}Gain 30 Life per Enemy Killed
+{variant:1}Gain 5 Mana per Enemy Killed
+{variant:2}(125-175)% increased Critical Strike Chance for Spells if you've Killed Recently
+{variant:2}+(40-60)% to Critical Strike Multiplier for Spells if you haven't Killed Recently
 ]],[[
 Goredrill
 Skinning Knife
@@ -128,8 +129,8 @@ DexterityUniqueDagger11
 LocalIncreasedPhysicalDamagePercentUniqueDagger11
 LocalAddedPhysicalDamageUniqueDagger11
 LocalCriticalStrikeChanceUniqueDagger11
-CausesBleedingOnCritUniqueDagger11
 AttackDamageAgainstBleedingUniqueDagger11
+CausesBleedingOnCritUniqueDagger11
 ]],[[
 Sanguine Gambol
 Skinning Knife
@@ -137,12 +138,12 @@ Source: No longer obtainable
 Requires Level 59
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
+DexterityUniqueDagger11
 LocalIncreasedPhysicalDamagePercentUniqueDagger11
 LocalAddedPhysicalDamageUnique__36
-DexterityUniqueDagger11
 LocalCriticalStrikeChanceUniqueDagger11
-CausesBleedingOnCritUniqueDagger11
 AttackDamageAgainstBleedingUniqueDagger11
+CausesBleedingOnCritUniqueDagger11
 CrimsonDanceIfCritRecentlyUnique__1
 ]],[[
 Goblinedge
@@ -151,7 +152,7 @@ League: Ritual
 Requires Level 60, 113 Dex, 113 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
-LocalIncreasedPhysicalDamagePercentUnique__43
+LocalIncreasedPhysicalDamagePercentUnique__40
 AttackSpeedFrenzyChargeNotGainedUnique__1
 CriticalStrikeChancePowerChargeNotGainedUnique__1
 ExtendFrenzyPowerChargeDurationCullUnique__1
@@ -189,7 +190,7 @@ SpellDamageOnWeaponUniqueDagger4
 {variant:1}ReducedEnergyShieldDelayUniqueBodyInt1
 {variant:2}ReducedEnergyShieldDelayUniqueDagger4
 {variant:1}IncreasedLifeUniqueQuiver3
-{variant:2}IncreasedLifeUniqueAmulet18
+{variant:2}IncreasedLifeUnique__15
 ImpaleEffectUnique__1
 ChanceToImpaleWithSpellsUnique__1
 ]],[[
@@ -201,7 +202,7 @@ Requires Level 60, 113 Dex, 113 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 UniqueSecretBladeGrantHiddenBlade
-DexterityUnique__27
+DexterityUnique__6
 LocalIncreasedPhysicalDamagePercentUnique__42
 ReducedAttackSpeedWhilePhasingUnique__1
 ]],[[
@@ -215,27 +216,27 @@ Requires Level 64, 76 Dex, 149 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger3
 BlockWhileDualWieldingUniqueDagger9
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__34___
-{variant:2}(210-240)% increased Physical Damage
+{variant:1}LocalIncreasedPhysicalDamagePercentUnique__35
 {variant:3,4}LocalIncreasedPhysicalDamagePercentUniqueDagger9
 {variant:1,2,3}ReducedAttackSpeedUniqueAmulet16
 {variant:4}LocalReducedAttackSpeedUniqueDagger9
-{variant:1,2,3}AllResistancesUniqueDagger9
-{variant:1,2}Melee Critical Strikes have 25% chance to cause Bleeding
-{variant:3,4}CauseseBleedingOnCritUniqueDagger9
-{variant:1,2}Melee Critical Strikes have 25% chance to Poison the Enemy
-{variant:3,4}CausesPoisonOnCritUniqueDagger9
-{variant:4}LocalCriticalStrikeChanceUniqueWand6_
+{variant:4}LocalCriticalStrikeChanceUniqueOneHandSword8
 {variant:4}LocalCriticalMultiplierUniqueDagger4
+{variant:1,2,3}AllResistancesUniqueDagger9
+{variant:3,4}CauseseBleedingOnCritUniqueDagger9
+{variant:3,4}CausesPoisonOnCritUniqueDagger9
+{variant:2}(210-240)% increased Physical Damage
+{variant:1,2}Melee Critical Strikes have 25% chance to cause Bleeding
+{variant:1,2}Melee Critical Strikes have 25% chance to Poison the Enemy
 ]],[[
 Mightflay
 Flaying Knife
 Requires Level 35, 73 Dex, 51 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
-LocalIncreasedPhysicalDamagePercentUniqueDagger2
-LocalAddedPhysicalDamageUniqueDagger2
 StrengthUniqueDagger2
+LocalIncreasedPhysicalDamagePercentUniqueDagger3
+LocalAddedPhysicalDamageUniqueDagger2
 Gain 10 Life per Enemy Hit with Attacks
 ]],[[
 Taproot
@@ -244,7 +245,7 @@ Requires Level 60, 113 Dex, 113 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 LocalIncreasedPhysicalDamagePercentUnique__20
-IncreasedAttackSpeedUniqueIntHelmet2
+LocalIncreasedAttackSpeedUniqueBow10
 PoisonDurationUnique__1_
 AttackDamageManaLeechAgainstPoisonedEnemiesUnique_2
 LifeLeechFromAttackDamageAgainstMaimedEnemiesUnique__1
@@ -261,10 +262,10 @@ Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 {variant:2}+20% Chance to Block Attack Damage while Dual Wielding
 {variant:1,3}BlockWhileDualWieldingUniqueDagger3
-LocalIncreasedPhysicalDamagePercentUniqueDagger2
 DexterityUniqueDagger3
+LocalIncreasedPhysicalDamagePercentUniqueDagger3
 AddedLightningDamageUniqueDagger3
-LocalIncreasedAttackSpeedUniqueDescentDagger1
+LocalIncreasedAttackSpeedUniqueDagger3
 CriticalStrikeChanceImplicitDagger3
 ]],[[
 Replica Ungil's Gauche
@@ -276,7 +277,7 @@ Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 BlockWhileDualWieldingUnique__2_
 DexterityUniqueDagger3
-LocalIncreasedAttackSpeedUniqueDescentDagger1
+LocalIncreasedAttackSpeedUniqueDagger3
 CriticalStrikeChanceImplicitDagger3
 ChanceToChillAttackersOnBlockUnique__2__
 ChanceToShockAttackersOnBlockUnique__2
@@ -290,18 +291,18 @@ Implicits: 1
 CriticalStrikeChanceImplicitDagger2
 Adds (85-110) to (130-150) Physical Damage
 LocalAddedFireDamageUnique__5__
-{variant:2}CausesBleedingUniqueTwoHandAxe4Updated
+{variant:2}LocalChanceToBleedUnique__1__
 {variant:1}AddedFireDamageVersusBleedingEnemiesUnique__1
 {variant:1}AddedPhysicalDamageVersusIgnitedEnemiesUnique__1
 {variant:1}ChanceToBleedIgnitedEnemiesUnique__1
-{variant:2}(75-100)% increased Fire Damage with Hits and Ailments against Bleeding Enemies
-{variant:2}(75-100)% increased Physical Damage with Hits and Ailments against Ignited Enemies
 GainAvatarOfFireEvery8SecondsUnique__1
-{variant:1}(80-120)% increased Critical Strike Chance while you have Avatar of Fire
 {variant:2}IncreasedCriticalStrikeChanceWithAvatarOfFireUnique__1
 ConvertPhysicalToFireWithAvatarOfFireUnique__1
-{variant:1}+1000 Armour while you do not have Avatar of Fire
 {variant:2}ArmourWithoutAvatarOfFireUnique__1
+{variant:2}(75-100)% increased Fire Damage with Hits and Ailments against Bleeding Enemies
+{variant:2}(75-100)% increased Physical Damage with Hits and Ailments against Ignited Enemies
+{variant:1}(80-120)% increased Critical Strike Chance while you have Avatar of Fire
+{variant:1}+1000 Armour while you do not have Avatar of Fire
 ]],[[
 White Wind
 Imperial Skean
@@ -312,13 +313,13 @@ Requires Level 66, 95 Dex, 131 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 LocalAddedColdDamageUnique__7
-IncreasedAttackSpeedUniqueGlovesStr1
-{variant:1}+(300-400) to Evasion Rating
+LocalIncreasedAttackSpeedUniqueTwoHandSword6
 {variant:2,3}IncreasedEvasionRatingUnique__3
+{variant:2,3}IncreasedColdDamageWhileOffhandIsEmpty_
+{variant:1}+(300-400) to Evasion Rating
 {variant:1,2}(15-25)% chance to Suppress Spell Damage while your Off Hand is empty
 {variant:3}(30-40)% chance to Suppress Spell Damage while your Off Hand is empty
 {variant:1}100% increased Cold Damage while your Off Hand is empty
-{variant:2,3}IncreasedColdDamageWhileOffhandIsEmpty_
 ]],[[
 Widowmaker
 Boot Blade
@@ -331,7 +332,7 @@ CriticalStrikeChanceImplicitDagger1
 {variant:2}LocalAddedPhysicalDamageUnique__8
 LocalCriticalStrikeChanceUnique__2
 LocalCriticalMultiplierUniqueDagger4
-100% increased Critical Strike Chance against Enemies on Full Life
 CriticalStrikeAttackLifeLeechUnique__1
+100% increased Critical Strike Chance against Enemies on Full Life
 ]],
 }

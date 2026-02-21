@@ -13,8 +13,8 @@ Requires Level 60, 138 Str
 Adds 40 to 60 Physical Damage to Attacks
 {variant:3}+(100-125)% to Melee Critical Strike Multiplier
 (100-120)% increased Armour
-10% increased Stun and Block Recovery
 (40-50)% increased Physical Damage taken
+10% increased Stun and Block Recovery
 {variant:1}+(100-150)% to Melee Critical Strike Multiplier
 {variant:2}+(150-225)% to Melee Critical Strike Multiplier
 ]],[[
@@ -29,8 +29,8 @@ Adds 30 to 65 Cold Damage to Attacks
 Adds 10 to 130 Lightning Damage to Attacks
 +(100-125)% to Melee Critical Strike Multiplier
 (100-120)% increased Armour
-10% increased Stun and Block Recovery
 (40-50)% increased Elemental Damage taken
+10% increased Stun and Block Recovery
 ]],[[
 The Baron
 Close Helmet
@@ -212,6 +212,7 @@ Socketed Triggered Bow Skills gain a 0.05 second Cooldown
 +(350-500) to Accuracy Rating
 +(350-500) to Evasion Rating
 {variant:2}+2 to maximum Snipe Stages
+Socketed Triggered Bow Skills gain a 0.05 second Cooldown
 (14-20)% chance to Suppress Spell Damage while Channelling
 ]],[[
 Fairgraves' Tricorne
@@ -347,6 +348,7 @@ Requires Level 8, 23 Int
 {variant:1}50% increased Energy Shield
 30% increased Mana Regeneration Rate
 {variant:1,2}5% increased Movement Speed
+{variant:2,3}(10-15)% increased Stun and Block Recovery
 {variant:2,3}(10-15)% increased Stun and Block Recovery
 {variant:1,2}(10-15)% increased Stun and Block Recovery
 ]],[[
@@ -502,8 +504,10 @@ Trigger Level 15 Feast of Flesh every 5 seconds
 (180-220)% increased Energy Shield
 {variant:26}+1 to maximum number of Raised Zombies
 {variant:26}+1 to maximum number of Spectres
+{variant:26}+1 to maximum number of Spectres
 {variant:29}+0.2 metres to Melee Strike Range
 10% chance for Energy Shield Recharge to start when you use a Skill
+{variant:26}+1 to maximum number of Skeletons
 {variant:26}+1 to maximum number of Skeletons
 {variant:26}+1 to maximum number of Skeletons
 {variant:28}Projectiles Pierce an additional Target
@@ -616,6 +620,7 @@ Requires Level 59, 122 Int
 (30-40)% increased Elemental Damage
 {variant:2}(25-50)% chance to Scorch Enemies
 {variant:2}Cannot inflict Ignite
+{variant:2}Cannot inflict Ignite
 {variant:1}25% chance to Scorch Enemies
 Cannot inflict Ignite
 {variant:1}10% increased Elemental Damage per Sextant affecting the area
@@ -629,6 +634,7 @@ Requires Level 59, 122 Int
 +(30-40)% to Cold Resistance
 (30-40)% increased Elemental Damage
 {variant:2}(25-50)% chance to inflict Brittle
+{variant:2}Cannot inflict Freeze or Chill
 {variant:2}Cannot inflict Freeze or Chill
 {variant:1}25% chance to inflict Brittle
 Cannot inflict Freeze or Chill
@@ -680,6 +686,8 @@ Requires Level 26, 58 Int
 Summoned Raging Spirits' Hits always Ignite
 {variant:1}Summoned Raging Spirits refresh their Duration when they Kill an Ignited Enemy
 {variant:2,3}Summoned Raging Spirits' Melee Strikes deal Fire-only Splash
+{variant:2,3}Damage to Surrounding Targets
+(10-15)% increased Stun and Block Recovery
 {variant:2,3}Damage to Surrounding Targets
 {variant:2}Summoned Raging Spirits deal (130-150)% increased Damage
 {variant:2,3}Damage to Surrounding Targets
@@ -755,6 +763,7 @@ Requires Level 59, 122 Int
 +(30-40)% to Lightning Resistance
 (30-40)% increased Elemental Damage
 {variant:2}(25-50)% chance to Sap Enemies
+{variant:2}Cannot inflict Shock
 {variant:2}Cannot inflict Shock
 {variant:1}25% chance to Sap Enemies
 Cannot inflict Shock
@@ -953,6 +962,8 @@ Source: Drops from unique{The Elder} (Uber Uber)
 Minions have the same maximum number of Endurance, Frenzy and Power Charges as you
 Minions count as having the same number of
 Endurance, Frenzy and Power Charges as you
+Minions count as having the same number of
+Endurance, Frenzy and Power Charges as you
 Requires Level 63, 85 Str, 62 Dex
 Minions count as having the same number of Endurance, Frenzy and Power Charges as you
 ]],[[
@@ -1009,6 +1020,7 @@ League: Crucible
 (80-120)% increased Armour and Evasion
 (15-25)% increased Rarity of Items found
 Has a Crucible Passive Skill Tree
+Crucible Passive Skill Tree is removed if this Modifier is removed
 Crucible Passive Skill Tree is removed if this Modifier is removed
 Crucible Passive Skill Tree is removed if this Modifier is removed
 ]],[[
@@ -1121,6 +1133,7 @@ You and Nearby Allies have 64 to 96 added Fire Damage per Red Socket
 You and Nearby Allies have 56 to 88 added Cold Damage per Green Socket
 You and Nearby Allies have 16 to 144 added Lightning Damage per Blue Socket
 You and Nearby Allies have 47 to 61 added Chaos Damage per White Socket
+-10% to All Resistances
 -10% to All Resistances
 ]],[[
 Geofri's Crest
@@ -1468,6 +1481,7 @@ Can have up to 5 Implicit Modifiers while Item has this Modifier
 {variant:9}(8-12)% increased Cooldown Recovery Rate
 {variant:8}+1 to Minimum Endurance, Frenzy and Power Charges
 Chaos Resistance is Zero
+Can have up to 5 Implicit Modifiers while Item has this Modifier
 Corrupted
 ]],[[
 Gorgon's Gaze
@@ -1681,5 +1695,6 @@ League: Expedition
 Source: Drops from unique{Olroth, Origin of the Fall} in normal{Expedition Logbook}
 Requires Level 68, 66 Str, 66 Dex, 66 Int
 Never deal Critical Strikes
+Nearby Enemies cannot deal Critical Strikes
 Battlemage
 ]],}

@@ -29,6 +29,7 @@ Implicits: 1
 +(8-12)% to Chaos Resistance
 On Killing a Poisoned Enemy, nearby Enemies are Poisoned
 and nearby Allies Regenerate 200 Life per second
+and nearby Allies Regenerate 200 Life per second
 {variant:1,2}Adds (50-60) to (120-140) Physical Damage
 {variant:1}+(10-15)% to Global Critical Strike Multiplier
 and nearby Allies Regenerate 200 Life per second

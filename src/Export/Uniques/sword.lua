@@ -7,11 +7,11 @@ Ahn's Might
 Midnight Blade
 Implicits: 1
 AccuracyPercentImplicitSword1
-LocalAddedPhysicalDamageUnique__27
-LocalCriticalStrikeChanceUnique__12
-ReducedMaximumFrenzyChargesUnique__1
-AreaOfEffectUnique__1
 StrengthRequirementsUnique__1
+LocalAddedPhysicalDamageUnique__27
+LocalCriticalStrikeChanceUnique14
+ReducedMaximumFrenzyChargesUniqueCorruptedJewel16
+AreaOfEffectUniqueQuiver6
 GlobalCriticalMultiplierWithNoFrenzyChargesUnique__1
 AccuracyRatingWithMaxFrenzyChargesUnique__1
 ]],[[
@@ -21,12 +21,12 @@ Variant: Pre 3.5.0
 Variant: Current
 Implicits: 1
 IncreasedAccuracySwordImplicit9
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__17_
+{variant:1}LocalIncreasedPhysicalDamagePercentUnique__9
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__30
 LocalIncreasedAttackSpeedUnique__33
 EvasionRatingWhileMovingUnique__1
 NumberOfProjectilesIfUsedAMovementSkillRecentlyUnique__1
-PlayerFarShotUnique__1
+PlayerFarShotUnique__2
 ]],[[
 Dreamfeather
 Eternal Sword
@@ -43,9 +43,9 @@ Implicits: 2
 LocalIncreasedAttackSpeedUniqueOneHandSword9
 IncreasedEvasionRatingUniqueOneHandSword9
 MovementVelocityUniqueOneHandSword9
-{variant:1,2,3}+(180-200) to Accuracy Rating
 {variant:4}IncreasedAccuracyUniqueOneHandSword9
 EvasionRatingIncreasesWeaponDamageUniqueOneHandSword9
+{variant:1,2,3}+(180-200) to Accuracy Rating
 ]],[[
 Replica Dreamfeather
 Eternal Sword
@@ -54,7 +54,7 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 1
 IncreasedAccuracySwordImplicit9
 LocalAddedPhyiscalDamageUnique__41_
-IncreasedAttackSpeedUniqueRing37
+LocalIncreasedAttackSpeedUniqueWand9
 IncreasedPhysicalDamageReductionRatingUnique__5
 ReducedMovementVelocityUnique__3
 IncreasedAccuracyUniqueOneHandSword9
@@ -72,14 +72,14 @@ Implicits: 2
 {variant:1,2}18% increased Global Accuracy Rating
 {variant:3,4,5,6}AccuracyPercentImplicitSword1
 IntelligenceUniqueOneHandSword2
-{variant:1}LocalIncreasedPhysicalDamagePercentUniqueStaff9
+{variant:1}LocalIncreasedPhysicalDamagePercentUniqueDescentStaff1
 {variant:2,3}LocalIncreasedPhysicalDamagePercentUniqueOneHandSword2
 {variant:4,5,6}LocalAddedLightningDamageUnique__6
 CriticalStrikeChanceUniqueOneHandSword2
 IncreasedEnergyShieldPercentUniqueOneHandSword2
-{variant:1,2,3}10% reduced maximum Life
 {variant:4,5,6}MaximumLifeUniqueOneHandSword2
 {variant:1,2,3}ManaLeechPermyriadUniqueOneHandSword2
+{variant:1,2,3}10% reduced maximum Life
 {variant:4}Attacks with this Weapon have Added Maximum Lightning Damage equal to 20% of your Maximum Energy Shield
 {variant:5}Attacks with this Weapon have Added Maximum Lightning Damage equal to 20% of player Maximum Energy Shield
 {variant:6}Attacks with this Weapon have Added Maximum Lightning Damage equal to (10-15)% of player Maximum Energy Shield
@@ -129,12 +129,12 @@ Variant: Pre 3.5.0
 Variant: Current
 Implicits: 1
 IncreasedAccuracySwordImplicit9
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__17_
+{variant:1}LocalIncreasedPhysicalDamagePercentUnique__9
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__30
 LocalIncreasedAttackSpeedUnique__39
 IncreasedArmourWhileStationaryUnique__1
 NumberOfProjectilesIfHitRecentlyUnique__1
-VillagePointBlank
+KeystonePointBlankUnique__2
 GainIronReflexesWhileStationaryUnique__1
 ]],[[
 Hyaon's Fury
@@ -151,12 +151,12 @@ Implicits: 2
 {variant:1,2}Adds 1 to (500-600) Lightning Damage
 {variant:3,4,5,6}LocalAddedLightningDamageUniqueOneHandSword6
 LocalIncreasedAttackSpeedUniqueOneHandSword6
-{variant:1}6% increased Damage taken per Frenzy Charge
-{variant:2,3,4}3% increased Damage taken per Frenzy Charge
 {variant:5,6}DamageTakenPerFrenzyChargeUniqueOneHandSword6
-{variant:1,2,3,4,5}12% increased Lightning Damage per Frenzy Charge
 {variant:6}IncreaseLightningDamagePerFrenzyChargeUniqueOneHandSword6
 LifeGainedOnEnemyDeathPerFrenzyChargeUniqueOneHandSword6
+{variant:1}6% increased Damage taken per Frenzy Charge
+{variant:2,3,4}3% increased Damage taken per Frenzy Charge
+{variant:1,2,3,4,5}12% increased Lightning Damage per Frenzy Charge
 ]],[[
 Ichimonji
 Corsair Sword
@@ -171,7 +171,7 @@ LocalAddedPhysicalDamageUniqueOneHandSword11
 {variant:1}LocalIncreasedAttackSpeedUniqueTwoHandSword6
 {variant:2}LocalIncreasedAttackSpeedUniqueOneHandSword9
 IncreasedBuffEffectivenessUniqueOneHandSword11
-IncreasedManaReservationsCostUniqueOneHandSword11
+ManaReservationEfficiencyUniqueOneHandSword11
 CannotBeBuffedByAlliedAurasUniqueOneHandSword11
 AurasCannotBuffAlliesUniqueOneHandSword11
 ]],[[
@@ -217,6 +217,7 @@ GrantsUnholyMightUnique__1
 SummonedSkeletonWarriorsGetWeaponStatsInMainHandUnique__1
 SkeletonWarriorsTripleDamageUnique__1_
 Weapon if you've Hit with this Weapon Recently
+Weapon if you've Hit with this Weapon Recently
 ]],[[
 Lakishu's Blade
 Elegant Sword
@@ -238,14 +239,12 @@ League: Settlers of Kalguur
 Requires Level 61, 113 Str, 113 Dex
 Implicits: 1
 CriticalMultiplierImplicitSword1
-LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
+LocalIncreasedPhysicalDamagePercentUnique__48
 LocalIncreasedAttackSpeedUnique__40
 CannotBePoisonedUnique__1
 AdditionalTinctureUnique__1
 TinctureRemoveToxicityOnKillUnique__1
 ]],[[
-Oni-Goroshi
-Charan's Sword
 Source: Drops from unique{Hillock}
 Sockets: R-R-R-R-R-R
 Implicits: 1
@@ -255,6 +254,7 @@ LocalCriticalStrikeChanceUnique__13
 PhysicalDamageToAttacksPerLevelUnique__2
 GainHerEmbraceOnIgniteUnique__1
 TakeDamagePerLevelWhileHerEmbraceUnique__1_
+Charan's Sword
 ]],[[
 The Princess
 Sabre
@@ -266,10 +266,10 @@ Implicits: 2
 LocalIncreasedPhysicalDamagePercentUniqueOneHandSword12
 LocalAddedPhysicalDamageUniqueOneHandSword12
 LocalIncreasedAttackSpeedUniqueOneHandSword12
-{variant:1}Gain 10% of Physical Damage as Extra Cold Damage
 {variant:2}PhysicalAddedAsColdUniqueOneHandSword12
 DamageTakenFromSkeletonsUniqueOneHandSword12_
 DamageTakenFromGhostsUniqueOneHandSword12
+{variant:1}Gain 10% of Physical Damage as Extra Cold Damage
 ]],[[
 Prismatic Eclipse
 Twilight Blade
@@ -282,12 +282,12 @@ Implicits: 2
 {variant:3,4}AccuracyPercentImplicitSword1
 {variant:1}BlockWhileDualWieldingUnique__1
 {variant:2,3,4}BlockWhileDualWieldingUniqueOneHandSword5
-{variant:1,2,3}Adds (20-30) to (31-40) Physical Damage
 {variant:4}LocalAddedPhysicalDamageUniqueOneHandSword5
 PhysicalDamgePerRedSocketUniqueOneHandSword5
 AttackSpeedPerGreenSocketUniqueOneHandSword5
 ManaLeechPermyriadFromPhysicalDamagePerBlueSocketUniqueOneHandSword5
 MeleeRangePerWhiteSocketUniqueOneHandSword5
+{variant:1,2,3}Adds (20-30) to (31-40) Physical Damage
 ]],[[
 Razor of the Seventh Sun
 Midnight Blade
@@ -320,19 +320,19 @@ Implicits: 2
 {variant:1}Adds (15-24) to (25-35) Physical Damage
 {variant:2,3}Adds (19-28) to (31-40) Physical Damage
 {variant:4}LocalAddedPhysicalDamageOneHandSword3
-{variant:1}Adds (15-24) to (25-35) Fire Damage
-{variant:2,3}Adds (19-28) to (31-40) Fire Damage
 {variant:4}LocalAddedFireDamageUniqueOneHandSword3
-{variant:1}Adds (15-24) to (25-35) Cold Damage
-{variant:2,3}Adds (19-28) to (31-40) Cold Damage
 {variant:4}LocalAddedColdDamageUniqueOneHandSword3
-{variant:1}Adds 1 to (40-60) Lightning Damage
-{variant:2,3}Adds 1 to (50-70) Lightning Damage
 {variant:4}LocalAddedLightningDamageUniqueOneHandSword3
-{variant:1}Adds (15-24) to (25-35) Chaos Damage
-{variant:2,3}Adds (19-28) to (31-40) Chaos Damage
 {variant:4}LocalChaosDamageUniqueOneHandSword3
 LocalIncreasedAttackSpeedOneHandSword3
+{variant:1}Adds (15-24) to (25-35) Fire Damage
+{variant:2,3}Adds (19-28) to (31-40) Fire Damage
+{variant:1}Adds (15-24) to (25-35) Cold Damage
+{variant:2,3}Adds (19-28) to (31-40) Cold Damage
+{variant:1}Adds 1 to (40-60) Lightning Damage
+{variant:2,3}Adds 1 to (50-70) Lightning Damage
+{variant:1}Adds (15-24) to (25-35) Chaos Damage
+{variant:2,3}Adds (19-28) to (31-40) Chaos Damage
 ]],[[
 Redbeak
 Rusted Sword
@@ -360,12 +360,12 @@ Implicits: 2
 {variant:2,3}AccuracyPercentImplicitSword1
 IncreasedPhysicalDamagePercentOnLowLifeUniqueOneHandSword1
 LocalIncreasedPhysicalDamagePercentUniqueOneHandSword1
-{variant:1,2}Adds (90-98) to (133-140) Physical Damage
 {variant:3}LocalAddedPhysicalDamageUnique__35
 LocalIncreasedAttackSpeedUniqueOneHandSword1
 IncreasedLifeUniqueOneHandSword1
 LifeGainPerTargetUniqueOneHandSword1
 OnslaughtOnLowLifeUnique__1
+{variant:1,2}Adds (90-98) to (133-140) Physical Damage
 ]],[[
 Rigwald's Command
 Midnight Blade
@@ -383,8 +383,8 @@ LocalAddedPhysicalDamageUnique__6
 {variant:1,2}AxePhysicalDamageUnique__1
 IncreasedAccuracyUnique__2
 {variant:1,2}FrenzyChargeOnKillChanceUnique__1
-{variant:3}Each Rage also grants +1% to Damage over Time Multiplier for Bleeding while wielding an Axe
 {variant:4}BleedDotMultiplierPerRagePerEquippedAxeUnique__1
+{variant:3}Each Rage also grants +1% to Damage over Time Multiplier for Bleeding while wielding an Axe
 ]],[[
 The Rippling Thoughts
 Legion Sword
@@ -399,7 +399,7 @@ SpellDamageUnique__5
 LocalIncreasedPhysicalDamagePercentUnique__5
 LocalAddedLightningDamageUnique__5
 SpellAddedLightningDamageUnique__4
-AreaOfEffectUnique__2_
+AreaOfEffectUniqueShieldDexInt2
 ]],[[
 The Surging Thoughts
 Legion Sword
@@ -413,7 +413,7 @@ SpellDamageUnique__5
 LocalIncreasedPhysicalDamagePercentUnique__27
 LocalAddedLightningDamageUnique__5
 SpellAddedLightningDamageUnique__4
-AreaOfEffectUnique__3
+AreaOfEffectUniqueShieldDex7
 ]],[[
 The Saviour
 Legion Sword
@@ -423,11 +423,11 @@ Source: Drops from unique{Sirus, Awakener of Worlds} (Uber)
 Implicits: 1
 AccuracyPercentImplicitSword1
 SummonDoubleOnCritUnique__1
-{variant:1}(40-50)% increased Physical Damage
-{variant:2}LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe5
+{variant:2}LocalIncreasedPhysicalDamagePercentUnique__37__
 LocalAddedPhyiscalDamageUnique__40__
-IncreasedAttackSpeedUnique__5
+LocalIncreasedAttackSpeedUnique__28
 LocalCriticalStrikeChanceUnique__16
+{variant:1}(40-50)% increased Physical Damage
 ]],[[
 Scaeva
 Gladius
@@ -452,9 +452,10 @@ Implicits: 1
 AccuracyPercentImplicitSword1
 LocalIncreasedPhysicalDamagePercentUnique__46
 LocalAddedPhyiscalDamageUnique__42
+LocalIncreasedAccuracyUnique__3
 LifeGainedFromEnemyDeathUniqueBodyStrDexInt1
-AccuracyAgainstBleedingEnemiesUnique__1
 ItemCanHaveTwoHandedSwordWeaponTreeUnique1
+Crucible Passive Skill Tree is removed if this Modifier is removed
 Crucible Passive Skill Tree is removed if this Modifier is removed
 ]],[[
 Severed in Sleep
@@ -472,13 +473,13 @@ Implicits: 2
 {variant:4}GrantsEnvyUnique__1
 {variant:1,2,3}AllAttributesUnique__3
 {variant:1,2,3}MinionDamageUnique__2
-{variant:1,2,3}Minions have +17% to Chaos Resistance
 {variant:4}MinionChaosResistanceUnique___1
-{variant:1,2}Minions Poison Enemies on Hit
 {variant:3}MinionsPoisonEnemiesOnHitUnique__1
 {variant:4}MinionWitherOnHitUnique__1
-{variant:1,2,3}Minions Recover 20% of Life on Killing a Poisoned Enemy
 {variant:4}MinionCriticalStrikeMultiplierAgainstWitheredUnique__1
+{variant:1,2,3}Minions have +17% to Chaos Resistance
+{variant:1,2}Minions Poison Enemies on Hit
+{variant:1,2,3}Minions Recover 20% of Life on Killing a Poisoned Enemy
 ]],[[
 United in Dream
 Cutlass
@@ -498,10 +499,10 @@ Implicits: 2
 {variant:1,2,3}MinionDamageUniqueTwoHandSword4
 {variant:4}MinionDamageUnique__7
 MinionChaosResistanceUnique__2__
-{variant:1,2}Minions Poison Enemies on Hit
 {variant:3,4,5}MinionsPoisonEnemiesOnHitUnique__2
 {variant:1,2,3,4}MinionLeechOnPoisonedEnemiesUnique__1
 {variant:5}MinionsRecoverLifeOnKillingPoisonedEnemyUnique__1_
+{variant:1,2}Minions Poison Enemies on Hit
 ]],[[
 Story of the Vaal
 {variant:1}Variscite Blade
@@ -513,9 +514,9 @@ Source: Opening normal{Fireproof Chest} in normal{Crucible of Flame}
 Upgrade: Upgrades to unique{Fate of the Vaal} via currency{Vial of Fate}
 Implicits: 2
 {variant:1}IncreasedAccuracySwordImplicit4
-{variant:2}IncreasedAccuracy2hSwordImplicit7
+{variant:2}IncreasedAccuracySwordImplicit7
 {variant:1}(110-120)% increased Physical Damage
-{variant:2}LocalIncreasedPhysicalDamagePercentUnique__35
+{variant:2}LocalIncreasedPhysicalDamagePercentUnique__34___
 LocalIncreasedAttackSpeedUniqueTwoHandSword6
 {variant:1}LifeGainedFromEnemyDeathUnique__2
 LocalDamageConversionToRandomElementUnique__1
@@ -531,9 +532,9 @@ Source: Upgraded from unique{Story of the Vaal} via currency{Vial of Fate}
 Variant: Pre 3.10.0
 Variant: Current
 Implicits: 1
-IncreasedAccuracy2hSwordImplicit7
+IncreasedAccuracySwordImplicit7
 {variant:1}LocalIncreasedPhysicalDamageUniqueClaw8
-{variant:2}LocalIncreasedPhysicalDamagePercentUnique__34___
+{variant:2}LocalIncreasedPhysicalDamagePercentUnique__35
 LocalIncreasedAttackSpeedUniqueTwoHandSword6
 LocalDamageConversionToRandomElementUnique__2_
 LocalAlwaysInflictElementalAilmentsUnique__1
@@ -581,8 +582,8 @@ Implicits: 2
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword7
 {variant:3}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword2
 LocalAddedPhysicalDamageUnique__12
-Gain (2-3) Mana per Enemy Hit with Attacks
 WeaponCountsAsAllOneHandedWeapons__1
+Gain (2-3) Mana per Enemy Hit with Attacks
 ]],
 -- Weapon: Thrusting Sword
 [[
@@ -596,7 +597,7 @@ Implicits: 3
 {variant:2}CriticalMultiplierUniqueGlovesDexInt2
 {variant:3}CriticalMultiplierImplicitSword1
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword1
-ItemFoundRarityIncreaseUniqueRapier2
+ItemFoundRarityDecreaseUniqueRapier1
 AllResistancesUniqueRapier2
 LifeGainPerTargetImplicit2Claw1
 ]],[[
@@ -613,7 +614,7 @@ Implicits: 3
 StrengthUnique__1
 LocalIncreasedPhysicalDamagePercentUnique__5
 IncreasedManaUnique__2
-MovementVelocityUnique__58
+MovementVelocityUniqueBodyDex7
 ElementalDamagePercentImplicitSceptreNew19
 +2 to Weapon Range
 ]],[[
@@ -625,11 +626,11 @@ Implicits: 2
 {variant:1}CriticalMultiplierUniqueGlovesDexInt2
 {variant:2}CriticalMultiplierImplicitSword1
 CastSocketedColdSkillsOnCriticalStrikeUnique__1
-LocalReducedPhysicalDamagePercentUniqueOneHandSword7
+AddedIntelligenceRequirementsUnique__1
+LocalReducedPhysicalDamagePercentUniqueTwoHandSword6
 LocalAddedColdDamageUnique__5
 SpellAddedColdDamageUnique__4
 LocalIncreasedAttackSpeedUnique__11
-AddedIntelligenceRequirementsUnique__1
 GlobalCriticalStrikeChanceAgainstChilledUnique__1
 ]],[[
 Daresso's Passion
@@ -667,13 +668,13 @@ Implicits: 3
 {variant:1}+20% to Global Critical Strike Multiplier
 {variant:2}CriticalMultiplierUniqueGlovesDexInt2
 {variant:3}CriticalMultiplierImplicitSword1
-LocalReducedPhysicalDamagePercentUniqueOneHandSword7
+LocalReducedPhysicalDamagePercentUniqueTwoHandSword6
 LocalAddedLightningDamageUniqueOneHandSword7
 LocalIncreasedAttackSpeedUniqueOneHandSword7
 LifeGainPerTargetUniqueOneHandSword1
-{variant:1,2}5% Chance to Shock
 {variant:3}ChanceToShockUniqueOneHandSword7
 {variant:3}HeraldOfThunderBuffEffectUnique__1
+{variant:1,2}5% Chance to Shock
 ]],[[
 Nametaker
 Graceful Sword
@@ -681,9 +682,9 @@ League: Affliction
 Requires Level 50, 78 Str, 94 Dex
 Implicits: 1
 IncreasedAccuracySwordImplicit6
-LocalCriticalStrikeChanceUnique__20
-LifeLeechLocalPermyriadUnique__1
-ManaLeechUniqueBelt1
+LocalCriticalStrikeChanceUnique__22
+LifeLeechPermyriadUniqueBelt1
+ManaLeechUniqueGlovesStrDex1
 CriticalStrikeMultiplierMonsterPowerUnique__1
 LeechInstantMonsterPowerUnique__1
 ]],[[
@@ -701,9 +702,9 @@ DisableOffhandSlot
 LocalIncreasedPhysicalDamagePercentUniqueOneHandSword4
 LocalAddedFireDamageUniqueRapier1
 LocalIncreasedAttackSpeedUniqueTwoHandSword1
-CriticalStrikeChanceImplicitDaggerNew1
-LocalIncreasedEvasionRatingUniqueShieldStrDex2
-ItemFoundRarityDecreaseUniqueRapier1
+CriticalStrikeChanceUnique__1
+IncreasedEvasionRatingUniqueRapier1
+ItemFoundRarityIncreaseUniqueRapier2
 MovementVelocityOnLowLifeUniqueRapier1
 ]],
 -- Weapon: Two Handed Sword
@@ -721,12 +722,15 @@ Implicits: 3
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUnique__21
 {variant:3,4}LocalIncreasedPhysicalDamagePercentUnique__7
 LocalIncreasedAttackSpeedUniqueOneHandSword7
-MovementVelocityUnique___5
+MovementVelocityUnique__3
 DisplayManifestWeaponUnique__1
 Manifested Dancing Dervishes disables both weapon slots
 Manifested Dancing Dervishes die when Rampage ends
 SimulatedRampageUnique__1
-SimulatedRampageUnique__2
+SimulatedRampageDexInt6
+SimulatedRampageStrInt2
+Manifested Dancing Dervishes disables both weapon slots
+Manifested Dancing Dervishes die when Rampage ends
 ]],[[
 The Dancing Duo
 Reaver Sword
@@ -741,9 +745,11 @@ Implicits: 2
 LocalIncreasedAttackSpeedUniqueOneHandSword7
 MovementVelocityUnique__4
 DisplayManifestWeaponUnique__1
+Manifested Dancing Dervishes disables both weapon slots
+Manifested Dancing Dervishes die when Rampage ends
+SimulatedRampageUnique__2
 Manifested Dancing Dervish disables both weapon slots
 Manifested Dancing Dervish dies when Rampage ends
-SimulatedRampageStrInt2
 ]],[[
 Doomsower
 Lion Sword
@@ -754,17 +760,17 @@ Variant: Pre 3.11.0
 Variant: Current
 Implicits: 3
 {variant:1}18% increased Global Accuracy Rating
-{variant:2,3,4}IncreasedAccuracy2hSwordImplicit9
 {variant:5}StrengthDexterityImplicitSword_1
+{variant:2,3,4}IncreasedAccuracy2hSwordImplicit9
 SocketedMeleeGemsHaveIncreasedAoEUniqueTwoHandSword8
 {variant:1,2,3}SocketedRedGemsHaveAddedFireDamageUniqueTwoHandSword8_
 {variant:1,2,3,4}LocalIncreasedPhysicalDamagePercentUniqueBow10
 {variant:5}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword8
-{variant:1,2}Adds (50-75) to (85-110) Physical Damage
 {variant:3,4,5}LocalAddedPhysicalDamageUniqueTwoHandSword8
 LocalIncreasedAttackSpeedUniqueTwoHandSword8
 {variant:4,5}AttackSkillsHavePhysToExtraFireDamagePerSocketedRedGemUniqueTwoHandSword8
 {variant:4,5}VaalPactIfAllSocketedGemsAreRedUniqueTwoHandSword8
+{variant:1,2}Adds (50-75) to (85-110) Physical Damage
 ]],[[
 Edge of Madness
 Etched Greatsword
@@ -782,8 +788,8 @@ Implicits: 3
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueOneHandSword13
 LocalChaosDamageUniqueTwoHandSword7
 {variant:1}LifeGainedOnEnemyDeathPerLevelUniqueTwoHandSword7
-{variant:1,2,4}IncreasedElementalDamagePerLevelUniqueTwoHandSword7
 {variant:1}IncreasedChaosDamagePerLevelUniqueTwoHandSword7
+{variant:1,2,4}IncreasedElementalDamagePerLevelUniqueTwoHandSword7
 {variant:2,3,4}PhysicalDamageToAttacksPerLevelUnique__1_
 ]],[[
 Hiltless
@@ -797,7 +803,7 @@ Implicits: 3
 {variant:3}AccuracyPercentImplicit2HSword1
 SocketedGemsGetBloodMagicUnique__1
 LocalAddedPhysicalDamageUnique__15
-LocalCriticalStrikeChanceUnique__4
+LocalCriticalStrikeChanceUnique__19
 ReflectPhysicalDamageToSelfOnHitUnique__1
 +2 to Weapon range
 ]],[[
@@ -808,8 +814,8 @@ Variant: Pre 3.11.0
 Variant: Current
 Implicits: 3
 {variant:1}18% increased Global Accuracy Rating
-{variant:2}IncreasedAccuracy2hSwordImplicit8
 {variant:3}CriticalMultiplierImplicitSword1
+{variant:2}IncreasedAccuracy2hSwordImplicit8
 {variant:1,2}(270-320)% increased Physical Damage
 {variant:3}LocalIncreasedPhysicalDamagePercentUnique__18
 LifeLeechPermyriadUnique__4
@@ -826,7 +832,7 @@ Variant: Current
 Implicits: 2
 {variant:1,2}AccuracyPercentImplicitSword2
 {variant:3}WeaponElementalDamageImplicitSword1
-LocalReducedPhysicalDamagePercentUniqueOneHandSword7
+LocalReducedPhysicalDamagePercentUniqueTwoHandSword6
 LocalAddedFireDamageUniqueTwoHandSword6
 LocalIncreasedAttackSpeedUniqueTwoHandSword6
 ChanceToIgniteUniqueTwoHandSword6
@@ -845,15 +851,15 @@ League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 1
 WeaponElementalDamageImplicitSword1
-LocalReducedPhysicalDamagePercentUniqueOneHandSword7
+LocalReducedPhysicalDamagePercentUniqueTwoHandSword6
 LocalAddedColdDamageUnique__9_
 LocalIncreasedAttackSpeedUniqueTwoHandSword6
 {variant:1}LifeLeechPermyriadOnFrozenEnemiesUnique__1
 ChanceToFreezeUnique__5
 IncreasedPhysicalDamageTakenUniqueTwoHandSword6
 ColdDamageTakenUnique__2
-EnduranceChargeIfAttackFreezesUnique__1
 {variant:2}CullingAgainstFrozenEnemiesUnique__1
+EnduranceChargeIfAttackFreezesUnique__1
 ]],[[
 Echoforge
 Infernal Sword
@@ -861,11 +867,11 @@ Source: Drops from unique{The Maven}
 Implicits: 1
 IncreasedChaosDamageImplicitUnique__1
 LocalAddedChaosDamageUnique__3
-(-16-16)% increased Attack Speed
 IncreasedLifeUnique__117
-ChaosDamageCanShockUnique__1
-(-40-40)% increased Area of Effect for Attacks
+MutatedUniqueHelmetDexInt4ChaosDamageCanShock
 DealNoElementalPhysicalDamageUnique__1
+(-16-16)% increased Attack Speed
+(-40-40)% increased Area of Effect for Attacks
 ]],[[
 Queen's Decree
 Ornate Sword
@@ -886,7 +892,11 @@ SkeletonDurationUniqueTwoHandSword4
 {variant:4}MaximumMinionCountUniqueTwoHandSword4Updated
 {variant:1,2,3}MaximumMinionCountUniqueSceptre5
 {variant:4}+(1-2) to maximum number of Spectres
+{variant:1,2,3}MaximumMinionCountUniqueBodyInt9
+{variant:4}+(1-2) to maximum number of Skeletons
 {variant:1,2,3}MaximumMinionCountUniqueBootsStrInt2
+{variant:1,2,3}MaximumMinionCountUniqueBootsStrInt2Updated
+{variant:4}+(1-2) to maximum number of Spectres
 {variant:4}+(1-2) to maximum number of Skeletons
 ]],[[
 Queen's Escape
@@ -900,6 +910,7 @@ Implicits: 2
 {variant:1}18% increased Global Accuracy Rating
 {variant:2,3}IncreasedAccuracy2hSwordImplicit3
 IncreasedStrengthRequirementsUniqueTwoHandSword4
+IncreasedStrengthRequirementsUniqueTwoHandSword4
 {variant:1,2}MinionLifeUniqueAmulet3
 {variant:3}MinionLifeUniqueTwoHandSword4
 MinionRunSpeedUnique__2
@@ -907,9 +918,10 @@ SkeletonDurationUniqueTwoHandSword4
 {variant:1,2}MinionDamageUnique4
 {variant:3}MinionDamageUniqueTwoHandSword4
 MaximumMinionCountUniqueTwoHandSword4
-MaximumMinionCountUniqueBodyInt9
-MaximumMinionCountUniqueBootsStrInt2Updated
-IncreasedStrengthRequirementsUniqueTwoHandSword4
+MaximumMinionCountUniqueSceptre5
+MaximumMinionCountUniqueSceptre5
+MaximumMinionCountUniqueBootsStrInt2
+MaximumMinionCountUniqueBootsStrInt2
 ]],[[
 Rakiata's Dance
 Engraved Greatsword
@@ -935,9 +947,9 @@ LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword1
 {variant:1}LocalIncreasedAttackSpeedUniqueOneHandSword1
 {variant:2,3,4,5}LocalIncreasedAttackSpeedUniqueTwoHandSword1
 MovementVelocityUniqueTwoHandSword1
-{variant:1,2,3}+(150-200) to Accuracy Rating
 {variant:4,5}IncreasedAccuracyUniqueTwoHandSword1
 {variant:5}MovementSpeedIfKilledRecentlyUnique___2
+{variant:1,2,3}+(150-200) to Accuracy Rating
 ]],[[
 Shiversting
 Bastard Sword
@@ -952,7 +964,7 @@ Implicits: 3
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword2
 LocalAddedColdDamageUniqueTwoHandSword2
 ManaLeechPermyriadUniqueTwoHandSword2
-MutatedUniqueAmulet39CannotBeFrozen
+CannotBeFrozen
 ]],[[
 Starforge
 Infernal Sword
@@ -962,15 +974,15 @@ Variant: Pre 3.11.0
 Variant: Pre 3.20.0
 Variant: Current
 Implicits: 2
-{variant:1}AccuracyPercentImplicitSword2
 {variant:2,3}IncreasedPhysicalDamagePercentUniqueSwordImplicit1
+{variant:1}AccuracyPercentImplicitSword2
 {variant:1}(400-500)% increased Physical Damage
-{variant:2}LocalIncreasedPhysicalDamagePercentUnique__53
+{variant:2}LocalIncreasedPhysicalDamagePercentUnique__51
 {variant:3}LocalIncreasedPhysicalDamagePercentUnique__19
 LocalIncreasedAttackSpeedUnique__19
 IncreasedLifeUniqueBodyStrDexInt1
 PhysicalDamageCanShockUnique__1
-IncreasedAttackAreaOfEffectUnique__1_
+IncreasedAttackAreaOfEffectUnique__2_
 DealNoElementalDamageUnique__2
 ]],[[
 Terminus Est
@@ -982,13 +994,13 @@ Implicits: 2
 {variant:1}18% increased Global Accuracy Rating
 {variant:2,3}IncreasedAccuracy2hSwordImplicit6
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe10
-{variant:2}(220-260)% increased Physical Damage
 {variant:3}LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword3
 LocalIncreasedAttackSpeedUniqueTwoHandSword1
 {variant:2,3}LocalCriticalStrikeChanceUnique__8
 ManaGainedFromEnemyDeathUniqueTwoHandSword3
 MovementVelocityUniqueTwoHandSword1
 GainFrenzyChargeOnCriticalHit
+{variant:2}(220-260)% increased Physical Damage
 ]],[[
 Voidforge
 Infernal Sword
@@ -1006,9 +1018,9 @@ Implicits: 2
 LocalIncreasedAttackSpeedUnique__27
 IncreasedLifeUnique__24
 ElementalDamageCanShockUnique__1__
-{variant:1,2}Gain 300% of Weapon Physical Damage as Extra Damage of a random Element
 {variant:3}WeaponPhysicalDamageAddedAsRandomElementUnique__1__
-IncreasedAttackAreaOfEffectUnique__2_
+IncreasedAttackAreaOfEffectUnique__1_
 DealNoNonElementalDamageUnique__1
+{variant:1,2}Gain 300% of Weapon Physical Damage as Extra Damage of a random Element
 ]],
 }

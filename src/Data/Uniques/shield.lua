@@ -101,6 +101,7 @@ Implicits: 1
 {variant:2,3,4}+(160-180) to maximum Life
 5% reduced Movement Speed
 {variant:4}20% increased Stun and Block Recovery
+{variant:4}20% increased Stun and Block Recovery
 20% increased Stun and Block Recovery
 -25 Physical Damage taken from Projectile Attacks
 +5% Chance to Block
@@ -131,6 +132,7 @@ Triggers Level 20 Elemental Aegis when Equipped
 {variant:1}(200-250)% increased Armour
 {variant:2}(180-220)% increased Armour
 +(60-80) to maximum Life
+{variant:2}20% increased Stun and Block Recovery
 {variant:2}20% increased Stun and Block Recovery
 +(80-100) to Evasion Rating and Energy Shield
 ]],[[
@@ -628,6 +630,7 @@ Implicits: 2
 {variant:3}+(6-10)% Chance to Block
 +1% to Critical Strike Multiplier per 1% Chance to Block Attack Damage
 +25% to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently
+{variant:1,2}(150-200)% increased Stun and Block Recovery
 (60-80)% increased Critical Strike Chance for Spells
 ]],[[
 Malachai's Loop
@@ -664,6 +667,8 @@ Implicits: 2
 {variant:3}Gain (1-100) Mana per Enemy Killed
 {variant:1,2}When you Cast a Spell, Sacrifice all Mana to gain Added Maximum Lightning Damage
 {variant:3}When you Cast a Spell, Sacrifice all Mana to gain Added Maximum Lightning Damage
+{variant:1,2}equal to 50% of Sacrificed Mana for 4 seconds
+{variant:3}equal to 50% of Sacrificed Mana for 4 seconds
 {variant:1,2}equal to 50% of Sacrificed Mana for 4 seconds
 {variant:3}equal to 50% of Sacrificed Mana for 4 seconds
 {variant:1,2}equal to 25% of Sacrificed Mana for 4 seconds
@@ -923,6 +928,7 @@ Implicits: 0
 Damage taken from Blocked Hits cannot bypass Energy Shield
 Damage taken from Unblocked hits always bypasses Energy Shield
 Glancing Blows
+Damage taken from Unblocked hits always bypasses Energy Shield
 Damage taken from Unblocked hits always bypasses Energy Shield
 ]],[[
 Invictus Solaris
@@ -1239,6 +1245,7 @@ Implicits: 1
 +(1-10)% Chance to Block
 (1-10)% chance to avoid Projectiles
 Your Lucky or Unlucky effects use the best or
+worst from three rolls instead of two
 worst from three rolls instead of two
 worst from three rolls instead of two
 ]],}

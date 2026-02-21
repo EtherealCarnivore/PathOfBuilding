@@ -154,6 +154,12 @@ Attacks cannot Hit you
 Attacks against you always Hit
 Your Damage with Hits is Lucky
 Damage of Hits against you is Lucky
+Your Hits are always Critical Strikes
+Hits against you are always Critical Strikes
+Attacks cannot Hit you
+Attacks against you always Hit
+Your Damage with Hits is Lucky
+Damage of Hits against you is Lucky
 {tags:life}+(60-80) to Maximum Life
 Your Hits are always Critical Strikes
 Hits against you are always Critical Strikes
@@ -341,6 +347,7 @@ Grants Summon Harbinger of Time Skill
 (10-15)% increased Attack and Cast Speed
 (15-20)% increased Cooldown Recovery Rate
 Debuffs on you expire (15-20)% faster
+{variant:2}(10-15)% increased Life Recovery rate
 {variant:1}{tags:jewellery_defense}(15-20)% increased Energy Shield Recovery rate
 {variant:1}{tags:life}(15-20)% increased Life Recovery rate
 {variant:2}{tags:life}(10-15)% increased Life Recovery rate

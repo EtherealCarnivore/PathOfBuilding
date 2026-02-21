@@ -10,9 +10,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 66, 158 Str, 113 Int
 Implicits: 3
+40% increased Strength Requirement
 {variant:3}+25% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-40% increased Strength Requirement
 +(80-120) to Intelligence
 (30-50)% increased Lightning Damage
 {variant:1}+1 to Level of all Lightning Spell Skill Gems
@@ -28,9 +28,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 66, 158 Str, 113 Int
 Implicits: 3
+40% increased Strength Requirement
 {variant:3}+25% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-40% increased Strength Requirement
 +(80-120) to Intelligence
 (30-50)% increased Lightning Damage
 {variant:1}+1 to Level of all Lightning Spell Skill Gems
@@ -46,9 +46,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 66, 158 Str, 113 Int
 Implicits: 3
+40% increased Strength Requirement
 {variant:3}+25% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-40% increased Strength Requirement
 +(80-120) to Intelligence
 (30-50)% increased Lightning Damage
 {variant:1}+1 to Level of all Lightning Spell Skill Gems
@@ -64,9 +64,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 66, 158 Str, 113 Int
 Implicits: 3
+40% increased Strength Requirement
 {variant:3}+25% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-40% increased Strength Requirement
 +(80-120) to Intelligence
 (30-50)% increased Lightning Damage
 Adds (5-15) to (100-140) Lightning Damage to Spells
@@ -298,9 +298,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 58, 99 Str, 99 Int
 Implicits: 3
++2 to Level of Socketed Minion Gems
 {variant:4}+25% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-+2 to Level of Socketed Minion Gems
 {variant:3,4}Minions deal (60-80)% increased Damage
 {variant:1,2}2% increased Minion Attack and Cast Speed per Skeleton you own
 {variant:3,4}+1% Chance to Block Attack Damage per Summoned Skeleton
@@ -318,9 +318,9 @@ Variant: Pre 2.6.0
 Variant: Pre 3.25.0
 Variant: Current
 Implicits: 3
+Socketed Gems are Supported by Level 8 Trap
 {variant:3}+20% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
-Socketed Gems are Supported by Level 8 Trap
 (10-20)% increased maximum Life
 (10-20)% increased maximum Mana
 {variant:2}+18% Chance to Block Attack Damage while wielding a Staff
@@ -473,10 +473,10 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 68, 113 Str, 113 Int
 Implicits: 4
+Socketed Gems are Supported by Level 30 Greater Spell Echo
 {variant:3,4}+20% Chance to Block Spell Damage while wielding a Staff
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
 {variant:5}+25% Chance to Block Attack Damage while wielding a Staff
-Socketed Gems are Supported by Level 30 Greater Spell Echo
 (120-160)% increased Spell Damage
 {variant:4,5}50% increased maximum Mana
 {variant:2}+18% Chance to Block Attack Damage while wielding a Staff
@@ -489,9 +489,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 18, 35 Str, 35 Int
 Implicits: 3
++1 to Level of Socketed Fire Gems
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
 {variant:3}+20% Chance to Block Attack Damage while wielding a Staff
-+1 to Level of Socketed Fire Gems
 +1 to Level of Socketed Cold Gems
 Socketed Gems are Supported by Level 5 Cold to Fire
 Adds (10-15) to (20-25) Fire Damage
@@ -507,9 +507,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 40, 35 Str, 35 Int
 Implicits: 3
++1 to Level of Socketed Fire Gems
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
 {variant:3}+20% Chance to Block Attack Damage while wielding a Staff
-+1 to Level of Socketed Fire Gems
 +1 to Level of Socketed Cold Gems
 +2 to Level of Socketed Elemental Gems
 Socketed Gems are Supported by Level 5 Cold to Fire
@@ -641,9 +641,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 45, 78 Str, 78 Int
 Implicits: 3
+{variant:3,4}+2 to Level of Socketed Spell Gems
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
 {variant:4}+22% Chance to Block Attack Damage while wielding a Staff
-{variant:3,4}+2 to Level of Socketed Spell Gems
 {variant:3,4}Socketed Gems are Supported by Level 10 Blastchain Mine
 {variant:1,2}35% less Mine Damage
 (40-60)% increased Spell Damage
@@ -660,9 +660,9 @@ Variant: Pre 3.25.0
 Variant: Current
 Requires Level 33, 59 Str, 59 Int
 Implicits: 3
++1 to Level of Socketed Support Gems
 {variant:1}+12% Chance to Block Attack Damage while wielding a Staff
 {variant:3}+20% Chance to Block Attack Damage while wielding a Staff
-+1 to Level of Socketed Support Gems
 Grants Level 1 Icestorm Skill
 (14-18)% increased Intelligence
 (8-12)% increased Cast Speed
@@ -695,6 +695,7 @@ Has 1 Socket
 +(150-200) to maximum Mana
 Gain 150 Life per Enemy Killed
 Has a Crucible Passive Skill Tree with only Support Passive Skills
+Crucible Passive Skill Tree is removed if this Modifier is removed
 Crucible Passive Skill Tree is removed if this Modifier is removed
 (80-120)% increased Critical Strike Chance for Spells
 Crucible Passive Skill Tree is removed if this Modifier is removed
@@ -736,6 +737,8 @@ Gain 1 Remembrance when you spend a total of 200 Energy
 Shield with no Shaper Memory Summoned
 Maximum 10 Remembrance
 Eldritch Battery
+Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory
+Shield with no Shaper Memory Summoned
 {variant:1}Grants Level 20 Shaper's Despair, which will be used by Shaper Memory
 {variant:2}Grants Level 20 Shaper's Ire, which will be used by Shaper Memory
 {variant:3}Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory

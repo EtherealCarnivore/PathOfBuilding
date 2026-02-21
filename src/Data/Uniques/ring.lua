@@ -474,6 +474,7 @@ Implicits: 1
 {tags:mana}50% increased Mana Regeneration Rate
 {variant:2}{tags:cold}+(30-40)% to Cold Resistance
 {variant:2}Cannot be Chilled
+{variant:2}Cannot be Frozen
 {tags:cold}Cannot be Frozen
 ]],[[
 Emberwake
@@ -568,10 +569,11 @@ Implicits: 2
 50% increased Elemental Ailment Duration on you
 50% reduced Effect of Curses on you
 {tags:caster}50% reduced Effect of Curses on you
-Grants Level 20 Penance Mark
 {tags:caster,speed}(6-12)% increased Cast Speed
 {tags:life}+(30-60) to maximum Life
 {tags:chaos}+(7-19)% to Chaos Resistance
+{tags:caster}50% reduced Effect of Curses on you
+Grants Level 20 Penance Mark
 ]],[[
 Heartbound Loop
 Moonstone Ring
@@ -905,6 +907,7 @@ Implicits: 1
 {tags:chaos}All Elemental Damage Converted to Chaos Damage
 {tags:chaos}Nearby Enemies' Chaos Resistance is 0
 {tags:chaos}Chaos Resistance is Zero
+{tags:chaos}Chaos Resistance is Zero
 ]],[[
 The Pariah
 Unset Ring
@@ -969,6 +972,7 @@ Has 1 Socket
 {tags:cold}+(20-30)% to Cold Resistance
 {tags:lightning}+(20-30)% to Lightning Resistance
 {tags:caster}Left Ring Slot: Your Chilling Skitterbot's Aura applies Socketed Hex Curse instead
+{tags:caster}Right Ring Slot: Your Shocking Skitterbot's Aura applies Socketed Hex Curse instead
 {tags:caster}Right Ring Slot: Your Shocking Skitterbot's Aura applies Socketed Hex Curse instead
 {tags:caster}Right Ring Slot: Your Shocking Skitterbot's Aura applies Socketed Hex Curse instead
 ]],[[
