@@ -36,9 +36,9 @@ Implicits: 3
 IncreasedCastSpeedUniqueWand7
 ChaosResistUniqueWand7
 {variant:1,2,3}ManaCostIncreasedUniqueWand7
-{variant:3,4}Poisons you inflict deal Damage 20% faster
 {variant:5,6}FasterPoisonDamageUnique__1
 {variant:4,5,6}IncreaseGlobalFlatManaCostUnique__3_
+{variant:3,4}Poisons you inflict deal Damage 20% faster
 ]],[[
 Ashcaller
 {variant:1,2,3}Quartz Wand
@@ -53,11 +53,11 @@ Implicits: 3
 {variant:1,2,3}SpellDamageOnWeaponImplicitWand3[18,22]
 {variant:4}SpellDamageOnWeaponImplicitWand3
 {variant:5}AddedFireDamageSpellsAndAttacksImplicit1
-{variant:1,2}SummonRagingSpiritOnKillUnique__1[10,10]
+{variant:1,2}SummonRagingSpiritOnKillUnique__1[10000,10000][10000,10000]
 {variant:3,4,5}SummonRagingSpiritOnKillUnique__1
+{variant:2}FireDamageOverTimeMultiplierUnique__2_
 {variant:1}LocalAddedFireDamageUnique__2[10,14][18,22]
 {variant:3,4,5}LocalAddedFireDamageUnique__2
-{variant:2}FireDamageOverTimeMultiplierUnique__2_
 {variant:1,2}SpellAddedFireDamageUniqueWand10[4,6][7,9]
 {variant:3,4,5}SpellAddedFireDamageUniqueWand10[20,24][36,46]
 {variant:1}BurnDamageUnique__1[40,50]
@@ -103,7 +103,7 @@ SpellDamageOnWeaponImplicitWand13
 BlindingAuraSkillUnique__1
 {variant:1}LocalAddedPhysicalDamageUnique__4
 {variant:2}LocalAddedFireDamageUnique__6
-{variant:2}IncreasedAttackSpeedUniqueShieldDex6
+{variant:2}LocalIncreasedAttackSpeedUnique__42
 CriticalMultiplierUnique__1
 LightRadiusUnique__3
 CriticalChanceAgainstBlindedEnemiesUnique__1
@@ -118,11 +118,14 @@ Variant: Current
 Implicits: 1
 SpellDamageOnWeaponImplicitWand17
 LocalIncreasedPhysicalDamagePercentUnique__47
+{variant:1}Gain (10-30)% of PhysicaImplicits: 1
+SpellDamageOnWeaponImplicitWand17
+LocalIncreasedPhysicalDamagePercentUnique__47
 {variant:1}PhysicalAddedAsFireUnique__4[10,30]
-{variant:1}PhysicalAddedAsColdUnique__3[10,30]
-{variant:1}PhysicalAddedAsLightningUnique__1[10,30]
 {variant:2}PhysicalAddedAsFireUnique__4
+{variant:1}PhysicalAddedAsColdUnique__3[10,30]
 {variant:2}PhysicalAddedAsColdUnique__3
+{variant:1}PhysicalAddedAsLightningUnique__1[10,30]
 {variant:2}PhysicalAddedAsLightningUnique__1
 AdditionalSacredWispUnique__1
 ]],[[
@@ -155,6 +158,8 @@ IntelligenceUniqueWand2
 {variant:1,2}MinionDamageUniqueWand2[10,30]
 {variant:3,4}MinionDamageUniqueWand2
 MaximumMinionCountUniqueWand2
+MaximumMinionCountUniqueSceptre5
+MaximumMinionCountUniqueBootsStrInt2
 ]],[[
 Replica Midnight Bargain
 {variant:1}Engraved Wand
@@ -235,6 +240,10 @@ Implicits: 4
 LocalReducedPhysicalDamagePercentUniqueWand6
 LocalIncreasedAttackSpeedUniqueWand6
 LocalCriticalStrikeChanceUniqueWand6_
++(340-400) to Aer Modifiers
+LocalReducedPhysicalDamagePercentUniqueWand6
+LocalIncreasedAttackSpeedUniqueWand6
+LocalCriticalStrikeChanceUniqueWand6_
 IncreasedAccuracyUniqueWand6
 ThisWeaponsWeaponElementalDamageUniqueWand6
 {variant:3,4,5}WeaponElementalPenetrationUnique__1
@@ -244,11 +253,11 @@ The Poet's Pen
 {variant:2}Somatic Wand
 Implicits: 1
 {variant:1}SpellDamageOnWeaponImplicitWand3
-{variant:2}KineticWandImplicit
 SocketedGemLevelPer25PlayerLevelsUnique__1
-AddsPhysicalDamagePer3PlayerLevelsUnique__1_
-LocalIncreasedAttackSpeedUnique__16
 TriggerSocketedSpellOnAttackUnique__1
+AddsPhysicalDamagePer3PlayerLevelsUnique__1_
+LocalIncreasedAttackSpeedUnique__31
+{variant:2}KineticWandImplicit
 ]],[[
 Reverberation Rod
 Spiraled Wand
@@ -261,7 +270,7 @@ Implicits: 3
 {variant:1}SpellDamageOnWeaponImplicitWand5[10,14]
 {variant:2,3,4}SpellDamageOnWeaponImplicitWand5
 {variant:5}AddedLightningDamageSpellsAndAttacksImplicit1
-{variant:1,2}LocalIncreaseSocketedGemLevelUnique__4
+{variant:1,2}LocalIncreaseSocketedGemLevelUnique__7
 {variant:3,4,5}LocalIncreaseSocketedGemLevelUniqueWand8
 {variant:4,5}SupportedByArcaneSurgeUniqueWand8
 SupportedByEchoUniqueWand8New_
@@ -289,7 +298,7 @@ Variant: Current
 LevelReq: 36
 Implicits: 1
 SpellDamageOnWeaponImplicitWand5
-{variant:1}LocalIncreaseSocketedGemLevelUnique__2
+{variant:1}LocalIncreaseSocketedGemLevelUnique__5
 {variant:2}LocalIncreaseSocketedGemLevelUniqueWand8
 SocketedGemsGetIncreasedAreaOfEffectUnique__1
 SupportedByEchoUniqueWand8
@@ -302,9 +311,9 @@ Variant: Pre 3.5.0
 Variant: Current
 Implicits: 1
 SpellDamageOnWeaponImplicitWand6
-ElementalDamagePercentAddedAsChaosUnique__1
+ElementalDamagePercentAddedAsChaosUnique__3
 CriticalStrikesDealNoDamageUnique__1
-{variant:1}SpellDamageIfYouHaveCritRecentlyUnique__1[120,120]
+{variant:1}120% increased Spell Damage if you've dealt a Critical Strike in the past 8 seconds
 {variant:2}SpellDamageIfYouHaveCritRecentlyUnique__1
 ]],[[
 Shimmeron
@@ -336,10 +345,10 @@ Implicits: 3
 {variant:1}SpellDamageOnWeaponImplicitWand3[9,13]
 {variant:2}SpellDamageOnWeaponImplicitWand3
 {variant:3}AddedLightningDamageSpellsAndAttacksImplicit1
-LocalIncreasedPhysicalDamagePercentUnique__6
+LocalIncreasedPhysicalDamagePercentUnique__8
 LocalAddedLightningDamageUnique__2
 ManaRegenerationUnique__1
-IncreasedMaximumPowerChargesUnique__2
+IncreasedMaximumPowerChargesUniqueWand3
 PowerChargeOnKillChanceUnique__1
 ]],[[
 Tulborn
@@ -352,11 +361,14 @@ League: Breach
 Source: Drops in Tul Breach or from unique{Tul, Creeping Avalanche}
 Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
 Implicits: 2
+{variant:1,2}(15-19)% increasalanche}
+Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
+Implicits: 2
 {variant:1,2}SpellDamageOnWeaponImplicitWand5
 {variant:3}AddedColdDamageSpellsAndAttacksImplicit3
-{variant:1,2}IncreasedCastSpeedUnique__20
 {variant:3}SpellAddedColdDamageUnique__7
-{variant:1,2}GainPowerChargeOnKillingFrozenEnemyUnique__1[50,50]
+{variant:1,2}IncreasedCastSpeedUnique__20
+{variant:1,2}50% chance to gain a Power Charge on Killing a Frozen Enemy
 {variant:3}GainPowerChargeOnKillingFrozenEnemyUnique__1
 {variant:1,2}AddedColdDamagePerPowerChargeUnique__1
 {variant:3}ColdExposureAdditionalResistanceUnique__1
@@ -375,7 +387,7 @@ Implicits: 2
 {variant:3}AddedColdDamageSpellsAndAttacksImplicit3
 {variant:1,2}IncreasedCastSpeedUniqueWand3[10,15]
 {variant:3}IncreasedCastSpeedUniqueWand3
-{variant:1}GainPowerChargeOnKillingFrozenEnemyUnique__1[50,50]
+{variant:1}50% chance to gain a Power Charge on Killing a Frozen Enemy
 {variant:2,3}GainPowerChargeOnKillingFrozenEnemyUnique__1
 {variant:1,2}AddedColdDamagePerPowerChargeUnique__2[15,15][25,25]
 {variant:3}AddedColdDamagePerPowerChargeUnique__2
@@ -410,13 +422,13 @@ Variant: Current
 Implicits: 2
 {variant:1}SpellDamageOnWeaponImplicitWand6[11,14]
 {variant:2}SpellDamageOnWeaponImplicitWand6
-{variant:3}KineticWandImplicit
+{variant:1,2}SocketedGemsAdditionalProjectilesUniqueWand9
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUniqueWand9[80,120]
 {variant:3}LocalIncreasedPhysicalDamagePercentUniqueWand9
 LocalAddedPhysicalDamageUniqueWand9
 LocalIncreasedAttackSpeedUniqueWand9
 LocalCriticalStrikeChanceUniqueWand9
-{variant:1,2}SocketedGemsAdditionalProjectilesUniqueWand9
+{variant:3}KineticWandImplicit
 {variant:3}MainHandAdditionalProjectilesWhileInOffHandUnique__1
 {variant:3}OffHandAreaOfEffectWhileInMainHandUnique__1
 ]],[[

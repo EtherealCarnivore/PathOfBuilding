@@ -12,12 +12,12 @@ Implicits: 2
 {variant:1}LifeGainPerTargetImplicit2Claw8[21,21]
 {variant:2}LifeGainPerTargetImplicit2Claw8
 SocketedGemsSupportedByFortifyUnique____1
+AdditionalBlockUnique__2
 LocalIncreasedPhysicalDamagePercentUniqueClaw6
 IncreasedEvasionRatingUnique___1
-IncreasedLifeUnique__107
 IncreasedEnergyShieldUnique__2
+IncreasedLifeUnique__11
 AttackerTakesDamageShieldImplicit7
-AdditionalBlockUnique__2
 ]],[[
 Replica Advancing Fortress
 Gut Ripper
@@ -43,9 +43,9 @@ LifeLeechPermyriadImplicitClaw2
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__1[80,100]
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__1
 LocalAddedPhysicalDamageUnique__1
-IncreasedAttackSpeedUnique__5
+LocalIncreasedAttackSpeedUnique__24
 MovementSpeedWhilePhasedUnique__1
-{variant:1}GainPhasingOnVaalSkillUseUnique__1[3000,3000]
+{variant:1}GainPhasingOnVaalSkillUseUnique__1[3,3]
 {variant:2}GainPhasingOnVaalSkillUseUnique__1
 ]],[[
 Replica Allure
@@ -57,7 +57,7 @@ Implicits: 1
 LifeLeechPermyriadImplicitClaw2
 LocalIncreasedPhysicalDamagePercentUnique__1
 LocalAddedPhysicalDamageUnique__1
-IncreasedAttackSpeedUnique__5
+LocalIncreasedAttackSpeedUnique__2
 LifeGainedOnTauntingEnemyUnique__1
 OnslaughtOnKillingTauntedEnemyUnique__1
 TauntedEnemiesTakeIncreasedDamage_
@@ -73,8 +73,8 @@ Variant: Pre 3.11.0
 Variant: Current
 Requires Level 26, 39 Dex, 56 Int
 Implicits: 3
-{variant:1}LifeGainPerTargetImplicit2Claw4_1[8,8]
 {variant:2}LifeLeechPermyriadImplicitClaw2
+{variant:1}LifeGainPerTargetImplicit2Claw4_1[8,8]
 {variant:3,4,5,6}LifeGainPerTargetImplicit2Claw4_1
 {variant:1,2,3,4}SocketedItemsHaveChanceToFleeUniqueClaw6
 {variant:4,5}TriggeredAbyssalCryUnique__1
@@ -121,7 +121,11 @@ Implicits: 3
 IncreasedManaUniqueClaw7
 {variant:1,2,3}LifeGainedOnSpellHitUniqueClaw7[5,8]
 {variant:4}LifeGainedOnSpellHitUniqueClaw7
-{variant:1}IncreasedSpellDamagePerBlockChanceUniqueClaw7[6,6]
+{variant:1}6% increased Spell Damage per 5% Chance to Block Attack Damage
+{variant:2,3,4}IncreasedSpellDamagePerBlockChanceUniqueClaw7
+]],[[
+Essentia Sanguis
+{variant:1tack Damage
 {variant:2,3,4}IncreasedSpellDamagePerBlockChanceUniqueClaw7
 ]],[[
 Essentia Sanguis
@@ -135,21 +139,21 @@ Variant: Pre 3.20.0
 Variant: Current
 Implicits: 3
 {variant:1,2}LifeLeechPermyriadUnique__4
-{variant:3}LifeGainPerTargetImplicit2Claw12[31,31]
 {variant:4,5,6}LifeLeechPermyriadImplicitClaw2
+{variant:3}LifeAndManaOnHitSeparatedImplicitMarakethClaw2[31,31]
 {variant:1}+10% Chance to Block Attack Damage while Dual Wielding Claws
 {variant:2,3,4,5,6}BlockWhileDualWieldingClawsUniqueClaw1
 {variant:1}LocalIncreasedPhysicalDamagePercentUniqueClaw1[80,120]
 {variant:2,3,4,5}LocalIncreasedPhysicalDamagePercentUniqueClaw1
-{variant:1}AddedLocalLightningDamageUniqueClaw1[1,1][50,50]
-{variant:2,3}AddedLocalLightningDamageUniqueClaw1[1,1][80,80]
-{variant:4,5}AddedLocalLightningDamageUniqueClaw1[1,1][200,200]
+{variant:1}LocalAddedLightningDamageUnique__1[1,1][50,50]
+{variant:2,3}LocalAddedLightningDamageUnique__1[1,1][80,80]
+{variant:4,5}LocalAddedLightningDamageUnique__1[1,1][200,200]
 {variant:6}AddedLocalLightningDamageUniqueClaw1
 LocalIncreasedAttackSpeedUniqueClaw1
 IncreasedEnergyShieldUniqueClaw1
-{variant:1,2,3,4}LeechEnergyShieldInsteadofLife
 {variant:5}MaximumESLeechAmountUnique__1_
 {variant:5,6}ESLeechFromAttacksNotRemovedOnFullESUnique__1
+{variant:1,2,3,4}LeechEnergyShieldInsteadofLife
 {variant:5,6}KeystoneGhostReaverUnique__1
 ]],[[
 Hand of Thought and Motion
@@ -167,17 +171,17 @@ Implicits: 3
 {variant:1}LifeGainPerTargetImplicit2Claw10[10,10]
 {variant:2,3}LifeGainPerTargetImplicit2Claw10[12,12]
 {variant:4,5}LifeGainPerTargetImplicit2Claw10
-{variant:1,2,3}WeaponElementalDamageUnique__4
-{variant:1,2,3}LocalAddedLightningDamageUnique__4
-{variant:1,2,3}LocalIncreasedAttackSpeedUniqueClaw8
 {variant:4,5}PercentageDexterityUnique__3
 {variant:4,5}PercentageIntelligenceUnique__3
+{variant:1,2,3}LocalAddedLightningDamageUnique__4
+{variant:1,2,3}LocalIncreasedAttackSpeedUniqueClaw8
 {variant:4,5}MaximumLifeOnKillPercentUnique__1
-{variant:1,2}AddedLightningDamagePerIntelligenceUnique__2[1,1][3,3]
-{variant:3}AddedLightningDamagePerIntelligenceUnique__2
-{variant:4}AddedLightningDamagePerDexterityUnique__1[1,1][10,10]
+{variant:4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Dexterity
 {variant:5}AddedLightningDamagePerDexterityUnique__1
+{variant:1,2}Adds 1 to 3 Lightning Damage to Attacks with this Weapon per 10 Intelligence
+{variant:3}AddedLightningDamagePerIntelligenceUnique__2
 {variant:4,5}CriticalStrikeChancePerIntelligenceUnique__1
+{variant:1,2,3}WeaponElementalDamageUnique__4
 ]],[[
 Hand of Wisdom and Action
 Imperial Claw
@@ -195,8 +199,8 @@ Implicits: 2
 PercentageDexterityUnique__3
 PercentageIntelligenceUnique__3
 {variant:4,5}LifeLeechFromAttacksPermyriadUnique__1
-{variant:1,2}AddedLightningDamagePerIntelligenceUnique__2[1,1][6,6]
-{variant:3,4}AddedLightningDamagePerIntelligenceUnique__1[1,1][10,10]
+{variant:1,2}Adds 1 to 6 Lightning Damage to Attacks with this Weapon per 10 Intelligence
+{variant:3,4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 {variant:5}AddedLightningDamagePerIntelligenceUnique__1
 IncreasedAttackSpeedPerDexterityUnique__1
 {variant:1,2,3}WeaponElementalDamageUnique__4
@@ -209,8 +213,8 @@ Variant: Pre 3.7.0
 Variant: Current
 Requires Level 68, 131 Dex, 95 Int
 Implicits: 2
-{variant:1}LifeGainPerTargetImplicit2Claw10[25,25]
-{variant:2,3}LifeGainPerTargetImplicit2Claw10
+{variant:1}LifeGainPerTargetImplicit2Claw13[25,25]
+{variant:2,3}LifeGainPerTargetImplicit2Claw13
 LocalIncreasedPhysicalDamagePercentUnique__6
 LocalAddedPhysicalDamageUnique__3
 LocalIncreasedAttackSpeedUniqueClaw8
@@ -223,10 +227,17 @@ Nailed Fist
 Implicits: 1
 LifeGainPerTargetImplicitClaw1
 IncreasedAttackSpeedWhenOnLowLifeUniqueClaw4
-LocalIncreasedPhysicalDamagePercentUniqueClaw4
+LocalIncreasedPhysicalDamagePercentUniqueClaw5
 LocalAddedPhysicalDamagePercentUniqueClaw4
 IncreasedClawDamageOnLowLifeUniqueClaw4
 IncreasedAccuracyWhenOnLowLifeUniqueClaw4
+]],[[
+Replica Last Resort
+Nailed Fist
+Variant: Pre 3.14.0
+Variant: Current
+League: Heist
+Souron Low Life
 ]],[[
 Replica Last Resort
 Nailed Fist
@@ -252,7 +263,7 @@ Source: Drops from unique{Oshabi, Avatar of the Grove}
 Requires Level 62, 131 Dex, 95 Int
 Implicits: 1
 LifeLeechPermyriadImplicitClaw1
-{variant:1}20% chance to Trigger Level 20 Summon Spectral Wolf on Critical Strike with this Weapon
+{variant:1}SummonWolfOnCritUnique__1[20000,20000][20000,20000]
 {variant:2}SummonWolfOnCritUnique__1
 LocalIncreasedAttackSpeedUnique__25
 LocalCriticalStrikeChanceUnique__17_
@@ -275,8 +286,8 @@ LocalCriticalStrikeChanceUniqueClaw2
 {variant:2,3,4}LocalCriticalMultiplierUniqueClaw2
 PhysicalDamageConvertToChaosUniqueClaw2
 {variant:1,2,3}LocalPoisonOnHit
-{variant:4}LocalChanceToPoisonOnHitUnique__2
 StunThresholdReductionUniqueClaw2_
+{variant:4}LocalChanceToPoisonOnHitUnique__2
 ]],[[
 Ornament of the East
 Gut Ripper
@@ -318,7 +329,7 @@ Implicits: 1
 LifeLeechPermyriadImplicitClaw2
 {variant:1}SummonWolfOnKillUnique__1
 LocalAddedPhysicalDamageUnique__23_
-LocalIncreasedAttackSpeedUniqueClaw8
+LocalIncreasedAttackSpeedUniqueClaw9
 IncreasedMinionAttackSpeedUnique__1_
 MinionDamageAlsoAffectsYouUnique__1
 IncreasedMinionDamageIfYouHitEnemyUnique__1
@@ -333,7 +344,7 @@ Implicits: 2
 {variant:2}LifeGainPerTargetImplicit2Claw10
 LocalAddedPhysicalDamageUnique__14
 ColdDamagePercentUnique__8
-CriticalStrikeChanceUniqueBow9
+LocalCriticalStrikeChanceUnique__3
 ChanceToGainFrenzyChargeOnKillingFrozenEnemyUnique__1
 AdditionalChainWhileAtMaxFrenzyChargesUnique___1
 ChanceToFreezeUnique__3
@@ -353,6 +364,9 @@ LocalCriticalStrikeChanceUnique__11
 {variant:2}LocalIncreasedAccuracyUnique__1
 LocalChanceToPoisonOnHitUnique__3
 AddedChaosDamageVsEnemiesWith5PoisonsUnique__1
+Enemies affe Accuracy Rating
+LocalChanceToPoisonOnHitUnique__3
+AddedChaosDamageVsEnemiesWith5PoisonsUnique__1
 ]],[[
 Wildslash
 Awl
@@ -360,14 +374,14 @@ Variant: Pre 2.6.0
 Variant: Current
 Requires Level 12, 25 Dex, 25 Int
 Implicits: 2
-{variant:1}LifeGainPerTargetImplicit2Claw3[5,5]
+{variant:1}LifeAndManaOnHitSeparatedImplicitMarakethClaw1[5,5]
 {variant:2}LifeGainPerTargetImplicit2Claw3
 StrengthUniqueClaw9
 DexterityUniqueClaw9
-15% reduced Accuracy Rating
 LocalAddedPhysicalDamageUniqueClaw9
 LocalIncreasedAttackSpeedUniqueClaw8
 DamageWithMovementSkillsUniqueClaw9
 AttackSpeedWithMovementSkillsUniqueClaw9
+15% reduced Accuracy Rating
 ]],
 }

@@ -74,7 +74,7 @@ Variant: Current
 LevelReq: 32
 Implicits: 0
 DisplaySocketedGemGetsChanceToFleeUniqueOneHandAxe3
-LocalIncreasedPhysicalDamagePercentUnique__17_
+LocalIncreasedPhysicalDamagePercentUnique__9
 {variant:1}LocalAddedPhysicalDamageUniqueOneHandAxe3[8,12][18,22]
 {variant:2}LocalAddedPhysicalDamageUniqueOneHandAxe3
 IncreasedLifeUniqueOneHandAxe3
@@ -93,9 +93,9 @@ Implicits: 0
 LocalAddedPhysicalDamageUniqueOneHandAxe5
 {variant:1}LocalIncreasedAttackSpeedUniqueOneHandAxe2
 {variant:1}LifeLeechPermyriadUniqueOneHandAxe6
-{variant:1}50% reduced total Recovery per second from Life Leech
-CausesBleedingUniqueOneHandAxe5
+CausesBleedingUniqueTwoHandAxe7Updated
 {variant:2}LocalBleedDamageOverTimeMultiplierUnique__1
+{variant:1}50% reduced total Recovery per second from Life Leech
 ]],[[
 Moonbender's Wing
 Tomahawk
@@ -127,6 +127,11 @@ CannotBeChilledWhenOnslaughtUniqueOneHandAxe6
 ]],[[
 Rigwald's Savagery
 Royal Axe
+League: Talisman Standard, Talismane
+CannotBeChilledWhenOnslaughtUniqueOneHandAxe6
+]],[[
+Rigwald's Savagery
+Royal Axe
 League: Talisman Standard, Talisman Hardcore
 Source: Drops from unique{Rigwald, the Wolven King} (Level 75+)
 Variant: Pre 3.11.0
@@ -137,7 +142,7 @@ LocalAddedPhysicalDamageUnique__7
 DualWieldingPhysicalDamageUnique__1
 LocalIncreasedAttackSpeedUniqueOneHandAxe2
 {variant:1}SwordPhysicalAttackSpeedUnique__1
-{variant:1}CausesBleedingUniqueOneHandAxe5
+{variant:1}CausesBleedingUniqueTwoHandAxe7
 {variant:2}MaxRagePerEquippedSwordUnique__1____[25,25]
 {variant:3}MaxRagePerEquippedSwordUnique__1____
 ]],[[
@@ -165,7 +170,7 @@ League: Heist
 Source: No longer obtainable
 Implicits: 0
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe1
-LocalAddedPhysicalDamageOneHandAxe1[10,10][20,20]
+Adds 10 to 20 Physical Damage
 LocalCriticalStrikeChanceUnique__18
 ColdResistUniqueOneHandAxe1_
 PhysicalDamageCanFreezeUnique__1_
@@ -199,8 +204,8 @@ Implicits: 1
 {variant:2}LocalAddedPhysicalDamageUniqueTwoHandAxe7[205,220][250,270]
 {variant:3}LocalAddedPhysicalDamageUniqueTwoHandAxe7
 LocalIncreasedAttackSpeedUniqueTwoHandAxe7
-CausesBleedingUniqueOneHandAxe5
-{variant:1,2}LocalIncreasedMeleeWeaponRangeUniqueTwoHandAxe7_[2,2]
+CausesBleedingUniqueOneHandAxe5Updated_
+{variant:1,2}LocalIncreasedMeleeWeaponRangeUniqueTwoHandAxe5
 {variant:3}LocalIncreasedMeleeWeaponRangeUniqueTwoHandAxe7_
 ]],[[
 The Blood Reaper
@@ -255,6 +260,9 @@ Implicits: 1
 {variant:2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe2
 LocalAddedPhysicalDamage__1
 LifeLeechPermyriadUniqueTwoHandAxe4
+{variant:2}40% increased Attack Speed  Damage
+LocalAddedPhysicalDamage__1
+LifeLeechPermyriadUniqueTwoHandAxe4
 {variant:2}AttackSpeedAfterSavageHitTakenUnique__1
 AttacksHaveBloodMagic__1
 ]],[[
@@ -274,8 +282,8 @@ Implicits: 0
 LifeGainedFromEnemyDeathUniqueTwoHandAxe1
 IncreasedAccuracyUniqueTwoHandAxe1
 NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
-{variant:3,4}RageOnAttackCritUnique__1
 {variant:5}RageOnMeleeHitE3
+{variant:3,4}RageOnAttackCritUnique__1
 {variant:3,4,5}PhysicalAddedAsFirePerRageUnique__1
 ]],[[
 Kingmaker
@@ -294,7 +302,7 @@ Implicits: 0
 {variant:5}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe9[190,240]
 {variant:6}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe9
 LocalIncreasedAttackSpeedUniqueTwoHandAxe9
-{variant:2,3,4,5,6}CriticalStrikeChanceUniqueBow9
+{variant:2,3,4,5,6}LocalCriticalStrikeChanceUnique__10
 {variant:1}IncreasedManaUniqueTwoHandAxe9
 DisplayNearbyAlliesHaveIncreasedItemRarityUniqueTwoHandAxe9
 DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
@@ -341,7 +349,7 @@ LocalIncreaseSocketedStrengthGemLevelUniqueTwoHandAxe3
 {variant:2}TriggerGoreShockwaveOnMeleeHitWith150StrengthUnique__2
 StrengthUniqueTwoHandAxe3
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe3
-LocalAddedPhysicalDamageUnique__18[35,45][80,90]
+Adds (35-45) to (80-90) Physical Damage
 PhysicalAddedAsFireUnique__2
 NearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
 ]],[[
@@ -353,7 +361,7 @@ Implicits: 0
 MoltenBurstOnMeleeHitUnique__1
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__17_[190,230]
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__17_
-IncreasedAttackSpeedUnique__5
+LocalIncreasedAttackSpeedUnique__16
 {variant:1}DamageConversionFireUnique__1[50,50]
 {variant:2}DamageConversionFireUnique__1
 PenetrateEnemyFireResistUnique__1
@@ -387,6 +395,7 @@ Variant: Pre 3.21.0
 Variant: Current
 League: Breach
 Source: Drops in Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
+Upgrade: Upgrades to unique{Uul-Netol's Embrace} using currency{Blessing Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
 Upgrade: Upgrades to unique{Uul-Netol's Embrace} using currency{Blessing of Uul-Netol}
 Implicits: 1
 {variant:2}LocalMaimOnHit2HImplicit_1
@@ -410,8 +419,8 @@ Implicits: 1
 GrantsLevel20BoneNovaTriggerUnique__1
 LocalIncreasedPhysicalDamagePercentUnique__24
 LocalReducedAttackSpeedUnique__3
+{variant:3}CausesBleedingUniqueOneHandAxe5
 {variant:1,2}AttacksCauseBleedingOnCursedEnemyHitUnique__1
-{variant:3}CausesBleedingUniqueTwoHandAxe7Updated
 ]],[[
 Wideswing
 Poleaxe
@@ -435,9 +444,9 @@ Variant: Current
 Implicits: 0
 SpellBlockPercentageUniqueTwoHandAxe6
 BlockWhileDualWieldingUniqueTwoHandAxe6
-LocalIncreasedPhysicalDamagePercentUniqueOneHandAxe6
+LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe6
 UniqueWingsOfEntropyCountsAsDualWielding
-{variant:1}OffHandBaseCriticalStrikeChanceUnique__1[800,1000]
+{variant:1}OffHandBaseCriticalStrikeChanceUnique__1[8,10]
 {variant:2}OffHandBaseCriticalStrikeChanceUnique__1
 {variant:1}WingsOfEntropyMainHandAttackSpeedFinalUnique__1_[50,70]
 {variant:2}WingsOfEntropyMainHandAttackSpeedFinalUnique__1_

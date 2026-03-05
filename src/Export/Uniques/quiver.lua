@@ -9,7 +9,7 @@ LevelReq: 56
 Implicits: 1
 LifeGainPerTargetImplicitQuiver3New
 AddedColdDamageUnique__11
-ColdResistImplicitRing1
+ColdResistUnique__40
 EnemiesChilledIncreasedDamageTakenUnique__1
 QuiverChillAsThoughtDealingMoreDamageUnique__1
 ]],[[
@@ -47,10 +47,10 @@ Implicits: 3
 {variant:2,3}AddedFireDamageImplicitQuiver10
 {variant:4}AddedFireDamageImplicitQuiver9New
 IncreasedAttackSpeedUniqueQuiver1
-{variant:1}+20 to Evasion Rating
+{variant:1}IncreasedEvasionRatingUniqueQuiver3_[20,20]
 {variant:2,3,4}IncreasedEvasionRatingUniqueQuiver1
-IncreasedManaUniqueQuiver1a
-{variant:1,2}(30-50)% of Physical Damage Converted to Fire Damage
+IncreasedManaUniqueQuiver1
+{variant:1,2}ConvertPhysicalToFireUnique__3__[30,50]
 {variant:3,4}ConvertPhysicalToFireUniqueQuiver1_
 {variant:3,4}AddedFireDamageUniqueQuiver1a
 ]],[[
@@ -69,11 +69,11 @@ Implicits: 3
 {variant:1}AddedFireDamageImplicitQuiver1
 {variant:2,3}AddedFireDamageImplicitQuiver10
 {variant:4}AddedFireDamageImplicitQuiver9New
-IncreasedAttackSpeedUniqueQuiver1
-{variant:1}+20 to Evasion Rating
+IncreasedAttackSpeedUniqueQuiver9
+{variant:1}IncreasedEvasionRatingUniqueQuiver3_[20,20]
 {variant:2,3,4}IncreasedEvasionRatingUniqueQuiver1
 IncreasedManaUniqueQuiver1a
-{variant:1,2}(30-50)% of Physical Damage Converted to Fire Damage
+{variant:1,2}ConvertPhysicalToFireUnique__3__[30,50]
 {variant:3,4}ConvertPhysicalToFireUniqueQuiver1_
 {variant:3,4}AddedFireDamageUniqueQuiver1a
 PhysicalAddedAsFireUnique__1
@@ -84,10 +84,10 @@ Variant: Pre 3.17.0
 Variant: Current
 Requires Level 5
 Implicits: 1
-AddedPhysicalDamageImplicitQuiver6_
+AddedPhysicalDamageImplicitQuiverDescent
 StunThresholdReductionUniqueQuiver8
 ProjectileSpeedUniqueQuiver8
-{variant:1}(60-80)% increased Stun Duration on Enemies
+{variant:1}StunDurationUniqueQuiver8[60,80]
 {variant:2}StunDurationUniqueQuiver8
 Adds 6 to 10 Physical Damage to Attacks with Bows
 ]],[[
@@ -107,8 +107,8 @@ Drillneck
 Penetrating Arrow Quiver
 Requires Level 36
 Implicits: 1
-AdditionalArrowPierceImplicitQuiver12_
-IncreasedAttackSpeedUniqueQuiver3
+AdditionalArrowPierceImplicitQuiver5New
+IncreasedAttackSpeedUniqueQuiver7
 IncreasedEvasionRatingUniqueQuiver3_
 IncreasedLifeUniqueQuiver3
 Adds (10-14) to (19-24) Physical Damage to Attacks with Bows
@@ -125,6 +125,8 @@ Implicits: 1
 HarbingerSkillOnEquipUnique__4_
 HybridStrDexUnique__1
 AddedFireDamageUnique__2
+AddedColdDamageUnique__3
++(15-25)% to Fire and Cold Resistanire Damage to Spells and Attacks
 AddedColdDamageUnique__3
 FireAndColdResistUnique__1
 ]],[[
@@ -211,9 +213,9 @@ IncreasedLifeUniqueQuiver9
 ChaosResistUniqueQuiver9
 {variant:1}Adds (5-7) to (8-10) Physical Damage to Attacks with Bows
 {variant:2,3}Adds (8-10) to (14-16) Physical Damage to Attacks with Bows
-{variant:1}10% chance to create a Smoke Cloud when Hit
+{variant:1}SmokeCloudWhenHitUniqueQuiver9[10000,10000]
 {variant:2,3}SmokeCloudWhenHitUniqueQuiver9
-{variant:1}(20-40)% increased Damage with Hits and Ailments against Blinded Enemies
+{variant:1}IncreaseDamageOnBlindedEnemiesUniqueQuiver9_[20,40]
 {variant:2,3}IncreaseDamageOnBlindedEnemiesUniqueQuiver9_
 ]],[[
 Rearguard
@@ -223,7 +225,7 @@ Variant: Pre 3.17.0
 Variant: Current
 Implicits: 2
 {variant:1}AddedPhysicalDamageImplicitQuiver11
-{variant:2}(7-9) to (13-16) Added Physical Damage with Bow Attacks
+{variant:2}AddedPhysicalDamageUniqueQuiver9[7,9][13,16]
 BlockPercentUniqueQuiver4
 SpellBlockPercentageUniqueQuiver4
 IncreasedPhysicalDamageReductionRatingUniqueQuiver4
@@ -239,12 +241,12 @@ League: Talisman Standard, Talisman Hardcore
 Source: Drops from unique{Rigwald, The Wolven King} (Level 70+)
 Requires Level 56
 Implicits: 1
-IncreasedAccuracyPercentImplicitQuiver7
+IncreasedAccuracyPercentImplicitQuiver7New
 FireResistUnique__3
-LightningResistUnique__2
+LightningResistUnique__20
 LifeGainPerTargetUnique__1
 ProjectileSpeedUniqueQuiver2
-IncreasedProjectileDamageUnique___12
+IncreasedProjectileDamageUnique___4
 {variant:1}Projectiles Fork
 {variant:2}ProjectilesForkUnique____1
 ]],[[
@@ -255,12 +257,17 @@ Variant: Pre 3.17.0
 Variant: Current
 Requires Level 45
 Implicits: 2
+{variant:1}(20-30)% increased Critical Stred Arrow Quiver
+Variant: Pre 3.17.0
+Variant: Current
+Requires Level 45
+Implicits: 2
 {variant:1}CriticalStrikeChanceImplicitQuiver8New
 {variant:2}ProjectileSpeedImplicitQuiver4New
 DexterityImplicitQuiver1
 IncreasedCastSpeedUnique__9
-IncreasedLifeUnique__1
-LightningResistUniqueRing35
+IncreasedLifeUnique__69
+LightningResistUnique__12
 StunAvoidanceUnique___1
 IncreasedLightningDamagePer10IntelligenceUnique__1
 ]],[[
@@ -273,8 +280,8 @@ League: Harvest
 Requires Level 57
 Implicits: 2
 {variant:1}AddedPhysicalDamageImplicitQuiver11
-{variant:2}(12-16) to (24-27) Added Physical Damage with Bow Attacks
-DexterityUnique__20__
+{variant:2}AddedPhysicalDamageUniqueQuiver3[12,16][24,27]
+DexterityUnique__27
 LifeRegenerationBloodStanceUnique__1
 ProjectileDamageBloodStanceUnique__1
 EvasionRatingSandStanceUnique__1
@@ -287,9 +294,9 @@ Requires Level 36
 Implicits: 1
 IncreasedAccuracyPercentImplicitQuiver7
 IntelligenceUniqueQuiver6
-IncreasedManaUnique__7
+IncreasedManaUnique__6
 ManaRegenerationImplicitAmulet1
-ManaLeechPermyriadUniqueAmulet3
+ManaLeechPermyriadUnique__1
 Attack skills can have 1 additional Totem Summoned at a time
 ]],[[
 Steelworm
@@ -317,10 +324,10 @@ Implicits: 1
 CriticalStrikeChanceImplicitQuiver8New
 DexterityUniqueQuiver7
 AddedChaosDamageUniqueQuiver7
-IncreasedAttackSpeedUniqueQuiver3
+IncreasedAttackSpeedUniqueQuiver5
 IncreasedEnergyShieldUniqueQuiver7
 ReducedEnergyShieldRegenerationRateUniqueQuiver7
-{variant:1}150% faster start of Energy Shield Recharge
+{variant:1}ReducedEnergyShieldDelayUniqueQuiver7[150,150]
 {variant:2}ReducedEnergyShieldDelayUniqueQuiver7
 ]],[[
 Replica Soul Strike
@@ -333,7 +340,7 @@ CriticalStrikeChanceImplicitQuiver8New
 DexterityUniqueQuiver7
 AddedPhysicalDamageUnique__10
 IncreasedAttackSpeedUniqueQuiver3
-IncreasedLifeUnique__53
+IncreasedLifeUnique__38
 MaximumLifeLeechAmountUnique__2
 40% increased Maximum total Recovery per second from Life Leech
 ]],[[
@@ -353,19 +360,18 @@ Implicits: 2
 VoidShotOnSkillUseUnique__1_
 AddedColdDamageUnique__7
 IncreasedEnergyShieldUnique__7
-ColdResistUniqueHelmetStrInt2
+ColdResistUnique__1
 ManaGainedFromEnemyDeathUnique__2
-ProjectileSpeedUnique__2
+ProjectileSpeedUnique___1
 MaximumVoidArrowsUnique__1
 {variant:1}Gain a Void Charge every second
-{variant:2,3}Gain a Void Charge every 0.5 seconds
 ]],[[
 The Poised Prism
 Primal Arrow Quiver
 Implicits: 1
 WeaponElementalDamageImplicitQuiver13New
-FireResistUnique__27_
-ColdResistUnique__34
+FireResistUnique__24
+ColdResistUnique__38
 LightningResistUnique__27
 ColdDamageToAttacksPerDexterityUnique__1
 FireDamageToAttacksPerStrengthUnique__1
@@ -374,6 +380,8 @@ LightningDamageToAttacksPerIntelligenceUnique__1
 Spinehail
 Vile Arrow Quiver
 Source: Drops from unique{Catarina} in normal{Mastermind's Lair}
+Variant: Minion Damage affects you
+Variant: Minion Attack Speed affects youm unique{Catarina} in normal{Mastermind's Lair}
 Variant: Minion Damage affects you
 Variant: Minion Attack Speed affects you
 Variant: Minion Cast Speed affects you
@@ -399,17 +407,17 @@ SacrificeMinionToFireAdditionalArrowsUnique__1
 {variant:3}Increases and Reductions to Minion Cast Speed also affect you
 {variant:4}(20-40)% increased Cast Speed with Minion Skills
 {variant:5}MinionLargerAggroRadiusUnique__1
-{variant:6}+(365-400) to Armour and Evasion Rating
-{variant:7}+(365-400) to Evasion Rating
-{variant:7}+(31-35) to maximum Energy Shield
-{variant:8}+(55-60) to maximum Life
+{variant:6}ArmourAndEvasionImplicitBelt1[365,400]
+{variant:7}IncreasedEvasionRatingUniqueQuiver1[365,400]
+{variant:7}IncreasedEnergyShieldUniqueQuiver7[31,35]
+{variant:8}IncreasedLifeUniqueShieldDex2[55,60]
 {variant:8}Regenerate 5.3 Mana per second
-{variant:9}+(55-60) to maximum Mana
-{variant:9}Regenerate 33.3 Life per second
-{variant:10}Adds (14-16) to (20-22) Fire Damage
-{variant:10}Adds (14-16) to (20-22) Cold Damage
-{variant:11}Adds (14-16) to (20-22) Fire Damage
-{variant:11}Adds (14-16) to (20-22) Lightning Damage
-{variant:12}Adds (14-16) to (20-22) Cold Damage
-{variant:12}Adds (14-16) to (20-22) Lightning Damage
+{variant:9}IncreasedManaUniqueQuiver1[55,60]
+{variant:9}LifeRegenerationUniqueTwoHandAxe4[1998,1998]
+{variant:10}GlobalAddedFireDamageUnique__2[14,16][20,22]
+{variant:10}AddedColdDamageColdPenetration2[14,16][20,22]
+{variant:11}GlobalAddedFireDamageUnique__2[14,16][20,22]
+{variant:11}GlobalAddedLightningDamageUnique__2_[14,16][20,22]
+{variant:12}AddedColdDamageColdPenetration2[14,16][20,22]
+{variant:12}GlobalAddedLightningDamageUnique__2_[14,16][20,22]
 ]],}
