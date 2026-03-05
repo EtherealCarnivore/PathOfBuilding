@@ -53,7 +53,6 @@ Implicits: 3
 {variant:1,2,3}(18-22)% increased Spell Damage
 {variant:4}(11-15)% increased Spell Damage
 {variant:5}Adds (1-2) to (3-4) Fire Damage to Spells and Attacks
-{variant:1,2}10% chance to Trigger Level 10 Summon Raging Spirit on Kill
 {variant:3,4,5}25% chance to Trigger Level 10 Summon Raging Spirit on Kill
 {variant:2}+(15-25)% to Fire Damage over Time Multiplier
 {variant:1}Adds (10-14) to (18-22) Fire Damage
@@ -117,6 +116,8 @@ Variant: Pre 3.26.0
 Variant: Current
 Implicits: 1
 (36-40)% increased Spell Damage
+(36-40)% increased Spell Damage
+(300-350)% increased Physical Damage
 (300-350)% increased Physical Damage
 {variant:1}Gain (10-30)% of Physical Damage as Extra Fire Damage
 {variant:2}Gain (10-50)% of Physical Damage as Extra Fire Damage
@@ -126,6 +127,7 @@ Implicits: 1
 {variant:2}Gain (10-50)% of Physical Damage as Extra Lightning Damage
 +1 to maximum number of Sacred Wisps
 +1 to number of Sacred Wisps Summoned
+{variant:1}Gain (10-30)% of PhysicaImplicits: 1
 ]],[[
 Lifesprig
 Driftwood Wand
@@ -157,7 +159,9 @@ Cannot be used with Chaos Inoculation
 {variant:3,4}Minions deal (50-70)% increased Damage
 +1 to maximum number of Raised Zombies
 +1 to maximum number of Spectres
++1 to maximum number of Spectres
 Reserves 30% of Life
++1 to maximum number of Skeletons
 +1 to maximum number of Skeletons
 ]],[[
 Replica Midnight Bargain
@@ -238,11 +242,15 @@ Implicits: 4
 {variant:4}(33-37)% increased Spell Damage
 {variant:5}Cannot roll Caster Modifiers
 No Physical Damage
+No Physical Damage
 (10-18)% increased Attack Speed
+(10-18)% increased Attack Speed
+(20-30)% increased Critical Strike Chance
 (20-30)% increased Critical Strike Chance
 +(340-400) to Accuracy Rating
 Attacks with this Weapon have (100-115)% increased Elemental Damage
 {variant:3,4,5}Damage with Weapons Penetrates 5% Elemental Resistances
++(340-400) to Aer Modifiers
 ]],[[
 The Poet's Pen
 {variant:1}Carved Wand
@@ -309,8 +317,8 @@ Implicits: 1
 (17-21)% increased Spell Damage
 Gain (10-20)% of Elemental Damage as Extra Chaos Damage
 Critical Strikes deal no Damage
-{variant:1}120% increased Spell Damage if you've dealt a Critical Strike in the past 8 seconds
 {variant:2}200% increased Spell Damage if you've dealt a Critical Strike in the past 8 seconds
+{variant:1}120% increased Spell Damage if you've dealt a Critical Strike in the past 8 seconds
 ]],[[
 Shimmeron
 Tornado Wand
@@ -359,15 +367,18 @@ League: Breach
 Source: Drops in Tul Breach or from unique{Tul, Creeping Avalanche}
 Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
 Implicits: 2
+{variant:1,2}(15-19)% increasalanche}
+Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
+Implicits: 2
 {variant:1,2}(15-19)% increased Spell Damage
 {variant:3}Adds (14-29) to (42-47) Cold Damage to Spells and Attacks
 {variant:3}Adds (120-140) to (150-170) Cold Damage to Spells
 {variant:1,2}(10-15)% increased Cast Speed
-{variant:1,2}50% chance to gain a Power Charge on Killing a Frozen Enemy
 {variant:3}Gain a Power Charge on Killing a Frozen Enemy
 {variant:1,2}Adds 10 to 20 Cold Damage to Spells per Power Charge
 {variant:3}Cold Exposure you inflict applies an extra -12% to Cold Resistance
 +(20-25) Mana gained on Killing a Frozen Enemy
+{variant:1,2}50% chance to gain a Power Charge on Killing a Frozen Enemy
 ]],[[
 Tulfall
 {variant:1,2}Tornado Wand
@@ -382,7 +393,6 @@ Implicits: 2
 {variant:3}Adds (14-29) to (42-47) Cold Damage to Spells and Attacks
 {variant:1,2}(10-15)% increased Cast Speed
 {variant:3}(10-20)% increased Cast Speed
-{variant:1}50% chance to gain a Power Charge on Killing a Frozen Enemy
 {variant:2,3}Gain a Power Charge on Killing a Frozen Enemy
 {variant:1,2}Adds 15 to 25 Cold Damage to Spells per Power Charge
 {variant:3}Adds 50 to 70 Cold Damage to Spells per Power Charge
@@ -390,6 +400,7 @@ Lose all Power Charges on reaching Maximum Power Charges
 Gain a Frenzy Charge on reaching Maximum Power Charges
 {variant:1}(10-15)% increased Cold Damage per Frenzy Charge
 {variant:2}(15-20)% increased Cold Damage per Frenzy Charge
+{variant:1}50% chance to gain a Power Charge on Killing a Frozen Enemy
 ]],[[
 Replica Tulfall
 {variant:1}Tornado Wand

@@ -43,7 +43,7 @@ Implicits: 1
 (20-40)% increased Physical Damage
 Adds (3-6) to (9-13) Physical Damage
 10% increased Attack Speed
-{variant:1}10000% chance to cause Bleeding on Hit
+{variant:1}10000000% chance to cause Bleeding on Hit
 {variant:2}30% chance to cause Bleeding on Hit
 Extra gore
 ]],[[
@@ -90,8 +90,8 @@ Implicits: 1
 +(20-40) to Intelligence
 (40-60)% increased Fire Damage
 +1 to Level of all Fire Spell Skill Gems
-{variant:2,3}30% of Fire Damage Converted to Chaos Damage
-{variant:1}27% of Fire Damage Converted to Chaos Damage
+{variant:2,3}18% of Fire Damage Converted to Chaos Damage
+{variant:1}16% of Fire Damage Converted to Chaos Damage
 {variant:1,2}Your Chaos Damage Poisons Enemies
 {variant:3}Your Chaos Damage has 60% chance to Poison Enemies
 ]],[[
@@ -128,8 +128,11 @@ Implicits: 1
 (50-70)% increased Physical Damage
 Adds (1-2) to (3-5) Physical Damage
 30% increased Critical Strike Chance
+30% increased Critical Strike Chance
+40% increased Attack Damage against Bleeding Enemies
 40% increased Attack Damage against Bleeding Enemies
 50% chance to cause Bleeding on Critical Strike
+50% chance to cause Bleeding o Damage
 ]],[[
 Sanguine Gambol
 Skinning Knife
@@ -142,7 +145,7 @@ Implicits: 1
 Adds (70-85) to (110-118) Physical Damage
 30% increased Critical Strike Chance
 40% increased Attack Damage against Bleeding Enemies
-50% chance to cause Bleeding on Critical Strike
+50% chance to Cause Bleeding on Critical Strike
 You have Crimson Dance if you have dealt a Critical Strike Recently
 ]],[[
 Goblinedge
@@ -251,6 +254,10 @@ Implicits: 1
 (15-20)% chance to Maim on Hit
 20% chance to Poison on Hit
 ]],[[
+UngAttack Damage Leeched as Life against Maimed Enemies
+(15-20)% chance to Maim on Hit
+20% chance to Poison on Hit
+]],[[
 Ungil's Gauche
 Boot Knife
 Variant: Pre 1.1.0
@@ -315,10 +322,10 @@ Adds (160-190) to (280-320) Cold Damage
 (10-15)% increased Attack Speed
 {variant:1}+(300-400) to Evasion Rating
 {variant:2,3}+(1000-1500) to Evasion Rating
-{variant:1}100% increased Cold Damage while your Off Hand is empty
 {variant:2,3}(100-200)% increased Cold Damage while your Off Hand is empty
-{variant:1,2}+(15-25)% chance to Suppress Spell Damage while your Off Hand is empty
+{variant:1,2}+(15000-25000)% chance to Suppress Spell Damage while your Off Hand is empty
 {variant:3}+(30-40)% chance to Suppress Spell Damage while your Off Hand is empty
+{variant:1}100% increased Cold Damage while your Off Hand is empty
 ]],[[
 Widowmaker
 Boot Blade

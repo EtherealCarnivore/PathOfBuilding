@@ -114,11 +114,14 @@ Implicits: 2
 {variant:2,3}+22% Chance to Block Attack Damage while wielding a Staff
 (700-800)% increased Physical Damage
 {variant:3}+(100-150)% to Global Critical Strike Multiplier
+{variant:1,2}+100% to Global Critical Strike Multiplier
 75% of Physical Damage converted to a random Element
+75% of Physical Damage converted to a random Element
+25% of Physical Damage Converted to Chaos Damage
 25% of Physical Damage Converted to Chaos Damage
 Maximum Critical Strike Chance is 50%
 Non-Critical Strikes deal no Damage
-{variant:1,2}+100% to Global Critical Strike Multiplier
+Maximuiplier
 ]],[[
 The Blood Thorn
 Gnarled Branch
@@ -212,8 +215,13 @@ Implicits: 3
 Gain (10-20)% of Elemental Damage as Extra Chaos Damage
 +1% to Critical Strike Multiplier per 1% Chance to Block Attack Damage
 +60% to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently
-{variant:1,2}120% increased Spell Damage if you've dealt a Critical Strike Recently
 {variant:3,4}(120-150)% increased Spell Damage if you've dealt a Critical Strike Recently
+{variant:1,2}120% increased Spell Damage if you've dealt a Critical Strike Recently
+]],[[
+Replica Duskdawn
+Maelström Staff
+League: Heist
+Source: Steal from a unique{Curio ke Recently
 ]],[[
 Replica Duskdawn
 Maelström Staff
@@ -310,6 +318,7 @@ Implicits: 3
 {variant:3,4}2% increased Attack and Cast Speed per Summoned Raging Spirit
 {variant:3,4}Regenerate 0.6% of Life per second for each Raised Zombie
 {variant:3,4}30% increased Mana Regeneration Rate per Raised Spectre
+{variant:3,4}30% increased Mana Rege}Regenerate 0.6% of Life per second for each Raised Zombie
 ]],[[
 Fencoil
 Gnarled Branch
@@ -422,9 +431,11 @@ Implicits: 4
 {variant:4,5}Adds (135-145) to (160-175) Physical Damage
 (12-16)% increased Attack Speed
 {variant:1,2,3}(20-30)% increased Critical Strike Chance
+{variant:1,2,3}(20-30)% increased Critical Strike Chance
 {variant:4,5}(10-20)% increased Critical Strike Chance
 +1 to Maximum Power Charges
 10% chance to gain a Power Charge if you Knock an Enemy Back with Melee Damage
+{variant:4,5}(10-20)% increased Critical Strike Chpeed
 ]],[[
 Martyr of Innocence
 Highborn Staff
@@ -538,6 +549,12 @@ Implicits: 3
 Sire of Shards
 Serpentine Staff
 Variant: Pre 2.6.0
+Variaems
+{variant:1,2,3,4}70% increased Burning Damage
+]],[[
+Sire of Shards
+Serpentine Staff
+Variant: Pre 2.6.0
 Variant: Pre 3.25.0
 Variant: Current
 Requires Level 49, 85 Str, 85 Int
@@ -642,10 +659,14 @@ Implicits: 3
 {variant:4}+22% Chance to Block Attack Damage while wielding a Staff
 {variant:3,4}+2 to Level of Socketed Spell Gems
 {variant:1,2,3,4}Socketed Gems are Supported by Level 10 Blastchain Mine
+{variant:1,2}35% more Mine Damage
 {variant:1,2}35% less Mine Damage
 (40-60)% increased Spell Damage
+(40-60)% increased Spell Damage
+(15-20)% reduced Enemy Stun Threshold
 (15-20)% reduced Enemy Stun Threshold
 Mines can be Detonated an additional time
+Mine
 {variant:1,2}(40-60)% increased Mine Laying Speed
 ]],[[
 The Whispering Ice
@@ -709,8 +730,8 @@ Implicits: 2
 {variant:3}+(70-150) to maximum Energy Shield
 +1 to Level of all Spell Skill Gems
 Reflects 1 to 150 Lightning Damage to Melee Attackers
-{variant:1,2}20% chance for Energy Shield Recharge to start when you Block
 {variant:3}(25-35)% chance for Energy Shield Recharge to start when you Block
+{variant:1,2}20% chance for Energy Shield Recharge to start when you Block
 ]],[[
 Legacy of the Rose
 Judgement Staff
@@ -722,9 +743,7 @@ Requires Level 68, 113 Str, 113 Int
 Implicits: 1
 +25% Chance to Block Attack Damage while wielding a Staff
 Grants Level 20 Summon Shaper Memory
-{variant:1}Grants Level 20 Shaper's Despair, which will be used by Shaper Memory
-{variant:2}Grants Level 20 Shaper's Ire, which will be used by Shaper Memory
-{variant:3}Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory
+Grants Level 20 Shaper's Devastation, which will be used by Shaper Memory
 (200-300)% increased Physical Damage
 (25-40)% increased Cast Speed
 +(3-5) to Level of all Spell Skill Gems
@@ -732,4 +751,6 @@ Gain 1 Remembrance when you spend a total of 200 Energy
 Shield with no Shaper Memory Summoned
 Maximum 10 Remembrance
 Eldritch Battery
+{variant:1}Grants Level 20 Shaper's Despair, which will be used by Shaper Memory
+{variant:2}Grants Level 20 Shaper's Ire, which will be used by Shaper Memory
 ]],}

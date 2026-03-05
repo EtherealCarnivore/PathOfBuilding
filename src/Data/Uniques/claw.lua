@@ -45,7 +45,7 @@ Implicits: 1
 Adds (15-20) to (30-40) Physical Damage
 (8-12)% increased Attack Speed
 15% increased Movement Speed while Phasing
-{variant:1}You gain Phasing for 3 seconds on using a Vaal Skill
+{variant:1}You gain Phasing for 0.003 seconds on using a Vaal Skill
 {variant:2}You gain Phasing for 10 seconds on using a Vaal Skill
 ]],[[
 Replica Allure
@@ -121,7 +121,11 @@ Implicits: 3
 +(30-40) to maximum Mana
 {variant:1,2,3}Gain (5-8) Life per Enemy Hit with Spells
 {variant:4}Gain (15-20) Life per Enemy Hit with Spells
+{variant:2,3,4}8% increased Spell Damage per 5% Chance to Block Attack Damage
 {variant:1}6% increased Spell Damage per 5% Chance to Block Attack Damage
+]],[[
+Essentia Sanguis
+{variant:1tack Damage
 {variant:2,3,4}8% increased Spell Damage per 5% Chance to Block Attack Damage
 ]],[[
 Essentia Sanguis
@@ -136,7 +140,7 @@ Variant: Current
 Implicits: 3
 {variant:1,2}0.6% of Physical Attack Damage Leeched as Life
 {variant:4,5,6}2% of Physical Attack Damage Leeched as Life
-{variant:3}Grants 31 Life per Enemy Hit
+{variant:3}Grants 31 Mana per Enemy Hit
 {variant:1}+10% Chance to Block Attack Damage while Dual Wielding Claws
 {variant:2,3,4,5,6}+8% Chance to Block Attack Damage while Dual Wielding Claws
 {variant:1}(80-120)% increased Physical Damage
@@ -172,12 +176,12 @@ Implicits: 3
 {variant:1,2,3}Adds 1 to (50-60) Lightning Damage
 {variant:1,2,3}(10-15)% increased Attack Speed
 {variant:4,5}Recover 1% of Life on Kill
-{variant:4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Dexterity
 {variant:5}Adds 1 to 12 Lightning Damage to Attacks with this Weapon per 10 Dexterity
-{variant:1,2}Adds 1 to 3 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 {variant:3}Adds 1 to 5 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 {variant:4,5}5% increased Critical Strike Chance per 25 Intelligence
 {variant:1,2,3}(20-25)% increased Elemental Damage with Attack Skills
+{variant:4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Dexterity
+{variant:1,2}Adds 1 to 3 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 ]],[[
 Hand of Wisdom and Action
 Imperial Claw
@@ -195,11 +199,11 @@ Implicits: 2
 (8-12)% increased Dexterity
 (8-12)% increased Intelligence
 {variant:4,5}1% of Attack Damage Leeched as Life
-{variant:1,2}Adds 1 to 6 Lightning Damage to Attacks with this Weapon per 10 Intelligence
-{variant:3,4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 {variant:5}Adds 1 to 12 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 1% increased Attack Speed per 25 Dexterity
 {variant:1,2,3}(20-25)% increased Elemental Damage with Attack Skills
+{variant:1,2}Adds 1 to 6 Lightning Damage to Attacks with this Weapon per 10 Intelligence
+{variant:3,4}Adds 1 to 10 Lightning Damage to Attacks with this Weapon per 10 Intelligence
 ]],[[
 Izaro's Dilemma
 Imperial Claw
@@ -233,6 +237,13 @@ Nailed Fist
 Variant: Pre 3.14.0
 Variant: Current
 League: Heist
+Souron Low Life
+]],[[
+Replica Last Resort
+Nailed Fist
+Variant: Pre 3.14.0
+Variant: Current
+League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 1
 Grants 3 Life per Enemy Hit
@@ -252,7 +263,7 @@ Source: Drops from unique{Oshabi, Avatar of the Grove}
 Requires Level 62, 131 Dex, 95 Int
 Implicits: 1
 1.6% of Physical Attack Damage Leeched as Life
-{variant:1}20% chance to Trigger Level 20 Summon Spectral Wolf on Critical Strike with this Weapon
+{variant:1}Trigger Level 25 Summon Spectral Wolf on Critical Strike with this Weapon
 {variant:2}20% chance to Trigger Level 25 Summon Spectral Wolf on Critical Strike with this Weapon
 (15-20)% increased Attack Speed
 (22-28)% increased Critical Strike Chance
@@ -352,8 +363,12 @@ Grants 40 Life per Enemy Hit
 {variant:1}+(180-200) to Accuracy Rating
 {variant:2}+(330-350) to Accuracy Rating
 20% chance to Poison on Hit
+20% chance to Poison on Hit
+Attacks with this Weapon deal 80 to 120 added Chaos Damage against
 Attacks with this Weapon deal 80 to 120 added Chaos Damage against
 Enemies affected by at least 5 Poisons
+Enemies affected by at least 5 Poisons
+Enemies affe Accuracy Rating
 ]],[[
 Wildslash
 Awl
@@ -361,7 +376,7 @@ Variant: Pre 2.6.0
 Variant: Current
 Requires Level 12, 25 Dex, 25 Int
 Implicits: 2
-{variant:1}Grants 5 Life per Enemy Hit
+{variant:1}Grants 5 Mana per Enemy Hit
 {variant:2}Grants 7 Life per Enemy Hit
 +(10-15) to Strength
 +(10-15) to Dexterity

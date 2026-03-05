@@ -21,11 +21,11 @@ Variant: Current
 Implicits: 0
 {variant:1}Adds 2 to 4 Physical Damage to Attacks
 {variant:2}+(30-60) to maximum Life
-{variant:2}1000% of Melee Physical Damage taken reflected to Attacker
 {variant:1}+(12-20) to maximum Life
+{variant:2}1000% of Melee Physical Damage taken reflected to Attacker
+{variant:1}40% of Melee Physical Damage taken reflected to Attacker
 {variant:1}-2 Physical Damage taken from Attacks
 {variant:2}-(10-15) Physical Damage taken from Attacks
-{variant:1}40% of Melee Physical Damage taken reflected to Attacker
 ]],[[
 Wall of Brambles
 Plate Vest
@@ -43,14 +43,15 @@ Gladiator Plate
 Variant: Pre 3.16.0
 Variant: Current
 Implicits: 0
-{variant:1}(600-650)% increased Armour
 {variant:1}30% reduced Chance to Block Attack and Spell Damage
+{variant:1}(600-650)% increased Armour
 {variant:2}(350-400)% increased Armour
 {variant:2}+(1-5)% to all maximum Elemental Resistances
 {variant:1}10% reduced Movement Speed
+{variant:1}50% increased Shock Duration on you
 {variant:2}Strength provides no bonus to Maximum Life
 Take no Extra Damage from Critical Strikes
-{variant:1}50% increased Shock Duration on You
+{variant:1}(45-50)% increased Cooldown Recovery Rate of Movement Skills
 ]],[[
 Craiceann's Carapace
 Golden Plate
@@ -61,11 +62,11 @@ Source: Drops from unique{Craiceann, First of the Deep}
 Implicits: 0
 Grants Level 20 Aspect of the Crab Skill
 {variant:2}(200-250)% increased Armour
+{variant:1}(300-350)% increased Armour
 +(100-120) to maximum Life
 +(25-30)% to Fire and Cold Resistances
 Bleeding cannot be inflicted on you
 +5 to Maximum number of Crab Barriers
-{variant:1}(300-350)% increased Armour
 ]],[[
 Death's Oath
 Astral Plate
@@ -95,9 +96,9 @@ Implicits: 0
 Grants Level 20 Unhinge Skill
 (40-60)% more Critical Strike Chance while Insane
 Enemies Killed by your Hits are destroyed while Insane
-{variant:2}(30-40)% less Physical and Chaos Damage Taken while Sane
+{variant:2}(30-40)% more Physical and Chaos Damage Taken while Sane
+{variant:1}(15-25)% more Physical and Chaos Damage Taken while Sane
 Regenerate 10% Life over one second when Hit while Sane
-{variant:1}(15-25)% less Physical and Chaos Damage Taken while Sane
 ]],[[
 Greed's Embrace
 Golden Plate
@@ -107,11 +108,11 @@ Implicits: 0
 30% reduced Strength Requirement
 {variant:1}(10-15)% increased Quantity of Items found
 {variant:2}100% increased Rarity of Items found
+{variant:1}(30-50)% increased Rarity of Items found
 -10% to Fire Resistance
 +(20-30)% to Cold Resistance
-20% reduced Movement Speed
-{variant:1}(30-50)% increased Rarity of Items found
 {variant:1}-20% to Lightning Resistance
+20% reduced Movement Speed
 {variant:2}(-20--10)% to Lightning Resistance
 ]],[[
 Kaom's Heart
@@ -121,8 +122,8 @@ Variant: Pre 3.25.0
 Variant: Current
 Implicits: 0
 Has no Sockets
-{variant:1,3}+1000 to maximum Life
 {variant:2}(20-40)% increased Fire Damage
+{variant:1,3}+1000 to maximum Life
 {variant:2}+500 to maximum Life
 ]],[[
 Replica Kaom's Heart
@@ -141,10 +142,14 @@ Variant: Current
 Implicits: 0
 Socketed Gems are Supported by Level 15 Pierce
 {variant:2}+160 Dexterity Requirement
+{variant:2}+160 Dexterity Requirement
 (200-250)% increased Armour
+(200-250)% increased Armour
++(60-100) to maximum Life
 +(60-100) to maximum Life
 0.4% of Physical Attack Damage Leeched as Mana
 Enemy Projectiles Pierce you
+0.4% of Physical Attack Damag by Level 15 Pierce
 ]],[[
 Iron Heart
 Crusader Plate
@@ -154,6 +159,7 @@ Implicits: 0
 (80-100)% increased Armour
 10% reduced Movement Speed
 Cannot Block Spell Damage
+(45-50)% increased Cooldown Recovery Rate of Movement Skills
 Strength's Damage Bonus instead grants 3% increased Melee Physical Damage per 10 Strength
 ]],[[
 The Iron Fortress
@@ -192,7 +198,7 @@ Requires Level 49, 134 Str
 +12 to Level of Socketed Skill Gems
 (80-120)% increased Armour
 +(60-100) to maximum Mana
--2 to Level of Socketed Skill Gems per Socketed Gem
+-2 to level of Socketed Skill Gems per Socketed Gem
 ]],[[
 Solaris Lorica
 Copper Plate
@@ -204,16 +210,16 @@ Implicits: 0
 {variant:2}25% reduced Chaos Damage taken over time
 25% increased Light Radius
 Chaos Damage taken does not bypass Energy Shield
+{variant:2}+(30-40) Chaos Damage taken
 {variant:1}-10 Chaos Damage taken
-{variant:2}-(30-40) Chaos Damage taken
 ]],[[
 Utula's Hunger
 Majestic Plate
 Requires Level 53, 145 Str
 (60-100)% increased Armour
 Recover (1-3)% of Life on Kill
-(30-40)% Increased Stun and Block Recovery
-+(700-1000) to maximum Life if there are no Life Modifiers on other Equipped items
+(30-40)% increased Stun and Block Recovery
++(700-1000) to maximum Life if there are no Life Modifiers on other Equipped Items
 ]],
 -- Body: Evasion
 [[
@@ -230,8 +236,8 @@ Implicits: 0
 Cannot be Ignited
 {variant:1,2}(10-15)% increased Physical Damage with Ranged Weapons
 {variant:3}(75-150)% increased Physical Damage with Ranged Weapons
-{variant:1,2}-(5-7) Physical Damage taken from Attack Hits
-{variant:3}-(30-60) Physical Damage taken from Attack Hits
+{variant:1,2}+(5-7) Physical Damage taken from Attack Hits
+{variant:3}+(30-60) Physical Damage taken from Attack Hits
 ]],[[
 Briskwrap
 {variant:1,2,3}Strapped Leather
@@ -249,8 +255,8 @@ Implicits: 0
 +(30-40)% to Cold Resistance
 {variant:1,2,3}5% increased Movement Speed
 {variant:4}(60-100)% increased Mana Recovery from Flasks
-{variant:4}1% increased Damage per 15 Dexterity
 {variant:1,2,3}(20-25)% increased Mana Recovery from Flasks
+{variant:4}1% increased Damage per 15 Dexterity
 ]],[[
 Wildwrap
 Strapped Leather
@@ -274,12 +280,15 @@ Variant: Current
 Implicits: 0
 {variant:1,2,3}+2 to Level of Socketed Movement Gems
 {variant:4}+5 to Level of Socketed Movement Gems
+{variant:4}+5 to Level of Socketed Movement Gems
+10% increased Attack Speed
 10% increased Attack Speed
 {variant:4}(60-100)% increased Damage with Movement Skills
+{variant:2,3}(35-50)% increased Damage with Movement Skills
 (200-250)% increased Evasion Rating
 10% increased Movement Speed
 {variant:3}15% increased Attack and Cast Speed if you've used a Movement Skill Recently
-{variant:2,3}(35-50)% increased Damage with Movement Skills
+{variant:4}(60-100)% increased Damage with Movement Gems
 ]],[[
 Cospri's Will
 Assassin's Garb
@@ -306,12 +315,12 @@ Implicits: 0
 +(20-30) to Dexterity
 {variant:1,2}Adds 5 to 12 Physical Damage to Attacks
 {variant:3}+1000 to Evasion Rating while on Full Life
+{variant:1}+150 to Evasion Rating while on Full Life
+{variant:2}+500 to Evasion Rating while on Full Life
 (50-70)% increased Evasion Rating
 {variant:1,2}10% increased Movement Speed
 {variant:3}30% increased Movement Speed when on Full Life
 {variant:3}Damage of Enemies Hitting you is Unlucky while you are on Full Life
-{variant:1}+150 to Evasion Rating while on Full Life
-{variant:2}+500 to Evasion Rating while on Full Life
 ]],[[
 Fox's Fortune
 Wild Leather
@@ -364,13 +373,13 @@ Variant: Current
 Implicits: 0
 {variant:1}(100-120)% increased Evasion Rating
 {variant:3}(160-220)% increased Evasion Rating
-{variant:1}+(60-80) to maximum Life
-{variant:2,3}35% less Damage taken if you have not been Hit Recently
-{variant:2,3}100% increased Evasion Rating if you have been Hit Recently
 {variant:2}(120-160)% increased Evasion Rating
-+30% to Fire Resistance
-{variant:1}20% less Damage taken if you have not been Hit Recently
+{variant:1}+(60-80) to maximum Life
+{variant:2,3}35% more Damage taken if you have not been Hit Recently
+{variant:1}20% more Damage taken if you have not been Hit Recently
+{variant:2,3}100% increased Evasion Rating if you have been Hit Recently
 {variant:1}50% increased Evasion Rating if you have been Hit Recently
++30% to Fire Resistance
 ]],[[
 Queen of the Forest
 Destiny Leather
@@ -396,12 +405,15 @@ Variant: Current
 Implicits: 0
 (100-120)% increased Evasion Rating
 {variant:3}+(200-300) to maximum Life
+{variant:1,2}+(160-200) to maximum Life
+{variant:2}-50% to Fire Resistance
 {variant:2}-50% to Fire Resistance
 15% increased Movement Speed
+15% increased Movement Speed
 {variant:1,2}20% increased Fire Damage taken
-{variant:3}100% of Fire Damage from Hits taken as Physical Damage
+{variant:1,2}20% increased Fire Damage taken
 {variant:1,2}10% of Fire Damage from Hits taken as Physical Damage
-{variant:1,2}+(160-200) to maximum Life
+{variant Life
 {variant:1}-5% to maximum Fire Resistance
 ]],[[
 The Snowblind Grace
@@ -422,9 +434,9 @@ Implicits: 0
 {variant:2,3}(80-100)% increased Evasion Rating
 +(40-60) to maximum Life
 {variant:3}50% increased Arctic Armour Buff Effect
+{variant:1,2}25% increased Arctic Armour Buff Effect
 {variant:3}Arctic Armour has no Reservation
 {variant:2}Evasion Rating is increased by Overcapped Cold Resistance
-{variant:1,2}25% increased Arctic Armour Buff Effect
 {variant:1}Evasion Rating is increased by Uncapped Cold Resistance
 ]],[[
 The Perfect Form
@@ -437,6 +449,7 @@ Variant: Current
 Implicits: 0
 {variant:3}+50% chance to Suppress Spell Damage
 {variant:2}(10-15)% increased Dexterity
+{variant:1}(5-10)% increased Dexterity
 {variant:1}(30-50)% increased Evasion Rating
 {variant:2}(80-100)% increased Evasion Rating
 {variant:3}(150-200)% increased Evasion Rating
@@ -446,7 +459,6 @@ Implicits: 0
 {variant:1,2}Arctic Armour has no Reservation
 {variant:2,3}Evasion Rating is increased by Overcapped Cold Resistance
 Acrobatics
-{variant:1}(5-10)% increased Dexterity
 {variant:1}Evasion Rating is increased by Uncapped Cold Resistance
 ]],[[
 Replica Perfect Form
@@ -485,18 +497,19 @@ Implicits: 0
 {variant:1,4}Grants Level 20 Summon Bestial Rhoa Skill
 {variant:2,5}Grants Level 20 Summon Bestial Snake Skill
 {variant:3,6}Grants Level 20 Summon Bestial Ursa Skill
++(300-400) to Accuracy Rating
 (130-150)% increased Evasion Rating
 +(90-100) to maximum Life
-+(300-400) to Accuracy Rating
 Projectile Attack Skills have (40-60)% increased Critical Strike Chance
 {variant:4}(10-20)% increased Attack and Movement Speed while you have a Bestial Minion
+{variant:1}(10-15)% increased Attack and Movement Speed while you have a Bestial Minion
 {variant:1}Projectiles from Attacks have 20% chance to Maim on Hit while you have a Bestial Minion
 {variant:4}Projectiles from Attacks have 100% chance to Maim on Hit while you have a Bestial Minion
 {variant:2}Projectiles from Attacks have 20% chance to Poison on Hit while you have a Bestial Minion
 {variant:5}Projectiles from Attacks have 100% chance to Poison on Hit while you have a Bestial Minion
 {variant:3}Projectiles from Attacks have 20% chance to inflict Bleeding on Hit while you have a Bestial Minion
 {variant:6}Projectiles from Attacks have 100% chance to inflict Bleeding on Hit while you have a Bestial Minion
-{variant:1}(10-15)% increased Attack and Movement Speed while you have a Bestial Minion
+{variant:1}(10-15)% increased Attack and Movement Speed whil on Hit while you have a Bestial Minion
 {variant:2}Adds (13-19)-(23-29) Chaos Damage to Attacks while you have a Bestial Minion
 {variant:5}Adds (18-24)-(30-36) Chaos Damage to Attacks while you have a Bestial Minion
 {variant:3}Adds (11-16)-(21-25) Physical Damage to Attacks while you have a Bestial Minion
@@ -520,13 +533,13 @@ Variant: Current
 Implicits: 0
 40% increased Spell Damage
 {variant:2}+(15-25) to maximum Energy Shield
+{variant:1}+(50-65) to maximum Energy Shield
 {variant:3}(120-160)% increased Energy Shield
+{variant:1,2}(110-130)% increased Energy Shield
 {variant:3}(50-100)% increased Energy Shield Recovery rate
+{variant:1,2}(30-40)% increased Energy Shield Recovery rate
 10% increased Area of Effect
 {variant:3}10% increased Damage taken
-{variant:1}+(50-65) to maximum Energy Shield
-{variant:1,2}(110-130)% increased Energy Shield
-{variant:1,2}(30-40)% increased Energy Shield Recovery Rate
 {variant:1,2}5% increased Damage taken
 ]],[[
 Cloak of Flame
@@ -537,12 +550,12 @@ Implicits: 0
 {variant:1}+(30-50)% to Fire Resistance
 {variant:2}+(50-75)% to Fire Resistance
 {variant:2}(40-75)% increased Ignite Duration on Enemies
+{variant:1}(30-50)% increased Ignite Duration on Enemies
 {variant:1}10% chance to Ignite
 {variant:2}Reflects 100 Fire Damage to Melee Attackers
+{variant:1}Reflects 15 Fire Damage to Melee Attackers
 {variant:1}20% of Physical Damage from Hits taken as Fire Damage
 {variant:2}40% of Physical Damage taken as Fire Damage
-{variant:1}(30-50)% increased Ignite Duration on Enemies
-{variant:1}Reflects 15 Fire Damage to Melee Attackers
 ]],[[
 Cloak of Tawm'r Isley
 Savant's Robe
@@ -581,11 +594,11 @@ Implicits: 0
 {variant:1}(125-150)% increased Energy Shield
 {variant:2}(180-220)% increased Energy Shield
 {variant:5,6}(210-250)% increased Energy Shield
+{variant:3,4}(280-320)% increased Energy Shield
 {variant:1,2,3}20% reduced maximum Life
 {variant:4,5,6}10% increased maximum Life
 {variant:6}Skills gain a Base Life Cost equal to 100% of Base Mana Cost
 {variant:1,2,3}Blood Magic
-{variant:3,4}(280-320)% increased Energy Shield
 ]],[[
 Replica Covenant
 Spidersilk Robe
@@ -605,11 +618,13 @@ Implicits: 0
 Gems can be Socketed in this Item ignoring Socket Colour
 {variant:2}Gems Socketed in Red Sockets have +2 to Level
 {variant:2}Gems Socketed in Green Sockets have +30% to Quality
+{variant:1}Gems Socketed in Green Sockets have +10% to Quality
 {variant:2}Gems Socketed in Blue Sockets gain 100% increased Experience
+{variant:1}Gems Socketed in Blue Sockets gain 25% increased Experience
 Has no Attribute Requirements
 {variant:1}Gems Socketed in Red Sockets have +1 to Level
-{variant:1}Gems Socketed in Green Sockets have +10% to Quality
-{variant:1}Gems Socketed in Blue Sockets gain 25% increased Experience
+{variant:1}Gems Socketed in Green Socket Requirements
+{variant:1}Gems Socketed in Red Sockets have +1 to Level
 ]],[[
 Doedre's Skin
 Widowsilk Robe
@@ -621,12 +636,10 @@ Socketed Gems are Supported by Level 20 Blasphemy
 Grants Level 20 Summon Doedre's Effigy Skill
 Socketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned
 Hexes from Socketed Skills can apply 5 additional Curses
+20% less Effect of Curses from Socketed Hex Skills
 +(30-40) to Intelligence
 (130-150)% increased Energy Shield
 {variant:3}20% less Effect of your Curses
-Socketed Hex Curse Skills are Triggered by Doedre's Effigy when Summoned
-Hexes from Socketed Skills can apply 5 additional Curses
-{variant:2}20% less Effect of Curses from Socketed Hex Skills
 {variant:1}(33-25)% reduced Effect of your Curses
 ]],[[
 Fenumus' Shroud
@@ -662,8 +675,6 @@ Implicits: 0
 Gain a Divine Charge on Hit
 You gain Divinity for 10 seconds on reaching maximum Divine Charges
 Lose all Divine Charges when you gain Divinity
-Gain a Divine Charge on Hit
-Lose all Divine Charges when you gain Divinity
 Nearby Allies' Action Speed cannot be modified to below base value
 Nearby Enemies cannot deal Critical Strikes
 ]],[[
@@ -682,9 +693,9 @@ Implicits: 1
 {variant:1,2,3,4}(25-35)% increased Fire Damage
 100% increased Global Critical Strike Chance
 {variant:3,4,5}(120-160)% increased Energy Shield
+{variant:1,2}(190-230)% increased Energy Shield
 15% of Fire Damage Converted to Chaos Damage
 {variant:1,2,5}100% increased Spell Damage taken when on Low Mana
-{variant:1,2}(190-230)% increased Energy Shield
 {variant:3}25% increased Spell Damage taken when on Low Mana
 {variant:4}15% increased Spell Damage taken when on Low Mana
 ]],[[
@@ -697,10 +708,10 @@ Implicits: 1
 (3-10)% increased Spell Damage
 {variant:1}(200-250)% increased Energy Shield
 {variant:3}(100-150)% increased Energy Shield
+{variant:2}(140-200)% increased Energy Shield
 10% faster start of Energy Shield Recharge
 +(30-40)% to Lightning Resistance
 Reflects 1 to 250 Lightning Damage to Melee Attackers
-{variant:2}(140-200)% increased Energy Shield
 Chaos Damage does not bypass Energy Shield
 ]],[[
 Skin of the Loyal
@@ -723,11 +734,13 @@ Variant: Current
 Implicits: 0
 {variant:1,2}Socketed Gems are Supported by Level 14 Spell Totem
 {variant:3,4,5}Socketed Gems are Supported by Level 20 Spell Totem
+{variant:3,4,5}Socketed Gems are Supported by Level 20 Spell Totem
 (20-25)% increased Spell Damage
 (100-120)% increased Energy Shield
 {variant:4,5}(20-30)% increased Totem Life
 {variant:1,2,3,4}+1 to maximum number of Summoned Totems
 Inflicts a random Hex on you when your Totems die
+(20-25)% increased Sped by Level 14 Spell Totem
 {variant:1}25% increased Totem Life
 {variant:2,3}50% increased Totem Life
 ]],[[
@@ -746,22 +759,22 @@ Socketed Gems are Supported by Level 5 Elemental Proliferation
 {variant:3}Adds 1 to (4-12) Lightning Damage to Spells and Attacks
 {variant:1}10% reduced Cast Speed
 {variant:3}+(30-60) to Evasion Rating
+{variant:1,2}+(10-20) to Evasion Rating
 {variant:1,2}+(10-20) to maximum Energy Shield
 {variant:3}+(30-60) to maximum Energy Shield
 {variant:3}+(25-50) to maximum Life
+{variant:1,2}+6 to maximum Life
 {variant:3}+(25-50) to maximum Mana
+{variant:1,2}+6 to maximum Mana
 {variant:3}+(15-30)% to Fire Resistance
+{variant:1,2}+(5-10)% to Fire Resistance
 {variant:3}+(15-30)% to Cold Resistance
+{variant:1,2}+(5-10)% to Cold Resistance
 {variant:1,2}+(5-10)% to Lightning Resistance
 {variant:3}+(15-30)% to Lightning Resistance
 {variant:1,2}Adds 2 to 3 Fire Damage to Spells and Attacks
 {variant:1,2}Adds 2 to 3 Cold Damage to Spells and Attacks
 {variant:1,2}Adds 1 to 4 Lightning Damage to Spells and Attacks
-{variant:1,2}+(10-20) to Evasion Rating
-{variant:1,2}+6 to maximum Life
-{variant:1,2}+6 to maximum Mana
-{variant:1,2}+(5-10)% to Fire Resistance
-{variant:1,2}+(5-10)% to Cold Resistance
 ]],[[
 Vis Mortis
 Necromancer Silks
@@ -775,9 +788,9 @@ Implicits: 0
 Minions have 20% reduced maximum Life
 Minions deal 15% increased Damage
 {variant:1,2}+1 to maximum number of Spectres
-{variant:2}Minions gain Unholy Might for 10 seconds on Kill
+{variant:2}Minions gain Unholy Might for 0.01 seconds on Kill
+{variant:1}Minions gain Unholy Might for 0.005 seconds on Kill
 {variant:3}Minions gain (15-20)% of Elemental Damage as Extra Chaos Damage
-{variant:1}Minions gain Unholy Might for 5 seconds on Kill
 ]],[[
 Zahndethus' Cassock
 Sage's Robe
@@ -786,16 +799,16 @@ Variant: Pre 1.3.0
 Variant: Pre 2.6.0
 Variant: Current
 Implicits: 0
-{variant:1}Adds 1 to 25 Lightning Damage
 {variant:2,3,4}Adds 1 to 40 Lightning Damage to Attacks
+{variant:1}Adds 1 to 25 Lightning Damage
 {variant:4}(125-150)% increased Energy Shield
-{variant:2,3,4}+(40-50)% to Chaos Resistance
-25% increased Light Radius
-{variant:3,4}100% chance to create Consecrated Ground when you Block
 {variant:1,2,3}(75-100)% increased Energy Shield
+{variant:2,3,4}+(40-50)% to Chaos Resistance
 {variant:1}+(20-25)% to Chaos Resistance
-{variant:1}25% chance to create Consecrated Ground when you Block
-{variant:2}50% chance to create Consecrated Ground when you Block
+25% increased Light Radius
+{variant:3,4}100000% chance to create Consecrated Ground when you Block
+{variant:1}25000% chance to create Consecrated Ground when you Block
+{variant:2}50000% chance to create Consecrated Ground when you Block
 ]],[[
 Ghostwrithe
 Silken Vest
@@ -813,7 +826,7 @@ Implicits: 0
 (30-40)% increased maximum Life
 +(10-15)% to all Elemental Resistances
 50% increased Flask Life Recovery rate
-Extra Gore
+Extra gore
 ]],[[
 Cherrubim's Maleficence
 Triumphant Lamellar
@@ -825,8 +838,8 @@ Implicits: 0
 {variant:3}(50-80)% increased Chaos Damage
 (160-200)% increased Armour and Evasion
 +(70-100) to maximum Life
-{variant:2,3}100% increased total Recovery per second from Life Leech
-{variant:1}30% increased total Recovery per second from Life Leech
+{variant:2,3}6000% increased total Recovery per second from Life Leech
+{variant:1}1800% increased total Recovery per second from Life Leech
 ]],[[
 Daresso's Defiance
 Full Dragonscale
@@ -844,9 +857,11 @@ Implicits: 0
 {variant:5}2% of Physical Attack Damage Leeched as Life
 {variant:6}2% of Attack Damage Leeched as Life
 You lose all Endurance Charges when Hit
+You lose all Endurance Charges when Hit
+You gain an Endurance Charge on Kill
 You gain an Endurance Charge on Kill
 {variant:3,4,5,6}You gain Onslaught for 5 seconds per Endurance Charge when Hit
-{variant:1,2,3,4}(0.4-0.6)% of Physical Attack Damage Leeched as Life
+{variant:3,4,5,6}You gain Onseeched as Life
 {variant:1}You gain Onslaught for 1 seconds per Endurance Charge when Hit
 {variant:2}You gain Onslaught for 2 seconds per Endurance Charge when Hit
 {variant:3,4}(60-100)% increased Onslaught Effect
@@ -885,16 +900,16 @@ Implicits: 0
 {variant:1}(60-100)% increased Global Physical Damage
 {variant:2,3}100% increased Global Physical Damage
 {variant:3}+(240-300) to maximum Life
+{variant:1}+(130-160) to maximum Life
+{variant:2}+(200-240) to maximum Life
 {variant:1,2}+(20-40)% to Cold Resistance
 {variant:1}Regenerate 2% of Life per second
 {variant:3}Regenerate 10% of Life per second
+{variant:2}Regenerate 5% of Life per second
 15% increased Character Size
 Spell Skills deal no Damage
 Your Spells are disabled
 {variant:3}(300-400)% increased Armour and Evasion Rating
-{variant:1}+(130-160) to maximum Life
-{variant:2}+(200-240) to maximum Life
-{variant:2}Regenerate 5% of Life per second
 ]],[[
 Lightning Coil
 Desert Brigandine
@@ -938,11 +953,11 @@ Implicits: 0
 {variant:1,2}+10% to all Elemental Resistances
 {variant:3,4,5}+15% to all Elemental Resistances
 {variant:1,2,3,4}Gain an Endurance Charge when you take a Critical Strike
+{variant:1,2,3}Regenerate 2% of Life per second while on Low Life
 {variant:1,2,3,4}Share Endurance Charges with nearby party members
 {variant:5}Gain up to maximum Endurance Charges when you take a Critical Strike
 {variant:4}Regenerate 2% of Life per second if you have been Hit Recently
 {variant:5}Your nearby party members maximum Endurance Charges is equal to yours
-{variant:1,2,3}Regenerate 2% of Life per Second while on Low Life
 ]],[[
 Replica Ambu's Charge
 Crusader Chainmail
@@ -955,6 +970,11 @@ Implicits: 0
 Share Endurance Charges with nearby party members
 Gain an Endurance Charge when you are Hit
 Lose 2% of Life per second if you have been Hit Recently
+]],[[
+Chains of Command
+Saintly Chainmail
+Implicits: 0
+Trigger Level 20 Animate Guardian's Weapon when Animatey
 ]],[[
 Chains of Command
 Saintly Chainmail
@@ -1046,7 +1066,6 @@ Implicits: 0
 25% of Elemental Damage from Hits taken as Chaos Damage
 (20-30)% increased Light Radius
 Light Radius is based on Energy Shield instead of Life
-{variant:1}(0.8-1)% of Physical Attack Damage Leeched as Life
 ]],[[
 The Ivory Tower
 Saint's Hauberk
@@ -1076,13 +1095,15 @@ Implicits: 0
 {variant:1}(80-100)% increased Armour and Energy Shield
 {variant:2,3,4}(120-140)% increased Armour and Energy Shield
 {variant:4}30% of Physical Damage Converted to Chaos Damage
+{variant:1,2,3}10% of Physical Damage Converted to Chaos Damage
 {variant:2,3,4}Reflects 30 Chaos Damage to Melee Attackers
 25% reduced Light Radius
-{variant:3,4}100% chance to create Desecrated Ground when you Block
-{variant:1,2,3}10% of Physical Damage Converted to Chaos Damage
+{variant:3,4}100000% chance to create Desecrated Ground when you Block
+{variant:1}25000% chance to create Desecrated Ground when you Block
+{variant:2}50000% chance to create Desecrated Ground when you Block
 {variant:1}Reflects (10-20) Chaos Damage to Melee Attackers
-{variant:1}25% chance to create Desecrated Ground when you Block
-{variant:2}50% chance to create Desecrated Ground when you Block
+{variant:1}25% chance to create Desecrated Groed to Chaos Damage
+{variant:1}Reflects (10-20) Chaos Damage to Melee Attackers
 ]],[[
 Loreweave
 Elegant Ringmail
@@ -1141,9 +1162,9 @@ Trigger Level 10 Contaminate when you Kill an Enemy
 (7-10)% increased maximum Life
 {variant:1}+(17-23)% to Chaos Resistance
 {variant:2}+(29-43)% to Chaos Resistance
-{variant:2}Enemies on Fungal Ground you Kill Explode, dealing 10% of their Life as Chaos Damage
+{variant:2}Enemies on Fungal Ground you Kill have 10% chance to Explode, dealing 10% of their Life as Chaos Damage
+{variant:1}Enemies on Fungal Ground you Kill have 5% chance to Explode, dealing 10% of their Life as Chaos Damage
 You have Fungal Ground around you while stationary
-{variant:1}Enemies on Fungal Ground you Kill Explode, dealing 5% of their Life as Chaos Damage
 This item can be anointed by Cassia
 ]],[[
 Voll's Protector
@@ -1185,8 +1206,8 @@ Implicits: 0
 {variant:1,2}20% increased Area of Effect
 {variant:3}(40-50)% increased Area of Effect
 {variant:2,3}(40-50)% increased Area Damage
-Extra gore
 {variant:1}12% increased Area Damage
+Extra gore
 ]],[[
 Cloak of Defiance
 Lacquered Garb
@@ -1199,11 +1220,11 @@ Implicits: 0
 {variant:1,2,3}(110-150)% increased Evasion and Energy Shield
 {variant:4,5}(300-400)% increased Evasion and Energy Shield
 {variant:3,4,5}+(100-150) to maximum Mana
+{variant:1,2}+(90-110) to maximum Mana
 {variant:3,4,5}Regenerate 1% of Mana per second
 {variant:1,2}(40-50)% increased Mana Regeneration Rate
-Mind Over Matter
-{variant:1,2}+(90-110) to maximum Mana
 {variant:1,3,4}10% of Damage is taken from Mana before Life
+Mind Over Matter
 ]],[[
 Dendrobate
 Sentinel Jacket
@@ -1212,8 +1233,11 @@ Socketed Gems are Supported by Level 10 Chance to Poison
 (130-150)% increased Evasion and Energy Shield
 +40 to maximum Energy Shield
 +(15-25)% to all Elemental Resistances
++(15-25)% to all Elemental Resistances
+(75-100)% increased Damage with Poison if you have at least 300 Dexterity
 (75-100)% increased Damage with Poison if you have at least 300 Dexterity
 (15-25)% increased Poison Duration if you have at least 150 Intelligence
+(15-25)%gy Shield
 ]],[[
 The Eternity Shroud
 Blood Raiment
@@ -1262,12 +1286,11 @@ Implicits: 0
 +(60-80) to maximum Life
 (20-50)% increased Damage if you have Shocked an Enemy Recently
 {variant:3}(15-25)% increased Effect of Shock
+{variant:1,2}(25-40)% increased Effect of Shock
 {variant:2,3}Shocked Enemies you Kill Explode, dealing 5% of
 {variant:2,3}their Life as Lightning Damage which cannot Shock
 Unaffected by Shock
-{variant:1,2}(25-40)% increased Effect of Shock
 {variant:1}Shocked Enemies you Kill Explode, dealing (5-10)% of
-their Life as Lightning Damage which cannot Shock
 ]],[[
 The Restless Ward
 Carnal Armour
@@ -1283,9 +1306,9 @@ Implicits: 1
 {variant:1,2}1% increased Movement Speed per Frenzy Charge
 {variant:3}4% increased Movement Speed per Frenzy Charge
 {variant:3}Regenerate 75 Life per second per Endurance Charge
-{variant:3}(100-200)% increased Endurance, Frenzy and Power Charge Duration
 {variant:1}Regenerate (15-20) Life per second per Endurance Charge
 {variant:2}Regenerate (20-30) Life per second per Endurance Charge
+{variant:3}(100-200)% increased Endurance, Frenzy and Power Charge Duration
 {variant:1,2}100% increased Endurance, Frenzy and Power Charge Duration
 ]],[[
 Replica Restless Ward
@@ -1326,10 +1349,16 @@ Variant: Two Abyssal Sockets (Current)
 Variant: One Abyssal Socket (Current)
 Implicits: 1
 +(20-25) to maximum Mana
+Implicits: 1
+{variant:5}Has 3 Abyssal Sockets
+{variant:1,3,6}Has 2 Abyssal Sockets
++(20-25) to maximum Mana
+{va)
 {variant:5}Has 3 Abyssal Sockets
 {variant:1,3,6}Has 2 Abyssal Sockets
 {variant:2,4,7}Has 1 Abyssal Socket
 {variant:3,4}Socketed Gems are Supported by Level 25 Elemental Penetration
+{variant:1,2}Socketed Gems are Supported by Level 20 Elemental Penetration
 20% chance to Trigger Level 20 Shade Form when you Use a Socketed Skill
 (160-180)% increased Evasion and Energy Shield
 {variant:1,2,3,4}(6-10)% increased maximum Life
@@ -1339,7 +1368,6 @@ Implicits: 1
 {variant:1,2,3,4}1% increased Maximum Mana per Abyss Jewel affecting you
 {variant:5,6,7}3% increased Maximum Mana per Abyss Jewel affecting you
 {variant:5,6,7}Penetrate 4% Elemental Resistances per Abyss Jewel affecting you
-{variant:1,2}Socketed Gems are Supported by Level 20 Elemental Penetration
 ]],[[
 Replica Shroud of the Lightless
 Carnal Armour
@@ -1358,7 +1386,7 @@ Implicits: 1
 +(80-100) to maximum Life
 Temporal Rift has no Reservation
 (80-100)% of Damage taken Recouped as Life
-Debuffs on you Expire (80-100)% faster
+Debuffs on you expire (80-100)% faster
 ]],[[
 Tinkerskin
 Sadist Garb
@@ -1378,12 +1406,12 @@ Variant: Current
 Implicits: 0
 +1 to Level of Socketed Aura Gems
 {variant:2}Socketed Gems are Supported by Level 30 Generosity
+{variant:1}Socketed Gems are Supported by Level 1 Generosity
 Socketed Gems have 45% increased Reservation Efficiency
 (120-150)% increased Evasion and Energy Shield
 {variant:2}(20-40)% increased Area of Effect of Aura Skills
-(10-15)% increased effect of Non-Curse Auras from your Skills
-{variant:1}Socketed Gems are Supported by Level 1 Generosity
 {variant:1}(10-20)% increased Area of Effect of Aura Skills
+(10-15)% increased effect of Non-Curse Auras from your Skills
 ]],[[
 Servant of Decay
 Torturer Garb
@@ -1418,15 +1446,17 @@ Variant: Current
 Implicits: 0
 +(30-40) to Intelligence
 {variant:2}(120-200)% increased Evasion and Energy Shield
+{variant:1}(100-140)% increased Evasion and Energy Shield
 +(10-20)% to all Elemental Resistances
-{variant:1}(5-10)% chance to Freeze, Shock and Ignite
+{variant:1}Always Freeze, Shock and Ignite
 {variant:2}(10-25)% chance to Freeze, Shock and Ignite
 Elemental Damage you Deal with Hits is Resisted by lowest Elemental Resistance instead
-{variant:1}(100-140)% increased Evasion and Energy Shield
 ]],[[
 Atziri's Splendour
 Sacrificial Garb
 Source: Drops from unique{Atziri, Queen of the Vaal} in normal{The Alluring Abyss}
+Variant: Pre 3.0.0 (Armour)
+Variantrom unique{Atziri, Queen of the Vaal} in normal{The Alluring Abyss}
 Variant: Pre 3.0.0 (Armour)
 Variant: Pre 3.0.0 (Armour/Evasion)
 Variant: Pre 3.0.0 (Evasion)
@@ -1448,18 +1478,18 @@ Variant: Current (Armour/Evasion/ES)
 Implicits: 1
 +1 to Level of all Vaal Skill Gems
 {variant:1,10}(380-420)% increased Armour
+{variant:2,11}(200-220)% increased Evasion Rating and Armour
 {variant:3,12}(380-420)% increased Evasion Rating
 {variant:7,8,16,17}(200-220)% increased Armour and Energy Shield
 {variant:4,5,13,14}(200-220)% increased Evasion and Energy Shield
 {variant:9,18}(270-340)% increased Armour, Evasion and Energy Shield
+{variant:5,6,8}+(90-100) to maximum Energy Shield
+{variant:14,15,17}+(70-80) to maximum Energy Shield
 {variant:6,15}(270-300)% increased Energy Shield
+{variant:1,2,3,4,7,10,11,12,13,16}+(90-100) to maximum Life
 +(20-24)% to all Elemental Resistances
 Gain 100 Life per Enemy Killed
 Gain 100 Mana per Enemy Killed
-{variant:2,11}(200-220)% increased Evasion Rating and Armour
-{variant:1,2,3,4,7,10,11,12,13,16}+(90-100) to Maximum Life
-{variant:5,6,8}+(90-100) to Maximum Energy Shield
-{variant:14,15,17}+(70-80) to Maximum Energy Shield
 ]],[[
 Shadowstitch
 Sacrificial Garb

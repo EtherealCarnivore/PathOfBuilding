@@ -114,6 +114,9 @@ Nearby Enemies are Crushed while you have at least 25 Rage
 {variant:1}{tags:physical_damage}(4-6)% increased Physical Damage per 10 Rage
 {vaariant:1}{tags:physical_damage}(4-6)% increased Physical Damage per 10 Rage
 ]],[[
+Belt of the Deceiver10 Rage
+{vaariant:1}{tags:physical_damage}(4-6)% increased Physical Damage per 10 Rage
+]],[[
 Belt of the Deceiver
 Heavy Belt
 Variant: Pre 2.6.0
@@ -151,12 +154,6 @@ Implicits: 1
 {tags:attribute}+(20-30) to Intelligence
 {tags:resource}+(60-80) to maximum Life
 Every 5 seconds, gain one of the following for 5 seconds:
-Your Hits are always Critical Strikes
-Hits against you are always Critical Strikes
-Attacks cannot Hit you
-Attacks against you always Hit
-Your Damage with Hits is Lucky
-Damage of Hits against you is Lucky
 Your Hits are always Critical Strikes
 Hits against you are always Critical Strikes
 Attacks cannot Hit you
@@ -231,6 +228,11 @@ Variant: Pre 3.21.0
 Variant: Current
 Implicits: 1
 Has 1 Abyssal Socket
+Implicits: 1
+Has 1 Abyssal Socket
+Has 1 Abyssal Socket
+Has 1 Abyssal Socket
+{variant:3}(50-100)% increased Effecrent
 Has 1 Abyssal Socket
 Has 1 Abyssal Socket
 {variant:3}(50-100)% increased Effect of Socketed Abyss Jewels
@@ -335,6 +337,9 @@ Variant: Pre 3.16.0
 Variant: Current
 League: Harbinger
 Source: Created from item parts obtained from Boss in The Beachhead
+Upgrade: Upgraent
+League: Harbinger
+Source: Created from item parts obtained from Boss in The Beachhead
 Upgrade: Upgrades to unique{The Torrent's Reclamation} via currency{Time-light Scroll}
 LevelReq: 60
 Implicits: 1
@@ -347,7 +352,6 @@ Grants Summon Harbinger of Time Skill
 (15-20)% increased Cooldown Recovery Rate
 Debuffs on you expire (15-20)% faster
 {variant:1}{tags:life}(15-20)% increased Life Recovery rate
-{variant:2}{tags:life}(10-15)% increased Life Recovery rate
 ]],[[
 The Torrent's Reclamation
 Cloth Belt
@@ -438,6 +442,8 @@ Variant: Pre 3.11.0 (Lucky Crit Chance while Focused)
 Variant: Fire and Chaos Resistances (Current)
 Variant: Cold and Chaos Resistances (Current)
 Variant: Lightning and Chaos Resistaos Resistances (Current)
+Variant:ld and Chaos Resistances (Current)
+Variant: Lightning and Chaos Resistaos Resistances (Current)
 Variant: Cold and Chaos Resistances (Current)
 Variant: Lightning and Chaos Resistances (Current)
 Variant: Strength and Dexterity (Current)
@@ -525,11 +531,13 @@ Implicits: 1
 {tags:jewellery_attribute}+(40-50) to Stre0-30)% increased Stun Duration on Enemies
 {tags:attribute}+(40-50) to Strength
 {variant:1,2}{tags:physical_damage}(25-40)% increased Global Physical Damage
+{variant:1,2}{tags:physical_damage}(25-40)% increased Global Physical Damage
 {variant:3}{tags:resistance}+(20-25)% to all Elemental Resistances
 50% increased Flask Charges gained
 {variant:2}{tags:resistance}+(20-25)% to all Elemental Resistances while you have at least 200 Strength
 {variant:3}10% chance to deal Double Damage while you have at least 200 Strength
 {variant:3}5% chance to deal Triple Damage while you have at least 400 Strength
+{variagth
 ]],[[
 The Nomad
 Studded Belt
@@ -641,6 +649,10 @@ Variant: Pre 3.25.0
 Variant: Current
 Implicits: 1
 (15-25)% increased Stun and Block Recovery
+{tags:attribute}+(20-30) to : Pre 3.25.0
+Variant: Current
+Implicits: 1
+(15-25)% increased Stun and Block Recovery
 {tags:attribute}+(20-30) to all Attributes
 {variant:1}(8-12)% increased Quantity of Items found
 {variant:2}(6-8)% increased Quantity of Items found
@@ -736,10 +748,12 @@ LevelReq: 43
 Implicits: 1
 {tags:resource}+(25-40) to maximum Life
 {tags:attribute}+(30-40) to Dexterity
+{tags:attribute}+(30-40) to Dexterity
 {tags:defences}+(300-500) to Evasion Rating
 (10-15)% increased Duration of Elemental Ailments on Enemies
 Enemies Ignited by you have (10-15)% of Physical Damage they deal converted to Fire
 Enemies Shocked by you have (10-15)% of Physical Damage they deal converted to Lightning
+{tags:defences}+(300-500) to Evasion Rat0) to maximum Life
 ]],[[
 The Retch
 Rustic Sash
@@ -849,6 +863,10 @@ Variant: Movement Speed during Flask Effect
 Variant: Item Rarity
 Variant: Item Quantity
 Variant: Wrath Aura Effect
+Variant: Anger Aeed during Flask Effect
+Variant: Item Rarity
+Variant: Item Quantity
+Variant: Wrath Aura Effect
 Variant: Anger Aura Effect
 Variant: Hatred Aura Effect
 Variant: Determination Aura Effect
@@ -898,12 +916,12 @@ Implicits: 1
 {variant:1}(30-40)% increased Trap Damage
 {variant:1}{tags:resource}20% increased Mana Regeneration Rate
 {tags:resistance}+(20-30)% to Fire Resistance
-{variant:1}80% increased Trap Duration
 {variant:2}(50-75)% reduced Trap Duration
 25% increased Light Radius
 {variant:2}Skills which Throw Traps throw up to 2 additional Traps
 {variant:2}Traps cannot be triggered by Enemies
 {variant:2}Traps from Skills are thrown randomly around targeted location
+{variant:1}80% increased Trap Duration
 ]],[[
 Survivor's Guilt
 Heavy Belt
@@ -954,12 +972,14 @@ Implicits: 1
 {tags:attribute}+(20-30) to Intelligence
 {variant:1}{tags:resistance}+(10-20)% to Cold Resistance
 {variant:2}{tags:resistance}+(20-30)% to Cold Resistance
+{variant:2}{tags:resistance}+(20-30)% to Cold Resistance
 {variant:1}{tags:resource,attack}0.4% of Physical Attack Damage Leeched as Life
 {variant:2}{tags:resource,attack}2% of Physical Attack Damage Leeched as Life
-{variant:2}{tags:resource,attack}2% of Physical Attack Damage Leeched as Mana
+{variant:2}{tags:resource,attack}0% of Physical Attack Damage Leeched as Mana
 {variant:1}{tags:resource,attack}0.4% of Physical Attack Damage Leeched as Mana
 {variant:2}{tags:resource}(500-1000)% increased total Recovery per second from Life Leech
 {variant:2}{tags:resource}(500-1000)% increased total Recovery per second from Mana Leech
+{variant:1}{tags:resource,attack}0.4% oResistance
 {variant:1}{tags:attack,life}0.4% of Physical Attack Damage Leeched a_resistance}+(20-30)% to Cold Resistance
 ]],[[
 Ynda's Stand

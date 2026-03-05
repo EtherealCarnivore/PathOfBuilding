@@ -91,7 +91,7 @@ Adds 10 to 15 Physical Damage
 1% of Physical Attack Damage Leeched as Life
 {variant:1}1% of Attack Damage Leeched as Life against Bleeding Enemies
 {variant:2}3% of Attack Damage Leeched as Life against Bleeding Enemies
-{variant:1}10% chance to cause Bleeding on Hit
+{variant:1}10000% chance to cause Bleeding on Hit
 {variant:2}30% chance to cause Bleeding on Hit
 ]],[[
 Frostbreath
@@ -134,10 +134,13 @@ Implicits: 2
 {variant:2}10% reduced Enemy Stun Threshold
 {variant:1}20% increased Stun Duration on Enemies
 (300-360)% increased Physical Damage
+(300-360)% increased Physical Damage
 20% reduced Attack Speed
 (10-20)% reduced Enemy Stun Threshold
+{variant:1}20% increased Stun Duration on Enemies
 (30-50)% increased Stun Duration on Enemies
 30% increased Melee Damage against Bleeding Enemies
+20% redant:2}10% reduced Enemy Stun Threshold
 ]],[[
 Lavianga's Wisdom
 War Hammer
@@ -175,8 +178,6 @@ Implicits: 2
 {variant:1}50% chance to Trigger a Socketed Lightning Spell on Hit, with a 0.25 second Cooldown
 {variant:2}30% chance to Trigger a Socketed Lightning Spell on Hit, with a 0.25 second Cooldown
 {variant:3,4,5}Trigger a Socketed Lightning Spell on Hit, with a 0.25 second Cooldown
-{variant:1}Socketed Lightning Spells have no Cost if Triggered
-{variant:2}Socketed Lightning Spells have no Cost if Triggered
 {variant:3,4,5}Socketed Lightning Spells have no Cost if Triggered
 +300 Intelligence Requirement
 +200 Strength Requirement
@@ -242,6 +243,10 @@ Void Sceptre
 Elder Item
 Variant: Pre 3.5.0
 Variant: Current
+Requires Level 68, 104 Str, 122 Int
+Implicits: 1
+40% increased Elemental Damage
+(180-200)% increaant: Current
 Requires Level 68, 104 Str, 122 Int
 Implicits: 1
 40% increased Elemental Damage
@@ -348,8 +353,8 @@ Adds (8-13) to (26-31) Physical Damage
 30% increased Fire Damage
 (15-20)% increased Attack Speed
 (30-40)% increased Critical Strike Chance
-{variant:3}Adds 2 to 4 Fire Damage to Attacks with this Weapon per 10 Strength
 {variant:4}Adds 4 to 7 Fire Damage to Attacks with this Weapon per 10 Strength
+{variant:3}Adds 2 to 4 Fire Damage to Attacks with this Weapon per 10 Strength
 ]],[[
 Cerberus Limb
 Blood Sceptre
@@ -363,6 +368,11 @@ Implicits: 1
 0.5% of Spell Damage Leeched as Life if Equipped Shield has at least 30% Chance to Block
 +1 to Maximum Energy Shield per 5 Armour on Equipped Shield
 +5 to Armour per 5 Evasion Rating on Equipped Shield
++20 to Evasion Rating per 5 Maximum Energy Shield on Equipped Shield
+]],[[
+The Dark Seer
+Shadow Sceptre
+Leagupped Shield
 +20 to Evasion Rating per 5 Maximum Energy Shield on Equipped Shield
 ]],[[
 The Dark Seer
@@ -386,18 +396,18 @@ Implicits: 2
 {variant:1,2,3,4,5}(30-50)% increased Global Damage
 {variant:6,7,8}(40-60)% increased Global Damage
 {variant:9,10,11}+2 to Level of all Spell Skill Gems
-{variant:1,2,3,4,5}7% Global chance to Blind Enemies on hit
+{variant:1,2,3,4,5}7000% Global chance to Blind Enemies on hit
 {variant:6,7,8,9,10,11}10% Global chance to Blind Enemies on hit
 {variant:1,2}Gain 1 Mana on Kill per Level
 {variant:1,2}Gain 1 Energy Shield on Kill per Level
 Cannot be Blinded
 Enemies Blinded by you have Malediction
-{variant:4,5,7,8}+1 Maximum Energy Shield per Level
 {variant:10,11}+(1-2) Maximum Energy Shield per Level
-{variant:3,4,6,7}+1 Maximum Life per Level
 {variant:9,10}+(1-2) Maximum Life per Level
-{variant:3,5,6,8}+1 Maximum Mana per Level
 {variant:9,11}+(1-2) Maximum Mana per Level
+{variant:4,5,7,8}+1 Maximum Energy Shield per Level
+{variant:3,4,6,7}+1 Maximum Life per Level
+{variant:3,5,6,8}+1 Maximum Mana per Level
 ]],[[
 Death's Hand
 Karui Sceptre
@@ -488,6 +498,12 @@ Mon'tregul's Grasp
 Void Sceptre
 Variant: Pre 1.2.0
 Variant: Pre 2.3.0
+Variant: Pre 2.6.0 of your Main Hand Weapon
+]],[[
+Mon'tregul's Grasp
+Void Sceptre
+Variant: Pre 1.2.0
+Variant: Pre 2.3.0
 Variant: Pre 2.6.0
 Variant: Pre 3.19.0
 Variant: Current
@@ -554,8 +570,8 @@ Implicits: 2
 (14-18)% increased Cast Speed
 (6-8)% reduced Mana Cost of Skills
 Nearby Enemies are Hindered, with 25% reduced Movement Speed
-{variant:1,2}(60-80)% increased Damage with Hits and Ailments against Hindered Enemies
 {variant:3}100% increased Damage with Hits and Ailments against Hindered Enemies
+{variant:1,2}(60-80)% increased Damage with Hits and Ailments against Hindered Enemies
 ]],[[
 Spine of the First Claimant
 Iron Sceptre
@@ -604,6 +620,10 @@ Implicits: 1
 Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill
 Shepherd of Souls
 ]],[[
+Cadigtion
+Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill
+Shepherd of Souls
+]],[[
 Cadigan's Authority
 Platinum Sceptre
 Source: Obtained from unique{Shipping} in normal{Kingsmarch}
@@ -632,7 +652,7 @@ Implicits: 3
 {variant:3}Adds (60-80) to (270-320) Physical Damage
 {variant:4}Adds (100-130) to (360-430) Physical Damage
 50% of Physical Damage Converted to Lightning Damage
-{variant:1,2}15% chance to Shock
+{variant:1,2}Always Shock
 {variant:3,4}50% chance to Shock
 {variant:1,2}10% chance to Cause Monsters to Flee
 Damage Penetrates 20% Lightning Resistance
@@ -684,6 +704,7 @@ Implicits: 2
 Adds 11 to 23 Cold Damage
 (10-20)% increased Stun Duration on Enemies
 Never deal Critical Strikes
+Nearby Enemies cannot deal Critical Strikes
 ]],[[
 Geofri's Devotion
 Brass Maul
@@ -736,6 +757,11 @@ Gain 50% of Physical Damage as Extra Cold Damage
 ]],[[
 Jorrhast's Blacksteel
 Steelhead
+Le0-50)% increased Stun Duration on Enemies
+Gain 50% of Physical Damage as Extra Cold Damage
+]],[[
+Jorrhast's Blacksteel
+Steelhead
 League: Tempest
 Variant: Pre 2.6.0
 Variant: Current
@@ -767,8 +793,8 @@ Implicits: 3
 +(15-20)% to all Elemental Resistances
 Hits can't be Evaded
 Your Critical Strikes do not deal extra Damage
-{variant:1,2}You gain Onslaught for 2 seconds on Critical Strike
 {variant:3,4}You gain Onslaught for 4 seconds on Critical Strike
+{variant:1,2}You gain Onslaught for 2 seconds on Critical Strike
 ]],[[
 Replica Kongor's Undying Rage
 Terror Maul
@@ -806,7 +832,7 @@ Implicits: 3
 {variant:6}(500-600)% increased Physical Damage
 {variant:1,2}Adds 10 to 20 Physical Damage
 {variant:3,4}Adds 30 to 40 Physical Damage
-{variant:1,2,3,4}10% reduced Attack Speed
+{variant:1,2,3,4}10% increased Attack Speed
 {variant:5,6}25% reduced Attack Speed
 {variant:1,2,3,4}10% reduced Movement Speed
 (40-50)% increased Stun Duration on Enemies
@@ -859,6 +885,11 @@ League: Settlers of Kalguur
 Requires Level 61, 212 Str
 Implicits: 1
 20% reduced Enemy Stun Threshold
+Implicits: 1
+Trigger Level 20 Tawhoa's Chosen when you Attack with
+a Non-Vaal Slam or Strike Skill near an Enemy
+20% reduced Enemy Stun Threshold
+a Non-Vaal l 61, 212 Str
 Trigger Level 20 Tawhoa's Chosen when you Attack with
 a Non-Vaal Slam or Strike Skill near an Enemy
 +(30-40) to Strength
