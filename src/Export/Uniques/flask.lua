@@ -115,11 +115,6 @@ Amethyst Flask
 LevelReq: 60
 Source: Drops from unique{The Maven} (Uber)
 FlaskChargesUsedUnique__11
-(-35-35)%s
-Amethyst Flask
-LevelReq: 60
-Source: Drops from unique{The Maven} (Uber)
-FlaskChargesUsedUnique__11
 (-35-35)% increased Duration
 LifeLossToPreventDuringFlaskEffectToLoseOverTimeUnique__1
 ]],[[
@@ -212,7 +207,6 @@ Implicits: 0
 {variant:9}{crafted}Enemies Ignited by you during Effect have Malediction
 {variant:10}{crafted}You can apply an additional Curse during Effect
 {variant:11}{crafted}Ignites you inflict during Effect spread to other Enemies within 1.5 metres
-{variant:12}{crafted}Leech 1.5% of Expct during Effect spread to other Enemies within 1.5 metres
 {variant:12}{crafted}Leech 1.5% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect
 ]],[[
 Dying Sun
@@ -333,8 +327,6 @@ League: Legion
 Implicits: 1
 UtilityFlaskConsecrate
 {variant:2}FlaskZealotsOathUnique__1
-(25-50)%ates Consecrated Ground on Use
-{variant:2}FlaskZealotsOathUnique__1
 FlaskEffectDurationUnique__1
 ]],[[
 Replica Sorrow of the Divine
@@ -433,7 +425,6 @@ Variant: Current (Attacks)
 LevelReq: 68
 {variant:5,6,7,8,9,10,11,12,13}FlaskChargesUsedUnique__6_[100,80]
 {variant:14,15,16,17,18}FlaskChargesUsedUnique__6_[150,125]
-Shocks nearby Enemies during Effect, causing 10% increas6,17,18}(150-125)% increased Charges per use
 ShockNearbyEnemiesDuringFlaskEffect___1
 ShockSelfDuringFlaskEffect__1
 {variant:1,5,11}Damage Penetrates 10% Lightning Resistance during Effect
@@ -526,8 +517,6 @@ Implicits: 1
 UtilityFlaskWard
 (50-40)% increased Charges per use
 FlaskWardUnbreakableDuringEffectUnique__1
-{variant:1}FlaskMoreWardUnique1[70,70]
-{variant:2}85% less Ward does not Break during Effect
 {variant:1}FlaskMoreWardUnique1[70,70]
 {variant:2}FlaskMoreWardUnique1
 ]],[[

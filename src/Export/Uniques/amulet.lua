@@ -118,10 +118,6 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 16
 Implicits: 1
 LifeRegenerationRatePercentImplicitUnique__5
-{tags:life}+100 to maing a Grand Heist
-Requires Level 16
-Implicits: 1
-LifeRegenerationRatePercentImplicitUnique__5
 IncreasedLifeUnique__104_
 {variant:1}{tags:life}(20-25)% increased Life Recovery rate
 {variant:2}LifeRecoveryRateUnique__1
@@ -172,12 +168,12 @@ IncreasedLifeUnique__114
 {variant:6}GraceNoReservationUnique__1
 {variant:7}HasteNoReservationUnique__1
 {variant:8}HatredNoReservationUnique__1_
-{variant:9}PurityOfIceNoReservationUnique__1_
+{variant:9}MutatedUniqueBodyDex10PurityOfIceNoReservation
 {variant:10}ClarityNoReservationUnique__1
 {variant:11}DisciplineNoReservationUnique__1
 {variant:12}MalevolenceNoReservationUnique__1
 {variant:13}PurityOfElementsNoReservationUnique__1_
-{variant:14}MutatedUniqueBodyDexInt6PurityOfLightningNoReservation
+{variant:14}PurityOfLightningNoReservationUnique__1
 {variant:15}WrathNoReservationUnique__1
 {variant:16}ZealotryNoReservationUnique__1
 {variant:17}EnvyNoReservationUnique__1
@@ -220,7 +216,6 @@ League: Blight
 HybridDexInt
 (7-10)% increased Cooldown Recovery of Travel Skills per Frenzy Charge
 ElusiveBuffEffectPerPowerChargeUnique__1
-(20-25)% chance to lose a Frenzy Charge when you use a Travelffect of Elusive on you per Power Charge
 LoseFrenzyChargeOnTravelSkillUnique__1
 LosePowerChargeOnElusiveGainUnique__1_
 MaximumFrenzyChargesEqualToMaximumPowerChargesUnique__1
@@ -325,7 +320,6 @@ Implicits: 1
 AllAttributesImplicitAmulet1
 AttributeModifiersAscendanceUnique__1_
 ElementalResistPerAscendanceUnique__1__
-Penetrate 1% Elemental Resistances per 15 Omnitance}+1% to All Elemental Resistances per 15 Omniscience
 ElementalPenPerAscendanceUnique__1
 AttributeRequirementsAscendanceUnique__1
 ]],[[
@@ -437,10 +431,6 @@ TakeFireDamageOnIgniteUnique__1
 FireDamageLeechedAsLifeWhileIgnitedUnique__1
 ]],[[
 Eyes of the Greatwolf
-Greatwolfte an Enemy
-FireDamageLeechedAsLifeWhileIgnitedUnique__1
-]],[[
-Eyes of the Greatwolf
 Greatwolf Talisman
 Requires Level 52
 Has Alt Variant: true
@@ -481,12 +471,12 @@ Implicits: 32
 {variant:1}AllAttributesPercentUnique__1[24,32]
 {variant:2}AllDefencesVictorAmulet[30,50]
 {variant:3}IncreasedChaosDamageImplicit1_[38,62]
-{variant:4}TalismanAttackDamage[40,60]
+{variant:4}DualStrikeThresholdJewel__2_[40,60]
 {variant:5}ColdDamagePercentUnique__1[40,60]
 {variant:6}SpellDamageUniqueDagger10
 {variant:7}LightningDamagePercentUnique__5[40,60]
 {variant:8}SpellDamageUniqueShieldInt1
-{variant:9}IncreasedPhysicalDamagePercentUnique__1[40,60]
+{variant:9}IncreasedPhysicalDamagePercentUnique__2[40,60]
 {variant:10}MaximumManaUniqueAmulet10[40,60]
 {variant:11}AllDamageUnique__2[50,70]
 {variant:12}AdditionalPhysicalDamageReductionUnique_1UNUSED[8,12]
@@ -494,7 +484,7 @@ Implicits: 32
 {variant:14}CriticalStrikeChanceUniqueAmulet17[80,100]
 {variant:15}TalismanIncreasedAreaOfEffect[10,16]
 {variant:16}AttackAndCastSpeedUnique__1[12,20]
-{variant:17}TalismanIncreasedItemQuantity[12,20]
+{variant:17}ItemFoundQuantityIncreaseUniqueBootsDex2[12,20]
 {variant:18}MaximumLifeUnique__1[16,24]
 {variant:19}CriticalMultiplierUniqueAmulet17[48,72]
 {variant:20}+2 to maximum number of Raised Zombies
@@ -527,7 +517,6 @@ IncreasedCastSpeedUnique__23
 AreaOfEffectUnique__6
 {variant:1}{tags:caster}Enemies Cursed by you are Hindered with 25% reduced Movement Speed if 25% of Curse Duration expired
 {variant:2}Curse25PercentHinderEnemyUnique__1
-{tags:caster}Your Curses have 25% increased Effect if 50% of Curse Durationation expired
 Curse50PercentCurseEffectUnique__1
 {variant:1}Curse75PercentEnemyDamageTakenUnique__1__[25,25][75,75]
 {variant:2}Curse75PercentEnemyDamageTakenUnique__1__
@@ -628,11 +617,9 @@ DexterityImplicitAmulet1
 {variant:3}GrantsAccuracyAuraSkillUnique__1
 {variant:1,2}DexterityUnique__15[25,35]
 {variant:3}DexterityUnique__15
-{variant:1,2}AddedPhysicalDamageUnique__10[12,15][24,28]
+{variant:1,2}AddedPhysicalDamageUnique__13[12,15][24,28]
 {variant:1,2}AddedColdDamageUnique__6[11,15][23,28]
 {variant:1,2}CriticalMultiplierUnique__3__[23,28]
-{variant:3}CriticalMultiplierUnique__3__[25,50]
-{variatical Strike Multiplier
 {variant:3}CriticalMultiplierUnique__3__
 {variant:3}BowAttacksCullingStrikeUnique__1
 {variant:1,2}LifeLeechPermyriadUniqueAmulet9[0.8,1]
@@ -729,9 +716,7 @@ IncreasedLifeUnique__113
 {variant:2}FireResistUnique__14
 {variant:3}ColdResistUnique__20
 {variant:4}LightningResistUnique__11
-{variant:5}ChaosResistUnique__17[17,23]
-{variant:1}Vulnerabsistance
-{variant:5}ChaosResistUnique__17
+{variant:5}ChaosResistUnique__14
 {variant:1}VulnerabilityReservationCostUnique__1_
 {variant:2}FlammabilityReservationCostUnique__1
 {variant:3}FrostbiteReservationCostUnique__1
@@ -839,8 +824,6 @@ IncreasedAccuracyUniqueAmulet17_
 IncreasedEvasionRatingUniqueAmulet17
 LightRadiusUniqueAmulet17
 {variant:1,2}Non-critical strikes deal 25% Damage
-{variant:3,4}Non-critical strikes deal 40% Damage
-{variant:1}{tags:critical}60% less Crikes deal 25% Damage
 {variant:3,4}Non-critical strikes deal 40% Damage
 {variant:1}LessCriticalStrikeChanceAmulet17[60,60]
 {variant:2}LessCriticalStrikeChanceAmulet17[50,50]
@@ -959,9 +942,6 @@ League: Incursion
 Source: Drops from unique{The Vaal Omnitect}
 Upgrade: Upgrades to unique{Zerphi's Heart} via currency{Vial of Sacrifice}
 Requires Level 32
-Implic Vaal Omnitect}
-Upgrade: Upgrades to unique{Zerphi's Heart} via currency{Vial of Sacrifice}
-Requires Level 32
 Implicits: 1
 ManaRegenerationImplicitAmulet1
 GlobalAddedFireDamageUnique__2
@@ -1057,9 +1037,6 @@ AllResistancesUnique__4
 {variant:2,3}CurseAreaOfEffectUnique__2_
 SilenceImmunityUnique__1
 {variant:1,2}ItemGrantsIllusoryWarpUnique__1
-{variant:3}FrostblinkDurationUnique__1_[50,50]
-Corrupted
-]],[ Illusory Warp Skill
 {variant:3}FrostblinkDurationUnique__1_
 Corrupted
 ]],[[
@@ -1174,8 +1151,6 @@ Implicits: 1
 HybridDexInt
 LightningResistUniqueAmulet15
 ChaosResistUniqueAmulet15_
-10% chance to gain a Fren30-40)% to Lightning Resistance
-ChaosResistUniqueAmulet15_
 FrenzyChargeOnKillChanceUniqueAmulet15
 PowerChargeOnKillChanceUniqueAmulet15
 ProjectileSpeedPerFrenzyChargeUniqueAmulet15
@@ -1275,8 +1250,6 @@ Variant: Current
 Requires Level 42
 Implicits: 1
 ItemFoundRarityIncreaseImplicitAmulet1
-DexterityImplicitAmulet1
-{tags:life}+(50-70) to mreased Rarity of Items found
 DexterityImplicitAmulet1
 IncreasedLifeUnique__102
 ColdResistUnique__5
@@ -1381,8 +1354,6 @@ Implicits: 1
 ReducedEnergyShieldDelayImplicit1_
 AttacksGainMinMaxAddedChaosDamageBasedOnManaUnique__1
 {variant:1}AddedEnergyShieldFlatUnique_1[200,400]
-{variant:2}AddedEnergyShieldFlatUnique_1[50,100]
-{tags:00) to maximum Energy Shield
 {variant:2}AddedEnergyShieldFlatUnique_1
 PercentReducedMaximumManaUnique_1
 SkillsCostEnergyShieldInsteadOfManaLifeUnique__1

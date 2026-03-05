@@ -124,9 +124,6 @@ Variant: Current
 Requires Level 46, 82 Str
 AddedPhysicalDamageUniqueBootsStr3
 StunThresholdReductionUniqueBootsStr3
-(150-200)% iRequires Level 46, 82 Str
-AddedPhysicalDamageUniqueBootsStr3
-StunThresholdReductionUniqueBootsStr3
 LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBootsStr3
 {variant:2}IncreasedLifeUniqueBootsDex9__
 FireResistUniqueBootsStr3_
@@ -248,8 +245,6 @@ MovementVelocityUniqueBootsDex8
 MovementVelocityPerFrenzyChargeUniqueBootsDex4
 {variant:4}AttackAndCastSpeedPerFrenzyChargeUniqueBootsDex4
 {variant:4}LifeRegenerationPerFrenzyChargeUniqueBootsDex4[48,48]
-(20-30)% chance to gain a Frenzy Chargd per Frenzy Charge
-{variant:4}LifeRegenerationPerFrenzyChargeUniqueBootsDex4[48,48]
 FrenzyChargeOnKillChanceUniqueBootsDex4
 {variant:4}EnemiesOnLowLifeTakeMoreDamagePerFrenzyChargeUniqueBootsDex4
 ItemBloodFootstepsUniqueBootsDex4
@@ -361,15 +356,11 @@ Requires Level 62, 117 Dex
 DexterityUniqueBootsDex8
 IntelligenceUniqueBootsDex1
 LocalIncreasedEvasionRatingPercentUniqueBootsDex1
-{variant:1}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[50,70]
-{variant:4}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[100,150]
+{variant:1}LocalIncreasedEnergyShiledUniqueBootsInt6[50,70]
+{variant:4}LocalIncreasedEnergyShiledUniqueBootsInt6[100,150]
 MovementVelocityUniqueBootsA1
-{variant:2}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[70,100]
-{variant:3}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[100,160]
-EnemiesCantLifeLeech
-]],[[
-Tempo maximum Energy Shield
-{variant:3}LocalIncreasedEnergyShieldUniqueBootsDexInt4[100,160]
+{variant:2}LocalIncreasedEnergyShiledUniqueBootsInt6[70,100]
+{variant:3}LocalIncreasedEnergyShiledUniqueBootsInt6[100,160]
 EnemiesCantLifeLeech
 ]],[[
 Temptation Step
@@ -475,9 +466,6 @@ Variant: Purity of Fire: Fire
 Variant: Purity of Fire: Cold
 Variant: Purity of Fire: Lightning
 Variant: Purity of Ice: Fire
-Variant: Purity of Ice: Cold
-Variant: Purity of Ice: Lightning
-Variant: Purity of Lightning: Fir of Ice: Fire
 Variant: Purity of Ice: Cold
 Variant: Purity of Ice: Lightning
 Variant: Purity of Lightning: Fire
@@ -593,9 +581,6 @@ LocalIncreasedEnergyShiledUniqueBootsInt6
 {variant:2}LocalIncreasedEnergyShieldPercentUniqueBootsInt6
 MovementVelocityUniqueBootsA1
 MovementVelocityOnShockedGroundUniqueBootsInt6_
-50% increased D increased Energy Shield
-MovementVelocityUniqueBootsA1
-MovementVelocityOnShockedGroundUniqueBootsInt6_
 IncreasedDamageOnBurningGroundUniqueBootsInt6
 LifeRegenerationPercentOnChilledGroundUniqueBootsInt6
 ImmuneToDesecratedGroundUniqueBootsInt6
@@ -619,12 +604,12 @@ Variant: Current
 {variant:3}DexterityUniqueBootsInt1
 {variant:1,2}IntelligenceUniqueBootsInt1[5,10]
 {variant:3}IntelligenceUniqueBootsInt1
-{variant:3}LocalIncreasedEnergyShieldUniqueBootsDex1[5,30]
+{variant:3}LocalIncreasedEnergyShiledUniqueBootsInt6[5,30]
 ItemRarityOnLowLifeUniqueBootsInt1
 {variant:1}MovementVelocityDescent2Boots1[15,15]
 {variant:2}MovementVelocityDescent2Boots1
 {variant:3}MovementVelocityUniqueBootsInt1
-{variant:1,2}LocalIncreasedEnergyShieldUniqueBootsDex1[10,16]
+{variant:1,2}LocalIncreasedEnergyShiledUniqueBootsInt6[10,16]
 ]],[[
 Greedtrap
 Velvet Slippers
@@ -708,7 +693,6 @@ Variant: Current
 LightRadiusUniqueBootsStrDex3
 ChaosResistanceWhileUsingFlaskUniqueBootsStrDex3
 {variant:4}AddedChaosDamageWhileUsingAFlaskUnique__2[30,40][50,60]
-{variant:3}Adds (15-20) to (25-30) Chaos Damag (50-60) Chaos Damage to Spells and Attacks during any Flask Effect
 {variant:3}AddedChaosDamageWhileUsingAFlaskUnique__2[15,20][25,30]
 ]],[[
 Duskblight
@@ -830,9 +814,6 @@ Variant: Current
 PercentageStrengthUniqueBootsStrInt2
 AddedChaosDamageUniqueBootsStrInt2
 LocalIncreasedPhysicalDamageReductionRatingUniqueBootsStrInt2
-{variant:2}+(13-19)% to Chaos Resist-18)% increased Strength
-AddedChaosDamageUniqueBootsStrInt2
-LocalIncreasedPhysicalDamageReductionRatingUniqueBootsStrInt2
 {variant:2}ChaosResistImplicitBoots1[13,19]
 {variant:1}MovementVelocityUniqueBootsDexInt4[20,20]
 {variant:2}MovementVelocityUniqueBootsDexInt4
@@ -945,24 +926,17 @@ Trapper Boots
 League: Warbands
 Variant: Pre 2.6.0
 Variant: Pre 3.0.0
-Varian/Energy Shield
-[[
-Brinerot Whalers
-Trapper Boots
-League: Warbands
-Variant: Pre 2.6.0
-Variant: Pre 3.0.0
 Variant: Current
 Requires Level 41, 40 Dex, 40 Int
 IncreasedPhysicalDamagePercentUniqueBootsDexInt4
-{variant:1}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[60,80]
-{variant:3}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[80,100]
+{variant:1}LocalIncreasedEnergyShiledUniqueBootsInt6[60,80]
+{variant:3}LocalIncreasedEnergyShiledUniqueBootsInt6[80,100]
 LightningResistUniqueBootsDexInt4
 {variant:1}MovementVelocityUniqueBootsStrInt2_[20,20]
 {variant:2,3}MovementVelocityUniqueBootsStrInt2_
 IncreasedProjectileDamageUniqueBootsDexInt4
 ImmuneToShockedGroundUniqueBootsDexInt4
-{variant:2}LocalIncreasedEnergyShieldPercentUniqueBootsInt1[120,150]
+{variant:2}LocalIncreasedEnergyShiledUniqueBootsInt6[120,150]
 ]],[[
 Bubonic Trail
 Murder Boots
@@ -1057,7 +1031,6 @@ MovementVelocityUniqueBootsDex7
 GainVinesOnCriticalStrikeUnique__1
 NearbyStationaryEnemiesGainVinesUnique__1
 AllDamagePoisonsGraspingVinesUnique__1
-You take (30-50)% reduced Extra Damage from Critical Stn against Enemies affected by at least 3 Grasping Vines
 ReducedCriticalDamageTakenPoisonUnique__1
 ]],[[
 Nomic's Storm

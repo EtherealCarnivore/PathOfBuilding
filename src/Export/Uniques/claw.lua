@@ -43,7 +43,7 @@ LifeLeechPermyriadImplicitClaw2
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__1[80,100]
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__1
 LocalAddedPhysicalDamageUnique__1
-LocalIncreasedAttackSpeedUnique__24
+LocalIncreasedAttackSpeedUnique__2
 MovementSpeedWhilePhasedUnique__1
 {variant:1}GainPhasingOnVaalSkillUseUnique__1[3,3]
 {variant:2}GainPhasingOnVaalSkillUseUnique__1
@@ -57,7 +57,7 @@ Implicits: 1
 LifeLeechPermyriadImplicitClaw2
 LocalIncreasedPhysicalDamagePercentUnique__1
 LocalAddedPhysicalDamageUnique__1
-LocalIncreasedAttackSpeedUnique__2
+LocalIncreasedAttackSpeedUnique__16
 LifeGainedOnTauntingEnemyUnique__1
 OnslaughtOnKillingTauntedEnemyUnique__1
 TauntedEnemiesTakeIncreasedDamage_
@@ -122,10 +122,6 @@ IncreasedManaUniqueClaw7
 {variant:1,2,3}LifeGainedOnSpellHitUniqueClaw7[5,8]
 {variant:4}LifeGainedOnSpellHitUniqueClaw7
 {variant:1}6% increased Spell Damage per 5% Chance to Block Attack Damage
-{variant:2,3,4}IncreasedSpellDamagePerBlockChanceUniqueClaw7
-]],[[
-Essentia Sanguis
-{variant:1tack Damage
 {variant:2,3,4}IncreasedSpellDamagePerBlockChanceUniqueClaw7
 ]],[[
 Essentia Sanguis
@@ -237,13 +233,6 @@ Nailed Fist
 Variant: Pre 3.14.0
 Variant: Current
 League: Heist
-Souron Low Life
-]],[[
-Replica Last Resort
-Nailed Fist
-Variant: Pre 3.14.0
-Variant: Current
-League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 1
 LifeGainPerTargetImplicit2Claw1
@@ -344,7 +333,7 @@ Implicits: 2
 {variant:2}LifeGainPerTargetImplicit2Claw10
 LocalAddedPhysicalDamageUnique__14
 ColdDamagePercentUnique__8
-LocalCriticalStrikeChanceUnique__3
+LocalCriticalStrikeChanceUnique__10
 ChanceToGainFrenzyChargeOnKillingFrozenEnemyUnique__1
 AdditionalChainWhileAtMaxFrenzyChargesUnique___1
 ChanceToFreezeUnique__3
@@ -362,9 +351,6 @@ LocalIncreasedAttackSpeedUnique__21
 LocalCriticalStrikeChanceUnique__11
 {variant:1}LocalIncreasedAccuracyUnique__1[180,200]
 {variant:2}LocalIncreasedAccuracyUnique__1
-LocalChanceToPoisonOnHitUnique__3
-AddedChaosDamageVsEnemiesWith5PoisonsUnique__1
-Enemies affe Accuracy Rating
 LocalChanceToPoisonOnHitUnique__3
 AddedChaosDamageVsEnemiesWith5PoisonsUnique__1
 ]],[[

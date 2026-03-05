@@ -127,11 +127,6 @@ CannotBeChilledWhenOnslaughtUniqueOneHandAxe6
 ]],[[
 Rigwald's Savagery
 Royal Axe
-League: Talisman Standard, Talismane
-CannotBeChilledWhenOnslaughtUniqueOneHandAxe6
-]],[[
-Rigwald's Savagery
-Royal Axe
 League: Talisman Standard, Talisman Hardcore
 Source: Drops from unique{Rigwald, the Wolven King} (Level 75+)
 Variant: Pre 3.11.0
@@ -260,9 +255,6 @@ Implicits: 1
 {variant:2}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe2
 LocalAddedPhysicalDamage__1
 LifeLeechPermyriadUniqueTwoHandAxe4
-{variant:2}40% increased Attack Speed  Damage
-LocalAddedPhysicalDamage__1
-LifeLeechPermyriadUniqueTwoHandAxe4
 {variant:2}AttackSpeedAfterSavageHitTakenUnique__1
 AttacksHaveBloodMagic__1
 ]],[[
@@ -302,7 +294,7 @@ Implicits: 0
 {variant:5}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe9[190,240]
 {variant:6}LocalIncreasedPhysicalDamagePercentUniqueTwoHandAxe9
 LocalIncreasedAttackSpeedUniqueTwoHandAxe9
-{variant:2,3,4,5,6}LocalCriticalStrikeChanceUnique__10
+{variant:2,3,4,5,6}CriticalStrikeChanceUniqueBow9
 {variant:1}IncreasedManaUniqueTwoHandAxe9
 DisplayNearbyAlliesHaveIncreasedItemRarityUniqueTwoHandAxe9
 DisplayNearbyAlliesHaveCullingStrikeUniqueTwoHandAxe9
@@ -361,7 +353,7 @@ Implicits: 0
 MoltenBurstOnMeleeHitUnique__1
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__17_[190,230]
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__17_
-LocalIncreasedAttackSpeedUnique__16
+LocalIncreasedAttackSpeedUnique__28
 {variant:1}DamageConversionFireUnique__1[50,50]
 {variant:2}DamageConversionFireUnique__1
 PenetrateEnemyFireResistUnique__1
@@ -395,7 +387,6 @@ Variant: Pre 3.21.0
 Variant: Current
 League: Breach
 Source: Drops in Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
-Upgrade: Upgrades to unique{Uul-Netol's Embrace} using currency{Blessing Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
 Upgrade: Upgrades to unique{Uul-Netol's Embrace} using currency{Blessing of Uul-Netol}
 Implicits: 1
 {variant:2}LocalMaimOnHit2HImplicit_1

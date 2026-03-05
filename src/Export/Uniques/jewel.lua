@@ -46,8 +46,6 @@ Radius: Large
 {variant:1}Gain 5% of Lightning Damage as Extra Chaos Damage
 {variant:2}ChaosDamageAsPortionOfLightningDamageUnique__1
 LightningResistConvertedToSpellBlockChanceScaledJewelUnique__1
-also grant an equal chance to gain a Power Charge on Kill
-also grant an equal chance to gain a Power Charge on Kill
 ]],[[
 The Blue Nightmare
 Cobalt Jewel
@@ -63,7 +61,6 @@ Radius: Large
 {variant:2}LightningResistAlsoGrantsPowerChargeOnKillJewelUnique__1
 {variant:1}LightningResistAlsoGrantsPowerChargeOnKillJewelUnique__1
 {variant:1}also grant Chance to Block Spell Damage at 35% of its value
-{variant:2}also grant Chance to Block Spell Damage at 50% of its value
 ]],[[
 Brawn
 Crimson Jewel
@@ -118,7 +115,6 @@ Viridian Jewel
 Source: No longer obtainable
 Radius: Large
 ColdAndPhysicalNodesInRadiusSwapPropertiesUniqueJewel48_
-Increases and Reductions to Cold Damage ind Reductions to Cold Damage in Radius are Transformed to apply to Physical Damage
 ]],[[
 Dissolution of the Flesh
 Prismatic Jewel
@@ -225,9 +221,6 @@ Variant: Current - Elemental Resistances
 Variant: Current - Maximum Life
 Variant: Current - Min Endurance Charge
 {variant:1}ArmourPerStackableJewelUnique__1[75,75]
-{variant:2}Gain 20rent - Maximum Life
-Variant: Current - Min Endurance Charge
-{variant:1}ArmourPerStackableJewelUnique__1[75,75]
 {variant:2}ArmourPerStackableJewelUnique__1
 {variant:3}AllResistancePerStackableJewelUnique__1
 {variant:4}MaximumLifePerStackableJewelUnique__1
@@ -261,7 +254,6 @@ Radius: Large
 {variant:1}Gain 5% of Cold Damage as Extra Chaos Damage
 {variant:2}ChaosDamageAsPortionOfColdDamageUnique__1
 ColdResistConvertedToDodgeChanceScaledJewelUnique__1
-also grant an equal chance to gain a Frenzy Charge on Kill
 ]],[[
 The Green Nightmare
 Viridian Jewel
@@ -278,13 +270,8 @@ Radius: Large
 {variant:2}ColdResistAlsoGrantsFrenzyChargeOnKillJewelUnique__1
 {variant:3}ColdResistAlsoGrantsFrenzyChargeOnKillJewelUnique__1
 {variant:1,2}ColdResistAlsoGrantsFrenzyChargeOnKillJewelUnique__1
-{variant:1}also grant Chance to Suppress Spell Damage at 70% of its value
-{variant:2}also grant Chance to Suppress Spell Damage at 70% of its value
-{variant:3}also grant Chance to Suppress Spell Damage at 70% of its value
-{variant:1,2}also grant Chance to Suppress Spell Damage at 70% of its value
 {variant:1}also grant Chance to Suppress Spell Damage at 35% of its value
 {variant:2}also grant Chance to Suppress Spell Damage at 50% of its value
-{variant:3}also grant Chance to Suppress Spell Damage at 70% of its value
 ]],[[
 Hair Trigger
 Viridian Jewel
@@ -330,11 +317,6 @@ Intuitive Leap
 Viridian Jewel
 Radius: Small
 JewelUniqueAllocateDisconnectedPassives
-]],[[
-Izaro's Turmoil
-Crimson Jewel
-Sources can be Allocated without being connected to your tree
-Passage
 ]],[[
 Izaro's Turmoil
 Crimson Jewel
@@ -454,16 +436,11 @@ PassiveEffectivenessJewelUnique__1_
 Immutable Force
 Crimson Jewel
 Limited to: 1
-(500-1000)% increased otable Passive Skills in Radius grant nothing
-]],[[
-Immutable Force
-Crimson Jewel
-Limited to: 1
 StunRecoveryUnique__4
 ]],[[
 Firesong
 Crimson Jewel
-FireResistanceUniqueGlovesInt_1
+FireResistUnique__31
 SelfIgniteDurationAllElementalAilmentsUnique__1
 ]],[[
 Stormshroud
@@ -568,10 +545,6 @@ IncreasedGolemDamageIfGolemSummonedRecently__1_
 GolemLifeUnique__1
 PrimordialJewelCountUnique__3
 GolemLargerAggroRadiusUnique__1
-eal (35-45)% increased Damage
-GolemLifeUnique__1
-PrimordialJewelCountUnique__3
-GolemLargerAggroRadiusUnique__1
 ]],[[
 Replica Primordial Might
 Crimson Jewel
@@ -642,8 +615,6 @@ Variant: Current
 {variant:1}Gain 5% of Fire Damage as Extra Chaos Damage
 {variant:2}ChaosDamageAsPortionOfFireDamageUnique__1
 FireResistConvertedToBlockChanceScaledJewelUnique__1_
-also grant an equal chance to gain an Endurance Charge on Kill
-also grant an equal chance to gain an Endurance Charge on Kill
 ]],[[
 The Red Nightmare
 Crimson Jewel
@@ -659,20 +630,12 @@ Variant: Current
 {variant:2}FireResistAlsoGrantsEnduranceChargeOnKillJewelUnique__1
 {variant:1}FireResistAlsoGrantsEnduranceChargeOnKillJewelUnique__1
 {variant:1}also grant Chance to Block Attack Damage at 35% of its value
-{variant:2}also grant Chance to Block Attack Damage at 50% of its value
 ]],[[
 The Siege
 Small Cluster Jewel
 League: Delirium
 Source: Drops from unique Delirium bosses in maps
 JewelExpansionKineticism
-]],[[
-Spire of Stone
-Crimson Jewel
-Source: No longer obtainable
-Limited to: 1
-Radius: Large
-3% increase
 ]],[[
 Spire of Stone
 Crimson Jewel
@@ -768,7 +731,6 @@ Variant: Pre 3.10.0
 Variant: Current
 Radius: Medium
 AdditionalDexterityPerAllocatedDexterityJewelUnique__1
-{variant:1}2% increased Movement Speed per 10 Dexteri 1 Dexterity on Allocated Passives in Radius
 {variant:1}MovementSpeedPerAllocatedDexterityJewelUnique__1
 {variant:2}MovementSpeedPerAllocatedDexterityUnique__2
 {variant:1}FlatManaPerUnallocatedDexterityJewelUnique__1
@@ -888,8 +850,6 @@ Ulaman's Gaze
 Searching Eye Jewel
 Requires Level 40
 DexterityUnique__21_
-Projectiles have 4% chance to be able to Chain when colliding with terrain per Searching Eye Jewel 
-DexterityUnique__21_
 Projectiles have 4% chance to be able to Chain when colliding with terrain per Searching Eye Jewel affecting you, up to a maximum of 20%
 ]],
 -- Jewel: Threshold
@@ -901,7 +861,7 @@ Limited to: 2
 Variant: Pre 3.21.0
 Variant: Current
 Radius: Medium
-{variant:1}WeaponElementalDamageUnique__1[10,15]
+{variant:1}WeaponElementalDamageUnique__4[10,15]
 {variant:2}ElementalDamageUniqueJewel_1
 ElementalHitDisableColdUniqueJewel_1
 ]],[[
@@ -981,7 +941,6 @@ Limited to: 2
 Radius: Medium
 IncreasedProjectileDamageUnique___3
 FrostboltThresholdJewel_1
-With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40%  fires 2 additional Projectiles
 With at least 40 Intelligence in Radius, Frostbolt Projectiles gain 40% increased Projectile
 Speed per second
 ]],[[
@@ -1049,12 +1008,6 @@ Radius: Medium
 {variant:1}DualStrikeThresholdJewel_1
 {variant:5}DualStrikeThresholdJewelMace
 {variant:1}With at least 40 Dexterity in Radius, Dual Strike deals Off-Hand Splash Damage
-]],[[
-Omen on the Winds
-Viridian Jewel
-Source: No longer obtainable
-Variant: Pre 3.1.0
-a Sword
 ]],[[
 Omen on the Winds
 Viridian Jewel
@@ -1154,7 +1107,6 @@ Radius: Medium
 MinionDamageUniqueJewel1
 {variant:3}AnimateBowsAndWandsUnique____70[40,40][20,20]
 {variant:1}AnimateBowsAndWandsUnique____70[40,40][4,4]
-{variant:2}With at least 40 Dexterity in Rn Radius, Animate Weapon can Animate up to 4 Ranged Weapons
 {variant:2}AnimateBowsAndWandsUnique____70[40,40][12,12]
 ]],[[
 Spirited Response
@@ -1178,7 +1130,6 @@ Limited to: 1
 Radius: Medium
 IncreasedChaosDamageUnique__3
 {variant:2,3}BlightThresholdJewel_2
-{variant:3}With at least 40 Intelligence in Radius, Blight has 30% reduced Cast Speed
 {variant:1}With at least 40 Intelligence in Radius, Enemies Hindered by Blight take 25% increased Chaos Damage
 ]],[[
 Steel Spirit
@@ -1253,12 +1204,8 @@ Crimson Jewel
 Source: No longer obtainable
 Limited to: 2
 Radius: Medium
-IncreasedPhysicalDamagePercentUnique__2
+IncreasedPhysicalDamagePercentUnique__1
 With at least 40 Strength in Radius, Heavy Strike has a 20% chance to deal Double Damage
-]],[[
-Wildfire
-Crimson Jewel
-Source: No lth in Radius, Heavy Strike has a 20% chance to deal Double Damage
 ]],[[
 Wildfire
 Crimson Jewel
@@ -1368,12 +1315,6 @@ Viridian Jewel
 Source: Use currency{Vaal Orb} on normal{Viridian Jewel}
 Limited to: 1
 AdditionalVaalSoulOnShatterUniqueCorruptedJewel7
-Corrupted
-]],[[
-Combustibles
-Crimson Jewel
-Source: No longer obtainable
-10% reduced Quonal Vaal Soul per Enemy Shattered
 Corrupted
 ]],[[
 Combustibles
@@ -1519,12 +1460,6 @@ Variant: Pre 3.20.0
 Variant: Current
 Radius: Large
 StrengthUniqueJewel34
-JewelDexToStrUniqueJewel37
-{variant:2}Corrupted
-]],[[
-Mutated Growth
-Cobalt Jewel
-Source: No longer obtainngth
 JewelDexToStr
 {variant:2}Corrupted
 ]],[[
@@ -1665,8 +1600,6 @@ MinionDamageUniqueJewel1
 {variant:2,3}SkeletonCastSpeedUniqueJewel1[7,10]
 {variant:2,3}SkeletonMovementSpeedUniqueJewel1[3,5]
 {variant:2,3}SkeletonMovementSpeedUniqueJewel1
-{variant:1}2% increased Skeleton Attack Speed
-{variant:2,3}(7-10)% increased Skeleton Cast spent:2,3}(3-5)% increased Skeleton Movement Speed
 {variant:1}2% increased Skeleton Attack Speed
 {variant:2,3}SkeletonCastSpeedUniqueJewel1
 {variant:3}Corrupted
@@ -1826,14 +1759,6 @@ Emperor's Wit
 Cobalt Jewel
 Source: Drops in The Eternal Labyrinth
 Limited to: 1
-(4-6)% incrength
-AllDamageUnique__1
-ActorSizeUnique__1
-]],[[
-Emperor's Wit
-Cobalt Jewel
-Source: Drops in The Eternal Labyrinth
-Limited to: 1
 PercentageIntelligenceUnique__2
 CriticalStrikeChanceUniqueRapier1
 ActorSizeUnique__1
@@ -1937,9 +1862,6 @@ Variant: Skill Cost
 Variant: Non-Curse Aura Effect
 Variant: Defences from Shield
 Radius: Large
-Implicits: 0
-{variant:1}Carved to glorify (2000-10000) new faithful converted by High Templar Avarius
-{variant:2}Carved targe
 Implicits: 0
 {variant:1}Carved to glorify (2000-10000) new faithful converted by High Templar Avarius
 {variant:2}Carved to glorify (2000-10000) new faithful converted by High Templar Dominus

@@ -118,9 +118,6 @@ Variant: Current
 Implicits: 1
 SpellDamageOnWeaponImplicitWand17
 LocalIncreasedPhysicalDamagePercentUnique__47
-{variant:1}Gain (10-30)% of PhysicaImplicits: 1
-SpellDamageOnWeaponImplicitWand17
-LocalIncreasedPhysicalDamagePercentUnique__47
 {variant:1}PhysicalAddedAsFireUnique__4[10,30]
 {variant:2}PhysicalAddedAsFireUnique__4
 {variant:1}PhysicalAddedAsColdUnique__3[10,30]
@@ -240,10 +237,6 @@ Implicits: 4
 LocalReducedPhysicalDamagePercentUniqueWand6
 LocalIncreasedAttackSpeedUniqueWand6
 LocalCriticalStrikeChanceUniqueWand6_
-+(340-400) to Aer Modifiers
-LocalReducedPhysicalDamagePercentUniqueWand6
-LocalIncreasedAttackSpeedUniqueWand6
-LocalCriticalStrikeChanceUniqueWand6_
 IncreasedAccuracyUniqueWand6
 ThisWeaponsWeaponElementalDamageUniqueWand6
 {variant:3,4,5}WeaponElementalPenetrationUnique__1
@@ -256,7 +249,7 @@ Implicits: 1
 SocketedGemLevelPer25PlayerLevelsUnique__1
 TriggerSocketedSpellOnAttackUnique__1
 AddsPhysicalDamagePer3PlayerLevelsUnique__1_
-LocalIncreasedAttackSpeedUnique__31
+LocalIncreasedAttackSpeedUnique__24
 {variant:2}KineticWandImplicit
 ]],[[
 Reverberation Rod
@@ -359,9 +352,6 @@ Variant: Pre 3.21.0
 Variant: Current
 League: Breach
 Source: Drops in Tul Breach or from unique{Tul, Creeping Avalanche}
-Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
-Implicits: 2
-{variant:1,2}(15-19)% increasalanche}
 Upgrade: Upgrades to unique{Tulfall} using currency{Blessing of Tul}
 Implicits: 2
 {variant:1,2}SpellDamageOnWeaponImplicitWand5

@@ -114,9 +114,6 @@ EnemiesCrushedWithRageUnique__1_
 {variant:1}{tags:physical_damage}(4-6)% increased Physical Damage per 10 Rage
 {vaariant:1}{tags:physical_damage}(4-6)% increased Physical Damage per 10 Rage
 ]],[[
-Belt of the Deceiver10 Rage
-{vaariant:1}{tags:physical_damage}(4-6)% increased Physical Damage per 10 Rage
-]],[[
 Belt of the Deceiver
 Heavy Belt
 Variant: Pre 2.6.0
@@ -163,7 +160,7 @@ LevelReq: 61
 Implicits: 1
 IncreasedEnergyShieldImplicitBelt1
 IncreasedLifeUnique__53
-ChaosResistUnique__33
+ChaosResistUnique__22
 EnemyTemporalChainsOnHitUnique__1
 GainRageOnLosingTemporalChainsUnique__1__
 ImmuneToCursesWithRageUnique__1
@@ -220,11 +217,6 @@ Source: Drops from unique{Amanamu, Liege of the Lightless} or unique{Ulaman, Sov
 Variant: Pre 3.11.0
 Variant: Pre 3.21.0
 Variant: Current
-Implicits: 1
-AbyssJewelSocketUnique__7
-AbyssJewelSocketUnique__7
-AbyssJewelSocketUnique__7
-{variant:3}(50-100)% increased Effecrent
 Implicits: 1
 AbyssJewelSocketUnique__7
 AbyssJewelSocketUnique__7
@@ -331,9 +323,6 @@ Variant: Pre 3.16.0
 Variant: Current
 League: Harbinger
 Source: Created from item parts obtained from Boss in The Beachhead
-Upgrade: Upgraent
-League: Harbinger
-Source: Created from item parts obtained from Boss in The Beachhead
 Upgrade: Upgrades to unique{The Torrent's Reclamation} via currency{Time-light Scroll}
 LevelReq: 60
 Implicits: 1
@@ -435,8 +424,6 @@ Variant: Pre 3.11.0 (Lucky Crit Chance while Focused)
 Variant: Fire and Chaos Resistances (Current)
 Variant: Cold and Chaos Resistances (Current)
 Variant: Lightning and Chaos Resistaos Resistances (Current)
-Variant:ld and Chaos Resistances (Current)
-Variant: Lightning and Chaos Resistaos Resistances (Current)
 Variant: Cold and Chaos Resistances (Current)
 Variant: Lightning and Chaos Resistances (Current)
 Variant: Strength and Dexterity (Current)
@@ -455,8 +442,8 @@ IncreasedLifeImplicitBelt1
 {variant:6}DexterityAndIntelligenceUnique_2[6,17]
 {variant:15}DexterityAndIntelligenceUnique_2[31,35]
 ColdResistUnique__27
-{variant:8}MutatedUniqueOneHandSword3TrapThrowSpeed[7,12]
-{variant:17}MutatedUniqueOneHandSword3TrapThrowSpeed[14,16]
+{variant:8}TrapThrowingSpeedUnique_1[7,12]
+{variant:17}TrapThrowingSpeedUnique_1[14,16]
 ChillNearbyEnemiesOnFocusUnique__1_
 {variant:2}FireAndChaosDamageResistanceUnique__1__[8,15]
 {variant:11}FireAndChaosDamageResistanceUnique__1__[16,20]
@@ -523,8 +510,6 @@ Implicits: 1
 StunDurationImplicitBelt1
 {tags:jewellery_attribute}+(40-50) to Stre0-30)% increased Stun Duration on Enemies
 StrengthUniqueBelt2
-{variant:1,2}IncreasedPhysicalDamagePercentUniqueBelt2[25,40]
-{variagth
 {variant:1,2}IncreasedPhysicalDamagePercentUniqueBelt2
 {variant:3}AllResistancesUnique__27
 BeltIncreasedFlaskChargesGainedUniqueBelt2
@@ -642,10 +627,6 @@ Variant: Pre 3.25.0
 Variant: Current
 Implicits: 1
 StunRecoveryImplicitBelt1
-{tags:attribute}+(20-30) to : Pre 3.25.0
-Variant: Current
-Implicits: 1
-StunRecoveryImplicitBelt1
 AllAttributesUniqueBelt3
 {variant:1}ItemFoundQuantityIncreaseUniqueBelt3[8,12]
 {variant:2}ItemFoundQuantityIncreaseUniqueBelt3
@@ -741,8 +722,6 @@ LevelReq: 43
 Implicits: 1
 IncreasedLifeImplicitBelt1
 DexterityUnique__30
-{tags:defences}+(300-500) to Evasion Rat0) to maximum Life
-DexterityUnique__30
 IncreasedEvasionRatingUnique__4
 ElementalStatusAilmentDurationUnique__1_
 EnemyIgnitedConvertedToFireUnique__1
@@ -786,7 +765,7 @@ Implicits: 1
 StrengthImplicitBelt1
 IncreasedEnergyShieldPercentUnique__3
 MaximumLifeUnique__10_
-ChaosResistUnique__22
+ChaosResistUnique__17
 MinionAttacksTauntOnHitChanceUnique__1
 MinionCausticCloudOnDeathUnique__1_
 ]],[[
@@ -856,10 +835,6 @@ Variant: Movement Speed during Flask Effect
 Variant: Item Rarity
 Variant: Item Quantity
 Variant: Wrath Aura Effect
-Variant: Anger Aeed during Flask Effect
-Variant: Item Rarity
-Variant: Item Quantity
-Variant: Wrath Aura Effect
 Variant: Anger Aura Effect
 Variant: Hatred Aura Effect
 Variant: Determination Aura Effect
@@ -875,13 +850,13 @@ Implicits: 24
 {variant:21}MutatedUniqueBelt4PercentageStrength[12,18]
 {variant:19}TalismanIncreasedDexterity[12,18]
 {variant:20}TalismanIncreasedDexterity[12,18]
-{variant:19}MutatedUniqueBootsStrInt2PercentageIntelligence[12,18]
-{variant:21}MutatedUniqueBootsStrInt2PercentageIntelligence[12,18]
+{variant:19}PercentageIntelligenceUnique__2[12,18]
+{variant:21}PercentageIntelligenceUnique__2[12,18]
 {variant:7}IncreasedEnergyShieldPercentUnique__2_[24,30]
 {variant:8}MaximumLifeUnique__17[18,24]
 {variant:11}ItemFoundQuantityIncreaseUniqueBelt3[9,15]
 {variant:10}ItemFoundRarityIncreaseImplicitDemigodsBelt1[60,90]
-{variant:1}AreaOfEffectUnique__8[24,30]
+{variant:1}AreaOfEffectUnique_9[24,30]
 {variant:6}SkillEffectDurationUnique__1[36,45]
 {variant:2}{tags:critical}+(60-75)% to Critical Strike Multiplier during any Flask Effect
 {variant:3}{tags:speed}(24-36)% increased Attack Speed during any Flask Effect
@@ -964,8 +939,6 @@ IncreasedLifeImplicitBelt1
 StrengthUniqueBelt1
 IntelligenceUniqueBelt1
 {variant:1}ColdResistUniqueBelt1[10,20]
-{variant:2}ColdResistUniqueBelt1[20,30]
-{variant:1}{tags:resource,attack}0.4% oResistance
 {variant:2}ColdResistUniqueBelt1
 {variant:1}LifeLeechPermyriadUnique__3
 {variant:2}LifeLeechPermyriadUniqueBelt1

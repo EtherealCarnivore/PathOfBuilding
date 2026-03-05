@@ -116,9 +116,6 @@ LocalIncreasedPhysicalDamagePercentUnique__45
 {variant:3}CriticalMultiplierUnique__6
 DamageConversionToRandomElementUnique__1
 PhysicalDamageConvertedToChaosUnique__1
-Maximuiplier
-DamageConversionToRandomElementUnique__1
-PhysicalDamageConvertedToChaosUnique__1
 MaximumCritChanceIs50Unique__1
 NonCriticalStrikesDealNoDamageUnique__1
 {variant:1,2}NearbyAlliesHaveCriticalStrikeMultiplierUnique__1[100,100]
@@ -169,7 +166,7 @@ Implicits: 3
 {variant:2,3,4}IncreasedChaosDamageUnique__4_2
 IncreasedCastSpeedPerPowerChargeUnique__1
 LocalIncreaseSocketedChaosGemLevelUnique__1
-PowerChargeOnManaSpentUnique__1
+MutatedUniqueWand15PowerChargeOnManaSpent
 ManaRegeneratedPerSecondPerPowerChargeUnique__1
 ]],[[
 Disintegrator
@@ -217,11 +214,6 @@ CriticalMultiplierPerBlockChanceUnique__1
 CritMultiIfDealtNonCritRecentlyUnique__2
 {variant:1,2}120% increased Spell Damage if you've dealt a Critical Strike Recently
 {variant:3,4}SpellDamageIfYouHaveCritRecentlyUnique__2
-]],[[
-Replica Duskdawn
-Maelström Staff
-League: Heist
-Source: Steal from a unique{Curio ke Recently
 ]],[[
 Replica Duskdawn
 Maelström Staff
@@ -274,7 +266,7 @@ HarbingerSkillOnEquipUnique__6
 {variant:4}CriticalBleedDotMultiplierUnique__1_
 {variant:1,2,3}LocalAddedPhysicalDamageUnique__28[160,185][200,225]
 {variant:4}LocalAddedPhysicalDamageUnique__28
-LocalCriticalStrikeChanceUniqueSceptre9
+LocalCriticalStrikeChanceUnique__9
 5% Chance to Block Attack Damage while wielding a Staff
 ]],[[
 The Yielding Mortality
@@ -295,7 +287,7 @@ StaffBlockPercentUnique__4_
 {variant:3}CriticalBleedDotMultiplierUnique__1_
 {variant:1,2}LocalAddedPhysicalDamageUnique__28[160,185][200,225]
 {variant:3}LocalAddedPhysicalDamageUnique__28
-LocalCriticalStrikeChanceUnique__9
+LocalCriticalStrikeChanceUnique__3
 ]],[[
 Femurs of the Saints
 Primordial Staff
@@ -317,7 +309,6 @@ LocalIncreaseSocketedMinionGemLevelUnique__2_
 {variant:3,4}AttackBlockPerSkeletonUnique__1
 {variant:3,4}AttackAndCastSpeedPerRagingSpiritUnique__1
 {variant:3,4}LifeRegenerationPerZombieUnique__1
-{variant:3,4}30% increased Mana Rege}Regenerate 0.6% of Life per second for each Raised Zombie
 {variant:3,4}ManaRegenerationPerSpectreUnique__1
 ]],[[
 Fencoil
@@ -430,8 +421,6 @@ Implicits: 4
 {variant:3}LocalAddedPhysicalDamageUniqueStaff7[165,175][185,205]
 {variant:4,5}LocalAddedPhysicalDamageUniqueStaff7
 LocalIncreasedAttackSpeedUniqueStaff7
-{variant:1,2,3}LocalCriticalStrikeChanceUniqueStaff7[20,30]
-{variant:4,5}(10-20)% increased Critical Strike Chpeed
 {variant:1,2,3}LocalCriticalStrikeChanceUniqueStaff7[20,30]
 {variant:4,5}LocalCriticalStrikeChanceUniqueStaff7
 IncreasedMaximumPowerChargesUniqueStaff7
@@ -549,12 +538,6 @@ LocalIncreaseSocketedFireGemLevelUniqueStaff1
 Sire of Shards
 Serpentine Staff
 Variant: Pre 2.6.0
-Variaems
-{variant:1,2,3,4}BurnDamageUniqueStaff1
-]],[[
-Sire of Shards
-Serpentine Staff
-Variant: Pre 2.6.0
 Variant: Pre 3.25.0
 Variant: Current
 Requires Level 49, 85 Str, 85 Int
@@ -659,10 +642,6 @@ Implicits: 3
 {variant:4}StaffBlockPercentImplicitStaff2
 {variant:3,4}LocalIncreaseSocketedSpellGemLevelUnique__1
 {variant:1,2,3,4}SupportedByRemoteMineUniqueStaff11
-{variant:1,2}LessMineDamageUniqueStaff11[35,35]
-SpellDamageUniqueStaff11_
-StunThresholdReductionUniqueStaff11
-Mine
 {variant:1,2}LessMineDamageUniqueStaff11
 SpellDamageUniqueStaff11_
 StunThresholdReductionUniqueStaff11

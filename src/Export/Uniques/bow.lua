@@ -93,12 +93,9 @@ Variant: Chaos Damage over Time (Current)
 Variant: Current
 Requires Level 57, 190 Dex
 Implicits: 1
-{variant:1,2,3,4,5,6,7,8,9,10,11,12,13,14}MovementVelocityUnique__19[4,6]
+{variant:1,2,3,4,5,6,7,8,9,10,11,12,13,14}ChanceToDodgeUniqueRing37[4,6]
 {variant:1,2,3,4,5,6,7,8,9,10,11,12,13,14}LocalIncreasedPhysicalDamagePercentUniqueBow5[140,170]
 {variant:15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31}LocalIncreasedPhysicalDamagePercentUniqueBow5
-{variant:7}LocalIncreasedAttackSpeedUniqueBow1[8,16]
-{variant:8}LocalIncreasedAttackSpeedUniqueBow1[8,16]
-{variant:9}e
 {variant:7}LocalIncreasedAttackSpeedUniqueBow1[8,16]
 {variant:8}LocalIncreasedAttackSpeedUniqueBow1[8,16]
 {variant:9}IncreasedCastSpeedUnique__1[7,13]
@@ -176,10 +173,6 @@ Death's Harp
 Death Bow
 Variant: Pre 1.2.0
 Variant: Pre 2.2.0
-Variant: Pre 3.0.0
-Variant: Pre 3.10.0
-Variant: Pre 3.17.0
-Variant: Pe 2.2.0
 Variant: Pre 3.0.0
 Variant: Pre 3.10.0
 Variant: Pre 3.17.0
@@ -291,11 +284,6 @@ Variant: Pre 1.2.0
 Variant: Pre 2.6.0
 Variant: Pre 3.7.0
 Variant: Pre 3.17.0
-Variant: Current
-Requires Level 53, 170 Dex
-Implicits: 1
-LocalCriticalStrikeChanceImplicitBow1
-+(20-30) to
 Variant: Current
 Requires Level 53, 170 Dex
 Implicits: 1
@@ -420,10 +408,6 @@ Variant: Pre 3.9.0
 Variant: Current
 Requires Level 5, 26 Dex
 DexterityUniqueBow6
-{variant:2,3}LocalIncreasedPhysicalDamagePercentUniqueDescentBow1[100,100]
-LocalIncreasedAttackSpeedUniqueBow4
-{variant:2,3}ManaGainPerTargetUnique__2
-(50-100)% i
 {variant:2,3}LocalIncreasedPhysicalDamagePercentUniqueDescentBow1
 LocalIncreasedAttackSpeedUniqueBow4
 {variant:2,3}ManaGainPerTargetUnique__2
@@ -461,7 +445,7 @@ Variant: Current
 {variant:1}LocalAddedPhysicalDamageUnique__16_[25,40][100,115]
 {variant:2,3,4,5}LocalAddedPhysicalDamageUnique__16_[15,30][70,95]
 {variant:6}LocalAddedPhysicalDamageUnique__16_
-LocalIncreasedAttackSpeedUnique__28
+LocalIncreasedAttackSpeedUnique__16
 ProjectileSpeedUnique__3
 {variant:5,6}VolleyFirstPointPierceUnique__1_
 {variant:5,6}VolleySecondPointForkUnique__1
@@ -559,9 +543,6 @@ Variant: Current
 {variant:1,2}Adds 1 to (275-325) Lightning Damage
 {variant:3}LocalAddedLightningDamageUniqueBow10
 LocalIncreasedAttackSpeedUniqueBow10
-{variant:1,2}60% of Lightning Da25) Lightning Damage
-{variant:3}LocalAddedLightningDamageUniqueBow10
-LocalIncreasedAttackSpeedUniqueBow10
 {variant:1,2}ConvertLightningDamageToChaosUniqueBow10[60,60]
 {variant:3}ConvertLightningDamageToChaosUniqueBow10
 {variant:1,2}ChanceToShockUniqueBow10
@@ -588,9 +569,9 @@ Implicits: 2
 {variant:2,3,4}Adds 1 to (80-100) Lightning Damage
 {variant:5,6}AddedLightningDamageUniqueBow9
 LocalIncreasedAttackSpeedUniqueBow9
-{variant:1,2}LocalCriticalStrikeChanceUniqueBow11[80,100]
-{variant:3,4}LocalCriticalStrikeChanceUniqueBow11[60,80]
-{variant:5,6}LocalCriticalStrikeChanceUniqueBow11
+{variant:1,2}CriticalStrikeChanceUniqueBow9[80,100]
+{variant:3,4}CriticalStrikeChanceUniqueBow9[60,80]
+{variant:5,6}CriticalStrikeChanceUniqueBow9
 {variant:1,2}ItemQuantityWhenFrozenUniqueBow9[25,25]
 {variant:3,4,5}ItemQuantityWhenFrozenUniqueBow9
 {variant:1,2}ItemRarityWhenShockedUniqueBow9[50,50]
@@ -607,7 +588,7 @@ WeaponElementalDamageImplicitBow1
 AddedColdDamageUniqueBow9
 AddedLightningDamageUniqueBow9
 LocalIncreasedAttackSpeedUniqueBow10
-CriticalStrikeChanceUniqueBow9
+LocalCriticalStrikeChanceUniqueBow11
 FrozenMonstersTakeIncreasedDamage
 GainEnergyShieldOnKillShockedEnemyUnique__1_
 ]],[[

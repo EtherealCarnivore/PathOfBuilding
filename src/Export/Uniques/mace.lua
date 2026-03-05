@@ -71,7 +71,7 @@ Implicits: 2
 {variant:1}StunDurationImplicitMace1[40,40]
 GrantsLevel12StoneGolem
 LocalAddedPhysicalDamageUnique__9
-IncreasedAttackSpeedImplicitQuiver10New
+LocalIncreasedAttackSpeedUnique__10
 {variant:1,2}MinionLifeUnique__1
 MaximumGolemsUnique__1
 {variant:1,2}AddedPhysicalToMinionAttacksUnique__1
@@ -134,9 +134,6 @@ Implicits: 2
 {variant:2}StunThresholdReductionImplicitMace1
 {variant:1}StunDurationImplicitMace1[20,20]
 LocalIncreasedPhysicalDamagePercentUniqueOneHandMace6
-20% redant:2}10% reduced Enemy Stun Threshold
-{variant:1}StunDurationImplicitMace1[20,20]
-LocalIncreasedPhysicalDamagePercentUniqueOneHandMace6
 LocalReducedAttackSpeedUniqueOneHandMace6
 StunThresholdReductionUniqueOneHandMace6
 StunDurationUniqueOneHandMace6
@@ -154,7 +151,7 @@ Implicits: 2
 {variant:1}StunDurationImplicitMace1[20,20]
 {variant:3}LocalIncreasedPhysicalDamagePercentUnique__7[160,200]
 {variant:1,2}LocalIncreasedPhysicalDamagePercentUnique__7
-{variant:1,2}IncreasedLifeImplicitShield1
+{variant:1,2}IncreasedLifeUniqueHelmetDex5
 {variant:3}IncreasedLifeUniqueOneHandMace7
 {variant:1,2}IncreasedManaUniqueBootsStrDex3
 {variant:3}IncreasedManaUniqueOneHandMace7
@@ -244,12 +241,8 @@ Variant: Current
 Requires Level 68, 104 Str, 122 Int
 Implicits: 1
 ElementalDamagePercentImplicitSceptreNew22
-(180-200)% increaant: Current
-Requires Level 68, 104 Str, 122 Int
-Implicits: 1
-ElementalDamagePercentImplicitSceptreNew22
 LocalIncreasedPhysicalDamagePercentUnique__29
-LocalIncreasedAttackSpeedUnique__13
+LocalIncreasedAttackSpeedUnique__17
 LocalCriticalStrikeChanceUnique__14
 ConvertPhysicaltoLightningUnique__3
 GainElementalOverloadEvery16SecondsUnique__1
@@ -370,11 +363,6 @@ EvasionRatingPerEnergyShieldOnShieldUnique__1
 ]],[[
 The Dark Seer
 Shadow Sceptre
-Leagupped Shield
-EvasionRatingPerEnergyShieldOnShieldUnique__1
-]],[[
-The Dark Seer
-Shadow Sceptre
 League: Beyond
 Variant: Pre 2.3.0
 Variant: Pre 3.0.0
@@ -433,7 +421,7 @@ Implicits: 2
 DisplaySocketedGemsSupportedByIronWillUniqueSceptre6
 StrengthUniqueSceptre6
 IncreasedCastSpeedUniqueSceptre6
-IncreasedManaImplicitRing1
+IncreasedManaUniqueSceptre6
 DamagePerStrengthInMainHandUniqueSceptre6
 ArmourPerStrengthInOffHandUniqueSceptre6
 ]],[[
@@ -490,12 +478,6 @@ IntelligenceUnique__10
 {variant:2}LocalCriticalStrikeChanceUnique__21
 GlobalIncreaseMinionSpellSkillGemLevelUnique__1
 MinionsUseMainHandBaseCritUnique__1
-]],[[
-Mon'tregul's Grasp
-Void Sceptre
-Variant: Pre 1.2.0
-Variant: Pre 2.3.0
-Variant: Pre 2.6.0 of your Main Hand Weapon
 ]],[[
 Mon'tregul's Grasp
 Void Sceptre
@@ -614,10 +596,6 @@ Implicits: 1
 ElementalDamagePercentImplicitSceptreNew20
 VaalSkillDamageUnique__1
 VaalSoulGainPreventionUnique__1__
-GainRandomChargeOnVaalSkillUseUnique__1_
-VillageShepherdOfSouls
-]],[[
-Cadigtion
 GainRandomChargeOnVaalSkillUseUnique__1_
 KeystoneShepherdOfSoulsUnique__1
 ]],[[
@@ -753,11 +731,6 @@ PhysicalAddedAsColdUnique__1
 ]],[[
 Jorrhast's Blacksteel
 Steelhead
-Le0-50)% increased Stun Duration on Enemies
-PhysicalAddedAsColdUnique__1
-]],[[
-Jorrhast's Blacksteel
-Steelhead
 League: Tempest
 Variant: Pre 2.6.0
 Variant: Current
@@ -803,7 +776,7 @@ LocalAddedPhysicalDamageUniqueTwoHandMace6
 LocalCriticalStrikeChanceUniqueTwoHandMace6
 AllResistancesUniqueTwoHandMace6_
 AlwaysHitsUniqueTwoHandMace6
-CriticalMultiplierUniqueAmulet18
+NoBonusesFromCriticalStrikes
 LocalEnergyShieldRegenerationIfCritRecentlyUnique__1
 ]],[[
 Marohi Erqi
@@ -880,13 +853,9 @@ Requires Level 61, 212 Str
 Implicits: 1
 StunThresholdReductionImplicitMace3_
 GrantsTawhoasChosenUnique__1
-a Non-Vaal l 61, 212 Str
-Implicits: 1
-StunThresholdReductionImplicitMace3_
-GrantsTawhoasChosenUnique__1
 StrengthUnique__11
 LocalIncreasedPhysicalDamagePercentUnique__49
-StunDurationImplicitBelt1
+StunDurationUnique__1
 StunThresholdReductionUnique__2
 ]],[[
 Tidebreaker

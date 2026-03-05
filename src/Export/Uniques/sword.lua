@@ -129,12 +129,6 @@ Variant: Current
 Implicits: 1
 IncreasedAccuracySwordImplicit9
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__30[170,190]
-ord
-Variant: Pre 3.5.0
-Variant: Current
-Implicits: 1
-IncreasedAccuracySwordImplicit9
-{variant:1}LocalIncreasedPhysicalDamagePercentUnique__30[170,190]
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__30
 LocalIncreasedAttackSpeedUniqueSceptre9
 IncreasedArmourWhileStationaryUnique__1
@@ -258,7 +252,6 @@ DisableOffHandSlotUnique__1
 LocalCriticalStrikeChanceUnique__13
 PhysicalDamageToAttacksPerLevelUnique__2
 GainHerEmbraceOnIgniteUnique__1
-While in Her Embrace, take 0.5% of your total Maximum Life and Energy Shield as Fire Damagfor 3 seconds when you Ignite an Enemy
 TakeDamagePerLevelWhileHerEmbraceUnique__1_
 ]],[[
 The Princess
@@ -380,11 +373,6 @@ Variant: Pre 2.6.0
 Variant: Pre 3.11.0
 Variant: Pre 3.25.0
 Variant: Current
-Impliciald, the Wolven King} (Level 75+)
-Variant: Pre 2.6.0
-Variant: Pre 3.11.0
-Variant: Pre 3.25.0
-Variant: Current
 Implicits: 2
 {variant:1}AccuracyPercentImplicitSword1[18,18]
 {variant:2,3,4}AccuracyPercentImplicitSword1
@@ -436,7 +424,7 @@ SummonDoubleOnCritUnique__1
 {variant:1}LocalIncreasedPhysicalDamagePercentUnique__37__[40,50]
 {variant:2}LocalIncreasedPhysicalDamagePercentUnique__37__
 LocalAddedPhyiscalDamageUnique__40__
-LocalIncreasedAttackSpeedUnique__16
+LocalIncreasedAttackSpeedUnique__2
 LocalCriticalStrikeChanceUnique__16
 ]],[[
 Scaeva
@@ -489,10 +477,6 @@ Implicits: 2
 {variant:4}MinionCriticalStrikeMultiplierAgainstWitheredUnique__1
 {variant:1,2,3}MinionsRecoverLifeOnKillingPoisonedEnemyUnique__1_[20,20]
 ]],[[
-United in Dream
-Cutlass
-Source: Upgraded from unique{Severed in Sleep} using currency{Blessing of Chayula}
-Va
 United in Dream
 Cutlass
 Source: Upgraded from unique{Severed in Sleep} using currency{Blessing of Chayula}
@@ -606,8 +590,6 @@ Variant: Pre 2.6.0
 Variant: Current
 Implicits: 3
 {variant:1}CriticalMultiplierImplicitSword1[20,20]
-{variant:2}CriticalMultiplierImplicitSword1[30,30]
-{variant:3}+25% to Global Critical Strike Multiplietiplier
 {variant:2}CriticalMultiplierImplicitSword1[30,30]
 {variant:3}CriticalMultiplierImplicitSword1
 LocalIncreasedPhysicalDamagePercentUniqueTwoHandSword1
@@ -738,7 +720,6 @@ Implicits: 3
 LocalIncreasedAttackSpeedUniqueOneHandSword7
 MovementVelocityUnique__4
 DisplayManifestWeaponUnique__1
-Manifested Dancing Dervishes die when nifest Dancing Dervishes on Rampage
 SimulatedRampageUnique__1
 SimulatedRampageStrInt2
 ]],[[
@@ -859,10 +840,6 @@ Source: Steal from a unique{Curio Display} during a Grand Heist
 Implicits: 1
 WeaponElementalDamageImplicitSword1
 LocalReducedPhysicalDamagePercentUniqueOneHandSword7
-Adds (385Display} during a Grand Heist
-Implicits: 1
-WeaponElementalDamageImplicitSword1
-LocalReducedPhysicalDamagePercentUniqueOneHandSword7
 LocalAddedColdDamageUnique__9_
 LocalIncreasedAttackSpeedUniqueOneHandSword13_
 {variant:1}LifeLeechPermyriadOnFrozenEnemiesUnique__1
@@ -923,7 +900,7 @@ SkeletonDurationUniqueTwoHandSword4
 {variant:1,2}MinionDamageUniqueTwoHandSword4[10,15]
 {variant:3}MinionDamageUniqueTwoHandSword4
 MaximumMinionCountUniqueTwoHandSword4
-MaximumMinionCountUniqueBodyInt9
+MaximumMinionCountUniqueSceptre5
 MaximumMinionCountUniqueBootsStrInt2
 ]],[[
 Rakiata's Dance
@@ -985,13 +962,6 @@ Implicits: 2
 LocalIncreasedAttackSpeedUnique__27
 IncreasedLifeUnique__51
 PhysicalDamageCanShockUnique__1
-IncreasedAttackAreaOfEffectUnique__1_
-DealNoElementalDamageUnique__1
-]],[[
-Terminus Est
-Tiger Sword
-Variant: Pre 2.6.0
-Varianhock
 IncreasedAttackAreaOfEffectUnique__2_
 DealNoElementalDamageUnique__2
 ]],[[

@@ -111,9 +111,6 @@ Requires Level 47, 68 Str
 SupportedByRageUnique__1__
 LocalIncreasedPhysicalDamageReductionRatingPercentUnique__23
 ReducedRageCostUnique__1
-You cannot gain R are Supported by Level 30 Rage
-LocalIncreasedPhysicalDamageReductionRatingPercentUnique__23
-ReducedRageCostUnique__1
 CannotGainRageDuringSoulGainPreventionUnique__1__
 Vaal Attack Skills Cost Rage instead of requiring Souls to Use
 ]],[[
@@ -174,7 +171,7 @@ Titan Gauntlets
 Requires Level 69, 98 Str
 IncreasedAttackSpeedUnique_1
 LocalIncreasedPhysicalDamageReductionRatingPercentUnique7
-ChanceToDodgeUniqueRing37
+MovementVelocityUnique__9_
 IncreasedStunDurationOnSelfUnique_1
 IncreasedDamagePerEnduranceChargeUnique_1
 CannotBeShockedWhileMaximumEnduranceChargesUnique_1
@@ -239,9 +236,6 @@ Variant: Current
 Requires Level 24, 17 Dex
 StrengthUniqueGlovesDex1
 {variant:2}AddedColdDamageToSpellsAndAttacksUnique__2
-{variant:2}LocalIncreasedEvasionRatingPercentUniqueGlovesDex1[40,50]
-{variant:1}ColdResistUniqueGlovesDex1[10,20]
-{7) to (13-15) Cold Damage to Spells and Attacks
 {variant:2}LocalIncreasedEvasionRatingPercentUniqueGlovesDex1
 {variant:1}ColdResistUniqueGlovesDex1[10,20]
 {variant:2}ColdResistUniqueGlovesDex1
@@ -361,9 +355,6 @@ SpellDamageImplicitGloves1
 SocketedGemsMoreDamageForSpellsCastUnique__1
 SocketedGemsAddedCooldownUnique__1__
 SocketedGemsAdditionalProjectilesUnique__1__
-SocketedGemsProjectilesNovaUnique__1
-SocketedGemsLessDurationUnique__1
-s
 SocketedGemsProjectilesNovaUnique__1
 SocketedGemsLessDurationUnique__1
 LocalIncreasedEnergyShieldPercentUnique__31____
@@ -499,12 +490,6 @@ MovementVelocityUniqueGlovesStrDex2
 ]],[[
 Breathstealer
 Hydrascale Gauntlets
-Reased Rarity of Items found
-AllResistancesUniqueGlovesStrDex2
-MovementVelocityUniqueGlovesStrDex2
-]],[[
-Breathstealer
-Hydrascale Gauntlets
 Requires Level 59, 45 Str, 45 Dex
 League: Blight
 Source: Drops in Blighted Maps
@@ -619,12 +604,6 @@ Vaal Caress
 Bronzescale Gauntlets
 League: Ambush, Invasion
 Variant: Pre 2.6.0
-Variant: than once every second
-]],[[
-Vaal Caress
-Bronzescale Gauntlets
-League: Ambush, Invasion
-Variant: Pre 2.6.0
 Variant: Pre 3.19.0
 Variant: Current
 {variant:1,2}LocalIncreaseSocketedVaalGemLevelUnique__1
@@ -726,10 +705,6 @@ LocalIncreasedArmourAndEnergySheildUniqueGlovesStrInt2
 IncreasedLifeUniqueGlovesStrDex4
 ManaRegenerationUniqueGlovesStrInt2
 PhysicalDamageImmunityOnRampageUniqueGlovesStrInt2
-SimulatedRampageDexInt6
-Dispels Elemental Ailments on Rampage
-]],[[
-Offering to the Serpe Damage for 1.5 seconds on Rampage
 SimulatedRampageUnique__3_
 Dispels Elemental Ailments on Rampage
 ]],[[
@@ -841,9 +816,6 @@ Requires Level 43, 34 Str, 34 Int
 {variant:3}AddedLightningDamageUnique__1
 IncreasedLifeUniqueGlovesStrDex4
 {variant:1}FireResistUnique__16
-{variant:2}ColdResistUnique__18[30,40]
-{variant:3}LightningResistUnique__16[30,40]
-{vari% to Fire Resistance
 {variant:2}ColdResistUnique__18
 {variant:3}LightningResistUnique__16
 {variant:2}ColdDamageCanPoisonUnique__1_
@@ -957,10 +929,6 @@ Elder Item
 Source: Drops from unique{The Elder}
 Requires Level 58, 45 Dex, 45 Int
 DexterityUniqueGlovesDexInt4
-(150-200Elder Item
-Source: Drops from unique{The Elder}
-Requires Level 58, 45 Dex, 45 Int
-DexterityUniqueGlovesDexInt4
 LocalIncreasedEvasionAndEnergyShieldUnique__35
 IncreasedLifeUnique__67_
 IncreasedLifePerElderItemUnique__1
@@ -1071,12 +1039,6 @@ SimulatedRampageUnique__2
 {variant:1}CriticalMultiplierUniqueGlovesDex2[15,30]
 {variant:2}CriticalMultiplierUniqueGlovesDex2[25,45]
 ]],[[
-Snakebite
-Assassin's Mitts
-Variant: Pre 3.0.0
-Variant: Pre 3.9.0
-Variant: Current
-Requires Level 58, 45 Dex, 45[
 Snakebite
 Assassin's Mitts
 Variant: Pre 3.0.0

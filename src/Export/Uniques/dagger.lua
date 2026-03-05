@@ -128,9 +128,6 @@ LocalIncreasedPhysicalDamagePercentUniqueDagger11
 LocalAddedPhysicalDamageUniqueDagger11
 LocalCriticalStrikeChanceUniqueDagger11
 AttackDamageAgainstBleedingUniqueDagger11
-50% chance to cause Bleeding o Damage
-LocalCriticalStrikeChanceUniqueDagger11
-AttackDamageAgainstBleedingUniqueDagger11
 CausesBleedingOnCritUniqueDagger11
 ]],[[
 Sanguine Gambol
@@ -246,14 +243,10 @@ Requires Level 60, 113 Dex, 113 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDagger1
 LocalIncreasedPhysicalDamagePercentUnique__20
-LocalIncreasedAttackSpeedUnique__17
+LocalIncreasedAttackSpeedUnique__13
 PoisonDurationUnique__1_
 AttackDamageManaLeechAgainstPoisonedEnemiesUnique_2
 LifeLeechFromAttackDamageAgainstMaimedEnemiesUnique__1
-LocalMaimOnHitChanceUnique__1
-LocalChanceToPoisonOnHitUnique__3
-]],[[
-UngAttack Damage Leeched as Life against Maimed Enemies
 LocalMaimOnHitChanceUnique__1
 LocalChanceToPoisonOnHitUnique__4
 ]],[[
@@ -318,7 +311,7 @@ Requires Level 66, 95 Dex, 131 Int
 Implicits: 1
 CriticalStrikeChanceImplicitDaggerNew1
 LocalAddedColdDamageUnique__7
-LocalIncreasedAttackSpeedUnique__13
+LocalIncreasedAttackSpeedUnique__4
 {variant:1}IncreasedEvasionRatingUnique__3[300,400]
 {variant:2,3}IncreasedEvasionRatingUnique__3
 {variant:1}100% increased Cold Damage while your Off Hand is empty

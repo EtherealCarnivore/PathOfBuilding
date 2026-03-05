@@ -110,7 +110,7 @@ ReducedStrengthRequirementUniqueBodyStr5
 FireResistUniqueBodyStr5
 ColdResistUniqueBodyStr5
 MovementVelocityUniqueBodyStr5
-{variant:1}ItemFoundRarityIncreaseUnique__10[30,50]
+{variant:1}ItemFoundRarityIncreaseImplicitRing1[30,50]
 {variant:1}LightningResistUniqueBodyStrDex2[-20,-20]
 {variant:2}(-20--10)% to Lightning Resistance
 ]],[[
@@ -140,10 +140,6 @@ Variant: Pre 3.5.0
 Variant: Current
 Implicits: 0
 SocketedGemsSupportedByPierceUniqueBodyStr6
-{variant:2}DexterityRequirementsUnique__1[160,160]
-LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBodyStr6
-IncreasedLifeUniqueBodyStr6
-0.4% of Physical Attack Damag by Level 15 Pierce
 {variant:2}DexterityRequirementsUnique__1
 LocalIncreasedPhysicalDamageReductionRatingPercentUniqueBodyStr6
 IncreasedLifeUniqueBodyStr6
@@ -278,9 +274,6 @@ Implicits: 0
 {variant:1,2,3}+2 to Level of Socketed Movement Gems
 {variant:4}LocalIncreaseSocketedMovementGemLevelUniqueBodyDex5
 IncreasedAttackSpeedUniqueBodyDex5
-{variant:4}(60-100)% increased Damage with Movement Gems
-{variant:4}LocalIncreaseSocketedMovementGemLevelUniqueBodyDex5
-IncreasedAttackSpeedUniqueBodyDex5
 {variant:4}DamageWithMovementSkillsUniqueBodyDex5[60,100]
 LocalIncreasedEvasionRatingPercentUniqueBodyDex5
 MovementVelocityUniqueBodyDex4
@@ -402,10 +395,6 @@ Variant: Current
 Implicits: 0
 LocalIncreasedEvasionRatingPercentUniqueBodyStrDex5
 {variant:3}IncreasedLifeUniqueBodyStr2[200,300]
-{variant:2}FireResistUnique__11[-50,-50]
-MovementVelocityUniqueBodyStrDex5_
-{variant:1,2}IncreasedFireDamageTakenUniqueBodyStrDex5[20,20]
-{variant Life
 {variant:2}FireResistUnique__11
 MovementVelocityUniqueBodyStrDex5_
 {variant:1,2}IncreasedFireDamageTakenUniqueBodyStrDex5
@@ -506,7 +495,6 @@ ProjectileAttackCriticalStrikeChanceUnique__1
 {variant:5}Projectiles from Attacks have 100% chance to Poison on Hit while you have a Bestial Minion
 {variant:3}Projectiles from Attacks have 20% chance to inflict Bleeding on Hit while you have a Bestial Minion
 {variant:6}Projectiles from Attacks have 100% chance to inflict Bleeding on Hit while you have a Bestial Minion
-{variant:1}(10-15)% increased Attack and Movement Speed whil on Hit while you have a Bestial Minion
 {variant:1}AttackAndMovementSpeedBeastialMinionUnique__1[10,15]
 {variant:2}Adds (13-19)-(23-29) Chaos Damage to Attacks while you have a Bestial Minion
 {variant:5}Adds (18-24)-(30-36) Chaos Damage to Attacks while you have a Bestial Minion
@@ -587,7 +575,7 @@ Variant: Current
 Implicits: 0
 {variant:1,2,3,4,5}SocketedGemsHaveAddedChaosDamageUnique__3[15,15]
 {variant:6}SocketedGemsHaveAddedChaosDamageUnique__3
-{variant:4,5}SocketedGemsHaveBloodMagicUnique__1
+{variant:4,5}SocketedemsHaveBloodMagicUniqueShieldStrInt2
 IntelligenceUniqueBodyInt3
 {variant:1}LocalIncreasedEnergyShieldUniqueBodyInt4[125,150]
 {variant:2}LocalIncreasedEnergyShieldUniqueBodyInt4[180,220]
@@ -618,8 +606,6 @@ LocalCanSocketIgnoringColourUnique__1
 {variant:2}SocketedGemsInGreenSocketEffectUnique__1[30,30]
 {variant:2}SocketedGemsInBlueSocketEffectUnique__1[100,100]
 LocalNoAttributeRequirementsUnique__2
-{variant:1}Gems Socketed in Red Sockets have +1 to Level
-{variant:1}Gems Socketed in Green Socket Requirements
 {variant:1}Gems Socketed in Red Sockets have +1 to Level
 {variant:1}SocketedGemsInGreenSocketEffectUnique__1[10,10]
 {variant:1}SocketedGemsInBlueSocketEffectUnique__1[25,25]
@@ -726,8 +712,6 @@ Variant: Pre 3.17.0
 Variant: Current
 Implicits: 0
 {variant:1,2}DisplaySocketedGemGetsSpellTotemBodyInt7[14,14]
-{variant:3,4,5}DisplaySocketedGemGetsSpellTotemBodyInt7[20,20]
-(20-25)% increased Sped by Level 14 Spell Totem
 {variant:3,4,5}DisplaySocketedGemGetsSpellTotemBodyInt7
 SpellDamageUniqueBodyInt7
 LocalIncreasedEnergyShieldUniqueBodyInt7
@@ -851,9 +835,6 @@ Implicits: 0
 {variant:6}LifeLeechPermyriadUniqueBodyStrDex3
 LoseEnduranceChargesWhenHitUniqueBodyStrDex3
 EnduranceChargeOnKillUniqueBodyStrDex3
-{variant:3,4,5,6}You gain Onseeched as Life
-LoseEnduranceChargesWhenHitUniqueBodyStrDex3
-EnduranceChargeOnKillUniqueBodyStrDex3
 {variant:3,4,5,6}GainOnslaughtWhenHitUniqueBodyStrDex3
 {variant:1,2,3,4}LifeLeechUniqueBodyStrInt5[0.4,0.6]
 {variant:1}You gain Onslaught for 1 seconds per Endurance Charge when Hit
@@ -891,19 +872,19 @@ Variant: Pre 3.5.0
 Variant: Pre 3.19.0
 Variant: Current
 Implicits: 0
-{variant:1}IncreasedPhysicalDamagePercentImplicitBelt1[60,100]
+{variant:1}IncreasedPhysicalDamagePercentUnique__1[60,100]
 {variant:2,3}IncreasedPhysicalDamagePercentUnique__4
 {variant:3}IncreasedLifeUniqueBodyDex6[240,300]
 {variant:1,2}ColdResistUnique__13
-{variant:1}JewelImplicitLifeRegeneration[120,120]
-{variant:3}JewelImplicitLifeRegeneration[600,600]
+{variant:1}LifeRegenerationRatePercentUnique__2[120,120]
+{variant:3}LifeRegenerationRatePercentUnique__2[600,600]
 ActorSizeUnique__2
 CannotDealSpellDamageUnique__1
 SpellsAreDisabledUnique__1
 {variant:3}(300-400)% increased Armour and Evasion Rating
 {variant:1}IncreasedLifeUniqueBodyDex6[130,160]
 {variant:2}IncreasedLifeUniqueBodyDex6[200,240]
-{variant:2}JewelImplicitLifeRegeneration[300,300]
+{variant:2}LifeRegenerationRatePercentUnique__2[300,300]
 ]],[[
 Lightning Coil
 Desert Brigandine
@@ -968,11 +949,6 @@ LoseLifeIfHitRecentlyUnique__1
 Chains of Command
 Saintly Chainmail
 Implicits: 0
-Trigger Level 20 Animate Guardian's Weapon when Animatey
-]],[[
-Chains of Command
-Saintly Chainmail
-Implicits: 0
 AnimateGuardianWeaponOnGuardianKillUnique__1_
 AnimateGuardianWeaponOnAnimatedWeaponKillUnique__1
 LocalIncreasedArmourAndEnergyShieldUnique__11
@@ -997,7 +973,7 @@ The Fourth Vow
 Devout Chainmail
 LocalIncreasedArmourAndEnergyShieldUnique__26
 ChaosResistUnique__25
-LifeRegenerationRatePercentUnique__5
+LifeRegenerationRatePercentageUniqueShieldStrInt3
 ArmourAppliesToChaosDamageUnique__1
 PhysicalDamageBypassesEnergyShieldUnique__1
 ]],[[
@@ -1094,8 +1070,6 @@ Implicits: 0
 LightRadiusUniqueBodyStrInt4
 {variant:3,4}DesecratedGroundOnBlockUniqueBodyStrInt4[100000,100000]
 {variant:1,2,3}PhysicalDamageConvertToChaosBodyStrInt4[10,10]
-{variant:1}Reflects (10-20) Chaos Damage to Melee Attackers
-{variant:1}25% chance to create Desecrated Groed to Chaos Damage
 {variant:1}Reflects (10-20) Chaos Damage to Melee Attackers
 {variant:1}DesecratedGroundOnBlockUniqueBodyStrInt4[25000,25000]
 {variant:2}DesecratedGroundOnBlockUniqueBodyStrInt4[50000,50000]
@@ -1198,7 +1172,7 @@ Implicits: 0
 LocalIncreasedEvasionAndEnergyShieldUniqueBodyDexInt1
 IncreasedLifeUniqueBodyDexInt1
 AllResistancesUniqueBodyDexInt1
-{variant:1,2}AreaOfEffectImplicitMarakethTwoHandMace2
+{variant:1,2}AreaOfEffectUniqueDescentOneHandSword1
 {variant:3}AreaOfEffectUniqueBodyDexInt1
 {variant:2,3}AreaDamageUniqueBodyDexInt1
 ExtraGore
@@ -1229,9 +1203,6 @@ LocalIncreasedEvasionAndEnergyShieldUnique__7
 LocalIncreasedEnergyShieldUnique__13_
 AllResistancesUnique__11__
 PoisonDamageWithOver300DexterityUnique__1
-(15-25)%gy Shield
-AllResistancesUnique__11__
-PoisonDamageWithOver300DexterityUnique__1
 PoisonDurationWithOver150IntelligenceUnique__1
 ]],[[
 The Eternity Shroud
@@ -1243,7 +1214,7 @@ Implicits: 0
 GlimpseOfEternityWhenHitUnique__1
 LocalIncreasedEvasionAndEnergyShieldUnique__24
 IncreasedLifeUniqueBodyStrDex4
-ChaosResistUnique__14
+ChaosResistUnique__10
 ElementalDamagePercentAddedAsChaosPerShaperItemUnique__1
 HitsIgnoreChaosResistanceAllShaperItemsUnique__1
 ]],[[
@@ -1257,7 +1228,7 @@ Implicits: 0
 TriggerShadeFormWhenHitUnique__1
 LocalIncreasedEvasionAndEnergyShieldUnique__21_
 IncreasedLifeUniqueBodyStrDex4
-ChaosResistUnique__10
+ChaosResistImplicitRing1
 PhysicalDamagePercentAddedAsChaosPerElderItemUnique__1
 HitsIgnoreChaosResistanceAllElderItemsUnique__1
 ]],[[
@@ -1281,7 +1252,7 @@ Implicits: 0
 IncreasedLifeUniqueBodyDexInt3
 IncreasedDamageIfShockedRecentlyUnique__1
 {variant:3}MutatedUniqueJewel173ShockEffect[15,25]
-{variant:2,3}ShockedEnemiesExplodeUnique__1_
+{variant:2,3}MutatedUniqueRing20ShockedEnemiesExplode
 UnaffectedByShockUnique__1
 {variant:1,2}MutatedUniqueJewel173ShockEffect[25,40]
 {variant:1}Shocked Enemies you Kill Explode, dealing (5-10)% of
@@ -1341,11 +1312,6 @@ Variant: One Abyssal Socket (Pre 3.21.0)
 Variant: Three Abyssal Sockets (Current)
 Variant: Two Abyssal Sockets (Current)
 Variant: One Abyssal Socket (Current)
-Implicits: 1
-IncreasedManaImplicitArmour1
-{variant:5}AbyssJewelSocketUnique__16
-{variant:1,3,6}AbyssJewelSocketUnique__13
-{va)
 Implicits: 1
 IncreasedManaImplicitArmour1
 {variant:5}AbyssJewelSocketUnique__16
@@ -1449,8 +1415,6 @@ ElementalDamageLowestResistUnique__1
 Atziri's Splendour
 Sacrificial Garb
 Source: Drops from unique{Atziri, Queen of the Vaal} in normal{The Alluring Abyss}
-Variant: Pre 3.0.0 (Armour)
-Variantrom unique{Atziri, Queen of the Vaal} in normal{The Alluring Abyss}
 Variant: Pre 3.0.0 (Armour)
 Variant: Pre 3.0.0 (Armour/Evasion)
 Variant: Pre 3.0.0 (Evasion)

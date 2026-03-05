@@ -9,7 +9,7 @@ LevelReq: 56
 Implicits: 1
 LifeGainPerTargetImplicitQuiver3New
 AddedColdDamageUnique__11
-ColdResistUnique__40
+ColdResistUnique__2
 EnemiesChilledIncreasedDamageTakenUnique__1
 QuiverChillAsThoughtDealingMoreDamageUnique__1
 ]],[[
@@ -125,8 +125,6 @@ Implicits: 1
 HarbingerSkillOnEquipUnique__4_
 HybridStrDexUnique__1
 AddedFireDamageUnique__2
-AddedColdDamageUnique__3
-+(15-25)% to Fire and Cold Resistanire Damage to Spells and Attacks
 AddedColdDamageUnique__3
 FireAndColdResistUnique__1
 ]],[[
@@ -257,11 +255,6 @@ Variant: Pre 3.17.0
 Variant: Current
 Requires Level 45
 Implicits: 2
-{variant:1}(20-30)% increased Critical Stred Arrow Quiver
-Variant: Pre 3.17.0
-Variant: Current
-Requires Level 45
-Implicits: 2
 {variant:1}CriticalStrikeChanceImplicitQuiver8New
 {variant:2}ProjectileSpeedImplicitQuiver4New
 DexterityImplicitQuiver1
@@ -380,8 +373,6 @@ LightningDamageToAttacksPerIntelligenceUnique__1
 Spinehail
 Vile Arrow Quiver
 Source: Drops from unique{Catarina} in normal{Mastermind's Lair}
-Variant: Minion Damage affects you
-Variant: Minion Attack Speed affects youm unique{Catarina} in normal{Mastermind's Lair}
 Variant: Minion Damage affects you
 Variant: Minion Attack Speed affects you
 Variant: Minion Cast Speed affects you

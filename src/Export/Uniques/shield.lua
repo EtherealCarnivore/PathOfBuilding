@@ -133,11 +133,6 @@ IncreasedLifeUniqueShieldDex2
 LocalFlatIncreasedEvasionAndEnergyShieldUnique__1
 ]],[[
 Redblade Banner
-Painted T(180-220)% increased Armour
-IncreasedLifeUniqueShieldDex2
-LocalFlatIncreasedEvasionAndEnergyShieldUnique__1
-]],[[
-Redblade Banner
 Painted Tower Shield
 League: Warbands
 Variant: Pre 2.6.0
@@ -273,9 +268,6 @@ LocalIncreasedEvasionRatingPercentUniqueShieldDex4
 {variant:2,3,4}IncreasedLifeUnique__77
 {variant:1,2,3,4}AdditionalBlockChanceUniqueShieldDex1
 {variant:1,2,3,4}ChanceForEnemyToFleeOnBlockUniqueShieldDex4[10,10]
-{variant:5}100(40-50) to maximum Life
-{variant:1,2,3,4}AdditionalBlockChanceUniqueShieldDex1
-{variant:1,2,3,4}ChanceForEnemyToFleeOnBlockUniqueShieldDex4[10,10]
 {variant:5}ChanceForEnemyToFleeOnBlockUniqueShieldDex4
 {variant:5}BlockChanceVersusCursedEnemiesUnique__1
 {variant:1,2,3}IncreasedCurseDurationUniqueShieldDex4
@@ -405,9 +397,6 @@ Variant: Current
 Implicits: 1
 {variant:3,4,5}MovementVelocityImplicitShield2
 {variant:1}LocalIncreaseSocketedWarcryGemLevelUniqueShieldStr4
-{variant:1}IncreasedChaosDamageUniqueShieldDex7[20,30]
-{variant:2,3,4,5}(80-100)% Increa Speed
-{variant:1}LocalIncreaseSocketedWarcryGemLevelUniqueShieldStr4
 {variant:1}IncreasedChaosDamageUniqueShieldDex7
 {variant:2,3,4,5}LocalIncreasedEvasionRatingPercentUnique__8
 ColdResistUniqueShieldDex7
@@ -507,13 +496,11 @@ SpectresGainArcaneSurgeWhenYouDoUnique__1_
 {variant:1}GlobalAddedFireDamageUnique__1[3,12][5,16]
 {variant:1}AddedColdDamageColdPenetration1[3,12][5,16]
 {variant:2}AddedColdDamageColdPenetration1[3,12][5,16]
-{variant:2}{crafted}Adds 1 to (7-24) Lighage
-{variant:2}AddedColdDamageColdPenetration1[3,12][5,16]
 {variant:2}{crafted}Adds 1 to (7-24) Lightning Damage
 {variant:3}GlobalAddedFireDamageUnique__1[3,12][5,16]
 {variant:3}{crafted}Adds 1 to (7-24) Lightning Damage
 {variant:4}LocalIncreasedEnergyShieldPercentUnique__11[20,40]
-{variant:4}IncreasedLifeImplicitShield2[10,28]
+{variant:4}IncreasedLifeImplicitShield1[10,28]
 {variant:5}{crafted}+(500-3000) to Armour during Soul Gain Prevention
 {variant:6}{crafted}+(1-2) to Level of Socketed Support Gems
 {variant:7,13}GlobalAddedFireDamageUnique__1[14,16][20,22]
@@ -523,7 +510,7 @@ SpectresGainArcaneSurgeWhenYouDoUnique__1_
 {variant:9,15}GlobalAddedFireDamageUnique__1[14,16][20,22]
 {variant:9,15}GlobalAddedLightningDamageUnique__1_[14,16][20,22]
 {variant:10,16}LocalIncreasedEnergyShieldPercentUnique__11[24,28]
-{variant:10,16}IncreasedLifeImplicitShield2[19,22]
+{variant:10,16}IncreasedLifeImplicitShield1[19,22]
 {variant:11,17}+(3201-4000) to Armour during Soul Gain Prevention
 {variant:12,18}LocalIncreaseSocketedSupportGemLevelUnique__1
 {variant:12,18}IncreaseSocketedSupportGemQualityUnique__1___
@@ -614,7 +601,6 @@ Implicits: 3
 {variant:2,3,4}SpellDamageImplicitShield1[15,20]
 {variant:5}SpellDamageImplicitShield1
 {variant:1,2}SocketedTrapSkillsCreateSmokeCloudWhenDetonated__1
-{variant:3,4,5}Trigger Level 20 Fog of War}Traps from Socketed Skills create a Smoke Cloud when triggered
 {variant:3,4,5}CreateSmokeCloudWhenTrapTriggeredUnique__1
 IntelligenceUniqueShieldInt4
 {variant:1,2}LocalIncreasedEnergyShieldPercent__1[80,120]
@@ -722,8 +708,6 @@ Variant: Current
 Implicits: 0
 {variant:1}SpellBlockPercentageUnique__1[12,18]
 {variant:2,3,4}SpellBlockPercentageUnique__1[10,15]
-{variant:1,2}(40-60)% increased Spelock Spell Damage
-{variant:2,3,4}SpellBlockPercentageUnique__1[10,15]
 {variant:1,2}SpellDamageUniqueShieldInt1
 LocalIncreasedEnergyShieldPercent___3
 MaximumLifeShieldInt1
@@ -829,9 +813,6 @@ NearbyEnemiesAreBlindedPhysicalAegisUnique__1
 The Oppressor
 Elegant Round Shield
 Implicits: 1
-BlockRecoveryImplicitShield2
-SpellDamageSuppressedUnique__2
-+(26-32)% chance its: 1
 BlockRecoveryImplicitShield2
 SpellDamageSuppressedUnique__2
 ChanceToSuppressSpellsUnique__1_
@@ -965,12 +946,6 @@ AllResistancesUniqueShieldStrInt2
 Mahuxotl's Machination
 Steel Kite Shield
 League: Ultimatum
-Source: Drops from uniqterity
-AllResistancesUniqueShieldStrInt2
-]],[[
-Mahuxotl's Machination
-Steel Kite Shield
-League: Ultimatum
 Source: Drops from unique{The Trialmaster}
 Implicits: 0
 KeystoneCorruptedSoulUnique_1
@@ -1095,17 +1070,11 @@ Unyielding Flame
 Archon Kite Shield
 Source: Drops in The Lord's Labyrinth
 Implicits: 1
-+12% to all Elementased Damage
-]],[[
-Unyielding Flame
-Archon Kite Shield
-Source: Drops in The Lord's Labyrinth
-Implicits: 1
 AllResistancesImplicitShield3
 CommandmentOfInfernoOnCritUnique__1
 CriticalStrikeChanceUnique__3
 IncreasedLifeUniqueShieldDex2
-FireResistUnique__30
+FireResistUnique__13
 AttackSpeedIfCriticalStrikeDealtRecentlyUnique__1
 CastSpeedIfCriticalStrikeDealtRecentlyUnique__1
 ]],[[
@@ -1223,9 +1192,6 @@ Implicits: 1
 ChanceToDodgeImplicitShield1
 LocalIncreaseSocketedLightningGemLevelUnique__1
 TriggeredLightningAegisSkillUnique__1
-(1-20)% increased Attacell Damage
-LocalIncreaseSocketedLightningGemLevelUnique__1
-TriggeredLightningAegisSkillUnique__1
 IncreasedAttackSpeedUnique__3_
 IncreasedCastSpeedUnique__17
 LocalIncreasedEvasionAndEnergyShieldUnique__20
@@ -1249,7 +1215,7 @@ Polished Spiked Shield
 Implicits: 1
 ChanceToDodgeImplicitShield2
 SpellDamageUnique__7
-IncreasedEnergyShieldImplicitBelt2
+LocalIncreasedEnergyShieldUnique__23
 IncreasedLifeUniqueShieldDex6
 AreaOfEffectPerEnemyKilledRecentlyUnique__1
 ZealotsOathIfHaventBeenHitRecentlyUnique__1

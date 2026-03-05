@@ -123,9 +123,6 @@ Requires Level 55, 114 Str
 {variant:1}FireDamagePercentUniqueStrHelmet2[10,30]
 {variant:2,3}FireDamagePercentUniqueStrHelmet2
 {variant:1}LocalIncreasedPhysicalDamageReductionRatingPercentAndStunRecoveryUniqueStrHelmet2[40,60]
-{variant:2,3}LocalIncreasedPhysicalDamageReductionRatingPercentAndStunRecoveryUniqueStrHelmet2[100,120]
-{variant:3}+(50-70) to increased Fire Damage
-{variant:1}LocalIncreasedPhysicalDamageReductionRatingPercentAndStunRecoveryUniqueStrHelmet2[40,60]
 {variant:2,3}LocalIncreasedPhysicalDamageReductionRatingPercentAndStunRecoveryUniqueStrHelmet2
 {variant:3}IncreasedLifeUniqueHelmetStrDex5
 ColdResistUniqueStrHelmet2
@@ -254,7 +251,6 @@ ManaRegenerationUniqueDexHelmet2
 {variant:2}IncreasedFireDamageIfUsedColdSkillRecentlyUnique__1
 {variant:3,4}ColdAddedAsFireChilledEnemyUnique__1
 {variant:3}ColdAddedAsFireFrozenEnemyUnique__1[100,100]
-{variant:4}Gain 30% of Cold Damage as Extra Fire Damage againstn 100% of Cold Damage as Extra Fire Damage against Frozen Enemies
 {variant:4}ColdAddedAsFireFrozenEnemyUnique__1
 ]],[[
 Replica Heatshiver
@@ -388,10 +384,6 @@ AllAttributesUnique__22_
 LocalIncreasedEvasionRatingPercentUnique__12
 ReducedFireResistanceUnique__1
 ReducedLightningResistanceUnique__1
-Cold Resisall Attributes
-LocalIncreasedEvasionRatingPercentUnique__12
-ReducedFireResistanceUnique__1
-ReducedLightningResistanceUnique__1
 ColdResistanceOverrideUnique__1
 This item can be anointed by Cassia
 ]],[[
@@ -505,9 +497,6 @@ TriggerFeastOfFleshSkillUnique__1_
 LocalIncreasedEnergyShieldPercentUnique__19
 StartEnergyShieldRechargeOnSkillUnique__1
 KeystoneEldritchBatteryUnique__3
-{variant:1}{crafted}+(10-25)
-StartEnergyShieldRechargeOnSkillUnique__1
-KeystoneEldritchBatteryUnique__3
 {variant:1}StrengthUniqueHelmetStrDex3[10,25]
 {variant:2}DexterityUniqueHelmetDex4[10,25]
 {variant:3}IntelligenceUniqueHelmetInt5[10,25]
@@ -544,7 +533,7 @@ KeystoneEldritchBatteryUnique__3
 {variant:28}+2 to Level of Socketed Projectile Gems
 {variant:29}IncreasedMeleeWeaponAndUnarmedRangeUniqueAmulet13
 {variant:29}VillageLocalIncreaseSocketedMeleeGemLevel
-{variant:30}IncreasedLifeUniqueHelmetDex5[55,60]
+{variant:30}IncreasedLifeUniqueHelmetStr1[55,60]
 {variant:30}Regenerate 5.3 Mana per second
 {variant:31}IncreasedManaUniqueDexHelmet1[55,60]
 {variant:31}LifeRegenerationUniqueTwoHandAxe4[1998,1998]
@@ -594,8 +583,6 @@ Necromancer Circlet
 League: Bestiary
 Source: Drops from unique{Fenumus, First of the Night}
 Requires Level 65, 112 Int
-SpellAddedChaosDamageUnique__2
-(220-250)% increased Eneevel 65, 112 Int
 SpellAddedChaosDamageUnique__2
 LocalIncreasedEnergyShieldPercentUnique__18
 PowerChargeOnHitWebbedEnemyUnique__1
@@ -705,14 +692,6 @@ LocalIncreasedEnergyShieldPercentUnique__29
 NonCriticalStrikesLessDamageUnique__1
 SpellsAlwaysCritFinalRepeatUnique__1_
 SpellsNeverCritExceptFinalRepeatUnique__1
-]],[[
-Rime Gaze
-Mind Cage
-Variant: Pre 2.0.0
-Variant: Pre 2.6.0
-Variant: Pre 3.5.0
-Variant: Pre 3.16.0
-Varianat
 ]],[[
 Rime Gaze
 Mind Cage
@@ -834,8 +813,6 @@ LightRadiusUnique__10
 {variant:1}DoubleMinionLimitsUnique_1
 {variant:2}Maximum number of Summoned Golems is Doubled
 {variant:2}Cannot have Minions other than Summoned Golems
-{variant:3}Maximum number of Summoned Ragoned Golems is Doubled
-{variant:2}Cannot have Minions other than Summoned Golems
 {variant:3}Maximum number of Summoned Raging Spirits is Doubled
 {variant:3}Cannot have Minions other than Summoned Raging Spirits
 {variant:4}Maximum number of Raised Spectres is Doubled
@@ -906,7 +883,7 @@ Fluted Bascinet
 League: Heist
 Source: Steal from a unique{Curio Display} during a Grand Heist
 Requires Level 58, 64 Str, 64 Dex
-TalismanHasOneSocket_
+HasOneSocketUnique__3
 LocalIncreaseSocketedGemLevelUnique__9
 SocketedGemQualityUnique__1
 SocketedSkillsDoubleDamageUnique__1_
@@ -939,8 +916,6 @@ LocalIncreasedPhysicalDamageReductionRatingUniqueHelmetStrDex3
 MeleeDamageIncreaseUniqueHelmetStrDex3
 CannotLeechOnLowLife
 AttackCastMoveOnWarcryRecentlyUnique____1
-]],[[
-Devoto'arcried Recently, you and nearby allies have 20% increased Attack, Cast and Movement Speed
 ]],[[
 Devoto's Devotion
 Nightmare Bascinet
@@ -1061,9 +1036,6 @@ Requires Level 63, 85 Str, 62 Int
 {variant:1}LocalIncreasedArmourAndEnergyShieldUnique__6[100,120]
 {variant:2,3}LocalIncreasedArmourAndEnergyShieldUnique__6
 {variant:1}IncreasedLifeUniqueHelmetDex4[50,70]
-{variant:2,3}IncreasedLifeUniqueHelmetDex4[80,100]
-{variant:3}+3% to maximumr and Energy Shield
-{variant:1}IncreasedLifeUniqueHelmetDex4[50,70]
 {variant:2,3}IncreasedLifeUniqueHelmetDex4
 {variant:3}MaximumColdResistUnique__2
 {variant:1,2}ColdResistUnique__10
@@ -1176,8 +1148,6 @@ Requires Level 12, 16 Str, 16 Int
 {variant:1}LocalIncreasedArmourAndEnergyShieldUniqueHelmetStrInt1[40,50]
 {variant:2,3}LocalIncreasedArmourAndEnergyShieldUniqueHelmetStrInt1
 {variant:1}AllResistancesUniqueHelmetStrInt1
-{variant:1}ElementalResistsOnLowLifeUniqueHelmetStrInt1[20,20]
-{variant:1}20% reduced Mall Elemental Resistances
 {variant:1}ElementalResistsOnLowLifeUniqueHelmetStrInt1
 {variant:1}ReducedManaCostOnLowLifeUniqueHelmetStrInt1
 {variant:2,3}ItemFoundRarityIncreaseUnique__4_
@@ -1274,7 +1244,6 @@ AllAttributesUnique__15
 LocalIncreasedArmourAndEnergyShieldUniqueHelmetStrInt_1
 {variant:1}DefencesPer100StrengthAuraUnique__1
 {variant:2}BlockPer100StrengthAuraUnique__1___
-Nearby Alliesnt:2}Nearby Allies have 1% Chance to Block Attack Damage per 100 Strength you have
 CriticalMultiplierPer100DexterityAuraUnique__1
 CastSpeedPer100IntelligenceAuraUnique__1
 ManaReservationEfficiencyPerAttributeUnique__1
@@ -1398,8 +1367,6 @@ LocalIncreasedEvasionAndEnergyShieldUniqueHelmetDexInt6
 LifeLeechPermyriadUniqueHelmetDexInt6
 AttackerTakesDamageUniqueHelmetDexInt6
 {variant:1,2}30% of Damage you Reflect to Enemies when Hit is gained as Life
-{0 to 150 Physical Damage to Melee Attackers
-{variant:1,2}30% of Damage you Reflect to Enemies when Hit is gained as Life
 {variant:3}DamageYouReflectGainedAsLifeUniqueHelmetDexInt6
 ]],[[
 Curtain Call
@@ -1510,11 +1477,6 @@ LocalIncreasedEvasionAndEnergyShieldUniqueHelmetDexInt3
 {variant:1}LifeGainedFromEnemyDeathUniqueHelmetDexInt3
 {variant:1}EnergyShieldGainedFromEnemyDeathUniqueHelmetDexInt3
 ShrineBuffEffectUniqueHelmetDexInt3
-ShrineEffectDurationUniqueHelmetDexInt3
-]],[[
-Heretic's Veil
-Deicide Mask
-Vfect of Shrine Buffs on you
 ShrineEffectDurationUniqueHelmetDexInt3
 ]],[[
 Heretic's Veil
@@ -1636,12 +1598,6 @@ LocalIncreasedEvasionRatingUnique__1
 LocalIncreasedEnergyShieldUniqueHelmetInt5_
 IncreasedLifeUnique__103
 AllResistancesUnique__10
-]],[[
-The Three Dragons
-Golden Mask
-Requires Level 35, 40 Dex, 40 Int
-AllResistancesUniqueHelmetDexInt4
-Your Firces
 ]],[[
 The Three Dragons
 Golden Mask

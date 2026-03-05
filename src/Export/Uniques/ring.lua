@@ -108,8 +108,6 @@ IncreasedManaUniqueRing20
 {variant:1}Shock a nearby Enemy for 2 seconds on Killing a Shocked Enemy
 {variant:2}Shocks all nearby Enemies on Killing a Shocked Enemy
 {variant:1}Ignite a nearby Enemy on Killing an Ignited Enemy
-{variant:2}Ignites all nearby Enemiecked Enemy
-{variant:1}Ignite a nearby Enemy on Killing an Ignited Enemy
 {variant:2}Ignites all nearby Enemies on Killing an Ignited Enemy
 ]],[[
 Blackflame
@@ -216,8 +214,6 @@ ColdAndLightningResistImplicitRing1
 IntelligenceUniqueRing34
 LightningDamagePercentUniqueRing34
 ManaRegenerationUniqueRing34
-{variant:1}{tags:jewellery_elemental}50% of Ligamage
-ManaRegenerationUniqueRing34
 {variant:1}ConvertLightningToColdUniqueRing34[50,50]
 {variant:2}ConvertLightningToColdUniqueRing34
 SpellChanceToShockFrozenEnemiesUniqueRing34
@@ -296,9 +292,6 @@ Has Alt Variant: true
 Variant: Skill Reservation (Pre 3.11.0)
 Variant: Skill Reservation (Current)
 Variant: Fire Damage
-Variant: Buff Effect (Pre 3.11.0)
-Variant: Buff Effect (Current)
-Variant: mage
 Variant: Buff Effect (Pre 3.11.0)
 Variant: Buff Effect (Current)
 Variant: Max Resistance
@@ -386,7 +379,6 @@ ChaosResistImplicitRing1
 GlobalAddedChaosDamageUnique__5_
 ChaosResistImplicitRing1
 {variant:1}HeraldBonusAgonyReservation[60,80]
-{variant:{tags:mana}Herald of Agony has (60-80)% increased Mana Reservation Efficiency
 {variant:2}HeraldBonusAgonyReservation
 {variant:3}HeraldBonusAgonyChaosDamage_
 {variant:4}HeraldBonusAgonyEffect[70,100]
@@ -476,11 +468,6 @@ AdditionalCurseOnEnemiesUnique__3
 {variant:4}UniqueSpecialCorruptionCurseEffect___
 ]],[[
 Dream Fragments
-Sapphire Ring
-Variant: Pre 2.6.0
-Variant: Current
-Requires Level 24
-Implicits: Fragments
 Sapphire Ring
 Variant: Pre 2.6.0
 Variant: Current
@@ -596,9 +583,6 @@ Implicits: 1
 IncreasedEnergyShieldImplicitRing1
 LifeRegenerationUniqueRing1
 ManaRegenerationUniqueRing33
-MinionLifeUniqueRing33
-MinonAreaOfEffectUniqueRing33
-{tags:egeneration Rate
 MinionLifeUniqueRing33
 MinonAreaOfEffectUniqueRing33
 PhysicalDamageToSelfOnMinionDeathUniqueRing33
@@ -723,8 +707,6 @@ Requires Level 20
 Implicits: 1
 LightningResistImplicitRing1
 AllAttributesUniqueRing26
-{variant:1}LightningResistImplicitRing1
-AllAttributesUniqueRing26
 {variant:1}LifeRegenerationUniqueRing26
 ManaRegenerationUniqueRing26
 {variant:1}ReducedCurseEffectUniqueRing26[20,20]
@@ -831,9 +813,6 @@ Shaper Item
 Source: Drops from unique{The Elder} (Uber)
 Requires Level 80
 Implicits: 1
-{tags:jewellery_elemental}(15-25)% increased Elemental Dame Elder} (Uber)
-Requires Level 80
-Implicits: 1
 ElementalDamagePercentImplicitAtlasRing_
 SpellAddedLightningDamageUnique__6_
 IncreasedEnergyShieldPercentUnique__3
@@ -927,10 +906,6 @@ LevelReq: 52
 Implicits: 1
 ChaosResistImplicitRing1
 AllElementalDamageConvertedToChaosUnique__1
-NearbyEnemyZeroChaosDamageResistanceUnique__1
-]],[[
-The Pariah
-Unset Ringage Converted to Chaos Damage
 NearbyEnemyZeroChaosDamageResistanceUnique__1
 ]],[[
 The Pariah
@@ -1051,11 +1026,6 @@ Nameless Ring
 League: Settlers of Kalguur
 Requires Level 50
 Implicits: 2
-50% increased Elemental Ailment Dr of Minds
-Nameless Ring
-League: Settlers of Kalguur
-Requires Level 50
-Implicits: 2
 CurseEffectElementalAilmentDurationOnSelfR1
 ReducedCurseEffectUniqueRing7
 RitualRingPacify
@@ -1161,7 +1131,6 @@ Right ring slot: You cannot Regenerate Mana
 {variant:4}RightRingSlotMaximumManaUnique__1
 Left ring slot: You cannot Recharge or Regenerate Energy Shield
 {variant:3,4}LeftRingSlotFlatManaRegenerationUnique__1
-{variant:3}{tags:jewellery_defense}Left ringant:3,4}{tags:mana}Left ring slot: Regenerate 40 Mana per Second
 {variant:3}LeftRingSlotMaximumEnergyShieldUnique__1[100,100]
 {variant:4}LeftRingSlotMaximumEnergyShieldUnique__1
 {variant:1,2}LeftRingSlotManaRegenUniqueRing13
@@ -1255,7 +1224,6 @@ AllResistancesImplicitRing1
 {variant:2}WeaponElementalDamageImplicitSword1
 {variant:1}AllResistancesUniqueRing21[10,15]
 {variant:2,3}AllResistancesUniqueRing21
-{variant:1}{tags:jewellery_elemental}15% increased Elem(20-30)% to all Elemental Resistances
 {variant:1}ElementalDamageUnique__1[15,15]
 {variant:2}ElementalDamageUnique__1
 {variant:1}ChanceToFreezeShockIgniteUniqueRing21[5000,5000]
@@ -1346,7 +1314,6 @@ IncreasedAttackSpeedUniqueRing27
 {variant:3}IncreasedEnergyShieldUnique__8
 {variant:1}ManaRegenerationUnique__14___[15,15]
 {variant:2,3}ReducedManaRegenerationUniqueRing27
-{variant:1}{tags:caster}Temporal Chai:2,3}{tags:mana}15% increased Mana Regeneration Rate
 {variant:1}TemporalChainsEffectivenessOnSelfUniqueRing27[30,30]
 {variant:2}TemporalChainsEffectivenessOnSelfUniqueRing27
 {variant:3}TalismanIncreasedSkillEffectDuration[-10,10]
@@ -1454,8 +1421,6 @@ Requires Level 38
 Implicits: 1
 LightningResistImplicitRing1
 {variant:1}IncreasedDamageToShockedTargetsUniqueRing29[15,15]
-{variant:2,3}IncreasedDamageToShockedTargetsUniqueRing29[40,40]
-{tags:jewellery_elenst Shocked Enemies
 {variant:2,3}IncreasedDamageToShockedTargetsUniqueRing29
 LightningDamagePercentUniqueRing29
 IncreasedManaUniqueRing29
@@ -1549,7 +1514,6 @@ TotalManaCostPerCorruptedItemUnique__1
 {variant:6}HybridStrInt[6,17]
 {variant:7}{crafted}(11-30)% increased Effect of non-Damaging Ailments on Enemies
 {variant:8}{crafted}Shock nearby Enemies for (2-4) Seconds when you Focus
-{variant:9}{crafted}+1 to M:8}{crafted}Shock nearby Enemies for (2-4) Seconds when you Focus
 {variant:9}{crafted}+1 to Minimum Frenzy Charges
 {variant:10}{crafted}+1 to Minimum Power Charges
 {variant:11}{crafted}+1 to Minimum Endurance Charges
@@ -1656,7 +1620,6 @@ MaximumLifeImplicitAtlasRing
 StrengthUnique__32
 FireDamagePercentUnique__13
 ReducedFireResistanceUnique__2
-{tags:jewellery_elemental}Take (300-500) Fire Damage when you resistance}(65-75)% reduced Fire Resistance
 FireDamageOnSkillUseUnique__1
 OvercappedFireResistanceAsFirePrenetrationUnique__1
 ]],[[
@@ -1676,7 +1639,7 @@ Unset Ring
 Requires Level 32
 Implicits: 1
 RingHasOneSocket
-MutatedUniqueBow12SummonWrithingWormEveryXMs
+SummonWrithingWormEveryXMsUnique__1
 TriggerSocketedSpellOnKillUnique__1
 LoseLifePerTargetUnique__2
 ManaGainPerTargetUnique__3
