@@ -93,6 +93,7 @@ end
 local usedMods = {}
 local itemUsedMods = {}
 local modTextMap = LoadModule("Uniques/ModTextMap.lua")
+local uniqueMods = LoadModule("../Data/ModItemExclusive.lua")
 
 for _, name in pairs(itemTypes) do
 	-- Reading the file backward lets us see the most current variant lines first
@@ -190,6 +191,34 @@ for _, name in pairs(itemTypes) do
 					end
 				end
 				table.insert(outTbl, 1, outLine .. "\n")
+				-- Multi-line mods: remove stale continuation lines from outTbl.
+				-- Since we read backward, continuation lines (2nd, 3rd, etc.) were
+				-- processed before the first line and are already in outTbl as raw
+				-- text. The mod ID we just inserted resolves to ALL lines, so the
+				-- raw continuation entries are duplicates.
+				local modData = uniqueMods[gggMod]
+				if modData and #modData > 1 then
+					local continuations = {}
+					for i = 2, #modData do
+						continuations[modData[i]:lower()] = true
+					end
+					-- Find boundary of current item (stop at ]],[[ separator)
+					local boundary = #outTbl
+					for j = 2, #outTbl do
+						local stripped = outTbl[j]:gsub("\n$", "")
+						if stripped == "]],[[" or stripped == "]]," then
+							boundary = j - 1
+							break
+						end
+					end
+					-- Scan backward within current item, remove matching entries
+					for j = boundary, 2, -1 do
+						local cleanLine = outTbl[j]:gsub("{.-}", ""):gsub("%s+$", ""):gsub("\n$", "")
+						if continuations[cleanLine:lower()] then
+							table.remove(outTbl, j)
+						end
+					end
+				end
 			else
 				ConPrintf("Warning: No mod found for line '%s' in %s", modText, name)
 				table.insert(outTbl, 1, line .."\n")
