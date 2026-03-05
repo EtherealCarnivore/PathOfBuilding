@@ -127,11 +127,6 @@ You gain Onslaught for 3 seconds on Culling Strike
 ]],[[
 Rigwald's Savagery
 Royal Axe
-League: Talisman Standard, Talismane
-100% chance to Avoid being Chilled during Onslaught
-]],[[
-Rigwald's Savagery
-Royal Axe
 League: Talisman Standard, Talisman Hardcore
 Source: Drops from unique{Rigwald, the Wolven King} (Level 75+)
 Variant: Pre 3.11.0
@@ -170,11 +165,11 @@ League: Heist
 Source: No longer obtainable
 Implicits: 0
 (100-140)% increased Physical Damage
+Adds 10 to 20 Physical Damage
 (60-80)% increased Critical Strike Chance
 +(20-25)% to Cold Resistance
 Your Physical Damage can Freeze
 Eldritch Battery
-Adds 10 to 20 Physical Damage
 ]],[[
 Starcaller
 Abyssal Axe
@@ -259,12 +254,9 @@ Implicits: 1
 {variant:1}(150-170)% increased Physical Damage
 {variant:2}(100-125)% increased Physical Damage
 Adds (7-10) to (15-25) Physical Damage
-Adds (7-10) to (15-25) Physical Damage
-1% of Physical Attack Damage Leeched as Life
 1% of Physical Attack Damage Leeched as Life
 {variant:2}40% increased Attack Speed if you've taken a Savage Hit Recently
 Attacks Cost Life instead of Mana
-{variant:2}40% increased Attack Speed  Damage
 ]],[[
 Kaom's Primacy
 Karui Chopper
@@ -349,9 +341,9 @@ Implicits: 0
 {variant:2}Trigger Level 5 Gore Shockwave on Melee Hit if you have at least 150 Strength
 +(15-30) to Strength
 (80-100)% increased Physical Damage
+Adds (35-45) to (80-90) Physical Damage
 Gain 70% of Physical Damage as Extra Fire Damage
 Culling Strike
-Adds (35-45) to (80-90) Physical Damage
 ]],[[
 Ngamahu's Flame
 Abyssal Axe
@@ -395,7 +387,6 @@ Variant: Pre 3.21.0
 Variant: Current
 League: Breach
 Source: Drops in Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
-Upgrade: Upgrades to unique{Uul-Netol's Embrace} using currency{Blessing Uul-Netol Breach or from unique{Uul-Netol, Unburdened Flesh}
 Upgrade: Upgrades to unique{Uul-Netol's Embrace} using currency{Blessing of Uul-Netol}
 Implicits: 1
 {variant:2}25% chance to Maim on Hit
@@ -446,7 +437,7 @@ Implicits: 0
 +(8-12)% Chance to Block Attack Damage while Dual Wielding
 (60-80)% increased Physical Damage
 Counts as Dual Wielding
-{variant:1}+0.1% to Off Hand Critical Strike Chance
+{variant:1}+(8-10)% to Off Hand Critical Strike Chance
 {variant:2}+(10-20)% to Off Hand Critical Strike Chance
 {variant:1}(50-70)% more Main Hand attack speed
 {variant:2}(50-100)% more Main Hand attack speed

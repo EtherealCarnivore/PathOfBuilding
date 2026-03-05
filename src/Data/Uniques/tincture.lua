@@ -19,8 +19,8 @@ League: Settlers of Kalguur
 Requires Level 52
 Implicits: 2
 25% chance to Blind Enemies on Hit with Melee Weapons
-Melee Weapon Hits Inflict (2-3) Withered Debuffs for 2 seconds
 (25-35)% increased Effect of Blind from Melee Weapons
+Melee Weapon Hits Inflict (2-3) Withered Debuffs for 2 seconds
 (20-30)% chance to inflict a Grasping Vine on Melee Weapon Hit
 ]],[[
 Mightblood Ire
@@ -29,8 +29,8 @@ League: Settlers of Kalguur
 Requires Level 18
 Implicits: 2
 40% reduced Enemy Stun Threshold with Melee Weapons
-Melee Strike Skills deal Splash Damage to surrounding targets
 (15-25)% increased Stun Duration with Melee Weapons
+Melee Strike Skills deal Splash Damage to surrounding targets
 (25-15)% reduced Mana Burn rate
 ]],[[
 Sap of the Seasons
@@ -49,9 +49,9 @@ League: Settlers of Kalguur
 Requires Level 32
 Implicits: 2
 25% chance to Ignite with Melee Weapons
--1 Fire Damage taken from Hits per Mana Burn
 (60-90)% increased Damage with Ignite from Melee Weapons
+-1 Fire Damage taken from Hits per Mana Burn
 (15-25)% chance to refresh Ignite Duration on Melee Weapon Hit
-Cover Full Life Enemies in Ash for (4-10) seconds on Melee Weapon Hit
+Cover Full Life Enemies in Ash for (4-10) seconds on Melee Weapon hit
 ]]
 }
