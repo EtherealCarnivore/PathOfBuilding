@@ -77,11 +77,11 @@ Implicits: 2
 {variant:4,5,6}Adds 1 to 75 Lightning Damage
 50% increased Global Critical Strike Chance
 (40-50)% increased maximum Energy Shield
-{variant:1,2,3}10% reduced maximum Life
+{variant:1,2,3}10% increased maximum Life
 {variant:4,5,6}25% reduced maximum Life
 {variant:1,2,3}(0.6-1)% of Physical Attack Damage Leeched as Mana
-{variant:4,5}Attacks with this Weapon have Added Maximum Lightning Damage equal to 20% of Player's Maximum Energy Shield
 {variant:6}Attacks with this Weapon have Added Maximum Lightning Damage equal to (10-15)% of Player's Maximum Energy Shield
+{variant:4,5}Attacks with this Weapon have Added Maximum Lightning Damage equal to 20% of Player's Maximum Energy Shield
 ]],[[
 The Goddess Scorned
 Elegant Sword
@@ -150,12 +150,12 @@ Implicits: 2
 {variant:1,2}Adds 1 to (500-600) Lightning Damage
 {variant:3,4,5,6}Adds 1 to (550-650) Lightning Damage
 (7-10)% increased Attack Speed
-{variant:1}6% increased Damage taken per Frenzy Charge
-{variant:2,3,4}3% increased Damage taken per Frenzy Charge
 {variant:5,6}1% increased Damage taken per Frenzy Charge
-{variant:1,2,3,4,5}12% increased Lightning Damage per Frenzy Charge
 {variant:6}(15-20)% increased Lightning Damage per Frenzy Charge
 20 Life gained on Kill per Frenzy Charge
+{variant:1}6% increased Damage taken per Frenzy Charge
+{variant:2,3,4}3% increased Damage taken per Frenzy Charge
+{variant:1,2,3,4,5}12% increased Lightning Damage per Frenzy Charge
 ]],[[
 Ichimonji
 Corsair Sword
@@ -325,13 +325,13 @@ Implicits: 2
 {variant:1}Adds (15-24) to (25-35) Cold Damage
 {variant:2,3}Adds (19-28) to (31-40) Cold Damage
 {variant:4}Adds (49-98) to (101-140) Cold Damage
-{variant:1}Adds 1 to (40-60) Lightning Damage
-{variant:2,3}Adds 1 to (50-70) Lightning Damage
 {variant:4}Adds 1 to (210-250) Lightning Damage
 {variant:1}Adds (15-24) to (25-35) Chaos Damage
 {variant:2,3}Adds (19-28) to (31-40) Chaos Damage
 {variant:4}Adds (49-98) to (101-140) Chaos Damage
 (10-20)% increased Attack Speed
+{variant:1}Adds 1 to (40-60) Lightning Damage
+{variant:2,3}Adds 1 to (50-70) Lightning Damage
 ]],[[
 Redbeak
 Rusted Sword
@@ -382,8 +382,8 @@ Adds (60-80) to (150-180) Physical Damage
 {variant:1,2}80% increased Physical Damage with Axes
 +(350-400) to Accuracy Rating
 {variant:1,2}15% chance to gain a Frenzy Charge on Kill
-{variant:3}Each Rage also grants +1% to Damage over Time Multiplier for Bleeding while wielding an Axe
 {variant:4}Each Rage also grants +2% to Damage over Time Multiplier for Bleeding while wielding an Axe
+{variant:3}Each Rage also grants +1% to Damage over Time Multiplier for Bleeding while wielding an Axe
 ]],[[
 The Rippling Thoughts
 Legion Sword
@@ -451,8 +451,8 @@ Implicits: 1
 40% increased Global Accuracy Rating
 (150-180)% increased Physical Damage
 Adds (20-25) to (40-50) Physical Damage
-+(400-500) to Accuracy Rating
 Gain 100 Life per Enemy Killed
++(400-500) to Accuracy Rating
 Has a Two Handed Sword Crucible Passive Skill Tree
 Crucible Passive Skill Tree is removed if this Modifier is removed
 ]],[[
@@ -473,11 +473,11 @@ Implicits: 2
 {variant:1,2,3}Minions deal (20-30)% increased Damage
 {variant:1,2,3}Minions have +17% to Chaos Resistance
 {variant:4}Minions have +29% to Chaos Resistance
-{variant:1,2}Minions Poison Enemies on Hit
 {variant:3}Minions have 60% chance to Poison Enemies on Hit
 {variant:4}Minions have 60% chance to inflict Withered on Hit
 {variant:4}Minions have +5% to Critical Strike Multiplier per Withered Debuff on Enemy
 {variant:1,2,3}Minions Recover 20% of Life on Killing a Poisoned Enemy
+{variant:1,2}Minions Poison Enemies on Hit
 ]],[[
 United in Dream
 Cutlass
@@ -497,10 +497,10 @@ Implicits: 2
 {variant:1,2,3}Minions deal (30-40)% increased Damage
 {variant:4}Minions deal (60-80)% increased Damage
 Minions have +29% to Chaos Resistance
-{variant:1,2}Minions Poison Enemies on Hit
 {variant:3,4,5}Minions have 60% chance to Poison Enemies on Hit
 {variant:1,2,3,4}Minions Leech 5% of Damage as Life against Poisoned Enemies
 {variant:5}Minions Recover 10% of Life on Killing a Poisoned Enemy
+{variant:1,2}Minions Poison Enemies on Hit
 ]],[[
 Story of the Vaal
 {variant:1}Variscite Blade
@@ -670,7 +670,7 @@ No Physical Damage
 Adds 1 to (40-50) Lightning Damage
 (25-30)% increased Attack Speed
 Grants 2 Life per Enemy Hit
-{variant:1,2}5% chance to Shock
+{variant:1,2}Always Shock
 {variant:3}(15-20)% chance to Shock
 {variant:3}Herald of Thunder has 50% increased Buff Effect
 ]],[[
@@ -726,6 +726,7 @@ Manifested Dancing Dervishes disables both weapon slots
 Manifested Dancing Dervishes die when Rampage ends
 Melee Hits count as Rampage Kills
 Rampage
+Rampage
 ]],[[
 The Dancing Duo
 Reaver Sword
@@ -743,6 +744,7 @@ Triggers Level 15 Manifest Dancing Dervishes on Rampage
 Manifested Dancing Dervishes disables both weapon slots
 Manifested Dancing Dervishes die when Rampage ends
 Melee Hits count as Rampage Kills
+Rampage
 Rampage
 ]],[[
 Doomsower
@@ -886,7 +888,9 @@ Implicits: 2
 {variant:4}+(1-2) to maximum number of Raised Zombies
 {variant:1,2,3}+1 to maximum number of Spectres
 {variant:4}+(1-2) to maximum number of Spectres
+{variant:1,2,3}+1 to maximum number of Spectres
 {variant:4}+(1-2) to maximum number of Skeletons
+{variant:1,2,3}+1 to maximum number of Skeletons
 {variant:1,2,3}+1 to maximum number of Skeletons
 ]],[[
 Queen's Escape
@@ -909,6 +913,8 @@ Minions have (80-100)% increased Movement Speed
 {variant:3}Minions deal (30-40)% increased Damage
 +1 to maximum number of Raised Zombies
 +1 to maximum number of Spectres
++1 to maximum number of Spectres
++1 to maximum number of Skeletons
 +1 to maximum number of Skeletons
 ]],[[
 Rakiata's Dance

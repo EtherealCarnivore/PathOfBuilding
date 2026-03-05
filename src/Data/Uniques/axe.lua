@@ -165,11 +165,11 @@ League: Heist
 Source: No longer obtainable
 Implicits: 0
 (100-140)% increased Physical Damage
-Adds 10 to 20 Physical Damage
 (60-80)% increased Critical Strike Chance
 +(20-25)% to Cold Resistance
 Your Physical Damage can Freeze
 Eldritch Battery
+Adds 10 to 20 Physical Damage
 ]],[[
 Starcaller
 Abyssal Axe
@@ -341,9 +341,9 @@ Implicits: 0
 {variant:2}Trigger Level 5 Gore Shockwave on Melee Hit if you have at least 150 Strength
 +(15-30) to Strength
 (80-100)% increased Physical Damage
-Adds (35-45) to (80-90) Physical Damage
 Gain 70% of Physical Damage as Extra Fire Damage
 Culling Strike
+Adds (35-45) to (80-90) Physical Damage
 ]],[[
 Ngamahu's Flame
 Abyssal Axe
@@ -437,7 +437,7 @@ Implicits: 0
 +(8-12)% Chance to Block Attack Damage while Dual Wielding
 (60-80)% increased Physical Damage
 Counts as Dual Wielding
-{variant:1}+(8-10)% to Off Hand Critical Strike Chance
+{variant:1}+0.1% to Off Hand Critical Strike Chance
 {variant:2}+(10-20)% to Off Hand Critical Strike Chance
 {variant:1}(50-70)% more Main Hand attack speed
 {variant:2}(50-100)% more Main Hand attack speed

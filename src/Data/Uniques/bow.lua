@@ -94,27 +94,37 @@ Variant: Current
 Requires Level 57, 190 Dex
 Implicits: 1
 {variant:1,2,3,4,5,6,7,8,9,10,11,12,13,14}(4-6)% increased Movement Speed
+{variant:20}+(25-28) to Strength and Dexterity
+{variant:22}+(25-28) to Strength and Intelligence
+{variant:21}+(25-28) to Dexterity and Intelligence
 {variant:1,2,3,4,5,6,7,8,9,10,11,12,13,14}(140-170)% increased Physical Damage
 {variant:15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31}(60-80)% increased Physical Damage
+{variant:28}+(24-28)% to Fire Damage over Time Multiplier
+{variant:30}+(24-28)% to Chaos Damage over Time Multiplier
 {variant:7}(8-16)% increased Attack Speed
 {variant:8}(8-16)% increased Attack Speed
+{variant:21}(18-22)% increased Attack Speed
 {variant:9}(7-13)% increased Cast Speed
+{variant:23}(26-31)% increased Cast Speed
 (25-35)% increased Critical Strike Chance
+{variant:22}(28-32)% increased Critical Strike Chance
 {variant:15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31}6% increased Movement Speed
+{variant:6}+(30-250) to Accuracy Rating
+{variant:20}+(311-350) to Accuracy Rating
 50% chance to inflict Bleeding on Critical Strike with Attacks
 Enemies you inflict Bleeding on grant (60-100)% increased Flask Charges
 Adds (100-120) to (150-165) Physical Damage against Bleeding Enemies
+{variant:10}Minions have (16-28)% increased Attack Speed
+{variant:24}Minions have (34-38)% increased Attack Speed
 50% chance to Maim Enemies on Critical Strike with Attacks
 {variant:1}{crafted}+(18-45)% Critical Strike Multiplier while there is a Rare or Unique Enemy Nearby
 {variant:2}{crafted}(11-22)% increased Attack Speed while a Rare or Unique Enemy is Nearby
 {variant:3}{crafted}(5-6)% increased Damage per Power Charge
 {variant:4}{crafted}(5-6)% increased Damage per Frenzy Charge
 {variant:5}{crafted}(5-6)% increased Damage per Endurance Charge
-{variant:6}{crafted}+(30-250) to Accuracy Rating
 {variant:6,7}{crafted}+(7-18)% to Quality
 {variant:8}{crafted}10% chance to Trigger Level 1 Blood Rage when you Kill an Enemy
 {variant:9}{crafted}10% chance to gain Arcane Surge when you Kill an Enemy
-{variant:10}{crafted}Minions have (16-28)% increased Attack Speed
 {variant:10}{crafted}Minions have (16-28)% increased Cast Speed
 {variant:11}{crafted}(4-12)% chance to deal Double Damage
 {variant:12}{crafted}(13-36)% chance to deal Double Damage while Focused
@@ -124,23 +134,13 @@ Adds (100-120) to (150-165) Physical Damage against Bleeding Enemies
 {variant:17}{crafted}(7-8)% increased Damage per Power Charge
 {variant:18}{crafted}(7-8)% increased Damage per Frenzy Charge
 {variant:19}{crafted}(7-8)% increased Damage per Endurance Charge
-{variant:20}{crafted}+(311-350) to Accuracy Rating
-{variant:20}{crafted}+(25-28) to Strength and Dexterity
-{variant:21}{crafted}(18-22)% increased Attack Speed
-{variant:21}{crafted}+(25-28) to Dexterity and Intelligence
-{variant:22}{crafted}(28-32)% increased Critical Strike Chance
-{variant:22}{crafted}+(25-28) to Strength and Intelligence
-{variant:23}{crafted}(26-31)% increased Cast Speed
 {variant:23}{crafted}15% chance to gain Arcane Surge when you Kill an Enemy
-{variant:24}{crafted}Minions have (34-38)% increased Attack Speed
 {variant:24}{crafted}Minions have (34-38)% increased Cast Speed
 {variant:25}{crafted}(12-14)% chance to deal Double Damage
 {variant:26}{crafted}(36-40)% chance to deal Double Damage while Focused
 {variant:27}{crafted}Trigger a Socketed Spell when you Use a Skill, with a 4 second Cooldown
 {variant:27}{crafted}Spells Triggered this way have 150% more Cost
-{variant:28}{crafted}+(24-28)% to Fire Damage over Time Multiplier
 {variant:29}{crafted}+(24-28)% to Physical Damage over Time Multiplier
-{variant:30}{crafted}+(24-28)% to Chaos Damage over Time Multiplier
 ]],[[
 Darkscorn
 Assassin Bow
@@ -204,12 +204,12 @@ Implicits: 1
 {variant:2,3,4,5,6}(30-50)% increased Critical Strike Chance
 {variant:1,2,3,4,5}(100-125)% increased Physical Damage
 {variant:6}(90-105)% increased Physical Damage
-Adds (10-20) to (30-35) Physical Damage
 10% increased Attack Speed
 {variant:1,2,4}+100% to Global Critical Strike Multiplier
 {variant:3}+150% to Global Critical Strike Multiplier
 {variant:5,6}+50% to Global Critical Strike Multiplier
 Bow Attacks fire 2 additional Arrows
+Adds (10-20) to (30-35) Physical Damage
 ]],[[
 Doomfletch
 Royal Bow
@@ -270,6 +270,7 @@ Requires Level 60, 212 Dex
 Adds (130-150) to (270-300) Cold Damage
 {variant:2}(15-25)% increased Attack Speed
 {variant:1}+(400-500) to Accuracy Rating
+{variant:2}+(400-500) to Accuracy Rating
 4% increased Movement Speed per Frenzy Charge
 {variant:2}+(400-500) to Accuracy Rating
 2% chance to Avoid Elemental Damage from Hits per Frenzy Charge
@@ -379,8 +380,8 @@ Minion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses
 Adds (50-80) to (130-180) Chaos Damage
 (7-12)% increased Attack Speed
 +(7-11)% to Chaos Resistance
-{variant:2}Minions deal 1% increased Damage per 5 Dexterity
 {variant:3}Minions deal 2% increased Damage per 5 Dexterity
+{variant:2}Minions deal 1% increased Damage per 5 Dexterity
 {variant:1}Minions deal 1% increased Damage per 10 Dexterity
 ]],[[
 Nuro's Harp
@@ -398,9 +399,9 @@ No Physical Damage
 (10-30)% increased Light Radius
 15% chance to create Chilled Ground when you Freeze an Enemy
 Create Consecrated Ground when you Shatter an Enemy
-{variant:2}40% increased Effect of Chilled Ground
 {variant:3}(30-50)% increased Effect of Chilled Ground
 {variant:3}(30-50)% increased Effect of Consecrated Ground you create
+{variant:2}40% increased Effect of Chilled Ground
 ]],[[
 Quill Rain
 Short Bow
@@ -414,8 +415,8 @@ Requires Level 5, 26 Dex
 {variant:2,3}Grants 2 Mana per Enemy Hit
 (50-100)% increased Projectile Speed
 +(25-50) to Accuracy Rating
-{variant:1}50% less Damage
-{variant:2}40% less Damage
+{variant:1}50% more Damage
+{variant:2}40% more Damage
 {variant:3}30% less Damage
 ]],[[
 Replica Quill Rain
@@ -480,8 +481,8 @@ Requires Level 2
 {variant:1}(50-80)% increased Physical Damage
 {variant:2}(80-100)% increased Physical Damage
 10% increased Attack Speed
-Gain 10 Mana per Enemy Killed
 +30 to Accuracy Rating
+Gain 10 Mana per Enemy Killed
 ]],[[
 Silverbough
 Crude Bow
@@ -510,12 +511,12 @@ Implicits: 1
 {variant:1}Adds (60-75) to (170-220) Physical Damage
 {variant:2}Adds (110-125) to (245-265) Physical Damage
 {variant:3}Adds (80-95) to (220-240) Physical Damage
-{variant:1}100% increased Critical Strike Chance with arrows that Fork
 {variant:2,3}(150-200)% increased Critical Strike Chance with arrows that Fork
 {variant:1}Arrows that Pierce have 50% chance to inflict Bleeding
 {variant:1}Arrows Pierce all Targets after Chaining
 {variant:2,3}Arrows Pierce all Targets after Forking
 {variant:2,3}Arrows that Pierce have +50% to Critical Strike Multiplier
+{variant:1}100% increased Critical Strike Chance with arrows that Fork
 ]],[[
 Storm Cloud
 Long Bow
@@ -567,7 +568,6 @@ Implicits: 2
 {variant:2,3,4}Adds (32-40) to (48-60) Cold Damage
 {variant:5,6}Adds (48-60) to (72-90) Cold Damage
 {variant:1}Adds 1 to 100 Lightning Damage
-{variant:2,3,4}Adds 1 to (80-100) Lightning Damage
 {variant:5,6}Adds 1 to (120-150) Lightning Damage
 (10-15)% increased Attack Speed
 {variant:1,2}(80-100)% increased Critical Strike Chance
@@ -578,6 +578,7 @@ Implicits: 2
 {variant:1,2}50% increased Rarity of Items Dropped by Slain Shocked Enemies
 {variant:3,4,5,6}30% increased Rarity of Items Dropped by Slain Shocked Enemies
 {variant:6}30% increased Rarity of Items Dropped by Frozen Enemies
+{variant:2,3,4}Adds 1 to (80-100) Lightning Damage
 ]],[[
 Replica Windripper
 Imperial Bow
@@ -625,7 +626,7 @@ Requires Level 64, 185 Dex
 {variant:4}(165-195)% increased Physical Damage
 50% of Physical Damage Converted to Fire Damage
 10% chance to Ignite
-{variant:1}Ignites you inflict spread to other Enemies within 1.2 metres
+{variant:1}Ignites you inflict spread to other Enemies within 0.12 metres
 {variant:2}Ignites you inflict spread to other Enemies within 1.5 metres
 Recover (40-60) Life when you Ignite an Enemy
 ]],

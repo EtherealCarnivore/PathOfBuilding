@@ -157,12 +157,6 @@ Attacks cannot Hit you
 Attacks against you always Hit
 Your Damage with Hits is Lucky
 Damage of Hits against you is Lucky
-Your Hits are always Critical Strikes
-Hits against you are always Critical Strikes
-Attacks cannot Hit you
-Attacks against you always Hit
-Your Damage with Hits is Lucky
-Damage of Hits against you is Lucky
 ]],[[
 Chains of Emancipation
 Chain Belt
@@ -347,7 +341,6 @@ Grants Summon Harbinger of Time Skill
 (15-20)% increased Cooldown Recovery Rate
 Debuffs on you expire (15-20)% faster
 {variant:1}{tags:life}(15-20)% increased Life Recovery rate
-{variant:2}{tags:life}(10-15)% increased Life Recovery rate
 ]],[[
 The Torrent's Reclamation
 Cloth Belt
@@ -898,12 +891,12 @@ Implicits: 1
 {variant:1}(30-40)% increased Trap Damage
 {variant:1}{tags:resource}20% increased Mana Regeneration Rate
 {tags:resistance}+(20-30)% to Fire Resistance
-{variant:1}80% increased Trap Duration
 {variant:2}(50-75)% reduced Trap Duration
 25% increased Light Radius
 {variant:2}Skills which Throw Traps throw up to 2 additional Traps
 {variant:2}Traps cannot be triggered by Enemies
 {variant:2}Traps from Skills are thrown randomly around targeted location
+{variant:1}80% increased Trap Duration
 ]],[[
 Survivor's Guilt
 Heavy Belt
@@ -956,7 +949,7 @@ Implicits: 1
 {variant:2}{tags:resistance}+(20-30)% to Cold Resistance
 {variant:1}{tags:resource,attack}0.4% of Physical Attack Damage Leeched as Life
 {variant:2}{tags:resource,attack}2% of Physical Attack Damage Leeched as Life
-{variant:2}{tags:resource,attack}2% of Physical Attack Damage Leeched as Mana
+{variant:2}{tags:resource,attack}0% of Physical Attack Damage Leeched as Mana
 {variant:1}{tags:resource,attack}0.4% of Physical Attack Damage Leeched as Mana
 {variant:2}{tags:resource}(500-1000)% increased total Recovery per second from Life Leech
 {variant:2}{tags:resource}(500-1000)% increased total Recovery per second from Mana Leech
